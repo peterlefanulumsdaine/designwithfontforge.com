@@ -35,4 +35,5 @@ published: false
 | 75     | Importing Glyphs from Other Programs       |
 | 78     | Adding Glyphs to an Arabic Font            |
 | 81     | Further Reading                            |
+| 82     | Font Editor Tool History                   |
 | 84     | Glossary                                   |

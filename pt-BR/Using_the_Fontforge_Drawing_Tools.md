@@ -33,7 +33,7 @@ see below.
 
 *Curve points* have two handles, each of them being linked to the other so that the line between
 them always stays straight, in order to produce a smooth curve on each side.
- 
+
 <img src="images/tools-curve-point.png" alt>
 
 <h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>

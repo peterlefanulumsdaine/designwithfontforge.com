@@ -63,7 +63,7 @@ ILT Example Projects:
 
 * [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/)
 
-### Cyrillic 
+### Cyrillic
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
@@ -86,7 +86,7 @@ ILT Example Projects:
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
-### Devanagari 
+### Devanagari
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago

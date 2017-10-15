@@ -60,7 +60,7 @@ Once you have these letters, it’s good to spend time refining them by testing 
 from them. As before with the ‘n’ and ‘o’, a great deal of attention should be paid to the spacing
 of the letters and the relationships of the counters to these spaces.
 
-Here is a TypeDrawers thread on determining the ascender and descender heights: 
+Here is a TypeDrawers thread on determining the ascender and descender heights:
 <http://typedrawers.com/discussion/1620/ascender-descenders-in-latin-type-design>
 
 ## Building a test text
@@ -88,6 +88,6 @@ This is essential for deeply understanding how the design performs, so its good 
 But watch out for the **stale text** effect.
 If you re-use the same real text for testing your typeface, it can become so familiar that you lose some perception abilities for how the typeface is performing.
 
-Once you have a full alphabet, to ensure fresh text, you can set your operating system font, email application, or web browser's default font to be your font. 
+Once you have a full alphabet, to ensure fresh text, you can set your operating system font, email application, or web browser's default font to be your font.
 
 This was discussed on the Type Drawers forum [On The Use of Blind Texts](http://typedrawers.com/discussion/918/on-the-use-of-blind-texts) thread.

@@ -58,7 +58,7 @@ A stem on a lower case letter which extends above the x-height. "l" has an ascen
 
 Used to specify mark-to-base and cursive GPOS subtables.
 
-### Ascent 
+### Ascent
 
 In traditional typography the ascent of a font was the distance from the top of a block of type to the baseline.
 
@@ -396,7 +396,7 @@ A font in which all glyphs have the same width. These are sometimes called typew
 
 ### Multi-layered fonts
 
-(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, be stroked, include images, have gradient fills, etc.. 
+(FontForge's own term) PostScript type3 fonts and SVG fonts allow for more drawing possibilities than normal fonts. Normal fonts may only be filled with a single color inherited from the graphics environment. These two fonts may be filled with several different colors, be stroked, include images, have gradient fills, etc..
 
 ### Multiple Master Font
 
@@ -697,8 +697,8 @@ CJK text is often written vertically (and sometimes horizontally), so each CJK g
 
 The weight of a font is how thick (dark) the stems of the glyphs are. Traditionally weight is named, but recently numbers have been applied to weights.
 
-|Name            |Number| 
-|:---------      |:---  | 
+|Name            |Number|
+|:---------      |:---  |
 |Thin            |100   |
 |Extra-Light     |200   |
 |Light           |300   |
@@ -708,8 +708,8 @@ The weight of a font is how thick (dark) the stems of the glyphs are. Traditiona
 |Bold            |700   |
 |Heavy           |800   |
 |Black           |900   |
-|Nord            |	    | 
-|Ultra           |	    | 
+|Nord            |	    |
+|Ultra           |	    |
 
 
 ### White space

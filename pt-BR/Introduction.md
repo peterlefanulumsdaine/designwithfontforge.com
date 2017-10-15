@@ -6,23 +6,23 @@ category: Before You Begin
 title: Introdução
 ---
 
-This book has been produced to help make the process of type design available to anyone. Type design
-is visually complex as well as highly technical &ndash; however it is easier to begin making type
-now than ever, partly because of the availability of free tools like [FontForge]. While being a
-handy tool with which to begin, FontForge is not just for beginners. It has an advanced toolset
-and is rapidly improving at the time this book is being written.
+Este livro foi produzido para ajudar a tornar o processo de design de tipos acessível para qualquer pessoa. Design de tipos
+é uma atividade visualmente complexa e altamente técnica &ndash; no entanto, a criação de tipos estámais fácil
+do que nunca, em parte por causa da disponibilidade de ferramentas gratuitas como o [FontForge]. Apesar de ser uma
+ferramenta útil para iniciar, o FontForge não é apenas para principiantes. Ele tem um conjunto de recursos avançados
+e está melhorando rapidamente no momento que este livro está sendo escrito.
 
-This book aims to offer technical help and general insight into planning a type design project, and
-also offers advice about how to make your workflow more efficient.
+Este livro pretende oferecer ajuda técnica e uma visão geral para auxiliar no planejamento de um projeto de design de tipos e
+também oferece conselhos sobre como tornar o fluxo de trabalho mais eficiente.
 
-If you wish to help us, you can contribute to making FontForge better by giving feedback or even by
-contributing content and fixes [on GitHub].  
-If you face any bug in FontForge, search the [issue tracker] on GitHub to see if you hit a known bug
-and what the state of its resolution is. Otherwise, see [here][bug] for bug reporting guidelines.
+Se você deseja ajudar, pode contribuir para deixar o FontForge melhor, dando feedback ou mesmo
+contribuindo com conteúdo e correções [no GitHub][on GitHub].  
+Ao enfrentar problemas no FontForge, procure no [issue tracker] do GitHub para ver se encontra um bug já conhecido
+e qual é o atual estado de sua resolução. Caso contrário, consulte [aqui][bug] para as diretrizes dos relatórios de bugs.
 
-We hope you will enjoy reading this tutorial as much as we did writing it.
+Esperamos que você goste de ler este tutorial tanto quanto nós em escrevê-lo.
 
-*&mdash; The FontForge Project Contributors*
+*&mdash; Os Contribuidores do Projeto FontForge*
 
 [FontForge]: http://fontforge.github.io/
 [on GitHub]: https://github.com/fontforge/designwithfontforge.com/

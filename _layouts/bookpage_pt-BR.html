@@ -1,0 +1,88 @@
+{% include html-start.html %}
+
+  {% include header-masthead_pt-BR.html %}
+
+    {% assign pageList = site.pages | sort: 'weight' %}
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          <h1>{{ page.title }}</h1>
+          {{ content }}
+          <nav id="post-nav" class="clearfix">
+            {% for p in pageList reversed %}
+
+              {% if p.path contains 'pt-BR' %}
+
+                {% if currentPost and p.title != 'Design com FontForge' %}
+                  <a class="prev" href="{{p.url}}">
+                    <span>Anterior</span>
+                    <span><h3>{{p.title}}</h3></span>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+
+            {% assign currentPost = false %}
+
+            {% for p in pageList %}
+
+              {% if p.path contains 'pt-BR' %}
+
+                {% if currentPost and p.title != 'Design com FontForge' %}
+                  <a class="next" href="{{p.url}}">
+                    <span>Próximo</span>
+                    <span><h3>{{p.title}}</h3></span>
+                  </a>
+                  {% assign currentPost = false %}
+                  {% break %}
+                {% endif %}
+
+                {% if p.url == page.url %}
+                  {% assign currentPost = true %}
+                {% else %}
+                  {% assign currentPost = false %}
+                {% endif %}
+
+              {% endif %}
+
+            {% endfor %}
+          </nav>
+        </section>
+
+        <aside id="sidebar">
+<!--          <a href="" class="button">
+            <small>Download book as</small>
+            PDF
+          </a>-->
+          <ol class="rectangle-list">
+            {% for p in pageList %}
+              {% if p.path contains 'pt-BR' and p.title != 'Design com FontForge' %}
+                <li>
+                  <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
+                    {{ p.title }}
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ol>
+          <p>Este livro de cultura livre é <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hospedado no GitHub</a>. Ajustes, sugestões e correções são bem-vindas.</p>
+          <p><a class"" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">Reveja as mudanças recentes</a></p>
+          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">Edite esta página</a> (<a href="https://github.com/fontforge/designwithfontforge.com">saiba como</a>)</p></p>
+        </aside>
+      </div>
+    </div>
+
+{% include footer_pt-BR.html %}
+
+{% include html-end.html %}

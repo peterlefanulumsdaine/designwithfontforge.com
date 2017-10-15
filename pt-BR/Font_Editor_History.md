@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 82
 category: Appendices
-title: Font Editor Tool History
+title: História das Ferramentas de edição de Fonte
 ---
 
 Adam Twardoch offered a brief history of type tools on the [fonttools mailing list](https://groups.google.com/d/topic/fonttools/2gghQU7NbZU/discussion) in September 2017, which with permission is added to this book and can be freely edited and expanded.

@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 6
 category: Before You Begin
-title: Trusting Your Eyes
+title: Confiando em seus olhos
 ---
 
 Font design is the process of iteratively testing the individual choices that collectively add up to

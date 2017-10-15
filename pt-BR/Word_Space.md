@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 30
 category: workflow
-title: Word Spacing
+title: Espaçando palavras
 ---
 
 It may sound funny to pay special attention to the word space, however it is one of the most

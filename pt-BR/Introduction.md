@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 1
 category: Before You Begin
-title: Introduction
+title: Introdução
 ---
 
 This book has been produced to help make the process of type design available to anyone. Type design

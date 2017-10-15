@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 3
 category: Before You Begin
-title: What Is A Font?
+title: O que é uma Fonte?
 ---
 
 &mdash; What makes typefaces different from hand-writing, calligraphy, lettering, and logos?

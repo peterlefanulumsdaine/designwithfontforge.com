@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 15
 category: Getting To Know FontForge
-title: Installing FontForge
+title: Instalando o FontForge
 ---
 
 FontForge is libre software, so you can download, share and install copies without any restrictions on usage - both commercial or personal use is encouraged.

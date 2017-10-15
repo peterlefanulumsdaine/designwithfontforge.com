@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 84
 category: Appendices
-title: Glossary
+title: Glossário
 ---
 
 ## A

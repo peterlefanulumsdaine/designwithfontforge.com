@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 16
 category: Getting To Know FontForge
-title: General UI Introduction
+title: Introdução Geral à Interface de Usuário
 ---
 
 FontForge has the same interface on Windows, Mac OS and GNU/Linux operating systems. 

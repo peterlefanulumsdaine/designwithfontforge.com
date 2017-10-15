@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 48
 section: Workflow
-title: Diacritics and Accents
+title: Diacríticos e Acentos
 ---
 A diacritic is a mark added to, or combining with, a letter, often used to change the sound value of the letter to which the mark is added. Some diacritical marks (such as the 'acute' and 'grave') are often called accents. Diacritical marks may appear above or below a letter, within it or between two letters.
 

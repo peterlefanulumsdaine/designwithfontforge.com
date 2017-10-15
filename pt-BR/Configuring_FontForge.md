@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 16
 category: Getting To Know FontForge
-title: Configuring FontForge
+title: Configurando o FontForge
 ---
 
 FontForge can be fine-tuned in various ways.

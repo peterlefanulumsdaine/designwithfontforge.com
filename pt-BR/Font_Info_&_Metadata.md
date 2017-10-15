@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 27
 category: workflow
-title: Font Info & Metadata
+title: Informações da Fonte & Metadata
 ---
 
 ## Element, Font Info

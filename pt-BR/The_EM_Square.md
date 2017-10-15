@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 12
 category: workflow
-title: The EM Square
+title: A medida Eme - <em>Quadratim</em>
 ---
 
 &mdash; Also called the ‘em size’ or ‘UPM’.  

@@ -4,36 +4,36 @@ published: false
 
 | Weight | Page                                       |
 |--------|--------------------------------------------|
-| 0      | Index                                      |
-| 1      | Introduction                               |
-| 3      | What Is a Font                             |
-| 6      | Trusting Your Eyes                         |
-| 9      | Planning Your Project                      |
-| 12     | The EM Square                              |
-| 15     | Installing Fontforge                       |
-| 16     | Configuring Fontforge                      |
-| 17     | General UI introduction                    |
-| 18     | Using the Fontforge Drawing Tools          |
-| 21     | Drawing With Spiro                         |
-| 24     | Creating “o” and “n”                       |
-| 27     | Font Info & Metadata                       |
-| 30     | Word Space                                 |
-| 33     | Creating Your Type DNA                     |
-| 36     | Capital Letters                            |
-| 39     | Line Spacing                               |
-| 42     | Punctuation and Symbols                    |
-| 45     | Completeing the Lower Case                 |
-| 48     | Diacritics and Accents                     |
-| 51     | Numerals                                   |
-| 54     | Bold and Other Weights                     |
-| 57     | Italic                                     |
-| 60     | Spacing, Metrics and Kerning               |
-| 63     | Making Sure Your Font Works, Validation    |
-| 66     | The Final Output Generating Font Files     |
-| 69     | When Things Go Wrong With Fontforge Itself |
-| 72     | Designing Devanagari Typefaces             |
-| 75     | Importing Glyphs from Other Programs       |
-| 78     | Adding Glyphs to an Arabic Font            |
-| 81     | Further Reading                            |
-| 82     | Font Editor Tool History                   |
-| 84     | Glossary                                   |
+| 0      | Índice                                     |
+| 1      | Introdução                                 |
+| 3      | O que é uma Fonte?                         |
+| 6      | Confiando em seus olhos                    |
+| 9      | Planejando o seu Projeto                   |
+| 12     | A medida Eme - <em>Quadratim</em>          |
+| 15     | Instalando o FontForge                     |
+| 16     | Configurando o Fontforge                   |
+| 17     | Introdução Geral à Interface de Usuário    |
+| 18     | Usando as Ferramentas de Desenho do FF     |
+| 21     | Desenhando com Spiro                       |
+| 24     | Criando ‘o’ e ‘n’                          |
+| 27     | Informações da Fonte & Metadata            |
+| 30     | Espaçando palavras                         |
+| 33     | Criando o DNA do seu Tipo                  |
+| 36     | Letras Maiúsculas                          |
+| 39     | Espaçando linhas                           |
+| 42     | Pontuação e Símbolos                       |
+| 45     | Completando a Caixa Baixa                  |
+| 48     | Diacríticos e Acentos                      |
+| 51     | Numerais                                   |
+| 54     | Bold e Outros Pesos                        |
+| 57     | Itálico                                    |
+| 60     | Espaçamento, Métricas e Kerning            |
+| 63     | Confira se sua fonte funciona, Validação   |
+| 66     | Gerando Arquivos Finais de Fonte           |
+| 69     | Quando as coisas dão errado com o FontForge|
+| 72     | Projetando Tipografia Devanágari           |
+| 75     | Importando Glifos de outros programas      |
+| 78     | Adicionando Glifos para uma fonte Árabe    |
+| 81     | Leitura recomendada                        |
+| 82     | História das Ferramentas de edição de Fonte|
+| 84     | Glossário                                  |

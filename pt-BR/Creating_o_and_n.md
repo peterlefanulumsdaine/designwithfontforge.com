@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 24
 category: workflow
-title: Creating ‘o’ and ‘n’
+title: Criando ‘o’ e ‘n’
 ---
 
 There are many approaches to designing a font. It can be helpful to deconstruct the larger processes

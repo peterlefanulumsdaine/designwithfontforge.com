@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 33
 category: workflow
-title: Creating Your Type’s DNA
+title: Criando o DNA do seu Tipo
 ---
 
 After you have completed good solid design and spacing of the ‘o’ and ‘n’, the next thing to do is

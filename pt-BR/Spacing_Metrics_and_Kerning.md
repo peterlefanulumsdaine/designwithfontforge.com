@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 60
 category: workflow
-title: Spacing, Metrics and Kerning
+title: Espaçamento, Métricas e Kerning
 ---
 
 The spaces between characters are an important, integral part of the design of a font.

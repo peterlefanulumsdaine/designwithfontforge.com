@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 81
 category: Appendices
-title: Further Reading
+title: Leitura recomendada
 ---
 
 ## Videos

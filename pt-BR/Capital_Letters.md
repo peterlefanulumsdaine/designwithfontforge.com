@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 36
 category: workflow
-title: Capital letters
+title: Letras Maiúsculas
 ---
 
 Making the capital letters should follow a pattern very similar to the making of the lower case letters. You begin by designing key letters whose shapes and characteristics lend themselves to the design of chararacters which share a common shape. Just like with lower case letters the frequency with which letters are used also remain an important factor in the choice of the letters.

@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 9
 category: Before You Begin
-title: Planning Your Project
+title: Planejando o seu Projeto
 ---
 
 Now that you have a sense of how a font design can vary, you may want to decide whether your project

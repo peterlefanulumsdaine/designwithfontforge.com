@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 72
 category: workflow
-title: Designing Devanagari Typefaces
+title: Projetando Tipografia Devanágari
 ---
 
 

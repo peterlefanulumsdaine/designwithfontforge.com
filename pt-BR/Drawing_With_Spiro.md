@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_pt-BR
 weight: 21
 category: Getting To Know FontForge
-title: Drawing with Spiro
+title: Desenhando com Spiro
 ---
 
 Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier

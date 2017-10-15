@@ -11,7 +11,7 @@ title: Informações da Fonte & Metadata
 The Font Info window is ubiquitous in font editors, and FontForge closely follows the OpenType Specification.
 It may appear cryptic at first, but using it can help learn some familiarity with the OpenType format, and in turn reading about the OpenType format makes the dialog more approachable.
 
-<img src="images/info_ps_names.png"/>
+<img src="../en-US/images/info_ps_names.png"/>
 
 ## Version Numbering
 

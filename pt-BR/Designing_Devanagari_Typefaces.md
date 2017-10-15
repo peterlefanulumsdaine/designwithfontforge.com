@@ -49,7 +49,7 @@ The height extremes glyphs allow you to determine the vertical metrics, and how 
 
 Here is Myriad Pro Latin and Myriad Arabic juxtaposed:
 
-<img src="images/myriad_pro_vs_arabic.png" />
+<img src="../en-US/images/myriad_pro_vs_arabic.png" />
 
 (Spot Adobe's designers neat decision: the cap height of the Latin in Myriad Arabic is the x height of the Myriad Pro Latin.)
 
@@ -102,7 +102,7 @@ The spacing string above allows you to compare very disparate shapes, so that sp
 
 And the four glyphs in the middle, Pa/Da/Pa/Da allow you to compare the tested character against two sets of three, if you just look at Pa/Da/Pa or Da/Pa/Da.
 
-<img src="images/deva-spacing.png" />
+<img src="../en-US/images/deva-spacing.png" />
 
 After drawing and spacing a handful of vowels and consonants, you'll be able to make a limited number of words with only those letters, and begin testing your design with real text.
 

@@ -18,9 +18,9 @@ You should also consider the scope of your project's language coverage when cons
 
 One strategy to test whether your font's line spacing is proper for accented characters is to employ sample text from several languages.
 
-<img src="images/Selection_043.png" alt="" height="100" width="472">
+<img src="../en-US/images/Selection_043.png" alt="" height="100" width="472">
 
-<img src="images/Selection_044_1.png" alt="" height="96" width="481">
+<img src="../en-US/images/Selection_044_1.png" alt="" height="96" width="481">
 
 For languages heavy in diacritical marks (such as Czech), line spacing should be taller than for languages that use no diacriticals. The examples above show Czech (above) and English with the same fairly wide line spacing.
 
@@ -28,11 +28,11 @@ For languages heavy in diacritical marks (such as Czech), line spacing should be
 
 In FontForge, you can set and adjust your font project's line spacing from within the Font Info window. Open this window by choosing <em>Font Info</em> from the "Element" menu, then click on the General tab. Note the values that FontForge has listed for Ascent and Descent. Unless you have made manual changes already, these two numbers when added together should equal the value of Em Size listed on the line below.
 
-<img src="images/fontinfo-generl.png" alt="">
+<img src="../en-US/images/fontinfo-generl.png" alt="">
 
 Now switch to the "OS/2" tab. On almost all computers, your font's line spacing will be determined by the Ascent and Descent values that you enter in this tab, under the Metrics heading.
 
-<img src="images/ascents-descents.png" alt="">
+<img src="../en-US/images/ascents-descents.png" alt="">
 
 There are three sets of values: Win Ascent and Descent, Typo Ascent and Descent, and HHead Ascent and Descent.  You should set all the Ascents to be the same as the Ascent value you noted in the General tab.  Next, you should set all of the Descents to be the same as the Descent value you noted in the General tab, with one important exception: you must make the Typo Descent number <em>negative</em>. Leave the value the same, but put a minus sign in front of it.  Finally, uncheck all of the "is offset" options.
 

@@ -28,14 +28,14 @@ portion of the character that dips just below the baseline in order to appear si
 baseline is called the *underhang* &ndash; demonstrated below. Without underhang, characters with
 curves around the baseline will appear misaligned within a line of text.
 
-<img src="images/underhang1.png" alt>
+<img src="../en-US/images/underhang1.png" alt>
 
 Similarly to the undershoot, an area of *overshoot* is needed to provide the illusion of alignment
 at the x-height and at the cap-height (see below).
 
-<img src="images/nox-opensans.png" alt>
+<img src="../en-US/images/nox-opensans.png" alt>
 
-<img src="images/nox-merriw_1.png" alt>
+<img src="../en-US/images/nox-merriw_1.png" alt>
 
 ## Designing the lowercase ‘o’
 
@@ -71,9 +71,9 @@ two components. These separate components combine together to form an ‘n’, b
 will be re-used later when forming other characters; e.g., the stem at the left of the ‘n’ can be
 used to form the left-sided stem of all other lowercase characters.
 
-<img src="images/n-compo-2.png" alt>
+<img src="../en-US/images/n-compo-2.png" alt>
 
-<img src="images/n-compo-1_1.png" alt>
+<img src="../en-US/images/n-compo-1_1.png" alt>
 
 Taking yourself forward again to the chapter on spacing and metrics, the design of the ‘n’ character
 should keep pace with the process of spacing the ‘n’ and ‘o’ characters together.
@@ -85,11 +85,11 @@ If we study the characters below from [Open Sans], we can see the relationships 
 aspects of separate characters and how they can be repeated, with some adjustments, to form the
 components of our font.
 
-<img src="images/h-m-n-curves.png" alt>
+<img src="../en-US/images/h-m-n-curves.png" alt>
 
-<img src="images/b-c-d-e-curves.png" alt>
+<img src="../en-US/images/b-c-d-e-curves.png" alt>
 
-<img src="images/i-j-t-f-curves.png" alt>
+<img src="../en-US/images/i-j-t-f-curves.png" alt>
 
 [“What is a font?”]: What_Is_a_Font.html
 [“Spacing, Metrics, and Kerning”]: Spacing_Metrics_and_Kerning.html

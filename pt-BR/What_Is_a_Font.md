@@ -40,7 +40,7 @@ Let’s begin by identifying the main systemic characteristics in type design.
 
 ### Construction
 
-<img src="images/Construction2.png" alt>
+<img src="../en-US/images/Construction2.png" alt>
 
 Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps
 you can imagine the glyph’s skeleton. The kind of construction to use is arguably one of the most
@@ -53,11 +53,11 @@ However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see bel
 of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
 width, weight, terminals &ndash; are all parts of the flesh.
 
-<img src="images/AAA.png" alt>
+<img src="../en-US/images/AAA.png" alt>
 
 ### Proportion of X-height to Cap-height
 
-<img src="images/Prop.png" alt>
+<img src="../en-US/images/Prop.png" alt>
 
 The letters on the left come from [Playfair Display], which has a large x-height relative to its
 cap-height. The letters on the right are from [EB Garamond], which has a smaller x-height. In the
@@ -65,7 +65,7 @@ sample above, the size of the H has been adjusted so that they match.
 
 ### Ascender Height
 
-<img src="images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender%20height.png" alt>
 
 In the example above, the x-heights have been matched in order to illustrate the relative difference
 in ascender heights.
@@ -76,7 +76,7 @@ elegance to the look of a typeface. They often go with smaller x-height.
 
 ### Descender depth
 
-<img src="images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender%20depth.png" alt>
 
 Like ascenders, descenders that are long can feel elegant.
 
@@ -85,7 +85,7 @@ be used with small line heights, the elongation means letter can collide across 
 
 ## Width
 
-<img src="images/width.png" alt>
+<img src="../en-US/images/width.png" alt>
 
 The width of a type design will alter not just how it feels but also what it is useful for. The
 example on the right is from a text face. The example on the left is from a display design meant to
@@ -97,15 +97,15 @@ be used to save space or to fit more text in a smaller space.
 The letters in the top row of this example show a greater variety of width than do the letters in
 the bottom row.
 
-<img src="images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width%20regularity.png" alt>
 
 ### Weight
 
-<img src="images/Weight.png" alt>
+<img src="../en-US/images/Weight.png" alt>
 
 ### Slant
 
-<img src="images/Slant.png" alt>
+<img src="../en-US/images/Slant.png" alt>
 
 ### Contrast
 
@@ -114,7 +114,7 @@ two ‘O’ glyphs that the one on the left has much greater variability in line
 and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than
 the one on the right.
 
-<img src="images/Contrast.png" alt>
+<img src="../en-US/images/Contrast.png" alt>
 
 Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a
 sheer distinction from contrasted type. Like the choice between serifs or sans-serifs, contrast is
@@ -129,7 +129,7 @@ In the below image, we see that the thin parts of the lower case letter ‘o’ 
 the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right,
 the axis is diagonal.
 
-<img src="images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle%20of%20contrast.png" alt>
 
 ### Weight distribution
 
@@ -139,32 +139,32 @@ of options to choose from when it comes to how to distribute the weight in your 
 
 #### Vertical
 
-<img src="images/verical1.png" alt>
+<img src="../en-US/images/verical1.png" alt>
 
 Vertical distribution of weight is very common. The 9 and 8 above are a particularly intense
 example.
 
 #### Horizontal
 
-<img src="images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal%20weight.png" alt>
 
 Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
 
 #### Bottom-heavy
 
-<img src="images/2bottomheavy.png" alt>
+<img src="../en-US/images/2bottomheavy.png" alt>
 
 #### Top-heavy
 
-<img src="images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy%20metal.png" alt>
 
 #### Irregular
 
-<img src="images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular%20weight.png" alt>
 
 ### Stems
 
-<img src="images/8stems.png" alt>
+<img src="../en-US/images/8stems.png" alt>
 
 It is easy to assume that your stems will simply be straight and that this isn’t a real concern, but
 both the weight and the shape of your stems are things you can and should make deliberate choices
@@ -172,7 +172,7 @@ about.
 
 ### Joins
 
-<img src="images/7joins.png" alt>
+<img src="../en-US/images/7joins.png" alt>
 
 ### Bowls
 
@@ -181,7 +181,7 @@ inner strokes are referred as “counters”. While designing type, you will oft
 altering your work not because of the shape or width of the stroke but due to the shape and size of
 the counter.
 
-<img src="images/2bowls.png" alt>
+<img src="../en-US/images/2bowls.png" alt>
 
 ### Terminals
 
@@ -189,18 +189,18 @@ Terminals are the end forms of the strokes. They are not same as the serifs. The
 perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
 also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
 
-<img src="images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals%20f.png" alt>
 
 ### Speed
 
-<img src="images/6speed_1.png" alt>
+<img src="../en-US/images/6speed_1.png" alt>
 
 The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
 more detail in the chapter [on italics].
 
 ### Regularity
 
-<img src="images/6regularity.png" alt>
+<img src="../en-US/images/6regularity.png" alt>
 
 The following characteristics are not present in all type designs, however they are variables that
 may be a part of your design. If this is the case, it is worth considering the degree to which they
@@ -208,7 +208,7 @@ will play a role as a variable.
 
 ### Flourish
 
-<img src="images/5flourish.png" alt>
+<img src="../en-US/images/5flourish.png" alt>
 
 Notice that in the font on top the flourish is more present in the capital letter and the second one
 the flourish is more in the lowercase.
@@ -258,11 +258,11 @@ angular ([Rockwell]).
 
 ### Decoration
 
-<img src="images/4decoration.png" alt>
+<img src="../en-US/images/4decoration.png" alt>
 
 ### Dimension
 
-<img src="images/3dimention.png" alt>
+<img src="../en-US/images/3dimention.png" alt>
 
 [Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/

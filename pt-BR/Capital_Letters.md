@@ -20,34 +20,34 @@ Depending on the style of the font you are making you may find that the capital 
 
 Generally the N and V are usually similar to H but a slightly wider.
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-1.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-2.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/NVH-3.png" alt=""> </td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-1.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-2.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/NVH-3.png" alt=""> </td>
 </tr></tbody></table>
 
 The D may be similar to H or quite a bit wider.
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-1.png" alt=""></td>
-<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-2.png" alt=""></td>
-<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="images/HD-3.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-1.png" alt=""></td>
+<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-2.png" alt=""></td>
+<td> <img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HD-3.png" alt=""></td>
 </tr></tbody></table>
 
 The shape of O can tell you quite a lot about the C, G and Q. The shape of H tells you a bit about about I and J and the left side of B D E F K L P R.
 
 It also tells you a little about T and U. The shape of A can tell you quite a lot about the shape of V.
 
-<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/OCGQ-2.png" alt=""></td>
-<td style="text-align: center;"> <img src="images/OCGQ-1.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/OCGQ-3.png" alt=""></td>
-</tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-3.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-2.png" alt=""></td>
-<td><img style="display: block; margin-left: auto; margin-right: auto;" src="images/HBDE-1.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/OCGQ-2.png" alt=""></td>
+<td style="text-align: center;"> <img src="../en-US/images/OCGQ-1.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/OCGQ-3.png" alt=""></td>
+</tr><tr><td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-3.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-2.png" alt=""></td>
+<td><img style="display: block; margin-left: auto; margin-right: auto;" src="../en-US/images/HBDE-1.png" alt=""></td>
 </tr></tbody></table>
 
 The shape and proportions of V tells you a little about how to design Y W X. The shape of the Z is distinctive.
 
-<table border="0" cellpadding="13"><tbody><tr><td><img src="images/VWYX-2.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-3.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-4.png" alt=""></td>
-</tr><tr><td> <img src="images/VWYX-1.png" alt=""></td>
+<table border="0" cellpadding="13"><tbody><tr><td><img src="../en-US/images/VWYX-2.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-3.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-4.png" alt=""></td>
+</tr><tr><td> <img src="../en-US/images/VWYX-1.png" alt=""></td>
 </tr></tbody></table>

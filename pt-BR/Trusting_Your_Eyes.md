@@ -40,7 +40,7 @@ Can you feel it?
 The other one on the right has a horizontal bar which has been thinned to appear equal in
 thickness.
 
-<img src="images/H%20compensation2.png" alt>
+<img src="../en-US/images/H%20compensation2.png" alt>
 
 Glyphs in which optical adjustments have to be made are numerous and include A, E, F, L, H, f, t,
 and z.
@@ -52,7 +52,7 @@ will seem slightly heavier than the vertical bar and slightly thinner than the h
 want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
 little less.
 
-<img src="images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag%20illusion.png" alt>
 
 Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
 v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
@@ -65,27 +65,27 @@ Longer shapes need to slant less than short shapes in order to give the appearan
 The image below has diagonal lines that are all at the same angle. The long one appears to be at a
 different angle.
 
-<img src="images/pdiag.png" alt>
+<img src="../en-US/images/pdiag.png" alt>
 
 In the next picture below, the slant of the longer line has been adjusted:
 
-<img src="images/pdiag2.png" alt>
+<img src="../en-US/images/pdiag2.png" alt>
 
 Now let’s look at an actual italic, applying these corrections to the glyphs:
 
-<img src="images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer%20less%20slant.png" alt>
 
 ### Crossing diagonals
 
 When a bar crosses another diagonal or a straight line, it will need adjustments to not appear as
 misaligned.
 
-<img src="images/compare-x.png" alt>
+<img src="../en-US/images/compare-x.png" alt>
 
 In the example above, the X on the left has two unadjusted bars crossing each other. The example on
 the right has been adjusted so that they appear to be aligned.
 
-<img src="images/myriad-x.png" alt>
+<img src="../en-US/images/myriad-x.png" alt>
 
 As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
 
@@ -99,7 +99,7 @@ same height as the other glyphs. Round glyphs need to overshoot the height of fl
 little bit. Glyphs which have pointier shapes will need to overshoot more. The sharper the shape,
 the more it will need to overshoot in order to look correct.
 
-<img src="images/3Shapes.png" alt>
+<img src="../en-US/images/3Shapes.png" alt>
 
 In the image above, the top three shapes are unadjusted &mdash; that is, they have identical
 heights. The three shapes on the bottom have been adjusted so that they appear more similar in

@@ -14,15 +14,15 @@ make at this point should be gradually adjusted while you progress in the design
 
 The word space here is too tight&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.42%20PM.png" alt height="251" width="486">
 
 And here, it’s too wide&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.51.16%20PM.png" alt height="273" width="474">
 
 Now this is well-balanced&hellip;
 
-<img src="images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
+<img src="../en-US/images/Screen%20Shot%202012-12-06%20at%204.49.50%20PM.png" alt height="270" width="466">
 
 If your type is meant to be used at larger sizes, then the word space can be reduced &mdash; and
 *vice-versa* if it’s to be used at very small sizes.

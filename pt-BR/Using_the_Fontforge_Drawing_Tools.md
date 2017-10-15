@@ -34,7 +34,7 @@ see below.
 *Curve points* have two handles, each of them being linked to the other so that the line between
 them always stays straight, in order to produce a smooth curve on each side.
 
-<img src="images/tools-curve-point.png" alt>
+<img src="../en-US/images/tools-curve-point.png" alt>
 
 <h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
 
@@ -42,7 +42,7 @@ them always stays straight, in order to produce a smooth curve on each side.
 horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
 (more on that in the next section).
 
-<img src="images/tools-HV-point.png" alt>
+<img src="../en-US/images/tools-HV-point.png" alt>
 
 #### Coins or corner points (shown as square-shaped points)
 
@@ -50,11 +50,11 @@ horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier fo
 others, making it suitable for discontinuities in the outline.  
 Without handles, coins will produce straight lines.
 
-<img src="images/tools-square-point.png" alt>
+<img src="../en-US/images/tools-square-point.png" alt>
 
-<img src="images/tools_corner_point_2.png" alt>
+<img src="../en-US/images/tools_corner_point_2.png" alt>
 
-<img src="images/tools-corner-point-3.png" alt>
+<img src="../en-US/images/tools-corner-point-3.png" alt>
 
 #### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
 
@@ -63,7 +63,7 @@ If you want to start from a straight line and then start curving smoothly, you w
 A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
 its direction &ndash; this ensures a continuous transition between the line and the curve.
 
-<img src="images/tools-tangent-point.png" alt>
+<img src="../en-US/images/tools-tangent-point.png" alt>
 
 ### Getting it right
 
@@ -72,13 +72,13 @@ anchors should always be placed at **the extremas of the curve**, and unless in 
 have breaks in your letterforms, the line that determines the path should be **horizontal or
 vertical**.
 
-<img src="images/bezier_sample.png" alt>
+<img src="../en-US/images/bezier_sample.png" alt>
 
 <div class="note">
 <p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
 the actual extrema with a sight icon:</p>
 
-<img src="images/bezier_sample_3.png" alt>
+<img src="../en-US/images/bezier_sample_3.png" alt>
 
 <p>You can then fix this by copying your current outline to another layer, then move the control
 points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
@@ -93,10 +93,10 @@ paths:
 
 - If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
   below that’s being kept almost flat:  
-  <img src="images/bezier_sample_2.png" alt>
+  <img src="../en-US/images/bezier_sample_2.png" alt>
 - If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
   &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
-  <img src="images/bezier_sample_4.png" alt>
+  <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
 direction of each handle should be tangent to the curve where it arrives.</p>
@@ -105,7 +105,7 @@ direction of each handle should be tangent to the curve where it arrives.</p>
 
 From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
 
-<img src="images/glyph_window.png" alt>
+<img src="../en-US/images/glyph_window.png" alt>
 
 <div class="note">
 <p><b>Note:</b> The numbers along the top where the x and y axis intersect indicate, from left to
@@ -127,12 +127,12 @@ move it and process the dialog box.</p>
 
 A *Line* consists of 2 points.
 
-<img src="images/tools_line_points.png" alt>
+<img src="../en-US/images/tools_line_points.png" alt>
 
 A *Spline* consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
 of the spline at those end points.
 
-<img src="images/tools_splines_points.png" alt>
+<img src="../en-US/images/tools_splines_points.png" alt>
 
 ### Copy, paste, cut and delete points, splines and lines
 
@@ -146,7 +146,7 @@ Now that you know your way around the canvas, it’s time to get acquainted with
 
 ### Point and Zoom
 
-<img src="images/point_zoom.png" alt>
+<img src="../en-US/images/point_zoom.png" alt>
 
 Point and Zoom behave similarly to the equivalent tools in other applications.  
 The pointer is a selection tool, used to select points, paths, and other objects on the canvas.  
@@ -158,7 +158,7 @@ the Control (Ctrl) key.
 
 ### The Freehand tool
 
-<img src="images/freehand_tool.png" alt>
+<img src="../en-US/images/freehand_tool.png" alt>
 
 The Freehand tool allows you to sketch out irregular paths.
 
@@ -173,7 +173,7 @@ can grab either handle and drag it around to change the shape of the curve.
 
 Okay, now let’s go about using the point tools.
 
-<img src="images/point_tools_labelled.png" alt>
+<img src="../en-US/images/point_tools_labelled.png" alt>
 
 To add a point to a path, first select any of these tools, then click on the path and give it a
 little push. You will get a new point on the line.
@@ -187,13 +187,13 @@ the path.
 
 ### The Pen tool
 
-<img src="images/addpoint_tool.png" alt>
+<img src="../en-US/images/addpoint_tool.png" alt>
 
 The Pen tool allows you to add a point on the curve and drag out its control points.
 
 ### Spiro
 
-<img src="images/spiro.png" alt>
+<img src="../en-US/images/spiro.png" alt>
 
 Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves
 that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as
@@ -202,14 +202,14 @@ some unexpected things.
 
 ### Knife
 
-<img src="images/knife.png" alt>
+<img src="../en-US/images/knife.png" alt>
 
 The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
 only need part of it.
 
 ### Ruler
 
-<img src="images/ruler.png" alt>
+<img src="../en-US/images/ruler.png" alt>
 
 The ruler tool gives you measurement and coordinate information. When you use it, it displays a
 floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
@@ -222,7 +222,7 @@ stretched across.
 
 There are six transform tools:
 
-<img src="images/transform_tools_labelled.png" alt>
+<img src="../en-US/images/transform_tools_labelled.png" alt>
 
 **Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
 values.
@@ -253,7 +253,7 @@ The Perspective tool gives you another way to distort a shape in a nonlinear way
 These tools allow you to draw primitive geometric shapes, which is faster than constructing those
 shapes out of separate line segments.
 
-<img src="images/rectangle_poly_labelled.png" alt>
+<img src="../en-US/images/rectangle_poly_labelled.png" alt>
 
 Clicking the chevron area on these tools will give you the option to switch to the alternate tool.
 If you double-click on either of the tools, you can open the shape type’s options.
@@ -269,7 +269,7 @@ setting, the longer the arms of the star.
 
 ### Mse1 and Mse2
 
-<img src="images/danger.png" alt>
+<img src="../en-US/images/danger.png" alt>
 
 Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
 
@@ -290,7 +290,7 @@ Foreground layer. Guide layers are used to insert guides (such as x-height or ca
 Foreground layers and background layers are both used for drawing, but only the topmost foreground
 layer will be rendered into your final font.
 
-<img src="images/layers.png" alt>
+<img src="../en-US/images/layers.png" alt>
 
 A checkbox indicates whether each layer is visible, and you can uncheck it to make a layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
 
@@ -309,27 +309,27 @@ Next we will go over some basic drawing workflows, which you often find yourself
 1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
    window.
 2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
+   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
 3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
    and that you essentially punched a hole in the center of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
+   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
 
 ### Remove overlap
 
 1. Add a star that overlaps the corner of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
+   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
 2. Select the star and the earlier shape. You only need to select one point of each overlapping
    shape, but it is okay to select extra points.
 3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
    one.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
+   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
 
 ### Add a Point
 
 Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
 the shape.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
 
 ### Tangent points
 
@@ -342,19 +342,19 @@ To do so, choose Element &gt; *Get Info*, which opens the Point Info Window. Fro
 in that window, go to the Next CP field set and set the Distance to a large number, such as 75.
 Click OK. You will see that the curve now smoothly enters the straight line.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
 
 ### Transformation
 
 Now select about a quarter of the shape &mdash; the star and part of the ellipse in the middle.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
 
 Choose the 3D Rotate tool, move to the middle of the selected area, and slowly click and drag until
 you see something you like, then release. Here is an example of 3D Rotate used on the practice
 image:
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
+<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
 
 ### Set stroke shape and width
 
@@ -363,14 +363,14 @@ tool, you get the Freehand dialog shown here, which contains a drawing window. T
 select pen shape and size. This dialog also appears when you choose the *Expand Stroke* option in
 the Element menu.
 
-<img src="images/Freehand_018.png" alt>
+<img src="../en-US/images/Freehand_018.png" alt>
 
 Using the Corner tool, draw a polygon and click OK.
 
 Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
 automatically stroked with the shape you chose in the Freehand dialog, as shown here.
 
-<img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
+<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
 
 ## Keep drawing!
 

@@ -11,7 +11,7 @@ In a font, each character is fitted into its own space container. In traditional
 container was the actual metal block of each character. The height of each character piece was
 uniform, allowing the characters to be set neatly into rows and blocks (see below).
 
-<img src="images/MetalTypeZoomIn.JPG" alt>
+<img src="../en-US/images/MetalTypeZoomIn.JPG" alt>
 
 The height of the type piece is known as the ‘em’, and it originates from the width of the uppercase
 ‘M’ character; it was made so that the proportions of this letter would be square (hence the ‘em
@@ -19,7 +19,7 @@ square’ denomination).
 The em size is what the point size of metal type is calculated upon. So, a 10 points type has a 10
 points em (see below).
 
-<img src="images/em-metal-type.svg" alt>
+<img src="../en-US/images/em-metal-type.svg" alt>
 
 In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &ndash;
 or em size is usually set at 1000 units. In TrueType fonts, the UPM is by convention a power of two,
@@ -41,15 +41,15 @@ tab and you will see the *EM* setting, which value shall be distributed between 
 
 The Baseline:
 
-<img src="images/baseline.png" alt>
+<img src="../en-US/images/baseline.png" alt>
 
 The Cap Height:
 
-<img src="images/capheight.png" alt>
+<img src="../en-US/images/capheight.png" alt>
 
 The x-height:
 
-<img src="images/xheight.png" alt>
+<img src="../en-US/images/xheight.png" alt>
 
 Later when designing your type, you will have to set the Blue values which serve for PostScript
 outlines and also for the FontForge autohinter &ndash; regardless of which outlines you are working

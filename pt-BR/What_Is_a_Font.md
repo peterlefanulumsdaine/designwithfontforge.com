@@ -38,59 +38,59 @@ no design de tipos.
 
 Vamos começar com a identificação das principais características sistêmicas no design de tipos.
 
-### Construction
+### Construção
 
 <img src="../en-US/images/Construction2.png" alt>
 
-Construction refers to the structure of the underlying strokes that form a particular glyph. Perhaps
-you can imagine the glyph’s skeleton. The kind of construction to use is arguably one of the most
-important questions to think about, because the construction affects so many of the remaining
-choices, particularly if your design is going to feel somewhat familiar to readers. In the example
-above, the white line inside the letters indicate the approximate construction suggested by the shape
-of the letters themselves.
+Nos referimos a Construção quando analisamos a estrutura dos traços fundamentais que dão forma a um glifo em particular. Talvez
+você possa imaginar como o esqueleto do glifo. O tipo de construção utilizada é sem dúvida uma das questões
+mais importantes para se pensar, pois trará efeitos sobre muitas das escolhas
+restantes, particularmente se o seu projeto será, de alguma forma, familiar para os leitores. No exemplo
+acima, a linha branca dentro das letras indica a construção aproximada sugerida pela forma
+das próprias letras.
 
-However, the way strokes end (the ‘terminals’) and the ‘serifs’ (see below) are generally not part
-of what is meant by ‘construction.’ Construction is the skeleton of the glyph, while rest &ndash;
-width, weight, terminals &ndash; are all parts of the flesh.
+No entanto, a forma como os traços terminam (os ‘terminais’) e as ‘serifas’ (abaixo) geralmente não são parte
+do que chamamos por ‘construção’. Construção é o esqueleto do glifo, enquanto o restante &ndash;
+largura, peso, terminais &ndash; são partes do corpo.
 
 <img src="../en-US/images/AAA.png" alt>
 
-### Proportion of X-height to Cap-height
+### Proporção entre Altura de X e Altura da Caixa Alta
 
 <img src="../en-US/images/Prop.png" alt>
 
-The letters on the left come from [Playfair Display], which has a large x-height relative to its
-cap-height. The letters on the right are from [EB Garamond], which has a smaller x-height. In the
-sample above, the size of the H has been adjusted so that they match.
+As letras posicionadas ao lado esquerdo fazem parte da fonte [Playfair Display], que tem uma altura de x grande em relação à
+altura da sua caixa alta. As letras à direita são da fonte [EB Garamond], que têm uma altura de x menor. No
+exemplo acima, o tamanho do H foi ajustado para ficar na mesma altura.
 
-### Ascender Height
+### Altura das Ascendentes
 
 <img src="../en-US/images/Ascender%20height.png" alt>
 
-In the example above, the x-heights have been matched in order to illustrate the relative difference
-in ascender heights.
+No exemplo acima, as alturas de x foram ajustadas para ilustrar a diferença de relação
+entre as alturas das ascendentes.
 
-Ascenders usually exceed the cap-height by at least a little, especially in text designs. In some
-cases, however, they can match or even be lower than the cap-height. Longer ascenders can add
-elegance to the look of a typeface. They often go with smaller x-height.
+Ascendentes geralmente ultrapassam pelo menos um pouco a altura da caixa alta, especialmente em fontes para texto. Em alguns
+casos, no entanto, elas podem ser iguais ou até mais baixas que a caixa alta. Ascendentes mais longas podem adicionar
+elegância para o visual de uma fonte. Elas costumam ter altura de x menor.
 
-### Descender depth
+### Descendentes
 
 <img src="../en-US/images/Descender%20depth.png" alt>
 
-Like ascenders, descenders that are long can feel elegant.
+Assim como nas ascendentes, as descendentes longas aparentam elegância.
 
-Taken together, long ascenders and descenders can become difficult to manage. If the typeface will
-be used with small line heights, the elongation means letter can collide across rows of text.
+Quando em conjunto, ascendentes e descendentes longas podem se tornar difíceis de gerenciar. Se sua fonte
+for utilizada com uma entrelinha pequena, as letras alongadas podem colidir sobre outras linhas do texto.
 
-## Width
+## Largura
 
 <img src="../en-US/images/width.png" alt>
 
-The width of a type design will alter not just how it feels but also what it is useful for. The
-example on the right is from a text face. The example on the left is from a display design meant to
-be eye catching. Letters that are more narrow than the text face example are also possible and can
-be used to save space or to fit more text in a smaller space.
+A largura do seu tipo irá alterar não só a sua aparência mas também sua usabilidade. O
+exemplo da direita é de uma fonte para texto. O da esquerda é de uma fonte display que pretende atrair
+o olhar do leitor. Letras mais estreitas que a fonte de texto do exemplo também são possíveis e podem
+ser utilizadas para economizar espaço ou para encaixar mais texto em espaços menores.
 
 ### Width regularity versus variability
 

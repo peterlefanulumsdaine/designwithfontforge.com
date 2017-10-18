@@ -24,9 +24,9 @@ foram significativamente estabelecidas. Nossa tarefa como designers de tipos est
 de uma forma existente do que inventar formas completamente novas. Isso pode confundir designers de tipos
 iniciantes. Encontrar a quantidade certa de mudança com o objetivo de aguçar o leitor e não irritá-lo
 é uma tarefa complicada. Muitas vezes, designers ficam presos no desenho de letras específicas. Este erro pode ser facilmente
-evitado se você perceber desde o início que o é mais importante em uma fonte é a identificação das partes
-que mais se repetem. Design de tipos não é só sobre projetar determinadas características aplicadas às
-formas comuns que nós reconhecemos, mas também às formas que ocorrem com mais frequência.
+evitado se você perceber desde o início que o que é mais importante em uma fonte é a identificação das partes
+que mais se repetem. Design de tipos não é só sobre projetar determinadas características de
+formas comuns que nós reconhecemos, mas também das que ocorrem com mais frequência.
 
 É muito útil reconhecer que estas características não só ajudam a criar uma voz ou
 atmosfera para uma fonte, como também determinam em que a fonte será ou não útil, e se

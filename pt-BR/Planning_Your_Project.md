@@ -6,77 +6,81 @@ category: Before You Begin
 title: Planejando o seu Projeto
 ---
 
-Agora que você entende que o desenho de uma fonte pode variar, você pode decidir se o seu projeto 
-vai envolver apenas uma fonte, se será uma coleção de diversos estilos, um família de três 
-ou quatro estilos ou algo ainda maior.
+Agora que você entende que o desenho de uma fonte pode variar, você pode decidir se o seu projeto
+vai envolver apenas uma fonte, se será uma coleção de diversos estilos, ou uma família de
+três ou quatro estilos (agora uma tradição), ou algo ainda maior.
 
-Os tipos de família mais comuns incluem os estilos:
+Os estilos mais comuns de famílias de tipos incluem:
 
-* Regular e Bold;
-* Regular, Bold e Itálico (eventualmente com Bold em itálico);
-* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black;
-* Regular, Condensado, Bold e Bold Condensado;
+* Regular e Bold
+* Regular, Bold e Itálico &ndash; eventualmente com Bold em itálico
+* Fino, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Pesado e Black
+* Regular, Condensado, Bold e Bold Condensado
 * Estreito, Condensado, Largo e Extra-Largo
-* Regular, Semi-Ornamentada, Ornamentada, Muito Ornamentada, Extremamente Ornamentada.
+* Regular, Semi-Floreado, Floreado, Muito Floreado, Extremamente Floreado.
 
-A depender dos parâmetros existentes na família que você tem em mente,
-você encontrará o tipo de agrupamento que deseja.
+Enquanto que existem motivos para padrões de famílias existirem, vodê pode ter em mente um tipo
+bem diferente de agrupamento.
 
-O escopo do seu projeto pode ser determinado de acordo com sua pretensão e tempo disponível.
-Mas muitas vezes os escopos são determinados pelo uso que será dado para coleção ou família de fontes,
-ou, ainda, pela necessidade do seu cliente. Certamente, para tipógrafos profissionais, 
+O escopo do seu projeto pode ser determinado de acordo com sua pretensão e tempo
+disponível. Mas muitas vezes os escopos são determinados pelo uso que será dado para coleção ou família de
+fontes, ou, ainda, pela necessidade do seu cliente. Certamente, para tipógrafos profissionais,
 as duas últimas questões são os fatores mais determinantes.
 
 ## A Sensação
 
-A coisa mais importante a se pensar num desenho de tipo é a sensação que ele evoca. 
-É difícil verbalizar, mas é isso que torna sua aparência consideravelmente única em relação a outras fontes.
+A coisa mais importante a se pensar num desenho de tipo é a sensação que ele evoca.
+É difícil verbalizar, mas é isso que torna uma fonte consideravelmente diferente de qualquer outra.
 
 Um tipógrafo de Portugal, Natanael Gama, que desenhou a família [Exo](https://www.google.com/fonts/specimen/Exo) usando FontForge,
 apresenta em sua página um outro projeto para o escultor [John Williams](http://ndiscovered.com/john-williams/), e inclui um descritivo que indica os aspectos do projeto:
 
-* Figurativo - Abstrato: 50%
-* Gracioso - Robusto: 30%
-* Calmo - Enérgico: 0%
-* Confuso - Claro: 15%
-* Experimental - Comum: 15%
-* Notório - Casual: 15%
-* Outras ideias: Beleza, Lugares ao ar livre, Condição Humana
+* Figurativo &ndash; Abstrato: 50%
+* Gracioso &ndash; Robusto: 30%
+* Calmo &ndash; Enérgico: 0%
+* Confuso &ndash; Claro: 15%
+* Experimental &ndash; Normal: 15%
+* Notório &ndash; Casual: 15%
+* Outras ideias: Beleza, Espaços externos, Condição Humana
 
-## A Quantidade de Caracteres
+## Quantidade de Caracteres
 
-Uma fonte ainda será uma fonte mesmo se tem apenas um caractere incluso. Mas uma fonte também pode conter centenas 
+Uma fonte ainda será uma fonte mesmo que contenha apenas um caractere. Mas uma fonte também pode conter centenas
 ou até milhares de caracteres. Se o seu projeto é de iniciativa própria, então esta escolha
-é arbitrária. É você quem terá que decidir se deseja maiúsculas, ou se quer incluir caracteres encontrados em
-outras fontes que você usa. Se você está trabalhando para um cliente, você deve especificar qual(is) linguagem(ns)
-a fonte pretende oferecer suporte. Seu objetivo também poderia ser ampliar uma fonte existente,
-adicionando alguns caracteres para que funcione em uma ou mais linguagem.
+é arbitrária. É você quem terá que decidir se deseja apenas maiúsculas, ou se quer incluir caracteres encontrados em
+outras fontes que você usa. Se você está trabalhando para um cliente, você deve especificar qual
+ou quais línguas a fonte pretende oferecer suporte. Seu objetivo também poderia ser ampliar uma fonte existente,
+adicionando alguns caracteres para que funcione em uma ou mais línguas.
 
-É certamente uma boa ideia fazer esta escolha de maneira intencional, e desviar da tendência 
-de pecar por excesso. A depender da maneira como uma tipografia acontece, pode ser tentador incluir mais e
-mais caracteres - mas é mais valioso continuar a melhorando o conjunto de caracteres
-básicos do que adicionar novos.
+É certamente uma boa ideia fazer esta escolha de maneira intencional, e desviar da tendência
+de pecar por excesso. É comum que durante a criação de uma fonte, seja tentador incluir mais e
+mais caracteres &ndash; mas é de mais-valia continuar melhorando o conjunto de caracteres básicos
+do que adicionar novos.
 
-## Fluxo de trabalho famílias de muitos estilos
+## Fluxo de trabalho em famílias de muitos estilos
 
 Se você decide, desde o início, que pretende ter mais de uma fonte, você irá poupar tempo se
-planejar e construir a família sistematicamente, trabalhando em seus estilos aos poucos e 
-paralelamente, em vez de completar um estilo por vez.
+planejar e construir a família sistematicamente, trabalhando em seus estilos aos poucos e paralelamente, em vez
+de completar um estilo por vez.
 
 Certamente, é impossível criar *cada* estilo de maneira completamente paralela, mas é
-possible to possível completar uma determinada etapa do desenho de cada estilo à medida em que se verifica as
-relações entre eles. Se preferir, complete um anagrama de teste para uma versão regular (por exemplo "adhesion") 
-e, em seguida, faça o mesmo para os outros estilos. Mas você também pode tornar o processo ainda mais gradual,
-tomando decisões sobre partes específicas das letras-base de todos os estilos (como 'n' e 'o') de uma só vez.
+possível completar uma determinada etapa do desenho de cada estilo à medida em que se verifica as
+relações entre eles, desde o início. Pode ser útil completar
+um conjunto completo de letras de teste (por exemplo “adhesion”) na versão regular e, em seguida, fazer
+o mesmo para os outros estilos. Mas você também pode tornar o processo ainda mais gradual,
+tomando decisões sobre partes específicas das letras-base (como ‘n’ e ‘o’) para todos os estilos
+de uma só vez.
 
-Dependendo da abrangência e variação da família que está sendo planejada, você pode economizar 
-tempo fazendo uma interpolação de caracteres, não apenas entre os estilos, mas para designar 
-preceitos para o desenho das variáveis tipográficas que permeiam os membros da família. 
-Para mais informações sobre variáveis tipográficas, veja mais no capítulo [“O que é uma fonte?”](What_Is_a_Font.html).
+Dependendo da abrangência e variação da família que está sendo planejada, você pode economizar
+tempo fazendo uma interpolação de caracteres, não apenas entre estilos
+intermediários, mas para designar preceitos para o desenho das variáveis tipográficas que permeiam os
+membros da família.  
+Para mais informações sobre variáveis tipográficas, veja o capítulo [“O que é uma
+fonte?”](What_Is_a_Font.html).
 
 ## Técnico: Gerenciamento de Versões
 
-Aprenda sobre Git e Github para administrar seus arquivos, e use o formato "SFDir" em suas fontes.
+Aprenda sobre Git e Github para administrar seus arquivos, e use o formato "SFDir" em seus projetos.
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>

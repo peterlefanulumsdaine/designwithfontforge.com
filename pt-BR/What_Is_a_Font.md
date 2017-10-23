@@ -92,126 +92,126 @@ exemplo da direita é de uma fonte para texto. O da esquerda é de uma fonte dis
 o olhar do leitor. Letras mais estreitas que a fonte de texto do exemplo também são possíveis e podem
 ser utilizadas para economizar espaço ou para encaixar mais texto em espaços menores.
 
-### Width regularity versus variability
+### Largura regular versus largura variável
 
-The letters in the top row of this example show a greater variety of width than do the letters in
-the bottom row.
+As letras na linha de cima deste exemplo apresentam uma maior variedade de largura que as letras na
+linha de baixo.
 
 <img src="../en-US/images/Width%20regularity.png" alt>
 
-### Weight
+### Peso
 
 <img src="../en-US/images/Weight.png" alt>
 
-### Slant
+### Inclinação
 
 <img src="../en-US/images/Slant.png" alt>
 
-### Contrast
+### Contraste
 
-Contrast refers to how much variation in stroke width is found within a glyph. Notice in the below
-two ‘O’ glyphs that the one on the left has much greater variability in line thickness between the top
-and sides of the glyph. Both glyphs have some contrast, but the one on the left has much more than
-the one on the right.
+Ao falarmos Contraste nos referimos a variação de largura do traço encontrada em um glifo. Percebe-se nos dois
+glifos ’O’ abaixo que o da esquerda apresenta maior variação na espessura de linha entre o topo
+e as laterais do glifo. Ambos têm contraste, mas o exemplo da esquerda tem muito mais que
+o da direita.
 
 <img src="../en-US/images/Contrast.png" alt>
 
-Type with consistent weight (stroke width) in its letterforms or no visible contrast produces a
-sheer distinction from contrasted type. Like the choice between serifs or sans-serifs, contrast is
-an early choice of type design. It is interesting to note that ‘slab’ serif designs generally use
-consistent stroke width in their letters, and that the design of slab serifs is not merely about the
-serif, as it sounds! It must be remembered that the rules of perception apply (see [“Trusting your
-eyes”]) &ndash; contrast is about how the weight looks but not how it measures out to be.
+Tipos com peso consistente (largura do traço) em seus glifos ou sem contraste visível produzem uma
+distinção clara dos tipos com contraste. Assim como a escolha entre tipos com ou sem serifa, contraste é
+uma escolha inicial no design de tipos. É interessante notar que o design de serifas ‘slab’ (quadradas) geralmente usa
+uma largura consistente do traço em suas letras, e que o design de serifas quadradas não se trata somente sobre
+serifas, por mais que falemos delas! Devemos lembrar de aplicar as regras de percepção (veja [“Confiando em
+seus olhos”][“Trusting your eyes”]) &ndash; contraste é mais sobre como o peso aparenta do que a sua medida exata.
 
-### Angle of contrast
+### Ângulo de contraste
 
-In the below image, we see that the thin parts of the lower case letter ‘o’ shapes are different. In
-the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right,
-the axis is diagonal.
+Na imagem abaixo, vemos que as formas das partes finas das letras ‘o’ minúsculas são diferentes. No
+glifo da esquerda, as partes finas se encontram em um eixo vertical perfeito. No glifo da direita,
+o eixo é diagonal.
 
 <img src="../en-US/images/Angle%20of%20contrast.png" alt>
 
-### Weight distribution
+### Distribuição do peso
 
-If your font uses very little to no contrast, you don’t really need to think of it.  
-Most fonts, however, have at least some degree of contrast. In these cases, you have a wide variety
-of options to choose from when it comes to how to distribute the weight in your font.
+Se sua fonte apresenta contraste mínimo ou inexistente, você não precisa pensar muito sobre isso.  
+No entanto a maioria das fontes tem pelo menos algum grau de contraste. Nesses casos, você tem muitas
+opções para escolher quando chegar a hora de distribuir o peso em sua fonte.
 
 #### Vertical
 
 <img src="../en-US/images/verical1.png" alt>
 
-Vertical distribution of weight is very common. The 9 and 8 above are a particularly intense
-example.
+A distribuição vertical de peso é muito comum. Os números 9 e 8 acima são, em particular, um bom
+exemplo.
 
 #### Horizontal
 
 <img src="../en-US/images/horizontal%20weight.png" alt>
 
-Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
+A distribuição de peso horizontal é bem menos comum, ainda assim é encontrada em muitas fontes.
 
-#### Bottom-heavy
+#### Peso na base
 
 <img src="../en-US/images/2bottomheavy.png" alt>
 
-#### Top-heavy
+#### Peso no topo
 
 <img src="../en-US/images/2topheavy%20metal.png" alt>
 
-#### Irregular
+#### Peso Irregular
 
 <img src="../en-US/images/Irregular%20weight.png" alt>
 
-### Stems
+### Hastes
 
 <img src="../en-US/images/8stems.png" alt>
 
-It is easy to assume that your stems will simply be straight and that this isn’t a real concern, but
-both the weight and the shape of your stems are things you can and should make deliberate choices
-about.
+É fácil assumir que as suas hastes serão retas e que esta não é uma preocupação real, mas
+ambos peso e forma das hastes são caminhos que podem e devem fazer parte de suas
+escolhas.
 
-### Joins
+### Junções
 
 <img src="../en-US/images/7joins.png" alt>
 
-### Bowls
+### Bojos
 
-Note that bowls are the stroke part in the below illustrations and not the black inner forms. The
-inner strokes are referred as “counters”. While designing type, you will often find yourself
-altering your work not because of the shape or width of the stroke but due to the shape and size of
-the counter.
+Perceba que bojos são a parte do traço nas ilustrações abaixo e não os espaços vazados de dentro. Estes
+espaços são chamados de “ocos”. Durante o planejamento dos tipos, você se perceberá
+alterando seu trabalho não por causa da forma ou da largura do traço, mas sim pela forma e tamanho do
+oco.
 
 <img src="../en-US/images/2bowls.png" alt>
 
-### Terminals
+### Terminais
 
-Terminals are the end forms of the strokes. They are not same as the serifs. They are often
-perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
-also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
+Terminais são as formas das extremidades dos traços. Não são o mesmo que serifas. São geralmente
+perpendiculares ao ângulo do traço em seu final, ou cortados de maneira rente de forma horizontal ou vertical. Os terminais geralmente
+refletem o formato da pena ou de outra ferramenta que inspirou o desenho das letras.
 
 <img src="../en-US/images/terminals%20f.png" alt>
 
-### Speed
+### Velocidade
 
 <img src="../en-US/images/6speed_1.png" alt>
 
-The ‘n’ on the left seems to be written much faster than the one on the right. Speed is discussed in
-more detail in the chapter [on italics].
+O ‘n’ da esquerda aparenta ser escrito de forma muito mais rápida do que o da direita. Velocidade é discutida em
+mais detalhe no capítulo dos [itálicos][on italics].
 
-### Regularity
+### Regularidade
 
 <img src="../en-US/images/6regularity.png" alt>
 
-The following characteristics are not present in all type designs, however they are variables that
-may be a part of your design. If this is the case, it is worth considering the degree to which they
-will play a role as a variable.
+As características a seguir não estão presentes em todas as fontes, contudo, são variações que
+podem fazer parte do seu design. Se for este o caso, é válido considerar o grau em que elas
+irão desempenhar seu papel.
 
-### Flourish
+### Floreios
 
 <img src="../en-US/images/5flourish.png" alt>
 
-Notice that in the font on top the flourish is more present in the capital letter and the second one
-the flourish is more in the lowercase.
+Observe que no exemplo de cima o floreio se encontra mais presente na letra maiúscula e no segundo exemplo
+ele está mais visível nas minúsculas.
 
 ### Serif - To be or not to be
 

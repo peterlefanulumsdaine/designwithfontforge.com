@@ -6,90 +6,90 @@ category: Before You Begin
 title: Planejando o seu Projeto
 ---
 
-Now that you have a sense of how a font design can vary, you may want to decide whether your project
-will have only one font, if it will be a collection of several inter-related fonts, if it will be a
-(now traditional) three or four-styles type family, or if it will be something even larger.
+Agora que você entende que o desenho de uma fonte pode variar, você pode decidir se o seu projeto
+vai envolver apenas uma fonte, se será uma coleção de diversos estilos, ou uma família de
+três ou quatro estilos (agora uma tradição), ou algo ainda maior.
 
-Common styles of type families include:
+Os estilos mais comuns de famílias de tipos incluem:
 
-* A Regular and a Bold weight
-* Regular, Bold, Italic &ndash; eventually with a Bold Italic
-* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black
-* Regular, Condensed, Bold and Bold Condensed
-* Narrow, Condensed, Wide and Extra Wide
-* Regular, Semi-Flourished, Flourished, Very Flourished, Extremely Flourished.
+* Regular e Bold
+* Regular, Bold e Itálico &ndash; eventualmente com Bold em itálico
+* Fino, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Pesado e Black
+* Regular, Condensado, Bold e Bold Condensado
+* Estreito, Condensado, Largo e Extra-Largo
+* Regular, Semi-Floreado, Floreado, Muito Floreado, Extremamente Floreado.
 
-While there are reasons that typical patterns in families exist, you may find you want a very
-different kind of grouping.
+Enquanto que existem motivos para padrões de famílias existirem, vodê pode ter em mente um tipo
+bem diferente de agrupamento.
 
-The scope of the project can be determined exclusively by your ambition and your amount of free
-time. But project scopes are often determined by the use you have for the collection or family of
-fonts, or, even further, by the needs of your client. Certainly for professional type designers,
-the latter two questions are usually the determining factors.
+O escopo do seu projeto pode ser determinado de acordo com sua pretensão e tempo
+disponível. Mas muitas vezes os escopos são determinados pelo uso que será dado para coleção ou família de
+fontes, ou, ainda, pela necessidade do seu cliente. Certamente, para tipógrafos profissionais,
+as duas últimas questões são os fatores mais determinantes.
 
-## Feeling
+## A Sensação
 
-The most important thing about a type design is the feelings it evokes.
-This is notoriously hard to verbalise, but it is what makes a particular typeface meaningfully different from any other.
+A coisa mais importante a se pensar num desenho de tipo é a sensação que ele evoca.
+É difícil verbalizar, mas é isso que torna uma fonte consideravelmente diferente de qualquer outra.
 
-A type designer in Portugal, Natanael Gama, designed the [Exo family](https://www.google.com/fonts/specimen/Exo) with FontForge.
-On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
+Um tipógrafo de Portugal, Natanael Gama, que desenhou a família [Exo](https://www.google.com/fonts/specimen/Exo) usando FontForge,
+apresenta em sua página um outro projeto para o escultor [John Williams](http://ndiscovered.com/john-williams/), e inclui um descritivo que indica os aspectos do projeto:
 
-* Figurative to Abstract 50%
-* Graceful to Robust: 30%
-* Calm to Energetic: 0%
-* Puzzling to Plain: 15%
-* Experimental to Standard: 15%
-* Prestigious to Ordinary: 15%
-* Other Ideas: Beautiful, Outside Spaces, Human Condition
+* Figurativo &ndash; Abstrato: 50%
+* Gracioso &ndash; Robusto: 30%
+* Calmo &ndash; Enérgico: 0%
+* Confuso &ndash; Claro: 15%
+* Experimental &ndash; Normal: 15%
+* Notório &ndash; Casual: 15%
+* Outras ideias: Beleza, Espaços externos, Condição Humana
 
-## Glyph coverage
+## Quantidade de Caracteres
 
-A font is still a font even if it has only one glyph in it. But a font can also have a few hundred
-or even thousands of glyphs. If your project is self-initiated, then this choice is ultimately
-arbitrary. You may decide you only want capitals, or that you want to include the glyphs found in
-the other fonts you use. If you are doing work for a client, you may want to clarify which language
-or languages the font is meant to support. Your goal could also be to extend an existing font,
-adding a few glyphs to make it work in one or more additional languages.
+Uma fonte ainda será uma fonte mesmo que contenha apenas um caractere. Mas uma fonte também pode conter centenas
+ou até milhares de caracteres. Se o seu projeto é de iniciativa própria, então esta escolha
+é arbitrária. É você quem terá que decidir se deseja apenas maiúsculas, ou se quer incluir caracteres encontrados em
+outras fontes que você usa. Se você está trabalhando para um cliente, você deve especificar qual
+ou quais línguas a fonte pretende oferecer suporte. Seu objetivo também poderia ser ampliar uma fonte existente,
+adicionando alguns caracteres para que funcione em uma ou mais línguas.
 
-It’s certainly a good idea to make this choice deliberately, and to err on the side of including
-less rather than more. Often as a typeface is being made, it can be tempting to include more and
-more glyphs &ndash; but it is frequently more valuable to continue to improve the core set of glyphs
-than adding new ones.
+É certamente uma boa ideia fazer esta escolha de maneira intencional, e desviar da tendência
+de pecar por excesso. É comum que durante a criação de uma fonte, seja tentador incluir mais e
+mais caracteres &ndash; mas é de mais-valia continuar melhorando o conjunto de caracteres básicos
+do que adicionar novos.
 
-## Multi-style family workflow
+## Fluxo de trabalho em famílias de muitos estilos
 
-If you know from the start that you will have more than one font, you will save yourself time if you
-plan and build the font family systematically, and work on the styles somewhat in parallel, rather
-than completing one style at a time.
+Se você decide, desde o início, que pretende ter mais de uma fonte, você irá poupar tempo se
+planejar e construir a família sistematicamente, trabalhando em seus estilos aos poucos e paralelamente, em vez
+de completar um estilo por vez.
 
-It is of course impossible to create *every* style in a completely parallel manner, but it’s
-possible to complete a given design step for each style in order to check and be sure about the
-relationships between the styles, early in the process. You may find that it is useful to complete
-one full set of test letters (such as “adhesion”) for a regular version, and then to make
-“adhesion”s for the other styles next. However, you can also make the process even more granular and
-make decisions about specific parts of the base letters (such as the ‘n’ and ‘o’) for all styles
-together.
+Certamente, é impossível criar *cada* estilo de maneira completamente paralela, mas é
+possível completar uma determinada etapa do desenho de cada estilo à medida em que se verifica as
+relações entre eles, desde o início. Pode ser útil completar
+um conjunto completo de letras de teste (por exemplo “adhesion”) na versão regular e, em seguida, fazer
+o mesmo para os outros estilos. Mas você também pode tornar o processo ainda mais gradual,
+tomando decisões sobre partes específicas das letras-base (como ‘n’ e ‘o’) para todos os estilos
+de uma só vez.
 
-Depending on the size and composition of the family you are planning, you may find that it saves
-time to make interpolatable instances of glyphs, not only so you can interpolate intermediate
-styles, but to aid making design choices about those typographic variables that shift across the
-members of a family.  
-For a remainder of the variables you should be considering, see the chapter [“What is a
-font?”](What_Is_a_Font.html).
+Dependendo da abrangência e variação da família que está sendo planejada, você pode economizar
+tempo fazendo uma interpolação de caracteres, não apenas entre estilos
+intermediários, mas para designar preceitos para o desenho das variáveis tipográficas que permeiam os
+membros da família.  
+Para mais informações sobre variáveis tipográficas, veja o capítulo [“O que é uma
+fonte?”](What_Is_a_Font.html).
 
-## Technical: Version Management
+## Técnico: Gerenciamento de Versões
 
-You should learn to use Git and Github to store your files, and use the "SFDir" format for your sources.
+Aprenda sobre Git e Github para administrar seus arquivos, e use o formato "SFDir" em seus projetos.
 
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
 * <http://justinhileman.info/article/git-pretty/>
 
-## Overall Process
+## Etapas do Processo
 
 <iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
 
-## Testing Environments
+## Ambientes de Teste
 
 When planning your project, you must consider the medium of typography you are intending the typeface for primarily and secondarily:
 Mobile and web, or digital projectors, or cheap office bubblejet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on.

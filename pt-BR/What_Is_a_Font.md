@@ -213,54 +213,54 @@ irão desempenhar seu papel.
 Observe que no exemplo de cima o floreio se encontra mais presente na letra maiúscula e no segundo exemplo
 ele está mais visível nas minúsculas.
 
-### Serif - To be or not to be
+### Serifas - Ser ou não ser
 
-Serifs are one of the most distinct aspects of a typeface, and often the first classification of
-type is between serif and sans-serif type.
+Serifas são um dos aspectos que mais distinguem uma fonte, e frequentemente a primeira maneira de classificar
+tipos é entre os serifados e os sem serifa.
 
-This choice affects how the end terminals will look like. Serifs can be two sided or one sided. They
-can be perpendicular to stroke or have their own direction (like being always horizontal or
-vertical). Serifs can be with or without brackets. Any serif design is a mix of all of the above
-applied consistently to the type design with some deviations for particular letters, especially the
-‘S’, ‘C’ and ‘Z’ (e.g. a type with horizontal serifs for all letters will often have s, c and z to
-have vertical serifs).
+Esta escolha influencia como os terminais serão. Serifas podem ter um ou dois lados. Podem
+ser perpendiculares ao traço ou ter direção própria (como ser sempre na horizontal ou
+na vertical). Serifas podem ter ou não suportes. Todo projeto de serifas é uma mistura dos itens anteriores
+aplicados de forma consistente para o design de tipos com algumas mudanças para letras em particular, especialmente no
+‘S’, ‘C’ e ‘Z’ (por exemplo, um tipo com serifas horizontais em todas as letras frequentemente têm s, c e z
+com serifas verticais).
 
-There is a urban legend asserting that serif types are easier to read than sans-serifs &ndash; it is
-[a sole myth](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), until further
-notice.
+Existe uma lenda urbana afirmando que os tipos com serifa são mais fáceis de ler do que os sem serifa &ndash; o que é
+[um mito](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), até novo
+aviso.
 
-The form of the serifs are related to the forms of the terminals.
+A forma das serifas estão relacionadas às formas dos terminais.
 
-#### Brackets
+#### Brackets - Suporte das Serifas
 
-The corner portions of a serif where it connects to the main stroke are called ‘brackets’. A
-particular design may have them giving a soft feel to the serif ([Times New Roman] is an example) or
-may choose to not have any bracket. Some designs also use brackets only on one side or with
-different proportions on the two sides.
+As partes do canto de uma serifa que se conectam ao traço principal são chamadas de ‘brackets’ (suportes). Um
+design particular pode apresentá-los para dar uma sensação suave à serifa ([Times New Roman] é um exemplo) ou
+pode optar por não ter nenhum bracket. Alguns designs também usam brackets só de um lado ou com
+diferentes proporções em cada lado.
 
-This is a relatively strong parameter that renders feel to the type &ndash; elegance (smooth or
-large brackets of [Times New Roman]) or chunky crisp (absent brackets of [Arvo]).
+Este é um parâmetro relativamente forte que trás expressão ao tipo &ndash; elegância (brackets
+suaves ou grandes da [Times New Roman]) ou robustez (brackets ausentes na [Arvo]).
 
-#### Slab-serifs
+#### Slabs - Serifas quadradas
 
-Also called mechanistic or Egyptian type, slabs are thick, block-like serifs. Slab serifs don’t use
-brackets. Generally speaking, type design with such serifs are seen to have less contrast in their
-glyphs &ndash; [Rockwell], [Courier] or [American typewriter] reflect that.
+Também conhecidas como tipografia mecana ou egípcia, slabs são serifas grossas como blocos. Elas não usam
+brackets. Genericamente falando, uma tipografia com essa serifa tem menos contraste em seus
+glifos &ndash; [Rockwell], [Courier] e [American typewriter] refletem isso.
 
-It may be safe to assume that slab serifs have been used to add some ornament or rhythm to an
-otherwise no-contrast type design. But this is not an absolute rule.
+Pode ser seguro afirmar que serifas quadradas têm sido usadas para adicionar algum ornamento ou ritmo em uma
+fonte que, de outra forma, não teria contraste. Mas isto não é uma regra absoluta.
 
-#### Serif Terminals
+#### Terminais das serifas
 
-Just like letter terminals, the end shape of the serifs themselves contribute to the feel of the
-type &ndash; either soft or chunky. Serif terminals can be soft and rounded ([Courier]) or blunt and
-angular ([Rockwell]).
+Assim como os terminais das letras, a forma final das serifas contribui para a sensação do
+tipo &ndash; seja suave ou robusta. Os terminais das serifas podem ser suaves e arredondados ([Courier]) ou bruscos e
+angulares ([Rockwell]).
 
-### Decoration
+### Decoração
 
 <img src="../en-US/images/4decoration.png" alt>
 
-### Dimension
+### Dimensão
 
 <img src="../en-US/images/3dimention.png" alt>
 

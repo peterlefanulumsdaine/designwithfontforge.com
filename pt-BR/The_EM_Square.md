@@ -7,7 +7,7 @@ title: A medida Eme - <em>Quadratim</em>
 ---
 
 &mdash; Também chamado de 'tamanho do em'' ou UPM'.  
-Em uma gonte, cada caractere é instalado em seu prórpio contêiner espacial. Em tipo um tipo 
+Em uma fonte, cada caractere é instalado em seu próprio contêiner espacial. Em tipo um tipo 
 de metal real de cada carácter. A altura de cada peça de um carácter era uniforme
 permitindo que os caracteres fossem definidos de forma limpa em linhas e blocos (veja abaixo).
 

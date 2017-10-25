@@ -6,57 +6,57 @@ category: workflow
 title: A medida Eme - <em>Quadratim</em>
 ---
 
-&mdash; Also called the ‘em size’ or ‘UPM’.  
-In a font, each character is fitted into its own space container. In traditional metal type this
-container was the actual metal block of each character. The height of each character piece was
-uniform, allowing the characters to be set neatly into rows and blocks (see below).
+&mdash; Também chamado de 'tamanho do em'' ou UPM'.  
+Em uma gonte, cada caractere é instalado em seu prórpio contêiner espacial. Em tipo um tipo 
+de metal real de cada carácter. A altura de cada peça de um carácter era uniforme
+permitindo que os caracteres fossem definidos de forma limpa em linhas e blocos (veja abaixo).
 
 <img src="../en-US/images/MetalTypeZoomIn.JPG" alt>
 
-The height of the type piece is known as the ‘em’, and it originates from the width of the uppercase
-‘M’ character; it was made so that the proportions of this letter would be square (hence the ‘em
-square’ denomination).  
-The em size is what the point size of metal type is calculated upon. So, a 10 points type has a 10
-points em (see below).
+A altura da peça de tipo é conhecima como 'em', ela se origina a partir da largura do caractere
+‘M’ em maiúsculo; foi feito para que as proporções desta carta fossem quadradas (daí a denominação ‘em
+quadrada’).  
+O tamanho em é o tamanho do ponto do tipo de metal é calculado. Assim, um tipo de 10 pontos tem 10
+pontos em (veja abaixo).
 
 <img src="../en-US/images/em-metal-type.svg" alt>
 
-In digital type, the em is a digitally-defined amount of space. In an OpenType font, the UPM &ndash;
-or em size is usually set at 1000 units. In TrueType fonts, the UPM is by convention a power of two,
-generally set to 1024 or 2048.
+Em tipo digiral, o em é uma quantidade de espaço digitalmente definida. Em uma fonte OpenType, o UPM &ndash;
+ou em geralmente é definido em 1000 unidades. Em fontes TrueType, o UPM , por converção, um poder de dois,
+geralmente configurado para 1024 ou 2048.
 
-When the font is used to set type, the em is scaled to the desired point size. This means that for
-10 pt type, the 1000 units for instance get scaled to 10 pt.
+Quando a fonte é usada para definir o tipo, o em é dimensionado para o tamanho do ponto desejado. Isso significa que,
+para o tipo de 10 pt, as 1000 unidades, por exemplo, são dimensionadas para 10 pt.
 
-So if your uppercase ‘H’ is 700 units high, it will be 7 pt high on a 10 pt type.
+Então, se o seu 'maiúsculo' ‘H’ for 700 unidades de altura, ele terá 7 pt de altura em um tipo de 10 pt.
 
-### Setting that up in the Glyph Window
+### Configurando isso na janela Glyph
 
-With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing
-of your glyphs to ensure that all aspects of your typeface fit adequately into that UPM square.
+Com o conhecimento de que sua fonte está usando um UPM 1000, 1024, ou 2048, você precisa configurar o desenho
+de seus glifos para garantir que todos os aspectos do seu tipo de letra se encaixem adequadamente nesse quadrado UPM.
 
-The size of the em square can be set from *Element > Font Info&hellip;* then click on the General
-tab and you will see the *EM* setting, which value shall be distributed between the *Ascender* and
-*Descender* heights, respectively heights above and underneath the baseline.
+O tamanho do quadrado pode ser definido a partir de *Elemento > Informações de Fonte&hellip;* então clique na guia Geral
+e você verá a configuração *EM*, cujo valor deve ser distribuído entre as alturas *Ascender* e
+*Descender*, respectivamente alturas acima e abaixo da linha de base.
 
-The Baseline:
+A Linha da Base:
 
 <img src="../en-US/images/baseline.png" alt>
 
-The Cap Height:
+A altura do boné:
 
 <img src="../en-US/images/capheight.png" alt>
 
-The x-height:
+A x-altura:
 
 <img src="../en-US/images/xheight.png" alt>
 
-Later when designing your type, you will have to set the Blue values which serve for PostScript
-outlines and also for the FontForge autohinter &ndash; regardless of which outlines you are working
-on.  
-You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
-initially guess the values based on your outlines, but you will have to edit them yourself for
-overshoots/undershoots &mdash; we are a few chapters ahead of this concept (see
-[“Creating ‘o’ and ‘n’”]); let’s first get ahold of FontForge and its drawing functionalities.
+Mias tarde, ao projetar o seu tipo, você terá que definir os valores azuis que servem para contornos PostScript
+e também para o Autohinter FontForge &ndash; independentemente de quais tópicos você está trabalhando.
+  
+Você encontrará a configuração em *Elemento > Infomações de Fonte&hellip;*, na guia *PS Private*. O FontForge pode
+inicialmente adivinhar os valores com base em seus contornos, mas você terá que editá-los para
+overshoots/undershoots &mdash; estamos alguns capítulos à frente deste conceito (veja
+[“Creating ‘o’ and ‘n’”]); Obtenha primeiro o FontForge e suas funcionalidades de desenho.
 
 [“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html

@@ -11,7 +11,7 @@ completar um design. Você estará testando sua fonte para ver se a combinação
 decisões:
 
 * Permitem que você leia a fonte
-* Fazem a fonte parecer certa para você
+* Fazem a fonte parecer correta para você
 * Fazem a fonte útil para os trabalhos que você quer que ela seja capaz de fazer.
 
 A medida que você testa o design, você terá que confiar em sua percepção e design quase que praticamente.
@@ -35,7 +35,7 @@ e outros a percepção visual das formas.
 
 ### Peso Horizontal vs. peso Vertical
 
-O exemplo a esquerda mostra um ‘H’ cujas barras são precisamente iguais em espessura. Isto parece errado.
+O exemplo à esquerda mostra um ‘H’ cujas barras são precisamente iguais em espessura. Isto parece errado.
 Consegue sentir?  
 Já o da direita possui uma barra horizontal que foi afinada para parecer igual em
 espessura.
@@ -67,7 +67,7 @@ A imagem abaixo possui linhas diagonais que estão no mesmo ângulo. O mais long
 
 <img src="../en-US/images/pdiag.png" alt>
 
-Na próxima figura, a inclunação da linha mais longa foi ajustada:
+Na próxima figura, a inclinação da linha mais longa foi ajustada:
 
 <img src="../en-US/images/pdiag2.png" alt>
 
@@ -83,7 +83,7 @@ desalinhadas.
 <img src="../en-US/images/compare-x.png" alt>
 
 No exemplo acima, o X à esquerda tem duas barras não ajustadas se cruzando. O exemplo à
-direita foi ajustado para que pareçam alinhados.
+direita foi ajustado para que pareçam alinhadas.
 
 <img src="../en-US/images/myriad-x.png" alt>
 
@@ -92,11 +92,11 @@ Como você pode ver neste X com uma linha pontilhada sobreposta, o X que aparece
 Glifos em que esta ilusão é relevante incluem x, X, k, K, ×, #, e a letra islandesa ‘eth’
 (&eth;).
 
-### Altura Percebida
+### Altura percebida
 
-A forma de um glifo contribuirá para o quão alto ele precisa ser para que seja visto como se fosse da
+A forma de um glifo contribuirá para o quão alto ele precisa ser para que seja visto como se tivesse a
 mesma altura que outros glifos. Os glifos redondos precisam superar um pouco a altura dos
-glifos planos. Os glifos que têm formas mais pontiagudas precisão superar ainda mais. Quanto mais agudo for o formato,
+glifos planos. Os glifos que têm formas mais pontiagudas precisam superar ainda mais. Quanto mais agudo for o formato,
 mais precisará ultrapassar para parecer correto.
 
 <img src="../en-US/images/3Shapes.png" alt>
@@ -138,7 +138,7 @@ devem permanecer simples. No entanto, se uma fonte deve ser usada de muitas mane
 de impressão ou tela, então ela deve ser testada em toda essa gama de situações, o que inclui
 a impressão de várias amostras da fonte.
 
-Pode economizar tempo de design por ter uma ideia bem definida do uso final que você pretende. No entanto, isso
+Pode-se economizar tempo de design por ter uma ideia bem definida do uso final que você pretende. No entanto, isso
 nem sempre é possível e suas ideias podem evoluir. O principal é pensar e definir os casos
 de uso o máximo que puder, e então, garantir que seus testes acompanhem as questões que você está
 erguntando ao projetar a fonte.

@@ -38,7 +38,7 @@ Você também pode seguir um arquivo de texto com uma lista de palavras aqui.
 Vá no menu Elemento, Informações da Fonte.
 Aqui encontrará todos os _metadados_ sobre a fonte.
 
-#### 5. O Ambiente de Composição, para Testar
+## O Ambiente de Composição, para Testar
 
 Fora de qualquer editor de fontes, você precisará de um sistema de composição para testar suas fontes em uso.
 Este é um dos **grandes segredos** de designers de tipo profissionais:

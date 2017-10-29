@@ -52,7 +52,7 @@ inclinadas ou itálicas, o ‘o’ deve ter a mesma quantidade de espaço nos la
 branco entre uma seqüência de caracteres ‘o’ deve equilibrar o espaço em branco no interior os ‘o’s.
 
 Aqui, invadimos bem o território de espaçamentos e métricas, então, mesmo nesta fase inicial, você pode
-querer dar uma olhada no capítulo [“Espaçamento, Métricas, and Kerning”], que cobre as implicações básicas
+querer dar uma olhada no capítulo [“Espaçamento, Métricas, e Kerning”], que cobre as implicações básicas
 do espaçamento em uma fonte.  
 Isso deve levá-lo a um caractere ‘o’ bem espaciado, o que o ajudará com o  design do ‘n’.
 

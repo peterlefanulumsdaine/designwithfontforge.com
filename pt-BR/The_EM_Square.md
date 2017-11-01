@@ -56,7 +56,7 @@ do PostScript e também para o autohinter do FontForge &ndash; independente de e
 trabalhando.  
 Você encontrará a configuração em *Elemento > Infomações da Fonte&hellip;*, na aba *PS PrivaDO*. O FontForge pode
 inicialmente adivinhar os valores com base em seus contornos, mas você terá que editá-los para
-overshoots/undershoots &mdash; estamos alguns capítulos à frente deste conceito (veja
+adicionar uma compensação ótica &mdash; estamos alguns capítulos à frente deste conceito (veja
 [“Criando ‘o’ e ‘n’”][“Creating ‘o’ and ‘n’”]); primeiro vamos dominar o FontForge e suas ferramentas de desenho.
 
 [“Creating ‘o’ and ‘n’”]: Creating_o_and_n.html

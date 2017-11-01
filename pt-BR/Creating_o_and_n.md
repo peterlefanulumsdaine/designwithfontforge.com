@@ -18,19 +18,19 @@ Embora o design do ‘o’ possa parecer bastante simples, todas as característ
 no capítulo [“O que é uma Fonte?”][“What is a font?”] entram em jogo. A escolha que você faz sobre cada característica
 deve ser uma escolha deliberada.
 
-## Underhangs and Overshoots
+## Curvas excedentes e Compensação Ótica
 
 Uma maneira pela qual efeitos ópticos impactam o design de tipo é como curvas e bordas retas aparecem
 ao olho.  
 Por exemplo, para que uma curva e uma borda reta pareçam estar alinhandas corretamente na
-linha de base, a curva deve estar na verdade um pouco abaixo da linha, produzindo um *undershoot*. A
+linha de base, a curva deve estar na verdade um pouco abaixo da linha, produzindo uma *curva excedente*. A
 parte do caractere que mergulha logo abaixo da linha de base para parecer assentada na
-linha de base é a chamada *underhang* &ndash; demonstrada abaixo. Sem underhang, os caracteres com
+linha de base é chamada de *excedente* &ndash; demonstrada abaixo. Sem essas partes excedentes, os caracteres com
 curvas em torno da linha de base aparecerão desalinhados em uma linha de texto.
 
 <img src="../en-US/images/underhang1.png" alt>
 
-Da mesma forma que o undershoot, uma área de *overshoot* é necessária para fornecer a ilusão de alinhamento
+Dessa forma, uma área de *compensação ótica* é necessária para fornecer a ilusão de alinhamento
 na altura de x e na altura das maiúsculas (veja abaixo).
 
 <img src="../en-US/images/nox-opensans.png" alt>

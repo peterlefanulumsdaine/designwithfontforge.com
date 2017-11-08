@@ -101,122 +101,122 @@ horizontais/verticais:
 <p class="note"><b>Nota:</b> Como você pode ver, quando definindo quebras com um <i>Canto</i>, a
 direção de cada alça deve ser tangente da curva em que ela chega.</p>
 
-## Mastering FontForge’s drawing tools
+## Dominando as ferramentas de desenho do FontForge
 
-From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
+Na janela principal, dê dois cliques na caixa de um glifo para abrir a Janela de Glifo.
 
 <img src="../en-US/images/glyph_window.png" alt>
 
 <div class="note">
-<p><b>Note:</b> The numbers along the top where the x and y axis intersect indicate, from left to
-right:</p>
+<p><b>Nota:</b> Os números ao longo do topo de onde os eixos x e y se cruzam indicam, da esquerda para
+direita:</p>
 
 <ul>
-<li>The current (x,y) location of your cursor on the canvas</li>
-<li>The location of the most recently selected point</li>
-<li>The relative position of your cursor to the selected point</li>
-<li>The distance between your cursor and the selected point</li>
-<li>The angle from the selected point to the cursor (relative to the baseline)</li>
-<li>The current magnification level, followed by the name of the active layer.</li>
+<li>A localização atual (x,y) do cursor na tela de desenho</li>
+<li>A localização do último ponto selecionado</li>
+<li>A posição relativa do cursor para o ponto selecionado</li>
+<li>A distância entre o cursor e o ponto selecionado</li>
+<li>O ângulo do ponto selecionado para o cursor (relativo à linha de base)</li>
+<li>O atual nível de zoom, seguido pelo nome da camada ativa.</li>
 </ul>
 </div>
 
-<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
-inside the Glyph Window. It might be that there is an open dialog box hidden behind it &ndash; so just
-move it and process the dialog box.</p>
+<p class="warn"><b>Cuidado:</b> Às vezes, parece que o FontForge não está respondendo quando você está
+na Janela de Glifo. Pode ser que tenha uma janela de diálogo escondida atrás &ndash; então basta
+movê-la e proceder para a caixa de diálogo.</p>
 
-A *Line* consists of 2 points.
+Uma *Linha* consiste de 2 pontos.
 
 <img src="../en-US/images/tools_line_points.png" alt>
 
-A *Spline* consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
-of the spline at those end points.
+Uma *Curva* consiste de 4 pontos: 2 pontos das extremidades e 2 ‘alças’, que descrevem a inclinação
+da curva naquelas extremidades.
 
 <img src="../en-US/images/tools_splines_points.png" alt>
 
-### Copy, paste, cut and delete points, splines and lines
+### Copie, cole, corte e delete pontos, curvas e linhas
 
-As with most drawing softwares, FontForge allows you to Copy, Cut, Paste or Delete any point, line
-or spline. These commands are available in the Edit menu, or using your OS’s typical keystrokes (also
-shown alongside each command in the menu).
+Bem como na maioria dos softwares de desenho, FontForge te permite Copiar, Cortar, Colar ou Deletar qualquer ponto, linha
+ou curva. Esses comandos estão disponíveis no menu Editar, ou usando os atalhos de teclado típicos do seu Sistema Operacional  (também
+indicados ao lado de cada comando no menu).
 
-## Familiarizing yourself with the drawing tools
+## Familiarizando-se com as ferramentas de desenho
 
-Now that you know your way around the canvas, it’s time to get acquainted with the tools.
+Agora que você se localizou na tela de desenho, está na hora de conhecer as ferramentas.
 
-### Point and Zoom
+### Ponteiro e Zoom
 
 <img src="../en-US/images/point_zoom.png" alt>
 
-Point and Zoom behave similarly to the equivalent tools in other applications.  
-The pointer is a selection tool, used to select points, paths, and other objects on the canvas.  
-The Zoom tool lets you zoom in (Z) easily; in order to zoom out: go to the View menu and select
-*Zoom out* (X) or *Fit*.
+Ponteiro e Zoom comportam-se semelhante às ferramentas equivalentes em outros aplicativos.  
+O ponteiro é uma ferramenta de  seleção, usada para selecionar pontos, caminhos, e outros objetos na tela de desenho.  
+A ferramenta de Zoom permite ampliar (Z) facilmente; para reduzir: vá para o menu Visualizar e selecione
+*Reduzir* (X) or *Ajuste*.
 
-Note that you can also momentarily switch to the pointer tool while using another by holding down
-the Control (Ctrl) key.
+Note que você também pode alternar temporariamente para a ferramenta de ponteiro enquanto estiver com alguma outra, pressionando
+a tecla Control (Ctrl).
 
-### The Freehand tool
+### Ferramenta de desenho livre
 
 <img src="../en-US/images/freehand_tool.png" alt>
 
-The Freehand tool allows you to sketch out irregular paths.
+A ferramenta de desenho livre permite que você rascunhe caminhos irregulares.
 
-On the drawing area, click and hold, then move around to draw. Switch back to the pointer tool, and
-you can select points on the path you have drawn.
+Na área de desenho, clique e segure, então mova o mouse para desenhar. Volte para a ferramenta de ponteiro, e
+você poderá selecionar pontos no caminho que você desenhou.
 
-When you select one of the points on the path, it will turn into a yellow circle. If the selected
-point is on a curve, it will display its control points with a magenta handle and a cyan handle. You
-can grab either handle and drag it around to change the shape of the curve.
+Quando você seleciona um dos pontos do caminho, ele se tornará um círculo amarelo. Se o ponto
+selecionado está em uma curva, ele mostrará seus pontos de controle com uma alça magenta e outra ciano. Você
+pode pegar qualquer alça e arrastar para mudar a forma da curva.
 
-### The point tools
+### As ferramentas de pontos
 
-Okay, now let’s go about using the point tools.
+Ok, avora vamos ver sobre as ferramentas de pontos.
 
 <img src="../en-US/images/point_tools_labelled.png" alt>
 
-To add a point to a path, first select any of these tools, then click on the path and give it a
-little push. You will get a new point on the line.
+Para adicionar um ponto ao caminho, primeiro selecione qualquer uma dessas ferramentas, clique no caminho e dê um
+pequeno empurrão. Você terá um novo ponto na linha.
 
-The Curve point tool is used to add a point in a curved segment.  
-The HVCurve point tool constrains the new points so that they have either horizontal or vertical
-control points &ndash; this is important for setting up extrema points.  
-The Corner point tool allows you to make a sharp bend in the path.  
-The Tangent point tool allows you to transition from a straight segment to a curved segment along
-the path.
+A ferramenta de ponto na Curva é usada para adicionar um ponto em um segmento curvo.  
+A ferramenta de Curva na horizontal ou na vertical obriga os novos pontos a terem os controladores apenas na
+horizontal ou vertical &ndash; isso é importante para definir pontos extremos.  
+A ferramenta de ponto no Canto permite fazer uma dobra afiada no caminho.  
+A ferramenta de ponto Tangente permite a transição de um segmento reto para um segmento curvado ao longo
+do caminho.
 
-### The Pen tool
+### A ferramenta de Caneta
 
 <img src="../en-US/images/addpoint_tool.png" alt>
 
-The Pen tool allows you to add a point on the curve and drag out its control points.
+A ferramenta de Caneta permite adicionar um ponto na curva e arrastar seus controladores.
 
 ### Spiro
 
 <img src="../en-US/images/spiro.png" alt>
 
-Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves
-that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as
-B&eacute;zier editing), but if you are used to B&eacute;zier editing you might find that it does
-some unexpected things.
+Selecionar a ferramenta Spiro te coloca no modo de desenho Spiro. Desenhar com Spiro te permite fazer curvas
+que se reajustam à medida que você reposiciona os nós. Algumas pessoas preferem esta à abordagem comum (conhecida como
+edição de B&eacute;zier), mas se você está acostumado à edição de B&eacute;zier, você pode achar que essa ferramenta faz
+algumas coisas inesperadas.
 
-### Knife
+### Faca
 
 <img src="../en-US/images/knife.png" alt>
 
-The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
-only need part of it.
+A ferramenta de Faca permite cortar segmentos em dois. Isso vem a calhar se você desenhou uma forma, mas
+só precisa de uma parte dela.
 
-### Ruler
+### Régua
 
 <img src="../en-US/images/ruler.png" alt>
 
-The ruler tool gives you measurement and coordinate information. When you use it, it displays a
-floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
-even more detailed measurement and coordinate information. If you bring it next to a spline, it
-gives you information about the curvature and radius. Most usefully, if you click and drag the ruler
-tool, you will see the distance you have dragged the cursor, plus every intersection that you have
-stretched across.
+A ferramenta de Régua fornece informações de medida e coordenada. Quando você a usa, ela mostra uma
+‘caixa de dica’ flutuante próxima ao cursor. Se você mover o cursor sobre um ponto, a caixa te dá
+informações ainda mais detalhadas de medida e coordenada. Se você deixar perto de um segmento, ela
+dará informações sobre curvatura e raio. O mais útil, se você clica e arrasta a ferramenta
+de régua, você verá a distância que você arrastou o cursor, mais cada interseção que você tiver
+cruzado.
 
 ### The transform tools
 

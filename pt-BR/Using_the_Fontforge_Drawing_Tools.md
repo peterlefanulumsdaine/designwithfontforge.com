@@ -6,49 +6,49 @@ category: Getting To Know FontForge
 title: Usando as Ferramentas de Desenho do FontForge
 ---
 
-Designing a font in FontForge will involve using a number of tools and utilities, starting with a
-set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
-there are noticeable differences through.  
-We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
-FontForge’s drawing tools themselves.
+Projetar uma fonte no FontForge envolverá o uso de inúmeras ferramentas e utilidades, a começar com um
+conjunto de ferramentas de desenho que podem parecer familiar para usuários com experiência em gráficos vetoriais &ndash;
+existem diferenças notáveis, no entanto.  
+Primeiro iremos buscar um entendimento de como curvas B&eacute;zier funcionam, antes de olhar as
+ferramentas de desenho do FontForge em si.
 
-## Understanding B&eacute;zier curves
+## Entendendo curvas B&eacute;zier
 
-The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
-produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
-&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
-the designer.
+O conceito de “curvas B&eacute;zier” refere-se a uma representação matemática em particular usada para
+produzir curvas suaves digitalmente. Geralmente, ordens *Cúbicas* e *Quadráticas* dessas curvas são usadas
+&mdash; contudo FontForge também suporta curvas *Spiro*, que são uma representação alternativa para
+o designer.
 
-In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
-glyphs. *Spiro* paths will be discussed in the next chapter, and *Quadratic* curves are only found
-in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+Nesse capítulo, apenas discutiremos caminhos *Cúbicos*, uma vez que eles costumam ser usados quando se desenha
+glifos. Caminhos *Spiro* serão discutidos no próximo capítulo, e curvas *Quadráticas* apenas são encontradas
+em fontes TrueType, e raramente são usadas durante o desenho &ndash; elas são geradas no momento de fechamento.
 
-A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
-direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
-see below.
+Um típico caminho B&eacute;zier é composto de uma âncora, com duas alças que marcam a direção
+geral &mdash; o comprimento de cada alça determina o comprimento da curva em cada lado &ndash;
+veja abaixo.
 
-### Different kinds of points
+### Diferentes tipos de pontos
 
-#### Curve points (shown as round-shaped points)
+#### Pontos de curva (exibidos como pontos circulares)
 
-*Curve points* have two handles, each of them being linked to the other so that the line between
-them always stays straight, in order to produce a smooth curve on each side.
+*Pontos de curva* possuem duas alças, uma ligada à outra de forma que a linha entre
+elas sempre fique reta, para produzir uma curva suave em cada lado.
 
 <img src="../en-US/images/tools-curve-point.png" alt>
 
-<h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
+<h4 class="quiet">Pontos de curva H/V (exibidos como pontos losangulares)</h4>
 
-*H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
-(more on that in the next section).
+*Pontos de curva H/V* (‘horizontal/vertical’) são uma variação dos pontos de curva que se encaixam ao
+eixo horizontal ou vertical &ndash; uma ferramenta essencial para tornar formas B&eacute;zier bem feitas
+(mais sobre isso na próxima seção).
 
 <img src="../en-US/images/tools-HV-point.png" alt>
 
-#### Coins or corner points (shown as square-shaped points)
+#### Pontos de canto (exibidos como pontos quadrados)
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
-others, making it suitable for discontinuities in the outline.  
-Without handles, coins will produce straight lines.
+*Cantos* podem ter 0, 1 ou 2 alças B&eacute;zier. A posição de cada alça é independente das
+outras, tornando-as apropriadas para discontinuidades no contorno.  
+Sem as alças, cantos irão produzir linhas retas.
 
 <img src="../en-US/images/tools-square-point.png" alt>
 
@@ -56,50 +56,50 @@ Without handles, coins will produce straight lines.
 
 <img src="../en-US/images/tools-corner-point-3.png" alt>
 
-#### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
+#### Pontos de tangente (exibidos como pontos triangulares, ou ‘setas’)
 
-If you want to start from a straight line and then start curving smoothly, you will want to use
-*tangent points*.  
-A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
-its direction &ndash; this ensures a continuous transition between the line and the curve.
+Se você quer começar com uma linha reta que encurva suavemente, você vai querer usar
+*pontos de tangente*.  
+Uma *tangente* deixa uma linha reta em um lado, enquanto a alça B&eacute;zier do outro lado é
+a sua direção &ndash; isso garante uma transição contínua entre a linha e a curva.
 
 <img src="../en-US/images/tools-tangent-point.png" alt>
 
-### Getting it right
+### Fazendo da forma certa
 
-In order to produce proper curves &ndash; with minimal control points and eased rasterization, the
-anchors should always be placed at **the extremas of the curve**, and unless in places where you
-have breaks in your letterforms, the line that determines the path should be **horizontal or
+Para produzir curvas adequadas &ndash; com o mínimo de pontos de controle e uma rasterização facilitada, as
+âncoras deveriam sempre ser inseridas **nos extremos da curva**, e a não ser em locais onde você
+tem quebras na forma das letra, a linha que determina o caminho deveria ser **horizontal ou
 vertical**.
 
 <img src="../en-US/images/bezier_sample.png" alt>
 
 <div class="note">
-<p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+<p><b>Nota:</b> Se seus pontos de controle não estão nos extremos, FontForge irá indicar
+o veradeiro extremo com um ícone de alvo:</p>
 
 <img src="../en-US/images/bezier_sample_3.png" alt>
 
-<p>You can then fix this by copying your current outline to another layer, then move the control
-points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
-add the point at extremas automatically, at which point you can merge your misplaced anchor with
-<i>Right-click > Merge</i>.<br>
-More about that will be said later in the <a href="Making_Sure_Your_Font_Works_Validation.html">
-Validation chapter</a>.</p>
+<p>Você pode então consertar copiando o contorno atual para uma outra camada, e movendo os pontos de
+controle para que fiquem posicionados apropriadamente &ndash; do contrário a ferramenta de validação de FontForge
+adicionará o ponto nos extremos automaticamente, até o ponto em que você possa mesclar sua âncora mal colocada com
+<i>Clique direito > Merge</i>.<br>
+Mais soubre isso será dito posteriormente no <a href="Making_Sure_Your_Font_Works_Validation.html">
+capítulo de validação</a>.</p>
 </div>
 
-To elaborate, there are two cases where you will have to give up horizontal/vertical B&eacute;zier
-paths:
+Para constar, existem dois caso em que você terá que desistir dos caminhos B&eacute;zier
+horizontais/verticais:
 
-- If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
-  below that’s being kept almost flat:  
+- Se você quiser mudar a inclinação geral de sua curva, como na parte superior esquerda do ‘a’
+  abaixo que está mantido quase plano:  
   <img src="../en-US/images/bezier_sample_2.png" alt>
-- If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
-  &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+- Se você quiser colocar quebras nas suas letras, como na parte inferior esquerda do ‘g’ abaixo
+  &ndash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):  
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
-<p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
-direction of each handle should be tangent to the curve where it arrives.</p>
+<p class="note"><b>Nota:</b> Como você pode ver, quando definindo quebras com um <i>Canto</i>, a
+direção de cada alça deve ser tangente da curva em que ela chega.</p>
 
 ## Mastering FontForge’s drawing tools
 

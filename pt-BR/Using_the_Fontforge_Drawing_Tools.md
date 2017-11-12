@@ -218,35 +218,35 @@ dará informações sobre curvatura e raio. O mais útil, se você clica e arras
 de régua, você verá a distância que você arrastou o cursor, mais cada interseção que você tiver
 cruzado.
 
-### The transform tools
+### As ferramentas de transformação
 
-There are six transform tools:
+Existem seis ferramentas de transformação:
 
 <img src="../en-US/images/transform_tools_labelled.png" alt>
 
-**Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
-values.
+**Nota:** Em qualquer ferramenta de transformação, se você der dois cliques, você poderá digitar valores
+numéricos.
 
-The Scale tool lets you freehand rescale an object. Holding down the Shift key allows you to scale
-an object while constraining it to the proportional ratio.
+A ferramenta de Escala te permite redimensionar um objeto à mão livre. Pressionando a tecla Shift permite que você redimensione
+um objeto enquanto mantém sua proporção.
 
-The Rotate tool lets you free-rotate an object. It rotates the selected object around the position
-where you initially click.
+A ferramenta de Rotação te permite rotacionar um objeto livremente. Ela rotaciona o objeto selecionado em torno da posição
+que você clicar.
 
-The 3D rotate tool lets you rotate an object in the third dimension, and projects the result on the
-x-y plane.
+A ferramenta de Rotação 3D permite rotacionar um objeto na terceira dimensão, e projeta o resultado no
+plano x-y.
 
-The Flip tool allows you to flip a selection either horizontally or vertically. The point at which
-you click the mouse is the point of origin of the transformation.
+A ferramenta de Inversão permite espelhar a seleção horizontalmente ou verticalmente. O ponto no qual
+você clica com o mouse é o ponto de origem da transformação.
 
-**Note:** After flipping a point you will probably want to apply Element &gt; *Correct Direction*.
+**Nota:** Após inverter um ponto, você provavelvemte vai querer aplicar a função Elemento &gt; *Sentido Correto*.
 
-The Skew tool lets you horizontally skew the selection either clockwise or counterclockwise
-(withershins is how the dialog refers to counterclockwise).
+A ferramenta de Inclinação permite inclinar horizontalmente a seleção tanto no sentido horário como anti-horário.
+<!-- (withershins is how the dialog refers to counterclockwise). -->
 
-The Perspective tool gives you another way to distort a shape in a nonlinear way.
+A ferramenta de Perspectiva dá outro modo de distorcer a forma de maneira não linear.
 
-**Note:** There is no numerical option for the perspective transformation.
+**Nota:** Não há opção numérica para a transformção de perspectiva.
 
 ### The Rectangle/Ellipse and Polygon/Star tools
 

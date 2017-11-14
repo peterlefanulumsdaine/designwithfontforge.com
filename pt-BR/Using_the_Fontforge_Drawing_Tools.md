@@ -248,57 +248,57 @@ A ferramenta de Perspectiva dá outro modo de distorcer a forma de maneira não 
 
 **Nota:** Não há opção numérica para a transformção de perspectiva.
 
-### The Rectangle/Ellipse and Polygon/Star tools
+### As ferramentas Retângulo/Elipse e Polígono/Estrela
 
-These tools allow you to draw primitive geometric shapes, which is faster than constructing those
-shapes out of separate line segments.
+Essas ferramentas criam formas geométricas primitivas, o que é mais rápido do que construi-las
+a partir de segmentos de linha separados.
 
 <img src="../en-US/images/rectangle_poly_labelled.png" alt>
 
-Clicking the chevron area on these tools will give you the option to switch to the alternate tool.
-If you double-click on either of the tools, you can open the shape type’s options.
+Clicando na área da seta dessas ferramentas te dá a opção de trocar para a outra ferramenta.
+Se você der dois cliques em qualquer uma dessas ferramentas, você pode abrir as opções do tipo de forma.
 
-Rectangle options: corner style and bounding box (corner or center out).
+Opções do Retângulo: Estilo de canto e Caixa limitante ou Fora do centro.
 
-Ellipse options: bounding box or center out.
+Opções da Elipse: Caixa limitante ou Fora do centro.
 
-Polygon options: number of vertices.
+Opções do Polígono: Número de vértices.
 
-Star options: number of star points and depth of points by percentage. The higher the percentage
-setting, the longer the arms of the star.
+Opções da Estrela: Número de pontos da estrela e profundidade dos pontos por porcentagem. Quanto maior o valor dessa
+porcentagem, mais longos serão os braços da estrela.
 
-### Mse1 and Mse2
+### Mse1 e Mse2
 
 <img src="../en-US/images/danger.png" alt>
 
-Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
+Na parte inferior da barra de ferramentas, você pode ver a ferramenta atual e as operações disponíveis para ambos botões do mouse:
 
-- Left button (Mse1)
-- Left button + Ctrl (^Mse1)
-- Mouse wheel button (Mse2)
-- Mouse wheel button + Ctrl (^Mse2)
+- Botão Esquerdo (Mse1)
+- Botão Esquerdo + Ctrl (^Mse1)
+- Botão da roda do Mouse (Mse2)
+- Botão da roda do Mouse + Ctrl (^Mse2)
 
-This way, you can use a few different tools without having to repeatedly click on the toolbar.
+Dessa forma, você pode usar algumas ferramentas diferentes sem ter que repetidamente clicar na barra de ferramentas.
 
-<p class="warn"><b>Caution:</b> It appears that the Mse functionality doesn’t currently work
-properly.</p>
+<p class="warn"><b>Cuidado:</b> Parece que atualmente a funcionalidade do Mse não funciona
+corretamente.</p>
 
-### Layers
+### Camadas
 
-The FontForge canvas has three layers by default: the Guide layer, the Background layer, and the
-Foreground layer. Guide layers are used to insert guides (such as x-height or cap-height guides).
-Foreground layers and background layers are both used for drawing, but only the topmost foreground
-layer will be rendered into your final font.
+A área de desenho do FontForge tem três camadas por padrão: a camada Guia, a camada Fundo, e a
+camada Frente. Camadas de Guia são usadas para inserir guias (como as guias altura de x e altura da caixa alta).
+Ambas as camadas de Frente e de Fundo são usadas para desenhar, mas apenas a camada de Frente
+superior será renderizada na sua fonte final.
 
 <img src="../en-US/images/layers.png" alt>
 
-A checkbox indicates whether each layer is visible, and you can uncheck it to make a layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
+Uma caixa de seleção indica se cada camada está visível, e você pode desmarcá-la para tornar a camada invisível. O ‘C’ (ou ‘Q’) indica se você esta usando curvas Cúbicas ou Quadráticas.
 
-The #, B, or F refers to whether the type of each layer is a Guide layer, Background layer, or
-Foreground layer, which is significant if you add more layers of your own. You can create and delete
-additional layers using the plus (+) or minus (&minus;) buttons in this section of the toolbar.
-Layer type and curve type can also be controlled by right-clicking (once you have additional
-layers).
+O #, B, ou F indica se o tipo da cada camada é Guia, de Fundo, ou
+de Frente, o que é releveante se você adicionar mais camadas. Você pode criar e remover
+camadas adicionais usando os botões mais (+) ou menos (&minus;) nessa parte da barra de ferramentas.
+O tipo de camada e o tipo de curva também podem ser controlados com um clique direito (uma vez que você tenha camadas
+adicionais).
 
 ## Basic drawing
 

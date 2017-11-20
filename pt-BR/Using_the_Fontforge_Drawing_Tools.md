@@ -156,11 +156,11 @@ A ferramenta de Zoom permite ampliar (Z) facilmente; para reduzir: vá para o me
 Note que você também pode alternar temporariamente para a ferramenta de ponteiro enquanto estiver com alguma outra, pressionando
 a tecla Control (Ctrl).
 
-### Ferramenta de desenho livre
+### Ferramenta de Mão livre
 
 <img src="../en-US/images/freehand_tool.png" alt>
 
-A ferramenta de desenho livre permite que você rascunhe caminhos irregulares.
+A ferramenta de Mão livre permite que você rascunhe caminhos irregulares.
 
 Na área de desenho, clique e segure, então mova o mouse para desenhar. Volte para a ferramenta de ponteiro, e
 você poderá selecionar pontos no caminho que você desenhou.
@@ -356,39 +356,39 @@ prática:
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
 
-### Set stroke shape and width
+### Definir forma do traço e largura
 
-So far you have used the Freehand drawing tool to draw a line. If you double-click the Freehand
-tool, you get the Freehand dialog shown here, which contains a drawing window. This is where you
-select pen shape and size. This dialog also appears when you choose the *Expand Stroke* option in
-the Element menu.
+Até agora você usou a ferramenta de Mão livre para desenhar uma linha. Se você der dois cliques na ferramenta
+de Mão livre, você terá o diálogo de Mão livre mostrado aqui, que contém uma área de desenho. É aqui onde você
+seleciona a forma da pena e seu tamanho. Esse diálogo também aparece quando você escolhe a opção *Expanda o curso* no
+menu Elemento.
 
 <img src="../en-US/images/Freehand_018.png" alt>
 
-Using the Corner tool, draw a polygon and click OK.
+Usando a ferramenta de Canto, desenhe um polígono e clique OK.
 
-Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
-automatically stroked with the shape you chose in the Freehand dialog, as shown here.
+Agora, desenhe uma linha com a ferramenta de Mão livre. Quando você liberar o botão do mouse, o novo caminho é
+automaticamente traçado com a forma que você escolheu no diálogo de Mão livre, como mostrado aqui.
 
 <img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
 
-## Keep drawing!
+## Continue desenhando!
 
-You should continue to experiment with the drawing tools until you feel comfortable that you can use
-them to draw and transform whatever shapes you need. At this point, you are equipped to start
-constructing the components of glyphs, but you should also take time to look at FontForge’s other
-set of tools.  
-The next chapter, [“Drawing with Spiro”], describes the Spiro drawing mode. Spiro drawing is
-distinct enough from B&eacute;zier curve editing that it requires an explanation of its own.
+Você deve continuar a experimentar as ferramentas de desenho até sentir-se confortável de poder usá-las
+para desenhar e transformar qualquer forma que você precisar. Neste ponto, você está equipado para começar
+a construir os componentes de glifos, mas você também deve ter um tempo para ver outros conjuntos de ferramentas
+do FontForge.  
+O próximo capítulo, [“Desenhando com Spiro”], descreve o modo de desenho Spiro. Desenhar com Spiro é
+suficientemente distinto da edição de curva B&eacute;zier que requer uma explicação só para si.
 
-[“Drawing with Spiro”]: Drawing_With_Spiro.html
+[“Desenhando com Spiro”]: Drawing_With_Spiro.html
 
-# Further Reading
+# Leitura adicional
 
-A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) included these links shared by Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">on twitter</a>:
+Um [Fórum de Discussão do TypeDrawers sobre Beziers](http://typedrawers.com/discussion/967) incluiu esses links compartilhados por Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">no twitter</a>:
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) por Fábio Duarte Martins
 * [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)
-* [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) by Scott Biersack
-* [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) by Underware
-* [The Bézier Game](http://bezier.method.ac) by Marc MacKay
+* [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) por Scott Biersack
+* [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) por Underware
+* [The Bézier Game](http://bezier.method.ac) por Marc MacKay

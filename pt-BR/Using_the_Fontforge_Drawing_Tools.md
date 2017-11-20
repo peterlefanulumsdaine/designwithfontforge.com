@@ -300,59 +300,59 @@ camadas adicionais usando os botões mais (+) ou menos (&minus;) nessa parte da 
 O tipo de camada e o tipo de curva também podem ser controlados com um clique direito (uma vez que você tenha camadas
 adicionais).
 
-## Basic drawing
+## Básico do desenho vetorial
 
-Next we will go over some basic drawing workflows, which you often find yourself in need of.
+A seguir veremos alguns processos de desenho básicos, os quais você frequentemente se verá precisando.
 
-### Cutting a shape within another
+### Cortando uma forma dentro de outra
 
-1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
-   window.
-2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
+1. Começe utilizando a ferramenta de Retângulo para desenhar um retângulo dentro da área de desenho da Vista de
+   Caractere.
+2. A seguir, use a ferramenta Elipse para desenhar uma elipse dentro do retângulo que você desenhou a pouco.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
-3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
-   and that you essentially punched a hole in the center of the rectangle.  
+3. Vá no menu Elemento e selecione *Sentido correto*. Você verá que as duas formas se mesclaram,
+   e que você essencialmente criou um buraco no centro do retângulo.
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
 
-### Remove overlap
+### Remover sobreposições
 
-1. Add a star that overlaps the corner of the rectangle.  
+1. Adicione uma estrela que sobrepõe o canto do retângulo.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
-2. Select the star and the earlier shape. You only need to select one point of each overlapping
-   shape, but it is okay to select extra points.
-3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
-   one.  
+2. Selecione a estrela e a forma anterior. Você só precisa selecionar um ponto de cada forma
+   que sobrepõe, mas está tudo bem em selecionar mais pontos.
+3. Vá em Elemento &gt; Sobreposição &gt; *Remover a sobreposição*. Você verá que as duas formas tornaram-se
+   uma.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
 
-### Add a Point
+### Adicionar um Ponto
 
-Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
-the shape.
+Usando a ferramenta de Caneta, clique e segure no meio de um segmento de linha, então arraste o mouse para mudar
+a forma.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
 
-### Tangent points
+### Pontos Tangente
 
-Select the bottom-left corner point of your new shape (the intersection of the curve and the
-straight line). From the Point menu, you will see that *Corner Point* is checked. Select *Tangent*.
-This changes the square node to a triangle, but that is all it does until you do the next step:
-extending control points.
+Selecione o ponto do canto inferior esquerdo da sua nova forma (a interseção entre a curva e a
+linha reta). No menu Ponto, verá que *Canto* está marcado. Selecione *Tangente*.
+Isso troca o nó quadrado para um triângulo, mas só isso é feito até que você faça o próximo passo:
+extender pontos de controle.
 
-To do so, choose Element &gt; *Get Info*, which opens the Point Info Window. From the Location tab
-in that window, go to the Next CP field set and set the Distance to a large number, such as 75.
-Click OK. You will see that the curve now smoothly enters the straight line.
+Para isso, escolha Elemento &gt; *Obter informação*, que abre a janela de Informações do Ponto. Na aba de Localização
+dessa janela, vá para a área com o campo Next CP e defina a Distância (Dist) para um número grande, como 75.
+Clique OK. Agora a curva suavemente entra na linha reta.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
 
-### Transformation
+### Transformação
 
-Now select about a quarter of the shape &mdash; the star and part of the ellipse in the middle.
+Agora selecione um quarto da forma &mdash; a estrela e parte da elipse no meio.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
 
-Choose the 3D Rotate tool, move to the middle of the selected area, and slowly click and drag until
-you see something you like, then release. Here is an example of 3D Rotate used on the practice
-image:
+Selecione a ferramenta de Rotação 3D, mova para o meio da área selecionada, e lentamente clique e arraste até que
+você veja algo que goste, então solte. Aqui está um exemplo da rotação 3D usada na imagem de
+prática:
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
 

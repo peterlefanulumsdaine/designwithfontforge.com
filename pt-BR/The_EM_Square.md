@@ -3,7 +3,7 @@ published: true
 layout: bookpage_pt-BR
 weight: 12
 category: workflow
-title: A medida Eme - <em>Quadratim</em>
+title: A medida Eme
 ---
 
 &mdash; Também chamado de ‘tamanho do eme’, ‘UPM’ (Unidades Por Eme).  

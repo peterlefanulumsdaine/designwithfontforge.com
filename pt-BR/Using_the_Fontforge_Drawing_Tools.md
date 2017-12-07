@@ -6,49 +6,49 @@ category: Getting To Know FontForge
 title: Usando as Ferramentas de Desenho do FontForge
 ---
 
-Designing a font in FontForge will involve using a number of tools and utilities, starting with a
-set of drawing tools which may feel familiar to users with experience in vector graphics &ndash;
-there are noticeable differences through.  
-We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
-FontForge’s drawing tools themselves.
+Projetar uma fonte no FontForge envolverá o uso de inúmeras ferramentas e utilidades, a começar com um
+conjunto de ferramentas de desenho que podem parecer familiar para usuários com experiência em gráficos vetoriais &ndash;
+existem diferenças notáveis, no entanto.  
+Primeiro iremos buscar um entendimento de como curvas B&eacute;zier funcionam, antes de olhar as
+ferramentas de desenho do FontForge em si.
 
-## Understanding B&eacute;zier curves
+## Entendendo curvas B&eacute;zier
 
-The concept of “B&eacute;zier curves” refers to a particular mathematical representation used to
-produce smooth curves digitally. Generally, *Cubic*- and *Quadratic*-order of these curves are used
-&mdash; through FontForge also supports *Spiro* curves, which are an alternate representation for
-the designer.
+O conceito de “curvas B&eacute;zier” refere-se a uma representação matemática em particular usada para
+produzir curvas suaves digitalmente. Geralmente, ordens *Cúbicas* e *Quadráticas* dessas curvas são usadas
+&mdash; contudo FontForge também suporta curvas *Spiro*, que são uma representação alternativa para
+o designer.
 
-In this chapter, we will only discuss *Cubic* paths, as that’s what’s generally used when drawing
-glyphs. *Spiro* paths will be discussed in the next chapter, and *Quadratic* curves are only found
-in TrueType fonts and rarely used in drawing &ndash; they are rather generated at build time.
+Nesse capítulo, apenas discutiremos caminhos *Cúbicos*, uma vez que eles costumam ser usados quando se desenha
+glifos. Caminhos *Spiro* serão discutidos no próximo capítulo, e curvas *Quadráticas* apenas são encontradas
+em fontes TrueType, e raramente são usadas durante o desenho &ndash; elas são geradas no momento de fechamento.
 
-A typical B&eacute;zier path is composed of an anchor, with two handles that mark the overall
-direction &mdash; the length of each handle determines the length of the curve on each side &ndash;
-see below.
+Um típico caminho B&eacute;zier é composto de uma âncora, com duas alças que marcam a direção
+geral &mdash; o comprimento de cada alça determina o comprimento da curva em cada lado &ndash;
+veja abaixo.
 
-### Different kinds of points
+### Diferentes tipos de pontos
 
-#### Curve points (shown as round-shaped points)
+#### Pontos de curva (exibidos como pontos circulares)
 
-*Curve points* have two handles, each of them being linked to the other so that the line between
-them always stays straight, in order to produce a smooth curve on each side.
+*Pontos de curva* possuem duas alças, uma ligada à outra de forma que a linha entre
+elas sempre fique reta, para produzir uma curva suave em cada lado.
 
 <img src="../en-US/images/tools-curve-point.png" alt>
 
-<h4 class="quiet">H/V Curve points (shown as lozenge-shaped points)</h4>
+<h4 class="quiet">Pontos de curva H/V (exibidos como pontos losangulares)</h4>
 
-*H/V curve points* (‘horizontal/vertical’) are a variant of curve points that snap to the
-horizontal or vertical axe &ndash; an essential tool in getting B&eacute;zier forms done right
-(more on that in the next section).
+*Pontos de curva H/V* (‘horizontal/vertical’) são uma variação dos pontos de curva que se encaixam ao
+eixo horizontal ou vertical &ndash; uma ferramenta essencial para tornar formas B&eacute;zier bem feitas
+(mais sobre isso na próxima seção).
 
 <img src="../en-US/images/tools-HV-point.png" alt>
 
-#### Coins or corner points (shown as square-shaped points)
+#### Pontos de canto (exibidos como pontos quadrados)
 
-*Coins* can have 0, 1 or 2 B&eacute;zier handles. The position of each handle is independant of the
-others, making it suitable for discontinuities in the outline.  
-Without handles, coins will produce straight lines.
+*Cantos* podem ter 0, 1 ou 2 alças B&eacute;zier. A posição de cada alça é independente das
+outras, tornando-as apropriadas para discontinuidades no contorno.  
+Sem as alças, cantos irão produzir linhas retas.
 
 <img src="../en-US/images/tools-square-point.png" alt>
 
@@ -56,339 +56,339 @@ Without handles, coins will produce straight lines.
 
 <img src="../en-US/images/tools-corner-point-3.png" alt>
 
-#### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
+#### Pontos de tangente (exibidos como pontos triangulares, ou ‘setas’)
 
-If you want to start from a straight line and then start curving smoothly, you will want to use
-*tangent points*.  
-A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
-its direction &ndash; this ensures a continuous transition between the line and the curve.
+Se você quer começar com uma linha reta que encurva suavemente, você vai querer usar
+*pontos de tangente*.  
+Uma *tangente* deixa uma linha reta em um lado, enquanto a alça B&eacute;zier do outro lado é
+a sua direção &ndash; isso garante uma transição contínua entre a linha e a curva.
 
 <img src="../en-US/images/tools-tangent-point.png" alt>
 
-### Getting it right
+### Fazendo da forma certa
 
-In order to produce proper curves &ndash; with minimal control points and eased rasterization, the
-anchors should always be placed at **the extremas of the curve**, and unless in places where you
-have breaks in your letterforms, the line that determines the path should be **horizontal or
+Para produzir curvas adequadas &ndash; com o mínimo de pontos de controle e uma rasterização facilitada, as
+âncoras deveriam sempre ser inseridas **nos extremos da curva**, e a não ser em locais onde você
+tem quebras na forma das letra, a linha que determina o caminho deveria ser **horizontal ou
 vertical**.
 
 <img src="../en-US/images/bezier_sample.png" alt>
 
 <div class="note">
-<p><b>Note:</b> If your control points aren’t placed at the extremas, FontForge will point out
-the actual extrema with a sight icon:</p>
+<p><b>Nota:</b> Se seus pontos de controle não estão nos extremos, FontForge irá indicar
+o veradeiro extremo com um ícone de alvo:</p>
 
 <img src="../en-US/images/bezier_sample_3.png" alt>
 
-<p>You can then fix this by copying your current outline to another layer, then move the control
-points around so that it’s laid out properly &ndash; otherwise the FontForge Validation tool will
-add the point at extremas automatically, at which point you can merge your misplaced anchor with
-<i>Right-click > Merge</i>.<br>
-More about that will be said later in the <a href="Making_Sure_Your_Font_Works_Validation.html">
-Validation chapter</a>.</p>
+<p>Você pode então consertar copiando o contorno atual para uma outra camada, e movendo os pontos de
+controle para que fiquem posicionados apropriadamente &ndash; do contrário a ferramenta de validação de FontForge
+adicionará o ponto nos extremos automaticamente, até o ponto em que você possa mesclar sua âncora mal colocada com
+<i>Clique direito > Merge</i>.<br>
+Mais soubre isso será dito posteriormente no <a href="Making_Sure_Your_Font_Works_Validation.html">
+capítulo de validação</a>.</p>
 </div>
 
-To elaborate, there are two cases where you will have to give up horizontal/vertical B&eacute;zier
-paths:
+Para constar, existem dois caso em que você terá que desistir dos caminhos B&eacute;zier
+horizontais/verticais:
 
-- If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
-  below that’s being kept almost flat:  
+- Se você quiser mudar a inclinação geral de sua curva, como na parte superior esquerda do ‘a’
+  abaixo que está mantido quase plano:  
   <img src="../en-US/images/bezier_sample_2.png" alt>
-- If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
-  &ndash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+- Se você quiser colocar quebras nas suas letras, como na parte inferior esquerda do ‘g’ abaixo
+  &ndash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):  
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
-<p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
-direction of each handle should be tangent to the curve where it arrives.</p>
+<p class="note"><b>Nota:</b> Como você pode ver, quando definindo quebras com um <i>Canto</i>, a
+direção de cada alça deve ser tangente da curva em que ela chega.</p>
 
-## Mastering FontForge’s drawing tools
+## Dominando as ferramentas de desenho do FontForge
 
-From the main window, double-click on one of the glyph boxes to launch the Glyph Window.
+Na janela principal, dê dois cliques na caixa de um glifo para abrir a Janela de Glifo.
 
 <img src="../en-US/images/glyph_window.png" alt>
 
 <div class="note">
-<p><b>Note:</b> The numbers along the top where the x and y axis intersect indicate, from left to
-right:</p>
+<p><b>Nota:</b> Os números ao longo do topo de onde os eixos x e y se cruzam indicam, da esquerda para
+direita:</p>
 
 <ul>
-<li>The current (x,y) location of your cursor on the canvas</li>
-<li>The location of the most recently selected point</li>
-<li>The relative position of your cursor to the selected point</li>
-<li>The distance between your cursor and the selected point</li>
-<li>The angle from the selected point to the cursor (relative to the baseline)</li>
-<li>The current magnification level, followed by the name of the active layer.</li>
+<li>A localização atual (x,y) do cursor na tela de desenho</li>
+<li>A localização do último ponto selecionado</li>
+<li>A posição relativa do cursor para o ponto selecionado</li>
+<li>A distância entre o cursor e o ponto selecionado</li>
+<li>O ângulo do ponto selecionado para o cursor (relativo à linha de base)</li>
+<li>O atual nível de zoom, seguido pelo nome da camada ativa.</li>
 </ul>
 </div>
 
-<p class="warn"><b>Caution:</b> Sometimes, it seems like FontForge is not responding when you are
-inside the Glyph Window. It might be that there is an open dialog box hidden behind it &ndash; so just
-move it and process the dialog box.</p>
+<p class="warn"><b>Cuidado:</b> Às vezes, parece que o FontForge não está respondendo quando você está
+na Janela de Glifo. Pode ser que tenha uma janela de diálogo escondida atrás &ndash; então basta
+movê-la e proceder para a caixa de diálogo.</p>
 
-A *Line* consists of 2 points.
+Uma *Linha* consiste de 2 pontos.
 
 <img src="../en-US/images/tools_line_points.png" alt>
 
-A *Spline* consists of 4 points: 2 end points of the spline and 2 ‘handles’, which describe the slope
-of the spline at those end points.
+Uma *Curva* consiste de 4 pontos: 2 pontos das extremidades e 2 ‘alças’, que descrevem a inclinação
+da curva naquelas extremidades.
 
 <img src="../en-US/images/tools_splines_points.png" alt>
 
-### Copy, paste, cut and delete points, splines and lines
+### Copie, cole, corte e delete pontos, curvas e linhas
 
-As with most drawing softwares, FontForge allows you to Copy, Cut, Paste or Delete any point, line
-or spline. These commands are available in the Edit menu, or using your OS’s typical keystrokes (also
-shown alongside each command in the menu).
+Bem como na maioria dos softwares de desenho, FontForge te permite Copiar, Cortar, Colar ou Deletar qualquer ponto, linha
+ou curva. Esses comandos estão disponíveis no menu Editar, ou usando os atalhos de teclado típicos do seu Sistema Operacional  (também
+indicados ao lado de cada comando no menu).
 
-## Familiarizing yourself with the drawing tools
+## Familiarizando-se com as ferramentas de desenho
 
-Now that you know your way around the canvas, it’s time to get acquainted with the tools.
+Agora que você se localizou na tela de desenho, está na hora de conhecer as ferramentas.
 
-### Point and Zoom
+### Ponteiro e Zoom
 
 <img src="../en-US/images/point_zoom.png" alt>
 
-Point and Zoom behave similarly to the equivalent tools in other applications.  
-The pointer is a selection tool, used to select points, paths, and other objects on the canvas.  
-The Zoom tool lets you zoom in (Z) easily; in order to zoom out: go to the View menu and select
-*Zoom out* (X) or *Fit*.
+Ponteiro e Zoom comportam-se semelhante às ferramentas equivalentes em outros aplicativos.  
+O ponteiro é uma ferramenta de  seleção, usada para selecionar pontos, caminhos, e outros objetos na tela de desenho.  
+A ferramenta de Zoom permite ampliar (Z) facilmente; para reduzir: vá para o menu Visualizar e selecione
+*Reduzir* (X) or *Ajuste*.
 
-Note that you can also momentarily switch to the pointer tool while using another by holding down
-the Control (Ctrl) key.
+Note que você também pode alternar temporariamente para a ferramenta de ponteiro enquanto estiver com alguma outra, pressionando
+a tecla Control (Ctrl).
 
-### The Freehand tool
+### Ferramenta de Mão livre
 
 <img src="../en-US/images/freehand_tool.png" alt>
 
-The Freehand tool allows you to sketch out irregular paths.
+A ferramenta de Mão livre permite que você rascunhe caminhos irregulares.
 
-On the drawing area, click and hold, then move around to draw. Switch back to the pointer tool, and
-you can select points on the path you have drawn.
+Na área de desenho, clique e segure, então mova o mouse para desenhar. Volte para a ferramenta de ponteiro, e
+você poderá selecionar pontos no caminho que você desenhou.
 
-When you select one of the points on the path, it will turn into a yellow circle. If the selected
-point is on a curve, it will display its control points with a magenta handle and a cyan handle. You
-can grab either handle and drag it around to change the shape of the curve.
+Quando você seleciona um dos pontos do caminho, ele se tornará um círculo amarelo. Se o ponto
+selecionado está em uma curva, ele mostrará seus pontos de controle com uma alça magenta e outra ciano. Você
+pode pegar qualquer alça e arrastar para mudar a forma da curva.
 
-### The point tools
+### As ferramentas de pontos
 
-Okay, now let’s go about using the point tools.
+Ok, avora vamos ver sobre as ferramentas de pontos.
 
 <img src="../en-US/images/point_tools_labelled.png" alt>
 
-To add a point to a path, first select any of these tools, then click on the path and give it a
-little push. You will get a new point on the line.
+Para adicionar um ponto ao caminho, primeiro selecione qualquer uma dessas ferramentas, clique no caminho e dê um
+pequeno empurrão. Você terá um novo ponto na linha.
 
-The Curve point tool is used to add a point in a curved segment.  
-The HVCurve point tool constrains the new points so that they have either horizontal or vertical
-control points &ndash; this is important for setting up extrema points.  
-The Corner point tool allows you to make a sharp bend in the path.  
-The Tangent point tool allows you to transition from a straight segment to a curved segment along
-the path.
+A ferramenta de ponto na Curva é usada para adicionar um ponto em um segmento curvo.  
+A ferramenta de Curva na horizontal ou na vertical obriga os novos pontos a terem os controladores apenas na
+horizontal ou vertical &ndash; isso é importante para definir pontos extremos.  
+A ferramenta de ponto no Canto permite fazer uma dobra afiada no caminho.  
+A ferramenta de ponto Tangente permite a transição de um segmento reto para um segmento curvado ao longo
+do caminho.
 
-### The Pen tool
+### A ferramenta de Caneta
 
 <img src="../en-US/images/addpoint_tool.png" alt>
 
-The Pen tool allows you to add a point on the curve and drag out its control points.
+A ferramenta de Caneta permite adicionar um ponto na curva e arrastar seus controladores.
 
 ### Spiro
 
 <img src="../en-US/images/spiro.png" alt>
 
-Selecting the Spiro tool puts you into Spiro drawing mode. Spiro drawing allows you to draw curves
-that reflow as you reposition the nodes. Some people prefer this to the standard approach (known as
-B&eacute;zier editing), but if you are used to B&eacute;zier editing you might find that it does
-some unexpected things.
+Selecionar a ferramenta Spiro te coloca no modo de desenho Spiro. Desenhar com Spiro te permite fazer curvas
+que se reajustam à medida que você reposiciona os nós. Algumas pessoas preferem esta à abordagem comum (conhecida como
+edição de B&eacute;zier), mas se você está acostumado à edição de B&eacute;zier, você pode achar que essa ferramenta faz
+algumas coisas inesperadas.
 
-### Knife
+### Faca
 
 <img src="../en-US/images/knife.png" alt>
 
-The Knife tool allows you to cut splines in two. This comes in handy if you have drawn a shape, but
-only need part of it.
+A ferramenta de Faca permite cortar segmentos em dois. Isso vem a calhar se você desenhou uma forma, mas
+só precisa de uma parte dela.
 
-### Ruler
+### Régua
 
 <img src="../en-US/images/ruler.png" alt>
 
-The ruler tool gives you measurement and coordinate information. When you use it, it displays a
-floating ‘tooltip’ next to the cursor. If you hover your cursor over a point, the tooltip gives you
-even more detailed measurement and coordinate information. If you bring it next to a spline, it
-gives you information about the curvature and radius. Most usefully, if you click and drag the ruler
-tool, you will see the distance you have dragged the cursor, plus every intersection that you have
-stretched across.
+A ferramenta de Régua fornece informações de medida e coordenada. Quando você a usa, ela mostra uma
+‘caixa de dica’ flutuante próxima ao cursor. Se você mover o cursor sobre um ponto, a caixa te dá
+informações ainda mais detalhadas de medida e coordenada. Se você deixar perto de um segmento, ela
+dará informações sobre curvatura e raio. O mais útil, se você clica e arrasta a ferramenta
+de régua, você verá a distância que você arrastou o cursor, mais cada interseção que você tiver
+cruzado.
 
-### The transform tools
+### As ferramentas de transformação
 
-There are six transform tools:
+Existem seis ferramentas de transformação:
 
 <img src="../en-US/images/transform_tools_labelled.png" alt>
 
-**Note:** For all of the Transform tools, if you double-click on the tool, you can enter numeric
-values.
+**Nota:** Em qualquer ferramenta de transformação, se você der dois cliques, você poderá digitar valores
+numéricos.
 
-The Scale tool lets you freehand rescale an object. Holding down the Shift key allows you to scale
-an object while constraining it to the proportional ratio.
+A ferramenta de Escala te permite redimensionar um objeto à mão livre. Pressionando a tecla Shift permite que você redimensione
+um objeto enquanto mantém sua proporção.
 
-The Rotate tool lets you free-rotate an object. It rotates the selected object around the position
-where you initially click.
+A ferramenta de Rotação te permite rotacionar um objeto livremente. Ela rotaciona o objeto selecionado em torno da posição
+que você clicar.
 
-The 3D rotate tool lets you rotate an object in the third dimension, and projects the result on the
-x-y plane.
+A ferramenta de Rotação 3D permite rotacionar um objeto na terceira dimensão, e projeta o resultado no
+plano x-y.
 
-The Flip tool allows you to flip a selection either horizontally or vertically. The point at which
-you click the mouse is the point of origin of the transformation.
+A ferramenta de Inversão permite espelhar a seleção horizontalmente ou verticalmente. O ponto no qual
+você clica com o mouse é o ponto de origem da transformação.
 
-**Note:** After flipping a point you will probably want to apply Element &gt; *Correct Direction*.
+**Nota:** Após inverter um ponto, você provavelvemte vai querer aplicar a função Elemento &gt; *Sentido Correto*.
 
-The Skew tool lets you horizontally skew the selection either clockwise or counterclockwise
-(withershins is how the dialog refers to counterclockwise).
+A ferramenta de Inclinação permite inclinar horizontalmente a seleção tanto no sentido horário como anti-horário.
+<!-- (withershins is how the dialog refers to counterclockwise). -->
 
-The Perspective tool gives you another way to distort a shape in a nonlinear way.
+A ferramenta de Perspectiva dá outro modo de distorcer a forma de maneira não linear.
 
-**Note:** There is no numerical option for the perspective transformation.
+**Nota:** Não há opção numérica para a transformção de perspectiva.
 
-### The Rectangle/Ellipse and Polygon/Star tools
+### As ferramentas Retângulo/Elipse e Polígono/Estrela
 
-These tools allow you to draw primitive geometric shapes, which is faster than constructing those
-shapes out of separate line segments.
+Essas ferramentas criam formas geométricas primitivas, o que é mais rápido do que construi-las
+a partir de segmentos de linha separados.
 
 <img src="../en-US/images/rectangle_poly_labelled.png" alt>
 
-Clicking the chevron area on these tools will give you the option to switch to the alternate tool.
-If you double-click on either of the tools, you can open the shape type’s options.
+Clicando na área da seta dessas ferramentas te dá a opção de trocar para a outra ferramenta.
+Se você der dois cliques em qualquer uma dessas ferramentas, você pode abrir as opções do tipo de forma.
 
-Rectangle options: corner style and bounding box (corner or center out).
+Opções do Retângulo: Estilo de canto e Caixa limitante ou Fora do centro.
 
-Ellipse options: bounding box or center out.
+Opções da Elipse: Caixa limitante ou Fora do centro.
 
-Polygon options: number of vertices.
+Opções do Polígono: Número de vértices.
 
-Star options: number of star points and depth of points by percentage. The higher the percentage
-setting, the longer the arms of the star.
+Opções da Estrela: Número de pontos da estrela e profundidade dos pontos por porcentagem. Quanto maior o valor dessa
+porcentagem, mais longos serão os braços da estrela.
 
-### Mse1 and Mse2
+### Mse1 e Mse2
 
 <img src="../en-US/images/danger.png" alt>
 
-Under the toolbar, you can view the current tool and the operations available to both mouse buttons:
+Na parte inferior da barra de ferramentas, você pode ver a ferramenta atual e as operações disponíveis para ambos botões do mouse:
 
-- Left button (Mse1)
-- Left button + Ctrl (^Mse1)
-- Mouse wheel button (Mse2)
-- Mouse wheel button + Ctrl (^Mse2)
+- Botão Esquerdo (Mse1)
+- Botão Esquerdo + Ctrl (^Mse1)
+- Botão da roda do Mouse (Mse2)
+- Botão da roda do Mouse + Ctrl (^Mse2)
 
-This way, you can use a few different tools without having to repeatedly click on the toolbar.
+Dessa forma, você pode usar algumas ferramentas diferentes sem ter que repetidamente clicar na barra de ferramentas.
 
-<p class="warn"><b>Caution:</b> It appears that the Mse functionality doesn’t currently work
-properly.</p>
+<p class="warn"><b>Cuidado:</b> Parece que atualmente a funcionalidade do Mse não funciona
+corretamente.</p>
 
-### Layers
+### Camadas
 
-The FontForge canvas has three layers by default: the Guide layer, the Background layer, and the
-Foreground layer. Guide layers are used to insert guides (such as x-height or cap-height guides).
-Foreground layers and background layers are both used for drawing, but only the topmost foreground
-layer will be rendered into your final font.
+A área de desenho do FontForge tem três camadas por padrão: a camada Guia, a camada Fundo, e a
+camada Frente. Camadas de Guia são usadas para inserir guias (como as guias altura de x e altura da caixa alta).
+Ambas as camadas de Frente e de Fundo são usadas para desenhar, mas apenas a camada de Frente
+superior será renderizada na sua fonte final.
 
 <img src="../en-US/images/layers.png" alt>
 
-A checkbox indicates whether each layer is visible, and you can uncheck it to make a layer invisible. The C (or Q) indicates whether you’re using Cubic or Quadratic curves.
+Uma caixa de seleção indica se cada camada está visível, e você pode desmarcá-la para tornar a camada invisível. O ‘C’ (ou ‘Q’) indica se você esta usando curvas Cúbicas ou Quadráticas.
 
-The #, B, or F refers to whether the type of each layer is a Guide layer, Background layer, or
-Foreground layer, which is significant if you add more layers of your own. You can create and delete
-additional layers using the plus (+) or minus (&minus;) buttons in this section of the toolbar.
-Layer type and curve type can also be controlled by right-clicking (once you have additional
-layers).
+O #, B, ou F indica se o tipo da cada camada é Guia, de Fundo, ou
+de Frente, o que é releveante se você adicionar mais camadas. Você pode criar e remover
+camadas adicionais usando os botões mais (+) ou menos (&minus;) nessa parte da barra de ferramentas.
+O tipo de camada e o tipo de curva também podem ser controlados com um clique direito (uma vez que você tenha camadas
+adicionais).
 
-## Basic drawing
+## Básico do desenho vetorial
 
-Next we will go over some basic drawing workflows, which you often find yourself in need of.
+A seguir veremos alguns processos de desenho básicos, os quais você frequentemente se verá precisando.
 
-### Cutting a shape within another
+### Cortando uma forma dentro de outra
 
-1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
-   window.
-2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
+1. Começe utilizando a ferramenta de Retângulo para desenhar um retângulo dentro da área de desenho da Vista de
+   Caractere.
+2. A seguir, use a ferramenta Elipse para desenhar uma elipse dentro do retângulo que você desenhou a pouco.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
-3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
-   and that you essentially punched a hole in the center of the rectangle.  
+3. Vá no menu Elemento e selecione *Sentido correto*. Você verá que as duas formas se mesclaram,
+   e que você essencialmente criou um buraco no centro do retângulo.
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
 
-### Remove overlap
+### Remover sobreposições
 
-1. Add a star that overlaps the corner of the rectangle.  
+1. Adicione uma estrela que sobrepõe o canto do retângulo.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
-2. Select the star and the earlier shape. You only need to select one point of each overlapping
-   shape, but it is okay to select extra points.
-3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
-   one.  
+2. Selecione a estrela e a forma anterior. Você só precisa selecionar um ponto de cada forma
+   que sobrepõe, mas está tudo bem em selecionar mais pontos.
+3. Vá em Elemento &gt; Sobreposição &gt; *Remover a sobreposição*. Você verá que as duas formas tornaram-se
+   uma.  
    <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
 
-### Add a Point
+### Adicionar um Ponto
 
-Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
-the shape.
+Usando a ferramenta de Caneta, clique e segure no meio de um segmento de linha, então arraste o mouse para mudar
+a forma.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
 
-### Tangent points
+### Pontos Tangente
 
-Select the bottom-left corner point of your new shape (the intersection of the curve and the
-straight line). From the Point menu, you will see that *Corner Point* is checked. Select *Tangent*.
-This changes the square node to a triangle, but that is all it does until you do the next step:
-extending control points.
+Selecione o ponto do canto inferior esquerdo da sua nova forma (a interseção entre a curva e a
+linha reta). No menu Ponto, verá que *Canto* está marcado. Selecione *Tangente*.
+Isso troca o nó quadrado para um triângulo, mas só isso é feito até que você faça o próximo passo:
+extender pontos de controle.
 
-To do so, choose Element &gt; *Get Info*, which opens the Point Info Window. From the Location tab
-in that window, go to the Next CP field set and set the Distance to a large number, such as 75.
-Click OK. You will see that the curve now smoothly enters the straight line.
+Para isso, escolha Elemento &gt; *Obter informação*, que abre a janela de Informações do Ponto. Na aba de Localização
+dessa janela, vá para a área com o campo Next CP e defina a Distância (Dist) para um número grande, como 75.
+Clique OK. Agora a curva suavemente entra na linha reta.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
 
-### Transformation
+### Transformação
 
-Now select about a quarter of the shape &mdash; the star and part of the ellipse in the middle.
+Agora selecione um quarto da forma &mdash; a estrela e parte da elipse no meio.
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
 
-Choose the 3D Rotate tool, move to the middle of the selected area, and slowly click and drag until
-you see something you like, then release. Here is an example of 3D Rotate used on the practice
-image:
+Selecione a ferramenta de Rotação 3D, mova para o meio da área selecionada, e lentamente clique e arraste até que
+você veja algo que goste, então solte. Aqui está um exemplo da rotação 3D usada na imagem de
+prática:
 
 <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
 
-### Set stroke shape and width
+### Definir forma do traço e largura
 
-So far you have used the Freehand drawing tool to draw a line. If you double-click the Freehand
-tool, you get the Freehand dialog shown here, which contains a drawing window. This is where you
-select pen shape and size. This dialog also appears when you choose the *Expand Stroke* option in
-the Element menu.
+Até agora você usou a ferramenta de Mão livre para desenhar uma linha. Se você der dois cliques na ferramenta
+de Mão livre, você terá o diálogo de Mão livre mostrado aqui, que contém uma área de desenho. É aqui onde você
+seleciona a forma da pena e seu tamanho. Esse diálogo também aparece quando você escolhe a opção *Expanda o curso* no
+menu Elemento.
 
 <img src="../en-US/images/Freehand_018.png" alt>
 
-Using the Corner tool, draw a polygon and click OK.
+Usando a ferramenta de Canto, desenhe um polígono e clique OK.
 
-Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
-automatically stroked with the shape you chose in the Freehand dialog, as shown here.
+Agora, desenhe uma linha com a ferramenta de Mão livre. Quando você liberar o botão do mouse, o novo caminho é
+automaticamente traçado com a forma que você escolheu no diálogo de Mão livre, como mostrado aqui.
 
 <img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
 
-## Keep drawing!
+## Continue desenhando!
 
-You should continue to experiment with the drawing tools until you feel comfortable that you can use
-them to draw and transform whatever shapes you need. At this point, you are equipped to start
-constructing the components of glyphs, but you should also take time to look at FontForge’s other
-set of tools.  
-The next chapter, [“Drawing with Spiro”], describes the Spiro drawing mode. Spiro drawing is
-distinct enough from B&eacute;zier curve editing that it requires an explanation of its own.
+Você deve continuar a experimentar as ferramentas de desenho até sentir-se confortável de poder usá-las
+para desenhar e transformar qualquer forma que você precisar. Neste ponto, você está equipado para começar
+a construir os componentes de glifos, mas você também deve ter um tempo para ver outros conjuntos de ferramentas
+do FontForge.  
+O próximo capítulo, [“Desenhando com Spiro”], descreve o modo de desenho Spiro. Desenhar com Spiro é
+suficientemente distinto da edição de curva B&eacute;zier que requer uma explicação só para si.
 
-[“Drawing with Spiro”]: Drawing_With_Spiro.html
+[“Desenhando com Spiro”]: Drawing_With_Spiro.html
 
-# Further Reading
+# Leitura adicional
 
-A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) included these links shared by Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">on twitter</a>:
+Um [Fórum de Discussão do TypeDrawers sobre Beziers](http://typedrawers.com/discussion/967) incluiu esses links compartilhados por Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">no twitter</a>:
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) por Fábio Duarte Martins
 * [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)
-* [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) by Scott Biersack
-* [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) by Underware
-* [The Bézier Game](http://bezier.method.ac) by Marc MacKay
+* [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) por Scott Biersack
+* [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) por Underware
+* [The Bézier Game](http://bezier.method.ac) por Marc MacKay

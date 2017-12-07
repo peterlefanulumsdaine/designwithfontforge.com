@@ -6,144 +6,144 @@ category: Before You Begin
 title: Confiando em seus olhos
 ---
 
-Font design is the process of iteratively testing the individual choices that collectively add up to
-a complete design. You will be testing your font to see if the combination of decisions you have
-made:
+Design de Fonte é o processo de constantemente testar escolhas individuais que se unem para
+completar um design. Você estará testando sua fonte para ver se a combinação de suas
+decisões:
 
-* Allows you to read the font
-* Makes the font feel right to you
-* Makes the font useful for the the jobs you want the font to be able to do.
+* Permitem que você leia a fonte
+* Fazem a fonte parecer correta para você
+* Fazem a fonte útil para os trabalhos que você quer que ela seja capaz de fazer.
 
-As you test the design, you will have to trust your perceptions and design somewhat practically.
-Much of type design requires that you make letters similar and that you repeat forms.
+A medida que você testa o design, você terá que confiar em sua percepção e design quase que praticamente.
+Muito do design de tipos requer a criação de letras similares e a repetição de suas formas.
 
-It is tempting to assume that if you measure the parts and the spaces between the glyphs, then you
-will get reliable results. While very useful, this approach has real limitations. You should expect
-to make adjustments if something looks wrong to you. Furthermore, you should feel confident that
-making changes until it “looks right” is the correct thing to do.
+É tentador assumir que se você medir as partes e os espaços entre os glifos, você
+terá resultados confiáveis. Enquanto sendo muito útil, essa técnica tem grandes limitações. Você deve estar pronto
+para fazer ajustes se algo parecer errado para você. Além disso, você deve se sentir confiante que
+fazer mudanças até “parecer correto” é a coisa certa a se fazer.
 
-The reason this is true is that there are a number of natural optical illusions that all readers are
-subject to. These illusions must be accounted for by altering the shapes of letters until they look
-right to you.
+A razão disso ser verdade é que há uma gama de ilusões ópticas naturais às quais todos os leitores estão
+sujeitos. Essas ilusões podem ser notadas alterando o formato das letras até parecerem
+corretas para você.
 
-You can get a feel of where to look and what elements to adjust in these [Type Review Videos](https://vimeo.com/typereview/videos) (External Link)
+Você pode ter um exemplo de onde olhar e quais elementos ajustar nestes [Vídeos de Análise Tipográfica](https://vimeo.com/typereview/videos) (Link Externo)
 
-## Examples of illusions
+## Exemplos de Ilusões
 
-Some illusions involve the perceived weight of lines, some involve the perceived length of lines,
-and others involve the eye’s perception of shapes.
+Algumas ilusões envolvem o peso percebido de linhas, outros envolvem o comprimento percebido,
+e outros a percepção visual das formas.
 
-### Horizontal vs. vertical weight
+### Peso Horizontal vs. peso Vertical
 
-The example on the left shows an ‘H’ which bars are precisely equal in thickness. This looks wrong.
-Can you feel it?  
-The other one on the right has a horizontal bar which has been thinned to appear equal in
-thickness.
+O exemplo à esquerda mostra um ‘H’ cujas barras são precisamente iguais em espessura. Isto parece errado.
+Consegue sentir?  
+Já o da direita possui uma barra horizontal que foi afinada para parecer igual em
+espessura.
 
 <img src="../en-US/images/H%20compensation2.png" alt>
 
-Glyphs in which optical adjustments have to be made are numerous and include A, E, F, L, H, f, t,
-and z.
+Glifos que requerem ajustes ópticos são numerosos e incluem A, E, F, L, H, f, t,
+e z.
 
-### Diagonal thickness
+### Espessura Diagonal
 
-Similarly, if you have bars of the same width and one of them is set at a diagonal, the diagonal bar
-will seem slightly heavier than the vertical bar and slightly thinner than the horizontal. If you
-want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
-little less.
+Similarmente, se você tiver barras com a mesma largura e uma delas estiver disposta diagonalmente, a barra diagonal
+parecerá um pouco mais pesada que a barra vertical e um pouco menos espessa que a horizontal. Se você
+deseja que ela pareça correta, você terá que ajustá-la para ser mais leve, como no exemplo da horizontal, mas só um
+pouquinho.
 
 <img src="../en-US/images/Diag%20illusion.png" alt>
 
-Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
+Glifos em que esta percepção humana possa ser relevante são bem numerosos, mas incluem k, K, N, Q, R,
 v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
-&laquo;, &raquo;, ½, ⅓, ¼, &le;, &ge;, and &times;.
+&laquo;, &raquo;, ½, ⅓, ¼, &le;, &ge;, e &times;.
 
-### Length and perceived diagonal angle
+### Comprimento e percepção de ângulo diagonal
 
-Longer shapes need to slant less than short shapes in order to give the appearance of same slant.
+Formas mais longas precisam inclinar-se menos do que formas curtas para dar a aparência da mesma inclinação.
 
-The image below has diagonal lines that are all at the same angle. The long one appears to be at a
-different angle.
+A imagem abaixo possui linhas diagonais que estão no mesmo ângulo. O mais longo parece estar em um
+ângulo diferente.
 
 <img src="../en-US/images/pdiag.png" alt>
 
-In the next picture below, the slant of the longer line has been adjusted:
+Na próxima figura, a inclinação da linha mais longa foi ajustada:
 
 <img src="../en-US/images/pdiag2.png" alt>
 
-Now let’s look at an actual italic, applying these corrections to the glyphs:
+Agora, vamos dar uma olhada em um itálico, aplicando essas correções nos glifos:
 
 <img src="../en-US/images/longer%20less%20slant.png" alt>
 
-### Crossing diagonals
+### Diagonais Cruzantes
 
-When a bar crosses another diagonal or a straight line, it will need adjustments to not appear as
-misaligned.
+Quando uma barra cruza uma outra diagonal ou uma linha reta, serão necessários ajustes para que não pareçam
+desalinhadas.
 
 <img src="../en-US/images/compare-x.png" alt>
 
-In the example above, the X on the left has two unadjusted bars crossing each other. The example on
-the right has been adjusted so that they appear to be aligned.
+No exemplo acima, o X à esquerda tem duas barras não ajustadas se cruzando. O exemplo à
+direita foi ajustado para que pareçam alinhadas.
 
 <img src="../en-US/images/myriad-x.png" alt>
 
-As you can see in this X with dotted line on top of it, the X that appears visually aligned involves an offset.
+Como você pode ver neste X com uma linha pontilhada sobreposta, o X que aparece visualmente alinhado possui um deslocamento.
 
-Glyphs in which this illusion is relevant include x, X, k, K, ×, #, and the icelandic letter ‘eth’
+Glifos em que esta ilusão é relevante incluem x, X, k, K, ×, #, e a letra islandesa ‘eth’
 (&eth;).
 
-### Perceived height
+### Altura percebida
 
-The shape of a glyph will contribute to how high it needs to be in order to look as if it is the
-same height as the other glyphs. Round glyphs need to overshoot the height of flat glyphs by a
-little bit. Glyphs which have pointier shapes will need to overshoot more. The sharper the shape,
-the more it will need to overshoot in order to look correct.
+A forma de um glifo contribuirá para o quão alto ele precisa ser para que seja visto como se tivesse a
+mesma altura que outros glifos. Os glifos redondos precisam superar um pouco a altura dos
+glifos planos. Os glifos que têm formas mais pontiagudas precisam superar ainda mais. Quanto mais agudo for o formato,
+mais precisará ultrapassar para parecer correto.
 
 <img src="../en-US/images/3Shapes.png" alt>
 
-In the image above, the top three shapes are unadjusted &mdash; that is, they have identical
-heights. The three shapes on the bottom have been adjusted so that they appear more similar in
-height.
+Na imagem acima, as três figuras superiores estão desajustadas &mdash; isto é, elas têm alturas
+idênticas. As três figuras de baixo foram ajustadas para terem uma altura mais
+similar.
 
-This illusion is relevant for any glyph that has parts which are either round or pointy. These
-include O, Q, C, S, A, V, W, and so on.
+Essa ilusão é relevante para qualquer glifo que possua partes redondas ou pontiagudas. Isto
+inclui O, Q, C, S, A, V, W, entre outros.
 
-## You are fully qualified to correct for these illusions
+## Você está totalmente qualificado para corrigir estas ilusões
 
-Because you can see both the illusion and the effect of correcting for the illusion, you will be
-able to make these corrections for yourself. You just have to trust your impressions.
+Por você poder ver tanto a ilusão quanto o efeito de sua correção, você será
+capaz de fazer as correções por si próprio. Você só terá que confiar em suas impressões.
 
-## Test for fitness of purpose
+## Teste de aptidão de propósito
 
-Just like you are able to see optical illusions and correct them, you also have the ability to tell
-if a font is working for the specific use (or uses) you may have in mind. That’s where you should
-also trust your judgment.
+Assim como você é capaz de ver ilusões de óptica e corrigi-las, você também tem a capacidade de dizer
+se uma fonte está funcionando para o uso específico (ou usos) que você pode ter em mente. É aí que você também
+deve confiar em seu julgamento.
 
-Quite separately, it is worth noting that no font can be evaluated apart from the way it is used and
-what it is used for. This is why it is essential to begin testing from the very beginning of the
-design process, and to continue testing until you feel the project is done.
+Bastante separadamente, vale a pena notar que nenhuma fonte pode ser avaliada para além da forma como é utilizada e
+para o que é utilizada. É por isso que é essencial começar a testar desde o início do processo de
+design e continuar testando até que você sinta que o projeto está concluido.
 
-What will these tests be like? The tests will be simple at first, allowing you to test the first
-design choices. As your design becomes more complete, your tests will need to keep pace and let you
-evaluate the relative success or failure of the newest choices you have made &mdash; or, even
-better, to compare two (or three, or more&hellip;) options you are considering.
+Como serão esses testes? Em um primeiro momento, os testes serão simples, permitindo testar as primeiras
+escolhas de design. À medida que seu projeto se torna mais completo, seus testes precisarão manter o ritmo e permitir que você
+avalie o sucesso ou a falha relativa das mais recentes escolhas que você fez &mdash; ou, ainda
+melhor, comparar duas (ou três, ou mais &hellip;) opções que você está considerando.
 
-Sometimes you will find you have to double back and change a design choice you thought was already
-working well. This is normal. Making a font requires balancing many variables, and surprises often
-occur. The more you design fonts, the more experience you will have in making these arbitrary
-choices.
+Às vezes, você achará que deve voltar atrás e mudar uma escolha de design que você pensou que já estava
+funcionando bem. Isto é normal. Fazer uma fonte requer equilibrar muitas variáveis, e surpresas geralmente
+ocorrem. Quanto mais você projeta fontes, mais experiência você terá em fazer essas escolhas
+arbitrárias.
 
-When nearing the end of the process, if the font is to be used in a simple way, the tests should
-also just stay simple. However, if a font is to be used in many ways or in a wide range of printing
-or screen environments, then it should be tested across all that range of situations, which includes
-printing various samples of the font.
+Ao aproximar-se do final do processo, se a fonte deve ser usada de forma simples, os testes também
+devem permanecer simples. No entanto, se uma fonte deve ser usada de muitas maneiras ou em uma ampla gama de ambientes
+de impressão ou tela, então ela deve ser testada em toda essa gama de situações, o que inclui
+a impressão de várias amostras da fonte.
 
-It can save you design time to have a well defined idea of the final use you intend. However, this
-is not always possible and your ideas may evolve. The key thing is to think about and define the use
-cases as completely as you can, then to ensure that your tests keep pace with the questions you are
-asking yourself while designing the font.
+Pode-se economizar tempo de design por ter uma ideia bem definida do uso final que você pretende. No entanto, isso
+nem sempre é possível e suas ideias podem evoluir. O principal é pensar e definir os casos
+de uso o máximo que puder, e então, garantir que seus testes acompanhem as questões que você está
+erguntando ao projetar a fonte.
 
-## Further Reading
+## Leitura adicional (inglês)
 
 * <http://typographica.org/on-typography/making-geometric-type-work/>
 * <http://typedrawers.com/discussion/1085/the-letter-s>

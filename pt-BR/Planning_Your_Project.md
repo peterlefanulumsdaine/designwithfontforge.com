@@ -13,7 +13,7 @@ três ou quatro estilos (agora uma tradição), ou algo ainda maior.
 Os estilos mais comuns de famílias de tipos incluem:
 
 * Regular e Bold
-* Regular, Bold e Itálico &ndash; eventualmente com Bold em itálico
+* Regular, Bold e Itálico &mdash; eventualmente com Bold em itálico
 * Fino, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Pesado e Black
 * Regular, Condensado, Bold e Bold Condensado
 * Estreito, Condensado, Largo e Extra-Largo
@@ -54,7 +54,7 @@ adicionando alguns caracteres para que funcione em uma ou mais línguas.
 
 É certamente uma boa ideia fazer esta escolha de maneira intencional, e desviar da tendência
 de pecar por excesso. É comum que durante a criação de uma fonte, seja tentador incluir mais e
-mais caracteres &ndash; mas é de mais-valia continuar melhorando o conjunto de caracteres básicos
+mais caracteres &mdash; mas é de mais-valia continuar melhorando o conjunto de caracteres básicos
 do que adicionar novos.
 
 ## Fluxo de trabalho em famílias de muitos estilos

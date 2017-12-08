@@ -21,7 +21,7 @@ pontos eme (veja abaixo).
 
 <img src="../en-US/images/em-metal-type.svg" alt>
 
-Na tipografia digital, o eme é uma quantidade de espaço definida digitalmente. Em uma fonte OpenType, o UPM &ndash;
+Na tipografia digital, o eme é uma quantidade de espaço definida digitalmente. Em uma fonte OpenType, o UPM &mdash;
 ou eme geralmente é definido em 1000 unidades. Em fontes TrueType, o UPM, por converção, é uma potência de dois,
 geralmente configurado para 1024 ou 2048.
 
@@ -52,7 +52,7 @@ A altura de x:
 <img src="../en-US/images/xheight.png" alt>
 
 Mais tarde, ao projetar o seu tipo, você terá que definir os valores azuis que servem para contornos
-do PostScript e também para o autohinter do FontForge &ndash; independente de em quais contornos você está
+do PostScript e também para o autohinter do FontForge &mdash; independente de em quais contornos você está
 trabalhando.  
 Você encontrará a configuração em *Elemento > Infomações da Fonte&hellip;*, na aba *PS PrivaDO*. O FontForge pode
 inicialmente adivinhar os valores com base em seus contornos, mas você terá que editá-los para

@@ -7,7 +7,7 @@ title: Usando as Ferramentas de Desenho do FontForge
 ---
 
 Projetar uma fonte no FontForge envolverá o uso de inúmeras ferramentas e utilidades, a começar com um
-conjunto de ferramentas de desenho que podem parecer familiar para usuários com experiência em gráficos vetoriais &ndash;
+conjunto de ferramentas de desenho que podem parecer familiar para usuários com experiência em gráficos vetoriais &mdash;
 existem diferenças notáveis, no entanto.  
 Primeiro iremos buscar um entendimento de como curvas B&eacute;zier funcionam, antes de olhar as
 ferramentas de desenho do FontForge em si.
@@ -21,10 +21,10 @@ o designer.
 
 Nesse capítulo, apenas discutiremos caminhos *Cúbicos*, uma vez que eles costumam ser usados quando se desenha
 glifos. Caminhos *Spiro* serão discutidos no próximo capítulo, e curvas *Quadráticas* apenas são encontradas
-em fontes TrueType, e raramente são usadas durante o desenho &ndash; elas são geradas no momento de fechamento.
+em fontes TrueType, e raramente são usadas durante o desenho &mdash; elas são geradas no momento de fechamento.
 
 Um típico caminho B&eacute;zier é composto de uma âncora, com duas alças que marcam a direção
-geral &mdash; o comprimento de cada alça determina o comprimento da curva em cada lado &ndash;
+geral &mdash; o comprimento de cada alça determina o comprimento da curva em cada lado &mdash;
 veja abaixo.
 
 ### Diferentes tipos de pontos
@@ -39,7 +39,7 @@ elas sempre fique reta, para produzir uma curva suave em cada lado.
 <h4 class="quiet">Pontos de curva H/V (exibidos como pontos losangulares)</h4>
 
 *Pontos de curva H/V* (‘horizontal/vertical’) são uma variação dos pontos de curva que se encaixam ao
-eixo horizontal ou vertical &ndash; uma ferramenta essencial para tornar formas B&eacute;zier bem feitas
+eixo horizontal ou vertical &mdash; uma ferramenta essencial para tornar formas B&eacute;zier bem feitas
 (mais sobre isso na próxima seção).
 
 <img src="../en-US/images/tools-HV-point.png" alt>
@@ -61,13 +61,13 @@ Sem as alças, cantos irão produzir linhas retas.
 Se você quer começar com uma linha reta que encurva suavemente, você vai querer usar
 *pontos de tangente*.  
 Uma *tangente* deixa uma linha reta em um lado, enquanto a alça B&eacute;zier do outro lado é
-a sua direção &ndash; isso garante uma transição contínua entre a linha e a curva.
+a sua direção &mdash; isso garante uma transição contínua entre a linha e a curva.
 
 <img src="../en-US/images/tools-tangent-point.png" alt>
 
 ### Fazendo da forma certa
 
-Para produzir curvas adequadas &ndash; com o mínimo de pontos de controle e uma rasterização facilitada, as
+Para produzir curvas adequadas &mdash; com o mínimo de pontos de controle e uma rasterização facilitada, as
 âncoras deveriam sempre ser inseridas **nos extremos da curva**, e a não ser em locais onde você
 tem quebras na forma das letra, a linha que determina o caminho deveria ser **horizontal ou
 vertical**.
@@ -81,7 +81,7 @@ o veradeiro extremo com um ícone de alvo:</p>
 <img src="../en-US/images/bezier_sample_3.png" alt>
 
 <p>Você pode então consertar copiando o contorno atual para uma outra camada, e movendo os pontos de
-controle para que fiquem posicionados apropriadamente &ndash; do contrário a ferramenta de validação de FontForge
+controle para que fiquem posicionados apropriadamente &mdash; do contrário a ferramenta de validação de FontForge
 adicionará o ponto nos extremos automaticamente, até o ponto em que você possa mesclar sua âncora mal colocada com
 <i>Clique direito > Merge</i>.<br>
 Mais soubre isso será dito posteriormente no <a href="Making_Sure_Your_Font_Works_Validation.html">
@@ -95,7 +95,7 @@ horizontais/verticais:
   abaixo que está mantido quase plano:  
   <img src="../en-US/images/bezier_sample_2.png" alt>
 - Se você quiser colocar quebras nas suas letras, como na parte inferior esquerda do ‘g’ abaixo
-  &ndash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):  
+  &mdash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):  
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Nota:</b> Como você pode ver, quando definindo quebras com um <i>Canto</i>, a
@@ -122,7 +122,7 @@ direita:</p>
 </div>
 
 <p class="warn"><b>Cuidado:</b> Às vezes, parece que o FontForge não está respondendo quando você está
-na Janela de Glifo. Pode ser que tenha uma janela de diálogo escondida atrás &ndash; então basta
+na Janela de Glifo. Pode ser que tenha uma janela de diálogo escondida atrás &mdash; então basta
 movê-la e proceder para a caixa de diálogo.</p>
 
 Uma *Linha* consiste de 2 pontos.
@@ -154,7 +154,7 @@ A ferramenta de Zoom permite ampliar (Z) facilmente; para reduzir: vá para o me
 *Reduzir* (X) or *Ajuste*.
 
 Note que você também pode alternar temporariamente para a ferramenta de ponteiro enquanto estiver com alguma outra, pressionando
-a tecla Control (Ctrl).
+a tecla <kbd>Ctrl</kbd>.
 
 ### Ferramenta de Mão livre
 
@@ -180,7 +180,7 @@ pequeno empurrão. Você terá um novo ponto na linha.
 
 A ferramenta de ponto na Curva é usada para adicionar um ponto em um segmento curvo.  
 A ferramenta de Curva na horizontal ou na vertical obriga os novos pontos a terem os controladores apenas na
-horizontal ou vertical &ndash; isso é importante para definir pontos extremos.  
+horizontal ou vertical &mdash; isso é importante para definir pontos extremos.  
 A ferramenta de ponto no Canto permite fazer uma dobra afiada no caminho.  
 A ferramenta de ponto Tangente permite a transição de um segmento reto para um segmento curvado ao longo
 do caminho.
@@ -227,7 +227,7 @@ Existem seis ferramentas de transformação:
 **Nota:** Em qualquer ferramenta de transformação, se você der dois cliques, você poderá digitar valores
 numéricos.
 
-A ferramenta de Escala te permite redimensionar um objeto à mão livre. Pressionando a tecla Shift permite que você redimensione
+A ferramenta de Escala te permite redimensionar um objeto à mão livre. Pressionando a tecla <kbd>Shift</kbd> permite que você redimensione
 um objeto enquanto mantém sua proporção.
 
 A ferramenta de Rotação te permite rotacionar um objeto livremente. Ela rotaciona o objeto selecionado em torno da posição
@@ -274,9 +274,9 @@ porcentagem, mais longos serão os braços da estrela.
 Na parte inferior da barra de ferramentas, você pode ver a ferramenta atual e as operações disponíveis para ambos botões do mouse:
 
 - Botão Esquerdo (Mse1)
-- Botão Esquerdo + Ctrl (^Mse1)
+- Botão Esquerdo + <kbd>Ctrl</kbd> (^Mse1)
 - Botão da roda do Mouse (Mse2)
-- Botão da roda do Mouse + Ctrl (^Mse2)
+- Botão da roda do Mouse + <kbd>Ctrl</kbd> (^Mse2)
 
 Dessa forma, você pode usar algumas ferramentas diferentes sem ter que repetidamente clicar na barra de ferramentas.
 

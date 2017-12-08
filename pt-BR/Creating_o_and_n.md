@@ -25,7 +25,7 @@ ao olho.
 Por exemplo, para que uma curva e uma borda reta pareçam estar alinhandas corretamente na
 linha de base, a curva deve estar na verdade um pouco abaixo da linha, produzindo uma *curva excedente*. A
 parte do caractere que mergulha logo abaixo da linha de base para parecer assentada na
-linha de base é chamada de *excedente* &ndash; demonstrada abaixo. Sem essas partes excedentes, os caracteres com
+linha de base é chamada de *excedente* &mdash; demonstrada abaixo. Sem essas partes excedentes, os caracteres com
 curvas em torno da linha de base aparecerão desalinhados em uma linha de texto.
 
 <img src="../en-US/images/underhang1.png" alt>
@@ -40,7 +40,7 @@ na altura de x e na altura das maiúsculas (veja abaixo).
 ## Projetando o ‘o’ minúsculo
 
 O design do ‘o’ não é apenas uma questão da parte preta da letra. Enquanto o ‘o’ fornece
-o peso e a forma mais básica do bojo, o branco &ndash; ou oco &ndash; fornece o tamanho e
+o peso e a forma mais básica do bojo, o branco &mdash; ou oco &mdash; fornece o tamanho e
 a forma usados pelo resto da fonte.  
 Em termos gerais, também podemos observar que a forma redonda do ‘o’ será ecoada em outros
 caracteres. Estes incluem o b, c, d, e, p, e q, e a forma também implicará a modelagem

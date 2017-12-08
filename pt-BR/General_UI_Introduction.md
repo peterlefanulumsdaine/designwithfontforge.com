@@ -27,7 +27,7 @@ Aqui é onde você pode desenhar e editar glifos, um de cada vez com uma interfa
 #### 3. A Janela de Vista de Métricas
 
 Vá no menu Janela, Nova Janela Metrics, ou Métricas, Nova Janela Metrics.
-Ou selecione alguns glifos na Vista de Fonte e pressione `Ctrl-K`.
+Ou selecione alguns glifos na Vista de Fonte e pressione <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 Você também pode arrastar e soltar glifos da Vista de Fonte para a Vista de Métricas.
 
 É aqui que você pode ajustar o espaçamento e o kerning da sua fonte.

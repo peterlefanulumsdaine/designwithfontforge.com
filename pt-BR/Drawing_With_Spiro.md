@@ -65,7 +65,7 @@ Agora você quase tem um ‘S’! Comece a mexer os pontos para que seu S fique 
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_032.png" alt>
 
-<p>Não se preocupe &ndash; O Spiro às vezes faz coisas engraçadas. Basta clicar em <i>Desfazer,</i> ou continuar mexendo
+<p>Não se preocupe &mdash; O Spiro às vezes faz coisas engraçadas. Basta clicar em <i>Desfazer,</i> ou continuar mexendo
 os pontos para acertar as coisas.</p></div>
 
 Agora, você deve ver algo como isto:
@@ -73,7 +73,7 @@ Agora, você deve ver algo como isto:
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
 
 Troque do modo Spiro para o modo B&eacute;zier. Você notará que há muitos pontos na
-curva resultante &ndash; você pode querer limpar alguns deles.
+curva resultante &mdash; você pode querer limpar alguns deles.
 
 <img src="../en-US/images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 

@@ -6,7 +6,7 @@ category: Before You Begin
 title: O que é uma Fonte?
 ---
 
-&mdash; O que diferencia a tipografia da escrita manual, caligrafia, lettering e logotipos?
+O que diferencia a tipografia da escrita manual, caligrafia, lettering e logotipos?
 
 A grande questão que faz o design de tipos diferente é a necessidade de cada glifo presente na
 fonte funcionar em relação a todos os outros. Isso significa que o design e o espaçamento de cada parte
@@ -29,7 +29,7 @@ que mais se repetem. Design de tipos não é só sobre projetar determinadas car
 formas comuns que nós reconhecemos, mas também das que ocorrem com mais frequência.
 
 É muito útil reconhecer que estas características não só ajudam a criar uma voz ou
-atmosfera para uma fonte, como também determinam em que a fonte será ou não útil, e se
+atmosfera para uma fonte, assim como é determinar em que a fonte será ou não útil, e, às vezes, se
 ela é aplicável em determinado contexto tecnológico.
 
 Pode parecer intimidador ou excessivamente abstrato pensar sobre o design de uma fonte desta maneira.
@@ -50,8 +50,8 @@ acima, a linha branca dentro das letras indica a construção aproximada sugerid
 das próprias letras.
 
 No entanto, a forma como os traços terminam (os ‘terminais’) e as ‘serifas’ (abaixo) geralmente não são parte
-do que chamamos por ‘construção’. Construção é o esqueleto do glifo, enquanto o restante &ndash;
-largura, peso, terminais &ndash; são partes do corpo.
+do que chamamos por ‘construção’. Construção é o esqueleto do glifo, enquanto o restante &mdash;
+largura, peso, terminais &mdash; são partes do corpo.
 
 <img src="../en-US/images/AAA.png" alt>
 
@@ -121,7 +121,7 @@ distinção clara dos tipos com contraste. Assim como a escolha entre tipos com 
 uma escolha inicial no design de tipos. É interessante notar que o design de serifas ‘slab’ (quadradas) geralmente usa
 uma largura consistente do traço em suas letras, e que o design de serifas quadradas não se trata somente sobre
 serifas, por mais que falemos delas! Devemos lembrar de aplicar as regras de percepção (veja [“Confiando em
-seus olhos”][“Trusting your eyes”]) &ndash; contraste é mais sobre como o peso aparenta do que a sua medida exata.
+seus olhos”][“Trusting Your Eyes”]) &mdash; contraste é mais sobre como o peso aparenta do que a sua medida exata.
 
 ### Ângulo de contraste
 
@@ -225,7 +225,7 @@ aplicados de forma consistente para o design de tipos com algumas mudanças para
 ‘S’, ‘C’ e ‘Z’ (por exemplo, um tipo com serifas horizontais em todas as letras frequentemente têm s, c e z
 com serifas verticais).
 
-Existe uma lenda urbana afirmando que os tipos com serifa são mais fáceis de ler do que os sem serifa &ndash; o que é
+Existe uma lenda urbana afirmando que os tipos com serifa são mais fáceis de ler do que os sem serifa &mdash; o que é
 [um mito](http://asserttrue.blogspot.se/2013/01/the-serif-readability-myth.html), até novo
 aviso.
 
@@ -238,14 +238,14 @@ design particular pode apresentá-los para dar uma sensação suave à serifa ([
 pode optar por não ter nenhum bracket. Alguns designs também usam brackets só de um lado ou com
 diferentes proporções em cada lado.
 
-Este é um parâmetro relativamente forte que trás expressão ao tipo &ndash; elegância (brackets
+Este é um parâmetro relativamente forte que trás expressão ao tipo &mdash; elegância (brackets
 suaves ou grandes da [Times New Roman]) ou robustez (brackets ausentes na [Arvo]).
 
 #### Slabs - Serifas quadradas
 
 Também conhecidas como tipografia mecana ou egípcia, slabs são serifas grossas como blocos. Elas não usam
 brackets. Genericamente falando, uma tipografia com essa serifa tem menos contraste em seus
-glifos &ndash; [Rockwell], [Courier] e [American typewriter] refletem isso.
+glifos &mdash; [Rockwell], [Courier] e [American typewriter] refletem isso.
 
 Pode ser seguro afirmar que serifas quadradas têm sido usadas para adicionar algum ornamento ou ritmo em uma
 fonte que, de outra forma, não teria contraste. Mas isto não é uma regra absoluta.
@@ -253,7 +253,7 @@ fonte que, de outra forma, não teria contraste. Mas isto não é uma regra abso
 #### Terminais das serifas
 
 Assim como os terminais das letras, a forma final das serifas contribui para a sensação do
-tipo &ndash; seja suave ou robusta. Os terminais das serifas podem ser suaves e arredondados ([Courier]) ou bruscos e
+tipo &mdash; seja suave ou robusta. Os terminais das serifas podem ser suaves e arredondados ([Courier]) ou bruscos e
 angulares ([Rockwell]).
 
 ### Decoração

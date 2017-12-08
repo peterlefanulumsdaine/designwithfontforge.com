@@ -34,6 +34,6 @@ published: false
 | 72     | Projetando Tipografia Devanágari           |
 | 75     | Importando Glifos de outros programas      |
 | 78     | Adicionando Glifos para uma fonte Árabe    |
-| 81     | Leitura recomendada                        |
+| 81     | Leitura adicional                          |
 | 82     | História das Ferramentas de edição de Fonte|
 | 84     | Glossário                                  |

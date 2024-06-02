@@ -94,5 +94,5 @@ title: ساختن o و n
 <img src="images/i-j-t-f-curves.png" alt>
 
 [“فونت چیست؟”]: What_Is_a_Font.html
-[«فضاسازی، سنجه‌ها و فاصله‌گذاری»]: Spacing_Metrics_and_Kerning.html
+[فاصله‌گذاری، سنجه‌ها و کرنینگ]: Spacing_Metrics_and_Kerning.html
 [Open Sans]: http://opensans.com/

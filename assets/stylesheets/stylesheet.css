@@ -790,3 +790,12 @@ figcaption a {
 figcaption a:hover {
   color: #000;
 }
+
+kbd {
+	padding: 0 5px;
+	background: #7771;
+	border: 1px solid #7772;
+	border-radius: 5px;
+	line-height: 1em;
+	font-size: .8em;
+}

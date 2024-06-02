@@ -73,7 +73,7 @@ However, if a complementary design is made for 2 scripts, it may be best to rele
 
 این
 [صفحه‌گستردهٔ نام‌گذاری خانواده فونت](https://docs.google.com/spreadsheets/d/1ckHigO7kRxbm9ZGVQwJ6QJG_HjV_l_IRWJ_xeWnTSBg/edit#gid=0)
-بر اساس اطاعاتی پایه‌ای است که توسط یک متخصص فونت لهستانی به نام Adam Twardoch در
+بر اساس اطلاعاتی پایه‌ای است که توسط یک متخصص فونت لهستانی به نام Adam Twardoch در
 [انجمن  Fontlab](http://forum.fontlab.com/index.php?topic=313.0)
 مورد بحث قرار گرفته تهیه شده است
 و برگرفته از 

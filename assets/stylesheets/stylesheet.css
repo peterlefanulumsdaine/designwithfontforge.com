@@ -314,6 +314,8 @@ code, pre {
   font-size: 0.75em;
   white-space: pre;
   max-width: 100%;
+  text-align: start;
+  unicode-bidi: plaintext;
 }
 
 pre {

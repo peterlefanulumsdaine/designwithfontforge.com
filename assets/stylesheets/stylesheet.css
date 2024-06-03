@@ -26,9 +26,6 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-html[lang="fa-IR"] body {
-  font-family: Vazirmatn;
-}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -58,7 +55,7 @@ body {
   font-size: 17px;
   line-height: 1.5;
   background: #FAFAFA url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Source Serif Pro', serif;
+  font-family: Vazirmatn-for-arabic, 'Source Serif Pro', serif;
   font-weight: 400;
   color: #343434;
   margin-bottom: 40px;
@@ -76,10 +73,11 @@ body > div, footer {
 }
 
 #main-content h1, #main-content h2, h3, h4, h5, h6, #sidebar {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Vazirmatn-for-arabic, 'Source Sans Pro', sans-serif;
   font-weight: 700;
 }
 
+html[lang="fa-IR"] body,
 html[lang="fa-IR"] h1,
 html[lang="fa-IR"] #main-content h1,
 html[lang="fa-IR"] h2,
@@ -91,6 +89,7 @@ html[lang="fa-IR"] h6,
 html[lang="fa-IR"] #sidebar {
   font-family: Vazirmatn;
 }
+
 #sidebar {
   font-weight: 400;
 }
@@ -105,10 +104,14 @@ a:hover, #main-content a:hover h3 {
 header {
   padding-top: 40px;
   padding-bottom: 40px;
-  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Vazirmatn-for-arabic, 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
   background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;
   border-bottom: solid 1px #275da1;
   font-size: 26px;
+}
+
+html[lang="fa-IR"] header {
+  font-family: Vazirmatn;
 }
 
 header h1 {
@@ -279,7 +282,10 @@ a.button {
   color: #fff;
   padding-inline-start: 68px;
   padding-top: 22px;
-  font-family: 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: Vazirmatn-for-arabic, 'Julius Sans One', 'Helvetica Neue', Helvetica, Arial, serif;
+}
+html[lang="fa-IR"] a.button {
+  font-family: Vazirmatn;
 }
 a.button small {
   display: block;

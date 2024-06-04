@@ -10,7 +10,7 @@ BOOKS="$@"
 
 if [ $# -lt 1 ]; then
   echo 1>&2 "Building all books"
-  BOOKS="en-US zh-CN fr-FR"
+  BOOKS="en-US zh-CN fr-FR fa-IR"
 fi
 
 sed -i -e 's|2012 - [2][0-9][0-9][0-9]|2012 - '$(date '+%Y')'|g' cover_template.svg # Insert current year into book cover

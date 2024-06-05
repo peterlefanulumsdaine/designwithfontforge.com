@@ -47,7 +47,7 @@ em در مقیاس اندازه نقاط (point) دل‌خواه تعیین می
 و سپس کلیک روی زبانه عمومی (general) انجام شود.
 در این جا می‌توانید تنظیمات EM را دیده و مقادیری نظیر بلندای *Ascender* و *Descender* که به ارتفاع بالا و پایین خط مبنا هستند را تغییر دهید.
 
-خط پایه (The Baseline):
+خط کرسی (The Baseline):
 
 <img src="images/baseline.png" alt>
 
@@ -55,12 +55,12 @@ The Cap Height:
 
 <img src="images/capheight.png" alt>
 
-The x-height:
+ارتفاع x یا x-height:
 
 <img src="images/xheight.png" alt>
 
 بعدا و در زمان طراحی تایپ، بایستی مقادیر آبی را نیز تنظیم کنید.
-این مقادیر برای outlines در پست‌اسکریپت و همچنین autohinter در فونت‌فورج استفاده می‌شوند
+این مقادیر برای outlines در پست‌اسکریپت و همچنینautohinter در فونت‌فورج استفاده می‌شوند
 &mdash;
 فارغ از این که روی کدام outlines کار می‌کنید.
 

@@ -42,9 +42,12 @@ title: ایتالیک
 این ساختمان یا الگوی خطوط متفاوت همان چیزی است که طراحان وقتی از ایتالیک واقعی یا حقیقی (real, true) سخن به میان می‌آورند به آن اشاره می‌کنند.
 این ساختمان دارای زیرخصوصیت‌های متعددی است که می‌توانید در طراحی ایتالیک از آن‌ها استفاده کنید.
 
-### Triangular counters
+###  فضای منفی مثلثی
 
-The most obvious of these characteristics is the triangular countershape created by letters with joins. These letters include a, b, d, g, h, m, n, p, q, and u. This variable is powerful, partly because countershape is a powerful variable, but also because of the great number of letters with the feature.  That fact, combined with the high frequency of their usage in most languages, is also a very large (and probably even greater) factor.
+واضح‌ترین نمونه از این خصوصیات به فضای منفی مثلثی در حروف دارای مفصل مربوط می‌شود.
+این حروف شامل abdghmpqu می‌شوند.
+این متغیر نه فقط به خاطر قوی بودن متغیر فضای منفی بلکه به خاطر استفاده‌اش در حروف متعدد، از قدرت زیادی برخوردار است.
+این موضوع، وقتی که تناوب بالای استفاده‌اش در بیشتر زبان‌ها را ببینیم، اهمیت بیشتری نیز پیدا می‌کند.
 
 زمانی که ایتالیک‌تان را طراحی می‌کنید می‌توانید این جلوه را با تغییرات نسبی ظریف در ارتفاع اتصالات بهینه کنید.
 تغییرات ظریف می‌توانند نتایج بزرگ و شگفت‌آوری به دنبال داشته باشند.

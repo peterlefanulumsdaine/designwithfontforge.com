@@ -6,7 +6,7 @@ category: workflow
 title: 日本語訳語メモ EN-to-JA
 ---
 
-《訳語統一用メモ for the nification of translations》
+《訳語統一用メモ for the unification of translations》
 
 |Word EN |Word JA |
 |:--------------- |:---------------------------------- |

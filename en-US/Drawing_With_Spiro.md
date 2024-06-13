@@ -8,8 +8,8 @@ title: Drawing with Spiro
 
 Spiro is a toolkit for designing curves in an alternate method to the more traditional B&eacute;zier
 curves.
-It has a different approach, that can help you getting your curves done in a different
-way and solving your conception problems. Please experiment!
+Spiro has a different approach that can help you get your curves done in a different
+way to help solve your conceptual problems. Please experiment!
 
 ## The Spiro toolset
 
@@ -70,7 +70,7 @@ Now, you should see something like this:
 <img src="images/S%20at%2083%20from%20Untitled1%20-_028.png" alt>
 
 Toggle out of Spiro mode back into B&eacute;zier mode. You will notice there are a lot of points on
-the resulting curve &mdash; you may want to clean some of them up. 
+the resulting curve &mdash; you may want to clean some of them up.
 
 <img src="images/S%20at%2083%20from%20Untitled1%20-_031.png" alt>
 
@@ -81,7 +81,7 @@ After these clean up operations, you will see something like this:
 <img src="images/S%20at%2083%20from%20Untitled1%20-_029.png" alt>
 
 You can continue to experiment with Spiro mode to get a feel of how it differs from B&eacute;zier
-drawing.  
+drawing.
 The terminology is different, but as with FontForge’s other drawing and adjustment tools, practice
 will get you the things you want.
 

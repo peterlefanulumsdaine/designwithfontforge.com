@@ -11,7 +11,7 @@
                 {{ page.name | prepend: '../en-US/' | replace: '.md', '.html' }}
             {% else %}
                 ../en-US/index.html
-            {% endif %} 
+            {% endif %}
         " class="lang">[English]</a>&nbsp;|&nbsp;
     	<a href="
             {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
@@ -19,7 +19,7 @@
                 {{ page.name | prepend: '../fr-FR/' | replace: '.md', '.html' }}
             {% else %}
                 ../fr-FR/index.html
-            {% endif %} 
+            {% endif %}
         "class="lang">[Français]</a>&nbsp;|&nbsp;
         <a href="
     		{% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
@@ -27,7 +27,7 @@
     			{{ page.name | prepend: '../zh-CN/' | replace: '.md', '.html' }}
     		{% else %}
     			../zh-CN/index.html
-    		{% endif %}	
+    		{% endif %}
     	"class="lang">[简体中文版]</a>&nbsp;|&nbsp;
     	<a href="
     		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/zh-TW/' %}
@@ -35,17 +35,17 @@
     			{{ page.name | prepend: '../zh-TW/' | replace: '.md', '.html' }}
     		{% else %}
     			../zh-TW/index.html
-    		{% endif %}	
+    		{% endif %}
     	" class="lang">[正體中文版]</a>
         <a href="#" class="lang">[فارسی]</a>
     </div>
     <div class="ebook">
       دریافت در قالب
-      <a href="/ebook/design-with-fontforge_fa_IR.epub" class="ebook" rel="nofollow">[ePUB]</a>
+      <a href="../ebook/design-with-fontforge_fa_IR.epub" class="ebook" rel="nofollow">[ePUB]</a>
       &nbsp;|&nbsp;
-      <a href="/ebook/design-with-fontforge_fa_IR.mobi" class="ebook" rel="nofollow">[MOBI]</a>
+      <a href="../ebook/design-with-fontforge_fa_IR.mobi" class="ebook" rel="nofollow">[MOBI]</a>
       &nbsp;|&nbsp;
-      <a href="/ebook/design-with-fontforge_fa_IR.pdf" class="ebook" rel="nofollow">[PDF]</a>
+      <a href="../ebook/design-with-fontforge_fa_IR.pdf" class="ebook" rel="nofollow">[PDF]</a>
     </div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank">
       <small>دیدن پروژه روی</small>

@@ -16,7 +16,7 @@
 
                 {% if currentPost and p.title != 'Design With FontForge' %}
                   <a class="prev" href="{{p.url}}">
-                    <span>Prev</span>
+                    <span>前のページ</span>
                     <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
@@ -41,7 +41,7 @@
 
                 {% if currentPost and p.title != 'Design With FontForge' %}
                   <a class="next" href="{{p.url}}">
-                    <span>Next</span>
+                    <span>次のページ</span>
                     <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}

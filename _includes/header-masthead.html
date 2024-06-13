@@ -7,12 +7,12 @@
     <div class="lang">
     	<a href="#" class="lang">[English]</a>&nbsp;|&nbsp;
         <a href="
-            {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
-            {% if urlList contains CNurl %}
+            {% assign FRurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
+            {% if urlList contains FRurl %}
                 {{ page.name | prepend: '../fr-FR/' | replace: '.md', '.html' }}
             {% else %}
                 ../fr-FR/index.html
-            {% endif %} 
+            {% endif %}
         "class="lang">[Français]</a>&nbsp;|&nbsp;
     	<a href="
     		{% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
@@ -20,7 +20,7 @@
     			{{ page.name | prepend: '../zh-CN/' | replace: '.md', '.html' }}
     		{% else %}
     			../zh-CN/index.html
-    		{% endif %}	
+    		{% endif %}
     	"class="lang">[简体中文版]</a>&nbsp;|&nbsp;
     	<a href="
     		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/zh-TW/' %}
@@ -28,18 +28,26 @@
     			{{ page.name | prepend: '../zh-TW/' | replace: '.md', '.html' }}
     		{% else %}
     			../zh-TW/index.html
-    		{% endif %}	
+    		{% endif %}
     	" class="lang">[正體中文版]</a>
 			<a href="
-    		{% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/fa-IR/' %}
-    		{% if urlList contains TWurl %}
+    		{% assign FAurl = page.name | replace: '.md', '.html' | prepend: '/fa-IR/' %}
+    		{% if urlList contains FAurl %}
     			{{ page.name | prepend: '../fa-IR/' | replace: '.md', '.html' }}
     		{% else %}
     			../fa-IR/index.html
-    		{% endif %}	
+    		{% endif %}
     	" class="lang">[فارسی]</a>
+    	<a href="
+    		{% assign JPurl = page.name | replace: '.md', '.html' | prepend: '/ja-JP/' %}
+    		{% if urlList contains JPurl %}
+    			{{ page.name | prepend: '../ja-JP/' | replace: '.md', '.html' }}
+    		{% else %}
+    			../ja-JP/index.html
+    		{% endif %}
+    	" class="lang">[日本語版]</a>
     </div>
-    <div class="ebook">Download as <a href="/ebook/design-with-fontforge_en-US.epub" class="ebook" rel="nofollow">[ePUB]</a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_en-US.mobi" class="ebook" rel="nofollow">[MOBI]</a>&nbsp;|&nbsp;<a href="/ebook/design-with-fontforge_en-US.pdf" class="ebook" rel="nofollow">[PDF]</a></div>
+    <div class="ebook">Download as <a href="../ebook/design-with-fontforge_en-US.epub" class="ebook" rel="nofollow">[ePUB]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_en-US.mobi" class="ebook" rel="nofollow">[MOBI]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_en-US.pdf" class="ebook" rel="nofollow">[PDF]</a></div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>View project on</small>GitHub</a>
   </div>
 </header>

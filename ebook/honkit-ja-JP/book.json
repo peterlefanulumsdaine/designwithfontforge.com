@@ -1,0 +1,12 @@
+{
+    "title": "Design With FontForge（日本語版）",
+    "description": "FontForge を用いた新しい書体デザインのためのガイドブックです。",
+    "language": "ja",
+    "pdf": {
+          "paperSize": "a4"
+        },
+    "structure": {
+        "readme": "Introduction.md",
+        "glossary": "dontuseaglossary.md"
+    }
+}

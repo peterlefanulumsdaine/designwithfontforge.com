@@ -1,0 +1,11 @@
+{
+    "title": "طراحی با فونت‌فورج",
+    "description": "کتابی درباره چگونگی ساخت یک تایپ‌فیس جدید با کمک فونت‌فورج",
+    "language": "fa",
+    "pdf": {
+        "paperSize": "letter"
+    },
+    "structure": {
+        "readme": "Introduction.md"
+    }
+}

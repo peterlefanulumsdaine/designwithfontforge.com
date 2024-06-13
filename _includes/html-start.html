@@ -20,6 +20,23 @@
   font-weight: 700;
   src: local('Heuristica Bold Italic'), url(//brick.a.ssl.fastly.net/fonts/heuristica/700i.woff) format('woff');
 }
+  /* Using Vazirmatn for RTL languages like fa-IR */
+  /* arabic */
+  @font-face {
+    font-family: 'Vazirmatn';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/vazirmatn/v13/Dxx78j6PP2D_kU2muijPEe1n2vVbfJRklWgzCRWT7lDF.woff2) format('woff2');
+  }
+  @font-face {
+    font-family: 'Vazirmatn-for-arabic';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/vazirmatn/v13/Dxx78j6PP2D_kU2muijPEe1n2vVbfJRklWgzCRWT7lDF.woff2) format('woff2');
+    unicode-range: U+0600-06FF, U+0750-077F, U+0870-089F, U+08A0-08FF, U+FB50-FDFF, U+FE70-FEFF, U+10E60-10E7F, U+10EC0-10EFF, U+1EC70-1ECBF, U+1ED00-1ED4F, U+1EE00-1EEFF;
+  }
     </style>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/print.css" media="print">
@@ -35,4 +52,4 @@
     {% endif %}
   </head>
 
-  <body>
+  <body dir="auto">

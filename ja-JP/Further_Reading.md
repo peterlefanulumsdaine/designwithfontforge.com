@@ -21,7 +21,7 @@ title: 参考文献
 
 ### 曲線数学 Curve Math
 
-* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) ：　ベジェ曲線の数学に関する優れたガイド《※ ベジェ曲線入門》　
+* [A Primer on Bézier Curves](http://pomax.github.io/bezierinfo/) ：　ベジェ曲線の数学に関する優れたガイド《※ ベジェ曲線入門》
 * [Raph Levien's PhD on Spiro curves](http://raph.levien.com/phd)　《※ スピロ曲線について》
 
 ### ビジネス Business
@@ -64,7 +64,7 @@ ILT フォント・プロジェクト事例：
 
 * [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/) 《※ 研究すべきギリシア文字書体》
 
-### キリル文字 Cyrillic 
+### キリル文字 Cyrillic
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )　《※ キリル文字を学ぼう》
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)　《※ セルビア語のキリル文字》
@@ -87,7 +87,7 @@ ILT フォント・プロジェクト事例：
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)　《※ Adi Stern 氏のレディング大学修士論文》
 
-### デーヴァナーガリー文字 Devanagari 
+### デーヴァナーガリー文字 Devanagari
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)　《※ Microsoft 社のデーヴァナーガリー・フォント仕様書》
 * シカゴ大学 [South Asia Language Resource Center](http://salrc.uchicago.edu/)　《※ 南アジア言語資料センター》
@@ -98,6 +98,10 @@ ILT フォント・プロジェクト事例：
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)　《※ Mustafa Saifee 氏「光学式文字認識用のデーヴァナーガリー・フォント」》
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)　《※ Vaibhav Singh 氏「マルチスクリプト・タイポグラフィーにおけるデーヴァナーガリー」》
 * 仮想キーボード（ソフトウェアキーボード）：　[lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) および [branah](http://www.branah.com/devanagariinscript)
+
+### ペルシア語 Persian
+
+* [Getting started with FontForge By Saber Rastikerdar](https://rastikerdar.github.io/getting-started-with-fontforge/)
 
 ## 書籍 Books
 

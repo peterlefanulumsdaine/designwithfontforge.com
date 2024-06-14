@@ -35,7 +35,7 @@ title: 延伸阅读
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/wiki/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 
-### 天城体 
+### 天城体
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
@@ -46,6 +46,10 @@ title: 延伸阅读
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
+
+### 波斯語
+
+* [Getting started with FontForge By Saber Rastikerdar](https://rastikerdar.github.io/getting-started-with-fontforge/)
 
 ## 书籍
 

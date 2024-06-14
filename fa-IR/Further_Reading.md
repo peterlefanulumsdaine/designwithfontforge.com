@@ -65,7 +65,7 @@ title: مطالعهٔ بیشتر
 
 * [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/)
 
-### سیریلیک 
+### سیریلیک
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
@@ -88,7 +88,7 @@ title: مطالعهٔ بیشتر
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
-### دیواناگری 
+### دیواناگری
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) at The University of Chicago
@@ -99,6 +99,11 @@ title: مطالعهٔ بیشتر
 * [Mustafa Saifee - Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
+
+### فارسی
+
+* [Getting started with FontForge](https://rastikerdar.github.io/getting-started-with-fontforge/) By Saber Rastikerdar (RIP)
+  [شروع با فونت‌فورج](https://rastikerdar.github.io/getting-started-with-fontforge/) به قلم صابر راستی‌کردار (یادش گرامی)
 
 ## کتاب‌ها
 

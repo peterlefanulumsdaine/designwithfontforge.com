@@ -86,7 +86,7 @@ Exemples de projets de *I Love Typography*:
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
-### Devanagari 
+### Devanagari
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) The University of Chicago
@@ -97,6 +97,10 @@ Exemples de projets de *I Love Typography*:
 * [Mustafa Saifee &mdash; Devanagari Font for Optical Character Recognition](https://www.behance.net/gallery/11968313/Devanagari-Font-for-Optical-Character-Recognition)
 * [Vaibhav Singh &mdash; Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Claviers virtuels: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) et [branah](http://www.branah.com/devanagariinscript)
+
+### Persane
+
+* [Getting started with FontForge By Saber Rastikerdar](https://rastikerdar.github.io/getting-started-with-fontforge/)
 
 ## Livres
 

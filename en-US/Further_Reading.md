@@ -63,7 +63,7 @@ ILT Example Projects:
 
 * [Greek Typefaces Worth Studying](http://leonidas.org/greek-type-design/greek-typefaces-worth-studying/)
 
-### Cyrillic 
+### Cyrillic
 
 * [Learn Cyrillic](http://learncyrillic.tumblr.com )
 * [Serbian Cyrillic](http://tipometar.org/indexEng.html)
@@ -86,7 +86,7 @@ ILT Example Projects:
 
 * [Adi Stern's MATD Dissertation](http://issuu.com/gerryleonidas/docs/2003_dissertation_adistern)
 
-### Devanagari 
+### Devanagari
 
 * [Microsoft Specifications for Devanagari Fonts](http://www.microsoft.com/typography/OpenTypeDev/devanagari/intro.htm)
 * [South Asia Language Resource Center](http://salrc.uchicago.edu/) at The University of Chicago
@@ -99,9 +99,9 @@ ILT Example Projects:
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
 
 ### Persian
-* [Getting started with FontForge](https://rastikerdar.github.io/getting-started-with-fontforge/) By Saber Rastikerdar (RIP)  
-  [شروع با فونت‌فورج](https://rastikerdar.github.io/getting-started-with-fontforge/) به قلم صابر راستی‌کردار (یادش گرامی)
- 
+
+* [Getting started with FontForge By Saber Rastikerdar](https://rastikerdar.github.io/getting-started-with-fontforge/)
+
 ## Books
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)

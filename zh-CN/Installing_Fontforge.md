@@ -33,18 +33,6 @@ FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。本节�
 
 正在建设中的新网站上提供了[安装指南](http://fontforge.github.io/en-US/downloads/gnulinux/)。
 
-#### Fedora
-
-以root用户身份运行下面的yum命令可以在你的Fedora Linux桌面机上安装FontForge。完成安装的下载量大概是10MiB。
-
-```
-yum install fontforge
-```
-
-如果在你的Fedora机器上没有编译软件，那么安装gcc，automake，autoconf和其他软件后你可能在执行libtoolize的autogen.sh的时候遇到错误。如果遇到这种情况你需要安装Fedora的libtool-ltdl-devel包，或者其他Linux分发版的类似开发包。
-
-上述yum install完成后你可以在你的菜单运行FontForge，或者从konsole或gnome-terminal直接使用*fontforge*命令运行。
-
 ## 在Github上编译你自己的版本
 
 某些情况下，可能你需要使用一个预编译版本中尚不存在的功能，你可能希望从Github拿到代码编译自己的版本。Github是一个源代码托管服务，每个人都可以为软件一部分的开发做出贡献。本节的说明只针对Ubuntu 14.04。
@@ -63,7 +51,7 @@ sudo apt-get install build-essential automake flex bison
 sudo apt-get install unifont
 ```
 
-安装其他的必需包： 
+安装其他的必需包：
 
 ```
 sudo apt-get install packaging-dev pkg-config python-dev libpango1.0-dev
@@ -135,7 +123,7 @@ cd ..
 ```
 
 让系统知道新的库：
-    
+
 ```
 sudo ldconfig
 ```

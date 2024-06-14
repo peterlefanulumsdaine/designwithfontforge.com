@@ -31,60 +31,7 @@ title: نصب فونت‌فورج
 
 روش آسان برای نصب فونت‌فورج روی یک دستگاه گنو/لینوکسی، استفاده از مخازن بستهٔ توزیع‌هاست.
 
-#### دبیان یا اوبونتو
-
-بسته به نسخه‌ای از اوبونتو یا دبیان که استفاده می‌کنید،
-ممکن است که به آخرین نسخه رسمی مستقیما از مخازن رسمی دسترسی داشته باشید.
-در این صورت مستقیما با دستور زیر اقدام به نصب کنید:
-
-```sh
-sudo apt-get install fontforge;
-```
-
-در غیر این صورت ممکن است
-[بایگانی بستهٔ شخصی (PPA)](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge)
-به کار شما بیاید.
-
-ابتدا ببینید که آیا اسکریپت کمکی `add-apt-repository` نصب شده باشد:
-    
-```sh
-sudo apt-get install software-properties-common;
-```
-
-سپس PPA فونت‌فورج را اضافه کنید
-(که کلید احراز هویت را نیز اضافه می‌کند):
-    
-```sh
-sudo add-apt-repository ppa:fontforge/fontforge;
-```
-فهرست نرم‌افزارها را به‌روز کنید تا بسته‌های PPA را نیز شامل شود:
-    
-```sh
-sudo apt-get update;
-```
-
-اکنون می‌توانید فونت‌فورج را نصب کنید:
-    
-```sh
-sudo apt-get install fontforge;
-```
-
-#### فدورا
-
-برای نصب فونت‌فورج روی دستگاه میزکار فدورا کافی است که دستور زیر را به عنوان کاربر ریشه اجرا کنید.
-این فرایند برای کامل شدن نیازمند دریافت تقریبا ۱۰ مگابایت است
-
-```sh
-sudo dnf install fontforge
-```
-
-اگر پس از نصب gcc و automake و auticong و سایر بسته‌ها،
-اقدام به کامپایل کردن نرم‌افزاری نکرده باشید
-ممکن است که خطایی حین اجرای `autogen.sh` با `libtoolize` دریافت کنید.
-در چنین حالتی ممکن است نیاز به نصب بستهٔ`libtool-ltdl-devel` روی فدورا
-یا بسته توسعهٔ مشابهی روی سایر توزیع‌های گنو/لینوکسی داشته باشید.
-
-پس از اجرای `yum install` باید بتوانید برنامه فونت‌فورج را چه از واسط گرافیکی و چه از خط فرمان با کمک دستور `fontforge` اجرا کنید.
+An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
 
 ## کامپایل کردن نسخه خودتان از گیت‌هاب
 
@@ -101,5 +48,5 @@ sudo dnf install fontforge
 ## اشکال‌زدایی نرم‌افزار فونت‌فورج
 
 برای اطلاعات بیشتر، بخش
-[اشکال‌زدایی](When_Things_Go_Wrong_With_Fontforge_Itself) 
+[اشکال‌زدایی](When_Things_Go_Wrong_With_Fontforge_Itself)
 را ببینید.

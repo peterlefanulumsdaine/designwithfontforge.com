@@ -18,29 +18,13 @@ Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/download
 
 ### Installation de FontForge sur Mac OS X
 
-Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/mac/) est disponible pour les versions officielles Mac, préparé par le Dr Ben Martin. 
+Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/mac/) est disponible pour les versions officielles Mac, préparé par le Dr Ben Martin.
 
 ### Installation sur GNU/Linux
 
 La méthode la plus simple pour obtenir FontForge sur votre machine Linux est d'utiliser le dépôt de paquets de votre distribution Linux.
 
 Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/gnulinux/) est disponible pour les versions officielles GNU/Linux.
-
-#### Fedora
-
-Pour installer FontForge sur votre machine Fedora Linux, exécutez la commande yum suivante en tant
-qu'utilisateur root.
-Environn 10 Mo devront être téléchargé pour terminer.
-
-
-```
-yum install fontforge;
-```
-
-Si vous n'avez pas compilé de logiciel sur votre machine Fedora, après avoir installé gcc, automake, autoconf et autres, vous pourriez obtenir une erreur lors de l'exécution de autogen.sh avec libtoolize.
-Si c'est le cas, vous devrez peut-être installer le paquet libtool-ltdl-devel sur Fedora ou un package de développement similaire sur une autre distribution GNU/Linux.
-
-Après l'installation de yum, vous devriez être en mesure d'exécuter FontForge à partir de votre menu ou directement à partir de la konsole ou gnome-terminal en émettant la commande `fontforge`.
 
 ## Compilez votre propre version à partir de Github
 

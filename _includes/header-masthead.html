@@ -5,7 +5,7 @@
     <h1><a href="/">{{ site.title }}</a></h1>
     <h2>{{ site.subtitle }}</h2>
     <div class="lang">
-      <a href="#" class="lang">[English]</a>&nbsp;|&nbsp;
+      <a href="#" class="lang">[English]</a>&nbsp;|
       <a href="
         {% assign FRurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
         {% if urlList contains FRurl %}
@@ -13,7 +13,7 @@
         {% else %}
           ../fr-FR/index.html
         {% endif %}
-        "class="lang">[Français]</a>&nbsp;|&nbsp;
+        "class="lang">[Français]</a>&nbsp;|
       <a href="
         {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
         {% if urlList contains CNurl %}
@@ -21,7 +21,7 @@
         {% else %}
           ../zh-CN/index.html
         {% endif %}
-        "class="lang">[简体中文版]</a>&nbsp;|&nbsp;
+        "class="lang">[简体中文版]</a>&nbsp;|
       <a href="
         {% assign TWurl = page.name | replace: '.md', '.html' | prepend: '/zh-TW/' %}
         {% if urlList contains TWurl %}
@@ -29,7 +29,7 @@
         {% else %}
           ../zh-TW/index.html
         {% endif %}
-        " class="lang">[正體中文版]</a>&nbsp;|&nbsp;
+        " class="lang">[正體中文版]</a>&nbsp;|
       <a href="
         {% assign FAurl = page.name | replace: '.md', '.html' | prepend: '/fa-IR/' %}
         {% if urlList contains FAurl %}
@@ -37,7 +37,7 @@
         {% else %}
           ../fa-IR/index.html
         {% endif %}
-        " class="lang">[فارسی]</a>&nbsp;|&nbsp;
+        " class="lang">[فارسی]</a>&nbsp;|
       <a href="
         {% assign JPurl = page.name | replace: '.md', '.html' | prepend: '/ja-JP/' %}
         {% if urlList contains JPurl %}

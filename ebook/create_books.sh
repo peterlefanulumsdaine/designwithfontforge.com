@@ -22,11 +22,13 @@ for l in $BOOKS
 do
 	echo -e "\nStaging files for book creation"
 	cp -a ../$l/. ../ebook/temp/
+	cp -a ../assets/images ../ebook/temp/images
 	cp -a ../en-US/images ../ebook/temp/images
 	cp -a honkit-$l/. ../ebook/temp/
 	cd temp/
 	echo -e "\nAdjusting text to fetch images in subfolder images"
 	for i in *.md; do
+		sed -i 's/..\/assets\/images/images/g' $i
 		sed -i 's/..\/en-US\/images/images/g' $i
 	done
 	echo -e "\nRemoval of the front matter in summary page"

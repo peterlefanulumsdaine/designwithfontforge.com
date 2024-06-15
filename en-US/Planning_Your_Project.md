@@ -13,7 +13,7 @@ three or four-styles type family, or perhaps something even larger.
 Common styles of type families include:
 * A Regular and a Bold weight
 * Regular, Bold, Italic &mdash; eventually with a Bold Italic
-* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black 
+* Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black
 * Regular, Condensed, Bold and Bold Condensed
 * Narrow, Condensed, Wide and Extra Wide
 * Regular, Semi-Flourished, Flourished, Very Flourished, Extremely Flourished.
@@ -72,17 +72,17 @@ make decisions about specific parts of the base letters (such as the ‘n’ and
 Depending on the size and composition of the font family you are planning, you may find that it saves
 time to make instances of glyphs that can be interpolated. Not only does this allow you to interpolate
 intermediate styles, but it also aids in making design choices about typographic variables that
-shift across members of a family.  
+shift across members of a family.
 
 For an overview of the typographic variables you should consider, see the chapter [“What is a
 font?”](What_Is_a_Font.html).
 
-## Technical: Version Management 
+## Technical: Version Management
 
 You should learn to use Git and GitHub to store your files, and use the "SFDir" format for your sources.
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>
 
 ## Overall Process
 
@@ -113,13 +113,13 @@ means a laser printer with "true" 1200 DPI and Adobe PostScript 3. For individua
 to purchase something like this for around $500, and some 2013 recommendations were:
 
 * HP P2055d
-* Xerox Phaser 4510 
+* Xerox Phaser 4510
 * Xerox Phaser 5550
 * Nashua/Ricoh P7026N
 
 In May 2013, the [Production Type](http://productiontype.com) studio had a Xerox 7525 with a "fiery" controller, which cost around €12,000 to purchase. This could be leased for €300 per month with toner, parts and maintenance.
 In late 2015, Octavio Pardo leased a [Xerox Phaser 7100](
-http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way for €30 per month.
+https://www.xerox.com/en-us/office/printers/phaser-7100) in a similar way for €30 per month.
 
 ## OpenType Features
 

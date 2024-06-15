@@ -9,7 +9,6 @@ title: 计划好你的项目
 现在你能感觉到一个字体如何设计是多样的。如果你的项目会是几个内部关联的字体的集合，或者是一个三四种样式（现在已经是约定）的字体家族，或者是更庞大的东西，那么你可能想选择你的项目是否只有一个字体。
 
 字体家族的通常样式包括：
-
 * 一个常规体和一个粗体
 * 常规体，粗体，斜体乃至粗斜体
 * 细体，痩体，书体，常规体，半粗体，粗体，超粗体，重体和黑体
@@ -20,6 +19,22 @@ title: 计划好你的项目
 典型的模式在字体家族中存在是有原因的，你也可能发现一个非常不同的分组。
 
 项目的范围能够通过你的雄心和自由时间总数来唯一地确定。但是项目范围经常通过字体的集合或家族的用途来确定，或者更进一步说，通过你的客户的需要来确定。当然对于专业字体设计者来说，下面的两个问题通常是确定的因素。
+
+## Feeling
+
+The most important thing about a type design is the feeling it evokes. This is notoriously hard
+to verbalize, but it is what makes a particular typeface meaningfully different from any other.
+
+A type designer in Portugal, Natanael Gama, designed the [Exo family](https://www.google.com/fonts/specimen/Exo) with FontForge.
+On his homepage he describes another project for the sculptor [John Williams](http://ndiscovered.com/john-williams/) and includes a graphic showing his brief in a matrix of continuums of feelings:
+
+* Figurative to Abstract 50%
+* Graceful to Robust: 30%
+* Calm to Energetic: 0%
+* Puzzling to Plain: 15%
+* Experimental to Standard: 15%
+* Prestigious to Ordinary: 15%
+* Other Ideas: Beautiful, Outside Spaces, Human Condition
 
 ## 字形覆盖率
 
@@ -35,9 +50,9 @@ title: 计划好你的项目
 
 取决于你计划的字体家族的尺寸和组成，你可能会发现制作字形的可插入实例会节约时间，这样做不仅可以插入中间样式，也可以对在字体家族成员间存在的排版变化所作出的设计选择有所补救。你应该考虑的变量在[“什么是字体”](What_Is_a_Font.html)一章。
 
-# 技术: 版本控制 
+# 技术: 版本控制
 
 你应该学习使用Git和Github来保存你的文件，使用“SFDir”格式来存放你的源。
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>

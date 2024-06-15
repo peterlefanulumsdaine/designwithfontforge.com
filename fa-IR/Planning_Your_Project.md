@@ -68,7 +68,7 @@ title: برنامه‌ریزی پروژه
 ## گردش‌کار خانواده چندسبکی
 
 اگر از همان اول بدانید که قرار است بیش از یک فونت داشته باشید،
-با برنامه‌ریزی و ساخت نظام‌مند خانواده فونت و کار روی مختلف به صورت موازی به جای کامل کردن یک سبک در هر زمان، 
+با برنامه‌ریزی و ساخت نظام‌مند خانواده فونت و کار روی مختلف به صورت موازی به جای کامل کردن یک سبک در هر زمان،
 زمان زیادی را برای خود صرفه‌جویی خواهید کرد.
 
 قطعا این ناممکن است که *همهٔ* سبک‌ها را کاملا به روش موازی بسازید،
@@ -94,14 +94,14 @@ title: برنامه‌ریزی پروژه
 
 بایستی استفاده از گیت و گیت‌هاب را برای ذخیره پرونده‌ها فرابگیرید و از قالب «SFDir» برای کد منبع استفاده کنید.
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>
 
 ## فرایند کلی
 
 در گذشته و حوالی سال ۲۰۱۰، Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan و چند مشارکت کنندهٔ ناشناس دیگر، نموداری برای کل فرایند ساخت فونت‌های لاتین را عرضه کردند:
 
-<img src="images/planning-process.png" width="584" height="1006">
+<img src="../en-US/images/planning-process.png" width="584" height="1006">
 
 این نمودار با Google Drawings ساخته شده و همانند این وبگاه، تحت پروانه Creative Commons Attribution-ShareAlike منتشر شده است.
 منبع این نمودار در [این جا](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf) در دسترس است.

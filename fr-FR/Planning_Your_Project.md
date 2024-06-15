@@ -59,7 +59,7 @@ améliorer l'ensemble de glyphes que d'en ajouter de nouveaux.
 ## Flux de travail pour famille multi-styles
 
 Si vous savez dès le début que vous aurez plus d'une fonte, vous économiserez du temps si vous planifiez
-et construisez la famille de fontes systématiquement, et travaillez sur les styles en parallèle, 
+et construisez la famille de fontes systématiquement, et travaillez sur les styles en parallèle,
 plutôt que de compléter un style à la fois.
 
 Il est bien sûr impossible de créer *chaque* style d'une manière complètement parallèle, mais il est
@@ -77,17 +77,26 @@ sujet de ces variables typographiques qui se répètent à travers les membres d
 Pour une description des variables que vous devriez envisager, consultez le chapitre ["Qu'est-ce qu'une
 police de caractères?"](What_Is_a_Font.html).
 
-## Technique: Gestion des versions 
+## Technique: Gestion des versions
 
 Vous devriez apprendre à utiliser Git et Github pour stocker vos fichiers et utiliser le format "SFDir"
 pour vos sources.
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>
 
 ## Processus général
 
+Back in 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan and other Anonymous contributors developed a total process diagram for Latin fonts:
+
 <img src="../en-US/images/planning-process.png" width="584" height="1006">
+
+This was made with Google Drawings and like this site is licensed under the Creative Commons Attribution-ShareAlike licence.
+The source is [here](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf).
+
+A version for Non-Latin (Devanagari) projects is also available at [here](https://commons.wikimedia.org/wiki/File:Devanagari_Typeface_Design_Process_Overview.pdf).
+
+<!-- Editable versions of the above, with unknown stability, may be found in GitHub PR №225. -->
 
 ## Environnements de test
 
@@ -111,8 +120,7 @@ acheter une pour environ 500 $.  En 2013, ces imprimantes étaient recommandées
 En mai 2013, le studio [Production Type](http://productiontype.com) offrait une Xerox 7525 avec un contrôleur "fiery", qui
 coûtait environ 12 000 € à l'achat mais qui était de 300 € par mois en location avec toner, pièces et maintenance .
 À la fin de 2015, Octavio Pardo a loué un [Xerox Phaser 7100](
-Http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) de manière similaire pour 30 € par mois.
-
+https://www.xerox.com/en-us/office/printers/phaser-7100) de manière similaire pour 30 € par mois.
 
 ## Fonctionnalités OpenType
 
@@ -122,7 +130,7 @@ Les caractéristiques communes incluent:
 * `liga` Ligatures
 * `onum`, `lnum` Numéros
 
-Pour certaines langues `locl` fonctionne mais pour d'autres il ne marche pas, il est donc préférable d'exposer des formes 
+Pour certaines langues `locl` fonctionne mais pour d'autres il ne marche pas, il est donc préférable d'exposer des formes
 spécifiques à la langue via` locl` et `ssNN` ou` cvNN`.
 
 La spécification OpenType permet certaines caractéristiques qui ne sont pas recommandées:

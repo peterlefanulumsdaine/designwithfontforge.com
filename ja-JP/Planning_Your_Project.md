@@ -12,7 +12,7 @@ title: プロジェクトを計画する
 * Regular（標準体）と Bold（太字体）
 * Regular、Bold、Italic（斜体）；　最終的には、Bold Italic（太字斜体）も
 * Thin（細字体）、Light（中字体）、Book、Regular、Semi-Bold（セミボールド体）、Bold、Heavy（ヘビー体）、Black（ブラック体）
-* Thin、Light、Book、Regular、Semi-Bold、Bold、Extra-Bold（エクストラ・ボールド体）、Heavy、Black 
+* Thin、Light、Book、Regular、Semi-Bold、Bold、Extra-Bold（エクストラ・ボールド体）、Heavy、Black
 * Regular、Condensed（縦長体）、Bold、Bold Condensed（縦長太字体）
 * Narrow（細身体）、Condensed、Wide（ワイド体）、Extra Wide（エクストラ・ワイド体）
 * Regular、Semi-Flourished（セミ装飾体）、Flourished（装飾体）、Very Flourished（強装飾体）、Extremely Flourished（超装飾体）
@@ -51,14 +51,14 @@ title: プロジェクトを計画する
 
 予定しているフォント・ファミリーの大きさと構成によっては、補間可能なグリフのインスタンスを作成する時間が節約できるかもしれません。これにより、中間のスタイルを補間できるだけではなく、フォント・ファミリー内でのスタイル間の書体の違いに対するデザイン上の選択にも役立ちます。
 
-考慮すべき書体の違いの概要については、「 [フォントとは](../ja-JP/What_Is_a_Font.md)」の章を参照してください。
+考慮すべき書体の違いの概要については、「 [フォントとは](What_Is_a_Font.md)」の章を参照してください。
 
-## 技術面：　バージョン管理 
+## 技術面：　バージョン管理
 
 作成したファイルの保存には、Git と GitHub を利用するようにしましょう。ソース・ファイルには「SFDir」フォーマットを使用します。
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * GitHub 学習案内：　<https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>
 
 ## プロセルの概要
 
@@ -85,14 +85,13 @@ title: プロジェクトを計画する
 《*※訳注：　日本語版作成時（2023）、情報内容が古すぎて、正確な状況が不明です。*》
 
 * HP P2055d
-* Xerox Phaser 4510 
+* Xerox Phaser 4510
 * Xerox Phaser 5550
 * Nashua/Ricoh P7026N
 
-2013 年 5 月現在、フランスのフォントデザイン会社「[Production Type](https://www.productiontype.com) スタジオ」には「強力な」コントローラーを備えた Xerox 7525 があり、購入費用は約 12,000 ユーロでした。この機種はリースなら月額 300 ユーロで、トナー・部品・保守費用込みでした。2015 年後半では、スペインのフォント・デザイナー、Octavio Pardo 氏は、[Xerox Phaser 7100](https://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) をリースしましたが、似たようなリース条件にも拘わらず、月額 30 ユーロでした。
+2013 年 5 月現在、フランスのフォントデザイン会社「[Production Type](https://www.productiontype.com) スタジオ」には「強力な」コントローラーを備えた Xerox 7525 があり、購入費用は約 12,000 ユーロでした。この機種はリースなら月額 300 ユーロで、トナー・部品・保守費用込みでした。2015 年後半では、スペインのフォント・デザイナー、Octavio Pardo 氏は、[Xerox Phaser 7100](https://www.xerox.com/en-us/office/printers/phaser-7100) をリースしましたが、似たようなリース条件にも拘わらず、月額 30 ユーロでした。
 
 ## OpenType フォントの機能
-
 
 あなたのプロジェクトで描き始める前に、OpenType フォントの機能を取り込むことができます。一般的な機能には次のようなものがあります。
 * `liga` 「リガチャー ligatures」（合字）

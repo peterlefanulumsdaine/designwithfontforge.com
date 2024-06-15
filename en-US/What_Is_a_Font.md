@@ -65,7 +65,7 @@ sample above, the size of the H has been adjusted so that they match.
 
 ### Ascender Height
 
-<img src="images/Ascender%20height.png" alt>
+<img src="images/Ascender_height.png" alt>
 
 In the example above, the x-heights have been matched in order to illustrate the relative difference
 in ascender heights.
@@ -76,9 +76,9 @@ elegance to the look of a typeface. They often go with smaller x-height.
 
 ### Descender depth
 
-<img src="images/Descender%20depth.png" alt>
+<img src="images/Descender_depth.png" alt>
 
-Like ascenders, descenders that are long can feel elegant. 
+Like ascenders, descenders that are long can feel elegant.
 
 Taken together, long ascenders and descenders can become difficult to manage. If the typeface will
 be used with small line heights, the elongation means letters can collide across rows of text.
@@ -97,7 +97,7 @@ be used to save space or to fit more text in a smaller space.
 The letters in the top row of this example show a greater variety of width than do the letters in
 the bottom row.
 
-<img src="images/Width%20regularity.png" alt>
+<img src="images/Width_regularity.png" alt>
 
 ### Weight
 
@@ -129,11 +129,11 @@ In the below image, we see that the thin parts of the lower case letter ‘o’ 
 the glyph on the left, the thin points lie on a perfectly vertical axis. In the glyph on the right,
 the axis is diagonal.
 
-<img src="images/Angle%20of%20contrast.png" alt>
+<img src="images/Angle_of_contrast.png" alt>
 
 ### Weight distribution
 
-If your font uses very little to no contrast, you don’t really need to think of it.  
+If your font uses very little to no contrast, you don’t really need to think of it.
 Most fonts, however, have at least some degree of contrast. In these cases, you have a wide variety
 of options to choose from when it comes to how to distribute the weight in your font.
 
@@ -146,7 +146,7 @@ example.
 
 #### Horizontal
 
-<img src="images/horizontal%20weight.png" alt>
+<img src="images/horizontal_weight.png" alt>
 
 Horizontal weight distribution is much less common, but is nonetheless seen in many fonts.
 
@@ -156,11 +156,11 @@ Horizontal weight distribution is much less common, but is nonetheless seen in m
 
 #### Top-heavy
 
-<img src="images/2topheavy%20metal.png" alt>
+<img src="images/2topheavy_metal.png" alt>
 
 #### Irregular
 
-<img src="images/Irregular%20weight.png" alt>
+<img src="images/Irregular_weight.png" alt>
 
 ### Stems
 
@@ -189,7 +189,7 @@ Terminals are the end forms of the strokes. They are not same as the serifs. The
 perpendicular to the angle of the stroke at its end, or sheared horizontally or vertically. They may
 also reflect the shape of the nib or other mark-making tool that the letter forms evoke.
 
-<img src="images/terminals%20f.png" alt>
+<img src="images/terminals_f.png" alt>
 
 ### Speed
 
@@ -270,14 +270,13 @@ The letter forms themselves may be decorated inside, or they may be extended wit
 
 <img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
 [“Trusting your eyes”]: Trusting_Your_Eyes.html
 [on italics]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
-
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter
 

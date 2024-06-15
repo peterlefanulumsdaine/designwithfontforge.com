@@ -38,7 +38,7 @@ title: フォントとは
 
 ### アセンダー高さ　Ascender Height
 
-<img src="../en-US/images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender_height.png" alt>
 
 上図では、「アセンダー高さ」の相対的な違いを説明するために、エックス・ハイトは合わせてあります。
 
@@ -46,7 +46,7 @@ title: フォントとは
 
 ### ディセンダー深さ　Descender depth
 
-<img src="../en-US/images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender_depth.png" alt>
 
 アセンダーと同様に、長く伸びるディセンダーも優美に感じられます。
 
@@ -62,7 +62,7 @@ title: フォントとは
 
 次の例の上段の文字は、下段の文字よりも文字幅が広くなっています。
 
-<img src="../en-US/images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width_regularity.png" alt>
 
 ### 文字の太さ　Weight
 
@@ -84,7 +84,7 @@ title: フォントとは
 
 以下の画像は、小文字「o」の細い部分が異なっています。左のグリフでは、細い部分はぴったり垂直軸の位置にあります。右のグリフでは、その軸は傾いています。
 
-<img src="../en-US/images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle_of_contrast.png" alt>
 
 ### 太さの配置　Weight distribution
 
@@ -100,7 +100,7 @@ title: フォントとは
 
 #### ・水平配置　Horizontal
 
-<img src="../en-US/images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal_weight.png" alt>
 
 太さを水平方向で揃えることはさほど一般的ではありませんが、それでも多くのフォントで見られます。
 
@@ -110,11 +110,11 @@ title: フォントとは
 
 #### ・頭でっかち　Top-heavy
 
-<img src="../en-US/images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy_metal.png" alt>
 
 #### ・不規則配置　Irregular
 
-<img src="../en-US/images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### 縦線　Stems
 
@@ -136,7 +136,7 @@ title: フォントとは
 
 「終端部」とは筆線（ストローク）の終わりの部分の形ですが、「セリフ」と同じではありません。終端部はしばしば筆線の角度に直角に、横方向または縦方向に切り取られます。文字の形が呼び起こすペン先（ニブ）や他の筆記用具の形を反映していることもあります。
 
-<img src="../en-US/images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals_f.png" alt>
 
 ### 速さ　Speed
 
@@ -196,12 +196,13 @@ title: フォントとは
 
 <img src="../en-US/images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
 [自分の目を信頼する]: Trusting_Your_Eyes.html
 [イタリック体]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter
+

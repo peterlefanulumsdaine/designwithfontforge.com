@@ -39,7 +39,7 @@ title: 什么是字体?
 
 ### 顶高
 
-<img src="../en-US/images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender_height.png" alt>
 
 上面的例子中，为了演示在顶高上的相对差别，我们对齐了X高度。
 
@@ -47,7 +47,7 @@ title: 什么是字体?
 
 ### 底深
 
-<img src="../en-US/images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender_depth.png" alt>
 
 类似于顶部，更长的底部也能让人觉得更加优雅。
 
@@ -63,7 +63,7 @@ title: 什么是字体?
 
 上面的一行字母的宽度变化比下面一样要更大。
 
-<img src="../en-US/images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width_regularity.png" alt>
 
 ### 粗细
 
@@ -85,7 +85,7 @@ title: 什么是字体?
 
 在下面的图中，我们看到小写字母“o”较细部分的形状是不同的。在左边的字形里，细的点完美地落在竖直轴上。在右边的字形中坐标轴是对角线。
 
-<img src="../en-US/images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle_of_contrast.png" alt>
 
 ### 粗细分布
 
@@ -99,7 +99,7 @@ title: 什么是字体?
 
 #### 水平
 
-<img src="../en-US/images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal_weight.png" alt>
 
 粗细的水平分布很少见，但是仍然能看到很多字体。
 
@@ -109,11 +109,11 @@ title: 什么是字体?
 
 #### 顶重
 
-<img src="../en-US/images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy_metal.png" alt>
 
 #### 不规则
 
-<img src="../en-US/images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### 茎
 
@@ -135,7 +135,7 @@ title: 什么是字体?
 
 末端指的是末端的形式。它们与衬线是不同的。它们通常末端的角度的垂线，或者水平或竖直地修剪。它们也反映出笔尖的形状或者字母形式的其他创作工具。
 
-<img src="../en-US/images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals_f.png" alt>
 
 ### 速度
 
@@ -183,20 +183,26 @@ title: 什么是字体?
 
 ### 装饰
 
-<!-- <img src="../en-US/images/4decoration.png" alt> -->
+The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
+
+<img src="images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
+
+<img src="images/decoration-2.jpg" alt="An ornate cursive M">
+
+<img src="images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### 维度
 
-<img src="../en-US/images/3dimention.png" alt>
+<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
 [“Trusting your eyes”]: Trusting_Your_Eyes.html
 [on italics]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter
 
 *待办事项：正式的元素如何适应文化和文化如何形状和字母间的间距表现出来是在设计学校中没有人会教你的“秘密”，应该在本页应解释 :)*

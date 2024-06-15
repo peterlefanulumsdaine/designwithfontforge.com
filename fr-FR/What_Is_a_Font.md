@@ -71,7 +71,7 @@ Dans l'exemple ci-dessus, la taille du H a été ajustée pour qu'ils correspond
 
 ### Hauteur de l'ascendante
 
-<img src="../en-US/images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender_height.png" alt>
 
 Dans l'exemple ci-dessus, les hauteurs d'x ont été adaptées afin d'illustrer la différence relative
 des hauteurs de l'ascendante.
@@ -83,7 +83,7 @@ de caractères. Elles vont souvent de paire avec de plus petite hauteur d'x.
 
 ### Profondeur de la descendante
 
-<img src="../en-US/images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender_depth.png" alt>
 
 Comme les ascendantes, les descendantes qui sont longues peuvent sembler élégantes.
 
@@ -107,7 +107,7 @@ Les lettres dans la ligne supérieure de cet exemple montrent une plus grande va
 lettres dans la ligne inférieure.
 
 
-<img src="../en-US/images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width_regularity.png" alt>
 
 ### Graisse
 
@@ -140,7 +140,7 @@ Dans l'image ci-dessous, nous voyons que les parties minces des formes de la let
 différentes. Dans le glyphe à gauche, les points minces reposent sur un axe parfaitement vertical. Dans le
 glyphe à droite, l'axe est diagonal.
 
-<img src="../en-US/images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle_of_contrast.png" alt>
 
 ### Distribution de la graisse
 
@@ -157,7 +157,7 @@ particulièrement frappant.
 
 #### Horizontale
 
-<img src="../en-US/images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal_weight.png" alt>
 
 Une distribution de graisse horizontale est beaucoup moins commune, mais est néanmoins visible dans de
 nombreuses polices.
@@ -168,11 +168,11 @@ nombreuses polices.
 
 #### Forte au sommet
 
-<img src="../en-US/images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy_metal.png" alt>
 
 #### Irrégulière
 
-<img src="../en-US/images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### Fûts
 
@@ -201,7 +201,7 @@ Les terminaisons sont les formes aux extrémités des traits. Ce ne sont pas des
 souvent perpendiculaires à l'angle du trait à son extrémité, ou ciselés horizontalement ou verticalement.
 Elles peuvent également refléter la forme de la pointe ou des autres outils de traçage que les lettres évoquent.
 
-<img src="../en-US/images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals_f.png" alt>
 
 ### Vitesse
 
@@ -271,18 +271,25 @@ ou émoussées et angulaires ([Rockwell]).
 
 ### Décoration
 
-<img src="../en-US/images/4decoration.png" alt>
+The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
+
+<img src="images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
+
+<img src="images/decoration-2.jpg" alt="An ornate cursive M">
+
+<img src="images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### Dimension
 
-<img src="../en-US/images/3dimention.png" alt>
+<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
 [“Faîtes confiance à vos yeux”]: Trusting_Your_Eyes.html
 [sur les italiques]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter
+

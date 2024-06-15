@@ -31,7 +31,7 @@ title: فونت چیست؟
 
 ### ساخت (Construction)
 
-<img src="images/Construction2.png" alt>
+<img src="../en-US/images/Construction2.png" alt>
 
 ساخت، به ساختار خطوط موضوعه‌ای اشاره دارد که یک گلیف مشخص را شکل می‌دهند.
 شاید بتوانید استخوان‌بندی یک گلیف را تصور کنید.
@@ -42,11 +42,11 @@ title: فونت چیست؟
 ساخت، استخوان‌بندی یک گلیف است در حالی که بقیه &mdash; طول، عرض، پایان‌بندی &mdash; همگی بخشی از گوشته (flesh) هستند.
 
 
-<img src="images/AAA.png" alt>
+<img src="../en-US/images/AAA.png" alt>
 
 ### نسبت X-height به Cap-height
 
-<img src="images/Prop.png" alt>
+<img src="../en-US/images/Prop.png" alt>
 
 حروف سمت چپ از [Playfair Display] هستند که به نسبت، x-height بیشتری در قیاس با cap-height دارند.
 حروف سمت راست از [EB Garamond] هستند که 	x-height مشابه دارند.
@@ -54,17 +54,17 @@ title: فونت چیست؟
 
 ### بلندای فراز (Ascender Height)
 
-<img src="images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender_height.png" alt>
 
 در مثال بالا، x-heights با هم منطبق شده است تا بهتر بتوان تفاوت نسبی در بلندای فراز را به تصویر کشید.
-قسمت‌های فراز (Ascenders) معمولا و به خصوص در طراحی‌های متن، مقداری از cap-height تجاوز می‌کنند 
+قسمت‌های فراز (Ascenders) معمولا و به خصوص در طراحی‌های متن، مقداری از cap-height تجاوز می‌کنند
 هرچند در مواردی ممکن است منطبق با cap-height و یا پایین‌تر از آن باشند.
 بخش‌های بالاورندهٔ بلندتر می‌توانند به شکوه در جلوه یک تایپ‌فیس بیفزایند.
 چنین فونت‌هایی معمولا با x-height همراه می‌شوند.
 
 ### عمق فرود (Descender depth)
 
-<img src="images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender_depth.png" alt>
 
 مشابه ascenders در بخش قبل، descendersهای بلندتر، باشکوه به نظر می‌رسند.
 
@@ -73,7 +73,7 @@ title: فونت چیست؟
 
 ## عرض (Width)
 
-<img src="images/width.png" alt>
+<img src="../en-US/images/width.png" alt>
 
 عرض یک طراحی تایپ نه تنها حسی که از آن دریافت می‌شود را تحت تاثیر قرار می‌دهد بلکه روی این که به چه کاری بیاید نیز اثر گذار است.
 مثال سمت راست از یک قدم متنی است.
@@ -84,15 +84,15 @@ title: فونت چیست؟
 
 حروف در ردیف بالای مثال زیر درجه بالاتری از تنوع در عرض با در قیاس با حروف در ردیف پایینی نشان مي‌دهند.
 
-<img src="images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width_regularity.png" alt>
 
 ### وزن (Weight)
 
-<img src="images/Weight.png" alt>
+<img src="../en-US/images/Weight.png" alt>
 
 ### شیب (Slant)
 
-<img src="images/Slant.png" alt>
+<img src="../en-US/images/Slant.png" alt>
 
 ### تصاد (Contrast)
 
@@ -100,7 +100,7 @@ title: فونت چیست؟
 به دو گلیف O در تصویر زیر توجه کنید که در سمت چپ چه میزان تنوع بیشتری در ضخامت خط بین بالا و طرفین گلیف دیده می‌شود.
 هر دو گلیف مقداری تضاد دارند اما تضاد در گلیف سمت چپ به مراتب بیش از گلیف سمت راستی است.
 
-<img src="images/Contrast.png" alt>
+<img src="../en-US/images/Contrast.png" alt>
 
 تایپی با وزن ثابت (عرض خط) در قالب حروفش و یا بدون تضاد مشهود، تمایز آشکاری با تایپ دارای تضاد دارد.
 مانند انتخاب میان قلم‌های سریف یا سنس‌سریف، تضاد یکی از انتخاب‌هایی است که در مراحل اول طراحی تایپ باید مشخص شود.
@@ -116,7 +116,7 @@ title: فونت چیست؟
 در گلیف سمت چپ، بخش‌های نازک دقیقا روی محور عمودی قرار دارند.
 در گلیف سمت راست، محور به صورت قطری است.
 
-<img src="images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle_of_contrast.png" alt>
 
 ### توزیع وزن (Weight distribution)
 
@@ -126,38 +126,38 @@ title: فونت چیست؟
 
 #### عمودی (Vertical)
 
-<img src="images/verical1.png" alt>
+<img src="../en-US/images/verical1.png" alt>
 
 توزیع عمودی وزن بسیار رایج است.
 اعداد 8 و 9 در تصویر بالا، مثال واضحی برای این مورد هستند.
 
 #### افقی (Horizontal)
 
-<img src="images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal_weight.png" alt>
 
 توزیع وزن افقی به مراتب کم‌تر رایج است اما همچنان در بسیاری از فونت‌ها دیده می‌شود.
 
 #### زیر-سنگین (Bottom-heavy)
 
-<img src="images/2bottomheavy.png" alt>
+<img src="../en-US/images/2bottomheavy.png" alt>
 
 #### زبر-سنگین (Top-heavy)
 
-<img src="images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy_metal.png" alt>
 
 #### نامنظم (Irregular)
 
-<img src="images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### پایه‌ها (Stems)
 
-<img src="images/8stems.png" alt>
+<img src="../en-US/images/8stems.png" alt>
 
 آسان است که فرض کنید که پایه‌های شما به سادگی به صورت مستقیم طراحی شوند و این موضوع مساله چندان مهمی نیست اما هم شکل و هم وزن پایه‌ها، چیزهایی هستند که به دقت انتخاب‌شان کنید.
 
 ### اتصال‌ها (Joins)
 
-<img src="images/7joins.png" alt>
+<img src="../en-US/images/7joins.png" alt>
 
 ### کاسه‌ها (Bowls)
 
@@ -165,7 +165,7 @@ title: فونت چیست؟
 فضاهای داخلی به عنوان بدیل (counters) شناخته می شوند.
 حین طراحی تایپ، اغلب با این وضعیت مواجه می‌شوید که در حال تغییر کارتان هستید اما نه به خاطر شکل یا عرض خطوط بلکه به خاطر شکل و اندازه این فضاهای بدیل.
 
-<img src="images/2bowls.png" alt>
+<img src="../en-US/images/2bowls.png" alt>
 
 ### پایان‌بندی‌ها (Terminals)
 
@@ -173,25 +173,25 @@ title: فونت چیست؟
 پایان‌بندی‌ها با سریف‌ها فرق دارند و معمولا عموی بر زاویه خطوط در پایان‌شان و یا کاملا افقی یا عمودی هستند.
 همچنین ممکن است به صورت نوک یا سایر ابزارهای نشانه‌گذاری که قالب‌های حرف اقتضا کند رسم شوند.
 
-<img src="images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals_f.png" alt>
 
 ### سرعت (Speed)
 
-<img src="images/6speed_1.png" alt>
+<img src="../en-US/images/6speed_1.png" alt>
 
 این طور به نظر می‌رسد که حرف n در سمت چپ بسیار سریع‌تر از همین حرف در سمت راست نوشته شده باشد.
 سرعیت با جزئیات بیشتری در فصلی [درباره کجینگی] به بحث گذاشته می‌شوند.
 
 ### نظم (Regularity)
 
-<img src="images/6regularity.png" alt>
+<img src="../en-US/images/6regularity.png" alt>
 
 خصوصیاتی که در ادامه می‌آیند در همه طراحی‌های تایپ وجود ندارند اما متغیرهایی هستند که ممکن است در طراحی شما به کار بیایند.
 در این صورت، ارزشمند است که به اندازه تاثیرشان به عنوان متغیرها به آن‌ها توجه شود.
 
 ### جلوه (Flourish)
 
-<img src="images/5flourish.png" alt>
+<img src="../en-US/images/5flourish.png" alt>
 
 دقت کنید که در فونت بالایی، میزان بیشتری از جلوه را مي‌توان در حرف بزرگ مشاهده کرد در حالی که در فونت دوم، حروف کوچک هستند که بیشتر جلوه‌گری مي‌کنند.
 
@@ -248,24 +248,23 @@ title: فونت چیست؟
 فرم‌های حروف می‌توانند به خودی خود دارای تزئینات داخلی باشند
 یا ممکن است که با فرم‌های تزئینی اضافی، گسترش یابند - و یا هر دو
 
-<img src="images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
+<img src="../en-US/images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
 
-<img src="images/decoration-2.jpg" alt="An ornate cursive M">
+<img src="../en-US/images/decoration-2.jpg" alt="An ornate cursive M">
 
-<img src="images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
+<img src="../en-US/images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### بُعد (Dimension)
 
-<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
+<img src="../en-US/images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
 [«به چشمان‌تان اعتماد کنید»]: Trusting_Your_Eyes.html
 [درباره کجینگی]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
-
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter
 

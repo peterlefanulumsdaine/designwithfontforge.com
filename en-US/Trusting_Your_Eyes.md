@@ -41,7 +41,7 @@ Can you feel it?
 The other one on the right has a horizontal bar which has been thinned to appear equal in
 thickness.
 
-<img src="images/H%20compensation2.png" alt>
+<img src="images/H_compensation2.png" alt>
 
 Glyphs in which optical adjustments have to be made are numerous and include A, E, F, L, H, f, t,
 and z.
@@ -53,7 +53,7 @@ will seem slightly heavier than the vertical bar and slightly thinner than the h
 want it look right, you will have to adjust it to be lighter like the horizontal example, but just a
 little less.
 
-<img src="images/Diag%20illusion.png" alt>
+<img src="images/Diag_illusion.png" alt>
 
 Glyphs in which this human perception may be relevant are quite numerous but include k, K, N, Q, R,
 v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
@@ -74,7 +74,7 @@ In the next picture below, the slant of the longer line has been adjusted:
 
 Now let’s look at an actual italic, applying these corrections to the glyphs:
 
-<img src="images/longer%20less%20slant.png" alt>
+<img src="images/longer_less_slant.png" alt>
 
 ### Crossing diagonals
 

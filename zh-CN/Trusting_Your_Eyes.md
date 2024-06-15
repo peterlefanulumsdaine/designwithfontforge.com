@@ -28,7 +28,7 @@ title: 相信你的眼睛
 
 左边的例子展示了一个条形粗细相同的“H”。这看起来是不对的。你能感受到吗？右边的另一个水平的条形做的更细，这样看起来粗细相等。
 
-<img src="../en-US/images/H%20compensation2.png" alt>
+<img src="../en-US/images/H_compensation2.png" alt>
 
 需要按照视觉做出调整的字形有很多，包括A、E、F、L、H、f、t和z。
 
@@ -36,7 +36,7 @@ title: 相信你的眼睛
 
 类似地，如果一些条形宽度相等，其中一个放在斜线上，那么斜向的条形看起来比竖直的条形粗并且比水平的条形细。如果你想让它看起来正确，那么你不得不像水平的例子一样将其调细一点，但是只是细一点点。
 
-<img src="../en-US/images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag_illusion.png" alt>
 
 令人产生错觉的相关字形十分多，包括k、K、N、Q、R,
 v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、&radic;、∕、&lsaquo;、&rsaquo;、
@@ -56,7 +56,7 @@ v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、
 
 现在我们来看真实的斜体，在字形上应用了这些修正：
 
-<img src="../en-US/images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer_less_slant.png" alt>
 
 ### 交叉斜线
 
@@ -99,3 +99,8 @@ v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、
 当接近进程的尾声的时候，如果字体采用简单的方式来使用，那么测试也应该保持简单。但是如果一个字体将会有多种使用方式，或者在大范围的打印或屏幕环境下使用，那么测试应该覆盖这些情况的所有范围，包括打印字体的各种样例。
 
 如果你对你打算的最终用途有明确定义的想法，那么设计时间将得到节省。但是这并不总是可行的，你的想法可能发展。关键的东西是考虑并定义尽你所能完整的用例，然后确保在设计字体时你的测试跟上你问自己的问题。
+
+## Further Reading
+
+* <http://typographica.org/on-typography/making-geometric-type-work/>
+* <http://typedrawers.com/discussion/1085/the-letter-s>

@@ -41,7 +41,7 @@ L'exemple de gauche montre un ‘H’ dont les barres sont exactement égales en
 Pouvez-vous le voir?
 L'autre sur la droite a une barre horizontale qui a été amincie pour apparaître égale en épaisseur.
 
-<img src="../en-US/images/H%20compensation2.png" alt>
+<img src="../en-US/images/H_compensation2.png" alt>
 
 Les glyphes dans lesquels des ajustements optiques ont dû être faits sont nombreux et incluent A, E, F, L, H,
 f, t et z.
@@ -53,7 +53,7 @@ diagonale semblera légèrement plus lourde que la barre verticale et légèreme
 Si vous voulez que cela paraisse bien, vous devrez l'ajuster pour être plus légère que horizontal,
 mais juste un peu moins.
 
-<img src="../en-US/images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag_illusion.png" alt>
 
 Les glyphes dans lesquels cette perception humaine peut être importante sont assez nombreux et incluent
 k, K, N, Q, R, v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
@@ -75,7 +75,7 @@ Dans l'image suivante, l'inclinaison de la ligne la plus longue a été ajustée
 
 Maintenant, regardons une vraie italique, en appliquant ces corrections aux glyphes:
 
-<img src="../en-US/images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer_less_slant.png" alt>
 
 ### Croisement des diagonales
 
@@ -138,7 +138,7 @@ surprises se produisent souvent. Plus vous concevez des polices, plus vous aurez
 choix arbitraires.
 
 En approchant de la fin du processus, si la police doit être utilisée de façon simple, les tests devraient
-également rester simples. Cependant, si une police doit être utilisée de nombreuses façons ou dans un large 
+également rester simples. Cependant, si une police doit être utilisée de nombreuses façons ou dans un large
 éventail d'environnements d'impression ou d'écran, elle doit être testée dans toutes ces situations, ce qui
 inclut l'impression de divers échantillons de la police.
 

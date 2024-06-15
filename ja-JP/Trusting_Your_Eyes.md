@@ -30,7 +30,7 @@ title: 自分の目を信頼する
 
 もう一つの右側は、縦棒と同じ太さに見えるように横棒を細くした「H」です。
 
-<img src="../en-US/images/H compensation2.png" alt>
+<img src="../en-US/images/H_compensation2.png" alt>
 
 視覚的な調整を行なう必要があるグリフは多数あり、A、E、F、L、H、f、t、z などが含まれています。
 
@@ -38,7 +38,7 @@ title: 自分の目を信頼する
 
 同様に、同じ太さの横棒があり、そのひとつが斜めになっている場合、斜め線は縦線よりも少し重く見え、水平線より少し細く見えます。このような文字を自然に見えるようにするには、水平線よりもほんの少しだけ軽く（細く）なるように調整する必要があります。
 
-<img src="../en-US/images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag_illusion.png" alt>
 
 この錯覚が関与する可能性のあるグリフは非常に多数ありますが、k、K、N、Q、R、v、V、w、W、x、X、y、Y、7、2、&amp;、ł、Ł、&oslash;、&Oslash;、&radic;、∕、&lsaquo;、&rsaquo;、&laquo;、&raquo;、½、⅓、¼、&le;、&ge;、および &times; が含まれています。
 
@@ -56,7 +56,7 @@ title: 自分の目を信頼する
 
 では、こうした修正がグリフに適用された、実際のイタリック体を見てみましょう：
 
-<img src="../en-US/images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer_less_slant.png" alt>
 
 ### 交差する斜め線　Crossing diagonals
 

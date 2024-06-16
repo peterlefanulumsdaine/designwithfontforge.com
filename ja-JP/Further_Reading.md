@@ -10,7 +10,6 @@ title: 参考文献
 
 * [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) by Thomas Phinney and FontLab 《※ 視覚的補償について》
 * [Type Review Videos](https://vimeo.com/typereview/videos)　《※ 書体の批評》
-* [Lato: The Making Of](https://youtu.be/4-oo8o-tyqU)　《※ Lato フォントの作成：　再生できず》
 
 ## ウェブサイト Websites
 
@@ -33,6 +32,24 @@ title: 参考文献
 ### タイポグラフィー Typography
 
 * [Typekit: Practice](http://practice.typekit.com/)　《※ 「タイポグラフィーは実践だ！」》
+
+### High quality FontForge sfd source files - Foundries / Collections
+
+* [Omnibus](https://github.com/Omnibus-Type/)
+* [Ralph Levien](http://levien.com/type/myfonts/)
+* [VTF](https://velvetyne.fr/) (some of these)
+* [Jason Reed](http://jcreed.org/fonts/)
+
+### High quality FontForge sfd source files - Typefaces and Fonts
+
+* [Anka](https://code.google.com/archive/p/anka-coder-fonts/source/default/source)
+* [Tuffy](http://tulrich.com/fonts/)
+* [Whois Mono](https://github.com/raphaelbastide/Whois-mono/)
+* [Liberation](https://fedorahosted.org/liberation-fonts/)
+* [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+* [DejaVu Fonts](https://dejavu-fonts.org/)
+* [Bluu](https://velvetyne.fr/#bluu)
+* [Wikipedia List](https://en.wikipedia.org/wiki/FontForge)
 
 ### ラテン文字 Latin
 
@@ -73,13 +90,11 @@ ILT フォント・プロジェクト事例：
 * [Paratype Language Help](http://www.paratype.com/help/language/) &mdash; キリル文字の符号化　《※ 言語の副模式標本リスト》
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)　《※ Facebook にあるキリル文字タイポグラフィー》
 * [Cyrillic type design](http://luc.devroye.org/cyrillic.html)　《※ キリル文字の書体デザイン》
-* [ATypI Cyrillic SIG mailing list](http://www.atypi.org/members/special-interest-groups/cyrillic)　《※ ATypI（Association Typographique Internationale）のキリル文字作業部会メーリング・リスト》
 
 ### アラビア文字 Arabic
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)　《※ Khaled Hosney 氏の FontForge ガイド》
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)　《※ プロジェクト事例：　アラビア文字 Zapfino フォント》
-* [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)　《※ ハサン・アブ・アファシュ氏へのインタビュー、リンク切れ》
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/) 《※ 研究すべきアラビア文字書体》
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)　《※ アラビア文字書体の分析》
 
@@ -106,7 +121,6 @@ ILT フォント・プロジェクト事例：
 ## 書籍 Books
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)　《※ レディング大学修士課程書体デザイン専攻の夏季読書リスト》
-* <http://www.type-library.com> には広範囲に及ぶ書籍リストがあります。 《※ リンク切れ》
 * [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/)　《※ Amazon のブックリスト》
 
 <br />

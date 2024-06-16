@@ -10,7 +10,6 @@ title: Further Reading
 
 * [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) by Thomas Phinney and FontLab
 * [Type Review Videos](https://vimeo.com/typereview/videos)
-* [Lato: The Making Of](https://youtu.be/4-oo8o-tyqU)
 
 ## Websites
 
@@ -33,11 +32,30 @@ title: Further Reading
 
 * [Typekit: Practice](http://practice.typekit.com/)
 
+### High quality FontForge sfd source files - Foundries / Collections
+
+* [Omnibus](https://github.com/Omnibus-Type/)
+* [Ralph Levien](http://levien.com/type/myfonts/)
+* [VTF](https://velvetyne.fr/) (some of these)
+* [Jason Reed](http://jcreed.org/fonts/)
+
+### High quality FontForge sfd source files - Typefaces and Fonts
+
+* [Anka](https://code.google.com/archive/p/anka-coder-fonts/source/default/source)
+* [Tuffy](http://tulrich.com/fonts/)
+* [Whois Mono](https://github.com/raphaelbastide/Whois-mono/)
+* [Liberation](https://fedorahosted.org/liberation-fonts/)
+* [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+* [DejaVu Fonts](https://dejavu-fonts.org/)
+* [Bluu](https://velvetyne.fr/#bluu)
+* [Wikipedia List](https://en.wikipedia.org/wiki/FontForge)
+
 ### Latin
 
 **The [MyFonts Foundry Guides](https://foundry.myfonts.com/guides/) are fantastic.**
 
-* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/) and [2](http://www.frerejones.com/blog/typeface-mechanics-002/)
+* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
+* [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
 * [Adobe: Designing Multiple Master Typefaces](https://www-cdf.fnal.gov/offline/PostScript/5091.Design_MM_Fonts.pdf)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
@@ -57,7 +75,8 @@ ILT Example Projects:
 * [Acorde](http://ilovetypography.com/2010/10/10/the-making-of-acorde-2/)
 * [Ode](http://ilovetypography.com/2010/09/01/ode-fresh-start-for-a-broken-script/)
 * [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
-* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [vesper-libre](https://github.com/motaitalic/vesper-libre))
+* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/)
+* [vesper-libre](https://github.com/motaitalic/vesper-libre)
 
 ### Greek
 
@@ -72,13 +91,11 @@ ILT Example Projects:
 * [Paratype Language Help](http://www.paratype.com/help/language/) &mdash; Cyrillic encodings
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
 * [Cyrillic type design](http://luc.devroye.org/cyrillic.html)
-* [ATypI Cyrillic SIG mailing list](http://www.atypi.org/members/special-interest-groups/cyrillic)
 
 ### Arabic
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
-* [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
 
@@ -105,7 +122,6 @@ ILT Example Projects:
 ## Books
 
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
-* <http://www.type-library.com> has an extensive list of books
 * [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/)
 
 Title: Detail in Typography (Paperback)

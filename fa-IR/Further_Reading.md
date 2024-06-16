@@ -102,8 +102,7 @@ title: مطالعهٔ بیشتر
 
 ### فارسی
 
-* [Getting started with FontForge](https://rastikerdar.github.io/getting-started-with-fontforge/) By Saber Rastikerdar (RIP)
-  [شروع با فونت‌فورج](https://rastikerdar.github.io/getting-started-with-fontforge/) به قلم صابر راستی‌کردار (یادش گرامی)
+* [شروع با فونت‌فورج](https://rastikerdar.github.io/getting-started-with-fontforge/) به قلم صابر راستی‌کردار (یادش گرامی)
 
 ## کتاب‌ها
 

@@ -26,7 +26,7 @@ C'est là que vous pouvez dessiner et modifier des glyphes, soit un à la fois a
 
 #### 3. La fenêtre de métriques
 
-Allez à Métriques ou Fenêtres et sélectionnez Ouvrir fenêtre de métriques.
+Allez à "_**Métriques**_" ou "_**Fenêtres**_" et sélectionnez Ouvrir "_**fenêtre&nbsp;de&nbsp;métriques**_".
 Ou sélectionnez certains glyphes dans la fenêtre de glyphe et appuyez sur <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 Vous pouvez également glisser et déposer des glyphes depuis la fenêtre de glyphe vers la fenêtre de métriques.
 
@@ -35,7 +35,7 @@ Vous pouvez également parcourir un fichier texte contenant une liste de mots pr
 
 #### 4. La fenêtre des infos sur la fonte
 
-Allez à Éléments, Infos fonte... 
+Allez à "_**Éléments**_&nbsp;⇨&nbsp;_**Infos&nbsp;fonte**_"...
 Ici vous trouverez toutes les _métadonnées_ au sujet de la police.
 
 #### 5. L'environnement de composition, pour les tests
@@ -44,6 +44,6 @@ En plus d'un éditeur de polices, vous aurez besoin d'un système de composition
 Les principaux systèmes sont:
 
 * Web (Firefox, Chromium, etc)
-* Outils PAO (Scribus, Inkscape, etc.)
+* Outils PAO (Scribus, Inkscape, etc)
 * Traitements de texte (Libre Office, AbiWord, Calligra Words, etc)
 * Systèmes de composition de documents (LaTeX, ConTeXt, SILE, ShoeBot, Even, etc)

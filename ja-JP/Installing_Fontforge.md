@@ -24,6 +24,13 @@ Linux マシンに FontForge をインストールする最も簡単な方法は
 
 An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
 
+### Installing older versions of FontForge
+
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
+
 ## GitHub から自分自身のバージョンをコンパイルする
 
 GitHub とは、プログラムのソースコードを格納するサービスのことで、誰でもソフトウェアの開発に貢献できる場所です。そこには、プログラム開発の最先端の状態が保管されています。場合によっては、正式版パッケージにはまだ搭載されていない機能を使いたいなどの理由で、GitHub のソースコードから自分用のバージョンを作成したいと思うかもしれません。

@@ -26,6 +26,13 @@ La méthode la plus simple pour obtenir FontForge sur votre machine Linux est d'
 
 Un [guide d'installation (en anglais)](http://fontforge.github.io/en-US/downloads/gnulinux/) est disponible pour les versions officielles GNU/Linux.
 
+### Installing older versions of FontForge
+
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
+
 ## Compilez votre propre version à partir de Github
 
 GitHub est un service d'hébergement de code source où tout le monde peut contribuer au développement d'un logiciel.

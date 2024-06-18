@@ -33,6 +33,13 @@ title: نصب فونت‌فورج
 
 An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
 
+### Installing older versions of FontForge
+
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
+
 ## کامپایل کردن نسخه خودتان از گیت‌هاب
 
 گیت‌هاب یک خدمت میزبان کد منبع است که روی آن،

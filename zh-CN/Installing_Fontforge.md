@@ -8,10 +8,7 @@ title: 安装FontForge
 
 [FontForge]是一个自由开源软件，这显然意味着你可以不受限地下载和安装。这也意味着这是一个由社区维护的应用（任何人可以贡献源代码）。
 
-FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。本节的关注在Linux机器上安装FontForge。由于许多FontForge的开发者使用Linux作为日常开发环境，所以在这个平台上用源代码构建时最简单的方式。
-
-<p class="note"><b>注意：</b>如果你使用FontForge时遇到了问题，或者FontForge缺少一个功能，你可以在<a href="https://github.com/fontforge/fontforge">软件的库</a>打开一个问题。即使你只是刚刚入门，开发者也会去看这个问题。</p>
-
+FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。
 
 ## 安装预编译包
 
@@ -20,8 +17,6 @@ FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。本节�
 ### 在Windows下安装
 
 [FontForge的Windows版本][FontForge Windows Edition]页面提供了二进制安装包下载，以管理员身份安装，并以管理员身份运行软件即可。
-
-另外，Jeremy Tan提供了Windows下FontForge的[最近构建版本](http://sourceforge.net/projects/fontforgebuilds/)。从2012年之前的稳定版安装包可以在[旧的SourceForge库](http://sourceforge.net/projects/fontforge/files/fontforge-executables/)中找到。
 
 ### 在Mac OS X下安装
 
@@ -32,6 +27,13 @@ FontForge支持Windows，Mac OS和GNU/Linux (“Linux”)操作系统。本节�
 在你的Linux机器上安装FontForge最简单的的方式是使用你的分发版的包库。
 
 正在建设中的新网站上提供了[安装指南](http://fontforge.github.io/en-US/downloads/gnulinux/)。
+
+### Installing older versions of FontForge
+
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
 
 ## 在Github上编译你自己的版本
 

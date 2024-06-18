@@ -6,7 +6,7 @@ category: Getting To Know FontForge
 title: Installing FontForge
 ---
 
-FontForge is libre software, so you can download, share and install copies without any restrictions on usage - both commercial or personal use is encouraged.
+FontForge is libre software, so you can download, share and install copies without any restrictions on usage &mdash; both commercial or personal use is encouraged.
 It is a community-maintained application, and anyone can contribute to the source code.
 
 FontForge is available in easy to install packages for Windows, Mac OS X and GNU/Linux operating systems.
@@ -24,6 +24,13 @@ An [installation guide](http://fontforge.github.io/en-US/downloads/mac/) is avai
 The easiest method to get FontForge on your Linux machine is to use your Linux distribution’s package repository.
 
 An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
+
+### Installing older versions of FontForge
+
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
 
 ## Compile your own version from GitHub
 

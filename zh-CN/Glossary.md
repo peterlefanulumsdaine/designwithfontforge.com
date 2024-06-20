@@ -414,7 +414,7 @@ SIL International提供了一个自由的Graphite编译器。
 
 多层字体是FontForge的自有术语。PostScript type3字体和SVG字体比普通字体拥有更多的绘制可能性。普通字体可能只能被来自图形环境的一种颜色填充。这两种字体可以被几种不同的颜色填充或描边，包括图片，渐变条虫等。FontForge可以配置为支持这些字体（由于需要占用更多的内存，它默认并不这么做）。
 
-``` 
+```
 $ configure --with-type3
 $ make
 $ make install
@@ -766,6 +766,10 @@ Ultra
 这是一个轻微模糊的术语，又是用来表示步进宽度（从字形开始到下一个字形开始的距离），又是用来表示从左跨距到右跨距的距离。
 
 ## X
+
+### X11
+
+Abbreviation for [X Window System](https://en.wikipedia.org/wiki/X_Window_System) version 11, a window system used to build graphical user interfaces (GUIs) for Unix-based operating systems (OS), etc.].
 
 ### X-height
 

@@ -16,7 +16,7 @@ FontForge はさまざまな形で微調整できます。以下の内容は、�
 
 設定変更を行なう場合は、以下を確実に行なってください。
 
-1. FontForge （と X11）を終了します
+1. FontForge （と [X11](../ja-JP/Glossary.md#★-x11-x-ウィンドウ・システム)）を終了します
 2. 変更を実施します
 3. FontForge を開始し、変更を確認します
 
@@ -86,7 +86,7 @@ FontForge では、いくつかの追加機能で、3 ボタン・マウスを�
 もし FontForge の実行に [X11](../ja-JP/Glossary.md#★-x11-x-ウィンドウ・システム) を第一に使用しているのであれば、アイコンが変更できます。以下のテキストをコピーし Terminal に貼り付け、指示通りに操作してください。
 
 ```
-sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app 
+sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app
 ```
 
 #### Window 管理について

@@ -17,7 +17,7 @@ S'il vous plaît, [dites-nous](https://github.com/fontforge/designwithfontforge.
 
 Lors de toute modification de configuration, assurez-vous de suivre ceci:
 
-1. Quittez FontForge (et X11)
+1. Quittez FontForge (et [X11](Glossary.md#X11))
 2. Effectuez les modifications
 3. Démarrez FontForge et testez vos modifications
 
@@ -92,10 +92,10 @@ Si vous n'avez pas de souris à trois boutons, vous pouvez l'émuler en l'activa
 
 #### Changez l'icône de X11/XQuartz pour l'icône de FF
 
-Si vous utilisez principalement X11 pour FontForge, vous pouvez modifier son icône. Copiez et collez le texte suivant dans le terminal et suivez les instructions
+Si vous utilisez principalement [X11](Glossary.md#X11) pour FontForge, vous pouvez modifier son icône. Copiez et collez le texte suivant dans le terminal et suivez les instructions
 
 ```
-sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app 
+sudo cp -f /Applications/FontForge.app/Contents/Resources/FontForge.icns /Applications/Utilities/XQuartz.app/Contents/Resources/X11.icns | sudo touch /Applications/Utilities/XQuartz.app
 ```
 
 

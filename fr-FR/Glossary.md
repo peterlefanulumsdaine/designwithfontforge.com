@@ -64,7 +64,7 @@ Voir aussi hauteur d'x, hauteur de capitale, descendante, overshoot, ligne de ba
 
 Utilisé pour spécifier les positionnement de signe sur base et les sous-tables GPOS cursives.
 
-### Ascent 
+### Ascent
 
 Dans la typographie traditionnelle, l'ascent (en anglais) d'une police était la distance du haut d'un bloc de fonte à la ligne de base.
 
@@ -286,8 +286,8 @@ Les fontes sont des collections de glyphes avec une certaine forme de correspond
 
 La graisse d'une police est l'épaisseur (sombre) des fûts des glyphes. Traditionnellement la graisse est nommée, mais récemment des nombres ont été appliqués aux graisses.
 
-|Nom             |Nombre| 
-|:---------      |:---  | 
+|Nom             |Nombre|
+|:---------      |:---  |
 |Mince           |100   |
 |Extra-léger     |200   |
 |Léger           |300   |
@@ -297,8 +297,8 @@ La graisse d'une police est l'épaisseur (sombre) des fûts des glyphes. Traditi
 |Gras            |700   |
 |Extra-gras      |800   |
 |Noir            |900   |
-|Extra-noir      |	    | 
-|Ultra-noir      |	    | 
+|Extra-noir      |	    |
+|Ultra-noir      |	    |
 
 ### Gras
 
@@ -481,7 +481,7 @@ Confusément, ce type est également utilisé pour désigner les tables typograp
 
 Et MS Windows l’utilise pour désigner une police avec une table de signature digitale ‘DSIG’.
 
-### Overshoot    
+### Overshoot
 
 Pour que la forme incurvée du "O" apparaisse à la même hauteur que le sommet plat du "I", elle doit dépasser (ce qu'on appelle un "overshoot") la hauteur de capitale ou la hauteur d'x, ou dépasser (ce qu'on appelle un "undershoot") la ligne de base d'environ 3% de la hauteur de capitale ou de la hauteur d'x. Pour une forme triangulaire (telle que le "A"), le dépassement est encore plus grand, peut-être 5%.
 
@@ -707,7 +707,7 @@ Un type de police PostScript.
 
 ### Type 2
 
-Un type de police PostScript utilisés dans les wrappers de polices OpenType. 
+Un type de police PostScript utilisés dans les wrappers de polices OpenType.
 
 ### Type 3
 
@@ -749,6 +749,10 @@ Voir Cadratin
 C'est un concept truetype qui force la largeur d'un glyphe composite (par exemple une lettre accentuée) à être de la même largeur que la largeur d'un de ses composants (par exemple la lettre de base étant accentuée).
 
 ## X
+
+### X11
+
+Abbreviation for [X Window System](https://en.wikipedia.org/wiki/X_Window_System) version 11, a window system used to build graphical user interfaces (GUIs) for Unix-based operating systems (OS), etc.].
 
 ### XUID
 

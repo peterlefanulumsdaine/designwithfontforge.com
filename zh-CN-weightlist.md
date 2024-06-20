@@ -11,6 +11,7 @@ published: false
 | 9      | 计划好你的项目        |
 | 12     | EM Square           |
 | 15     | 安装FontForge        |
+| 16     | Configuring Fontforge   |
 | 17     | General UI Introduction |
 | 18     | 使用FontForge绘制工具 |
 | 21     | 使用Spiro绘制         |

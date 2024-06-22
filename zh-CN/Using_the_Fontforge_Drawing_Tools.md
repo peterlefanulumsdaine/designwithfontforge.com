@@ -23,7 +23,7 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 #### 曲线点（显示为圆形的点）
 
 *曲线点*有两个手柄，每个都连接到另一个，因此他们之间的线是直的，目的是在每一端都产生平滑的曲线。
- 
+
 <img src="../en-US/images/tools-curve-point.png" alt>
 
 #### H/V曲线点（显示为菱形的点）
@@ -69,7 +69,7 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 
 - 如果你希望改变你的曲线使其整体倾斜，正如下面的“a”的左上部保持者平坦：
   <img src="../en-US/images/bezier_sample_2.png" alt>
-- 如果你希望在字母形式中放置中断，正如下面的“g”的左下部 &mdash; 这是你希望使用拐角的典型（除了画线以外）： 
+- 如果你希望在字母形式中放置中断，正如下面的“g”的左下部 &mdash; 这是你希望使用拐角的典型（除了画线以外）：
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>注意：</b>正如你所看到的那样，当你用一个<i>拐角</i>设置中断的时候，每个手柄的方向应该是曲线延伸方向的切向。</p>
@@ -184,7 +184,7 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 翻转工具可以水平或者竖直地翻转选中的对象。旋转的原点是最初点击鼠标的点。
 
-**注意：**翻转一个点后你很可能需要应用Element &gt; *Correct Direction*。
+**注意：**翻转一个点后你很可能需要应用"_**Element**&nbsp;⇨&nbsp;**Correct&nbsp;Direction**_"。
 
 扭曲工具可以将选中的对象顺时针或者逆时针做水平扭曲。
 
@@ -240,42 +240,42 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 ### 在一个图形内切掉另一个图形
 
 1. 首先在字形窗口的绘制区域用矩形工具绘制一个矩形。
-2. 接下来使用椭圆工具在你刚刚绘制的矩形内绘制一个椭圆。 
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt width="917">
-3. 在Element菜单选择*Correct Direction*。你将会看到两个图形合并了，在矩形的中央穿出一个洞来。
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt width="917">
+2. 接下来使用椭圆工具在你刚刚绘制的矩形内绘制一个椭圆。
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_010.png" alt width="917">
+3. 在"_**Element**_"菜单选择"_**Correct&nbsp;Direction**_"。你将会看到两个图形合并了，在矩形的中央穿出一个洞来。
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_011.png" alt width="917">
 
 ### 移除重叠区域
 
-1. 添加一个星形，与矩形的角重叠。 
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt height="744" width="917">
+1. 添加一个星形，与矩形的角重叠。
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_012.png" alt height="744" width="917">
 2. 选中星形和之前的图形。你只需要选择每个重叠图形的一个点，但是选择额外的点也可以。
-3. 点击Element &gt; Overlap &gt; *Remove overlap*。你将会看到两个图形合成一个。
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
+3. 点击"_**Element**&nbsp;⇨&nbsp;**Overlap**&nbsp;⇨&nbsp;**Remove&nbsp;overlap**_"。你将会看到两个图形合成一个。
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_013.png" alt>
 
 ### 添加一个点
 
 使用钢笔工具，在一条线段的中间点击不放，并拖动鼠标改变图形。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt width="917">
+<img src="../en-US/images/O_at_79_from_Untitled1_-_014.png" alt width="917">
 
 ### 切点
 
-选中你的新图形左下角的拐角点（曲线和直线的交点）。在Point菜单可以看到*Corner Point*是勾选的。选择*Tangent*。这将方形节点改为了三角形，但是做完下一步才算全部做完：扩展控制点。
+选中你的新图形左下角的拐角点（曲线和直线的交点）。在"_**Point**_"菜单可以看到"_**Corner&nbsp;Point**_"是勾选的。选择"_**Tangent**_"。这将方形节点改为了三角形，但是做完下一步才算全部做完：扩展控制点。
 
-为了这么做，选择Element &gt; *Get Info*，打开了点信息窗口。在窗口中的Location选项卡的Next CP设置，设定一个大数，比如75。点击OK。你将会看到曲线平滑地进入直线。
+为了这么做，选择"_**Element**&nbsp;⇨&nbsp;**Get&nbsp;Info**_"，打开了点信息窗口。在窗口中的Location选项卡的Next CP设置，设定一个大数，比如75。点击OK。你将会看到曲线平滑地进入直线。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_015.png" alt>
 
 ### 变形
 
 现在选择大概图形的四分之一 &mdash; 星形和矩形的一部分在中间。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_016.png" alt>
 
 选择3D旋转工具，移动到选择区域的中央，慢慢地点击拖动知道看到你喜欢的形状，然后松开。这是在实际图像中应用3D旋转的例子：
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt height="739" width="914">
+<img src="../en-US/images/O_at_79_from_Untitled1_-_017.png" alt height="739" width="914">
 
 ### 设置绘制形状和宽度
 
@@ -287,7 +287,7 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 
 现在使用自由绘制工具绘制一条线。当你松开鼠标按钮的时候，像下面一样，新的路径自动使用你在自由绘制对话框里选择的宽度和形状和绘制。
 
-<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt height="744" width="916">
+<img src="../en-US/images/Q_at_81_from_Untitled1_-_019.png" alt height="744" width="916">
 
 ## 继续绘制！
 

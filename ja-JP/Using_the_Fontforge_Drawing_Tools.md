@@ -57,7 +57,7 @@ FontForge の描画ツール自体を紹介する前に、まずベジェ曲線�
 #### 接点（図では三角形の点または矢印形）
 
 直線から始めて滑らかな曲線を形成したい場合は、**接点**を使用するとよいでしょう。
- 
+
  **接線**は、片側に直線を残し、反対側のベジェ曲線ハンドルが直線の曲がる方向を指定します。これにより、直線から曲線への連続的な移行が実現されます。
 
 <img src="../en-US/images/tools-tangent-point.png" alt>
@@ -84,7 +84,7 @@ FontForge の描画ツール自体を紹介する前に、まずベジェ曲線�
   <img src="../en-US/images/bezier_sample_2.png" alt>
 
 - 次の英文字「g」の左下部分のように（通常、描線とは別に、**角の点**を用いる場所ですが）、字形に変化点を置きたい場合：
- 
+
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>【メモ】</b>　ご覧のとおり、**角の点**で変化点を設定すると、各ハンドルの向きは、ハンドルの線が曲線に到達している部分で、曲線に対する接線になっているはずです。</p>
@@ -273,21 +273,21 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 2. つぎに、**楕円ツール** で、今描いた長方形の中に楕円を描きます。
 
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_010.png" alt>
 
 3. **エレメント** メニューを開き、**アウトラインの向きを修正（<u>C</u>）** を選択すると、二つの図形が合体し、実質的に長方形の真ん中に穴が開いているように見えます。
 
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_011.png" alt>
 
 ### 二つの図形を結合する方法
 
 1. 星形を加え、長方形の角に重ねます。
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_012.png" alt>
 
 2. 星形と前の図形を選択します。重なり合う各図形の一点を選択するだけで OK ですが、選択する点を追加しても問題ありません。
 
 3. メニューの **エレメント（<u>L</u>）** ⇒ **重複処理（<u>V</u>）** ⇒ **重なり合う図形を結合（<u>R</u>）** を選択します。これで、二つの図形がひとつになります。
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_013.png" alt>
 
 >《※ 訳注：　本項の原文タイトル "Remove overlap" は、そのまま訳すと「重複部分を取り除く」になりますが、実際の操作説明では二つの図形を一体化する手順が書かれているため、説明内容に即して上記の訳文としています。》
 
@@ -295,7 +295,7 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 **ペン** ツールで、線分の途中をクリックしたままマウスを移動して引っ張ると図形の形状を変更できます。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_014.png" alt>
 
 ### 接点を追加する方法
 
@@ -303,17 +303,17 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 そうするためには、メニューの **エレメント** ⇒ **情報を得る（<u>I</u>）** を選択し、「**点の情報**」ウィンドウを開きます。そｓぐて「**位置**」タブの中の「**次の制御点**」の項目へ行き、「**距離**」の値を大きな数、例えば 75 のように、入力します。OK ボタンをクリックすると、曲線が滑らかに直線部に繋がるようになったのが判るでしょう。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_015.png" alt>
 
 ### 変形
 
 では次に、図形の左上約 4 分の 1、つまり星型と中央の楕円の一部、を選択してみます。
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_016.png" alt>
 
 「3D 回転」ツールを選択して、選択した図形の中央部に移動し、クリックしたままゆっくりと動かし、好みの形になったところで離します。以下の図が、「3D 回転」の実行例です。　《訳注：　クリックした点を中心に回転変形します。》
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_017.png" alt>
 
 ### Set stroke shape and width
 
@@ -351,7 +351,7 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 > 《※ 訳注：　Linux版 FontForge 20230101 では、「フリーハンド」描画 → 「輪郭を太らせる」ダイアログの設定 → 「自動変換」の手順になるようです。》
 
-<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
+<img src="../en-US/images/Q_at_81_from_Untitled1_-_019.png" alt>
 
 ## 練習を続けましょう！
 

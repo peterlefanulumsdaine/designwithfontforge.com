@@ -36,7 +36,7 @@ côté &mdash;voir ci-dessous.
 
 Les *points curvilignes* ont deux poignées, chacune étant liée à l'autre de sorte que la ligne entre
 elles reste toujours droite, afin de produire une courbe lisse de chaque côté.
- 
+
 <img src="../en-US/images/tools-curve-point.png" alt>
 
 <h4 class="quiet">Points curvilignes H/V (Représentés sous la forme de points en forme de losange)</h4>
@@ -238,8 +238,7 @@ la position où vous avez cliqué.
 L'outil symétrie vous permet de retourner une sélection à l'horizontale ou à la verticale. Le point
 auquel vous cliquez sur le canevas est le point d'origine de la transformation.
 
-**Remarque:** Après avoir inversé un point, vous voudrez probablement appliquer Élément &gt; 
-*Corriger direction*.
+**Remarque:** Après avoir inversé un point, vous voudrez probablement appliquer "_**Element**&nbsp;⇨&nbsp;**Correct&nbsp;Direction**_".
 
 L'outil inclinaison vous permet d'incliner horizontalement la sélection dans le sens des aiguilles
 d'une montre ou dans le sens inverse des aiguilles d'une montre.
@@ -285,7 +284,7 @@ deux boutons de la souris:
 
 De cette façon, vous pouvez utiliser quelques outils différents sans avoir à cliquer à plusieurs
 reprises sur la palette d'outils.
- 
+
 <p class="warn"><b>Attention:</b> Il semble que la fonctionnalité Mse ne fonctionne pas correctement.</p>
 
 ### Calques
@@ -298,7 +297,7 @@ rendu dans votre police finale.
 
 <img src="../en-US/images/layers-fr-FR.png" alt>
 
-Une case à cocher indique si un calque est visible, et vous pouvez cliquer dessus pour changer 
+Une case à cocher indique si un calque est visible, et vous pouvez cliquer dessus pour changer
 la visibilité. Le C (ou Q) indique si vous utilisez des courbes cubiques ou quadratiques.
 
 Le #, B ou F indique si le type de calque est guide, d'arrière-plan ou d'avant-plan, ce qui est
@@ -317,54 +316,54 @@ Maintenant, examinons quelques workflows de dessin de base, dont vous aurez souv
    la fenêtre de glyphe.
 2. Ensuite, utilisez l'outil ellipse pour dessiner une ellipse dans le rectangle que vous venez de
    dessiner.
-    <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_010-fr-FR.png" alt>
-3. Allez dans le menu Élément et choisissez *Corriger direction*. Vous verrez que les deux formes
+    <Img src = "../en-US/images/O_at_79_from_Untitled1_-_010-fr-FR.png" alt>
+3. Allez dans le menu "_**Élément**_" et choisissez "_**Corriger&nbsp;direction**_". Vous verrez que les deux formes
    se sont fusionnées, et que vous avez essentiellement percé un trou dans le centre du rectangle.
-   <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_011-fr-FR.png" alt>
+   <Img src = "../en-US/images/O_at_79_from_Untitled1_-_011-fr-FR.png" alt>
 
 ### Supprimer le chevauchement
 
 1. Ajoutez une étoile qui chevauche le coin du rectangle.
-    <Img src = "../en-US/images/O%20at%2079%20from%20Untitled1%20-_012-fr-FR.png" alt>
+    <Img src = "../en-US/images/O_at_79_from_Untitled1_-_012-fr-FR.png" alt>
 2. Sélectionnez l'étoile et la forme précédente. Il vous suffit de sélectionner un point de chaque
    forme chevauchante, mais il est acceptable de sélectionner des points supplémentaires.
-3. Allez à Élément &gt; Recouvrement &gt; *Enlever les recouvrements*. Vous verrez que vos deux
+3. Allez à "_**Élément**&nbsp;⇨&nbsp;**Recouvrement**&nbsp;⇨&nbsp;**Enlever&nbsp;les&nbsp;recouvrements**_". Vous verrez que vos deux
    formes sont devenues une seule.
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013-fr-FR.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_013-fr-FR.png" alt>
 
 ### Ajouter un point
 
 À l'aide de l'outil plume, cliquez et maintenez au milieu d'un segment de ligne, puis faites glisser
 la souris pour changer la forme.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014-fr-FR.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_014-fr-FR.png" alt>
 
 ### Points tangents
 
 Sélectionnez le coin inférieur gauche de votre nouvelle forme (l'intersection de la courbe et de la
-droite). Dans le menu Point, vous verrez que *point angulaire* est coché. Sélectionnez *Convertir
-en point tangent*. Cela change le nœud carré en triangle, mais c'est tout ce que ça fait jusqu'à ce
+droite). Dans le menu "_**Point**_", vous verrez que "_**Point&nbsp;angulaire**_" est coché. Sélectionnez
+"_**Convertir&nbsp;en&nbsp;point&nbsp;Tangent**_". Cela change le nœud carré en triangle, mais c'est tout ce que ça fait jusqu'à ce
 que vous fassiez l'étape suivante:
 Extension des points de contrôle.
 
-Pour ce faire, choisissez Élément &gt; *Infos...*, qui ouvre la fenêtre Infos points. Dans l'onglet
+Pour ce faire, choisissez "_**Élément**&nbsp;⇨&nbsp;**Infos...**_", qui ouvre la fenêtre Infos points. Dans l'onglet
 Emplacement de cette fenêtre, accédez au champ PdeC suivant et définissez une grande distance, par
 exemple 75. Cliquez sur OK. Vous verrez que la courbe se poursuit maintenant doucement dans la droite.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015-fr-FR.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_015-fr-FR.png" alt>
 
 ### Transformation
 
 Maintenant, sélectionnez environ un quart de la forme &mdash; l'étoile et une partie de l'ellipse au
 milieu.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016-fr-FR.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_016-fr-FR.png" alt>
 
 Choisissez l'outil Rotation 3D, déplacez-vous au milieu de la zone sélectionnée, puis cliquez lentement
 et faites glisser jusqu'à ce que vous voyiez quelque chose que vous aimez, puis relâchez. Voici un exemple
 de rotation 3D utilisé sur l'image de pratique:
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017-fr-FR.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_017-fr-FR.png" alt>
 
 ### Définir la forme et la largeur du trait
 
@@ -382,7 +381,7 @@ Maintenant, tracez une ligne avec l'outil de dessin à main levée. Lorsque vous
 la souris, le nouveau chemin est automatiquement tracé avec la forme que vous avez choisie dans la boîte
 de dialogue à main levée, comme montré ici.
 
-<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019-fr-FR.png" alt>
+<img src="../en-US/images/Q_at_81_from_Untitled1_-_019-fr-FR.png" alt>
 
 ## Continuez à dessiner!
 

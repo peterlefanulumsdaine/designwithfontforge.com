@@ -8,7 +8,7 @@ title: Using the FontForge Drawing Tools
 
 Designing a font in FontForge will involve using a number of tools and utilities, starting with a
 set of drawing tools which may feel familiar to users with experience in vector graphics &mdash;
-there are noticeable differences through.  
+there are noticeable differences through.
 We’ll first seek to get an understanding of how B&eacute;zier curves work, before looking at
 FontForge’s drawing tools themselves.
 
@@ -46,7 +46,7 @@ horizontal or vertical axis &mdash; an essential tool in getting B&eacute;zier f
 #### Coins or corner points (shown as square-shaped points)
 
 *Coins* can have 0, 1, or 2 B&eacute;zier handles. The position of each handle is independent of the
-others, making it suitable for discontinuities in the outline.  
+others, making it suitable for discontinuities in the outline.
 Without handles, coins will produce straight lines.
 
 <img src="images/tools-square-point.png" alt>
@@ -58,7 +58,7 @@ Without handles, coins will produce straight lines.
 #### Tangent points (shown as triangular-shaped points, or ‘arrowheads’)
 
 If you want to start from a straight line and then start curving smoothly, you will want to use
-*tangent points*.  
+*tangent points*.
 A *tangent* leaves a straight line on one side, while the B&eacute;zier handle on the other side is
 its direction &mdash; this ensures a continuous transition between the line and the curve.
 
@@ -91,10 +91,10 @@ To elaborate, there are two cases where you will have to give up horizontal/vert
 paths:
 
 - If you want to change the overall slope of your curve, as with the upper-left part of the ‘a’
-  below that’s being kept almost flat:  
+  below that’s being kept almost flat:
   <img src="images/bezier_sample_2.png" alt>
 - If you want to place breaks in your letterforms, as with the lower-left part of the ‘g’ below
-  &mdash; that’s typically where you will want to use a *Coin* (besides for drawing lines):  
+  &mdash; that’s typically where you will want to use a *Coin* (besides for drawing lines):
   <img src="images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Note:</b> As you can see, when setting breaks with a <i>Coin</i>, the
@@ -147,8 +147,8 @@ Now that you know your way around the canvas, it’s time to get acquainted with
 
 <img src="images/point_zoom.png" alt>
 
-Point and Zoom behave similarly to the equivalent tools in other applications.  
-The pointer is a selection tool, used to select points, paths, and other objects on the canvas.  
+Point and Zoom behave similarly to the equivalent tools in other applications.
+The pointer is a selection tool, used to select points, paths, and other objects on the canvas.
 The Zoom tool lets you zoom in (Z) easily; in order to zoom out: go to the View menu and select
 *Zoom out* (X) or *Fit*.
 
@@ -177,10 +177,10 @@ Okay, now let’s go about using the point tools.
 To add a point to a path, first select any of these tools, then click on the path and give it a
 little push. You will get a new point on the line.
 
-The Curve point tool is used to add a point in a curved segment.  
+The Curve point tool is used to add a point in a curved segment.
 The HVCurve point tool constrains the new points so that they have either horizontal or vertical
-control points &mdash; this is important for setting up extrema points.  
-The Corner point tool allows you to make a sharp bend in the path.  
+control points &mdash; this is important for setting up extrema points.
+The Corner point tool allows you to make a sharp bend in the path.
 The Tangent point tool allows you to transition from a straight segment to a curved segment along
 the path.
 
@@ -238,7 +238,7 @@ x-y plane.
 The Flip tool allows you to flip a selection either horizontally or vertically. The point at which
 you click the mouse is the point of origin of the transformation.
 
-**Note:** After flipping a point you will probably want to apply Element &gt; *Correct Direction*.
+**Note:** After flipping a point you will probably want to apply "_**Element**&nbsp;⇨&nbsp;**Correct&nbsp;Direction**_".
 
 The Skew tool lets you horizontally skew the selection either clockwise or counterclockwise
 (withershins is how the dialog refers to counterclockwise).
@@ -307,53 +307,53 @@ Next we will go over some basic drawing workflows, which you often find yourself
 
 1. Start by using the Rectangle tool to draw a rectangle within the drawing area of the Glyph
    window.
-2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
-3. Go to the Element menu and choose *Correct Direction*. You will see that the two shapes merged,
-   and that you essentially punched a hole in the center of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
+2. Next, use the Ellipse tool to draw an ellipse within the rectangle you just drew.
+   <img src="images/O_at_79_from_Untitled1_-_010.png" alt>
+3. Go to the "_**Element**_" menu and choose "_**Correct&nbsp;Direction**_". You will see that the two shapes merged,
+   and that you essentially punched a hole in the center of the rectangle.
+   <img src="images/O_at_79_from_Untitled1_-_011.png" alt>
 
 ### Remove overlap
 
-1. Add a star that overlaps the corner of the rectangle.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
+1. Add a star that overlaps the corner of the rectangle.
+   <img src="images/O_at_79_from_Untitled1_-_012.png" alt>
 2. Select the star and the earlier shape. You only need to select one point of each overlapping
    shape, but it is okay to select extra points.
-3. Go to Element &gt; Overlap &gt; *Remove overlap*. You will see that your two shapes have become
-   one.  
-   <img src="images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
+3. Go to "_**Element**&nbsp;⇨&nbsp;**Overlap**&nbsp;⇨&nbsp;**Remove&nbsp;overlap**_". You will see that your two shapes have become
+   one.
+   <img src="images/O_at_79_from_Untitled1_-_013.png" alt>
 
 ### Add a Point
 
 Using the Pen tool, click and hold in the middle of a line segment, then drag the mouse to change
 the shape.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_014.png" alt>
 
 ### Tangent points
 
 Select the bottom-left corner point of your new shape (the intersection of the curve and the
-straight line). From the Point menu, you will see that *Corner Point* is checked. Select *Tangent*.
+straight line). From the "_**Point**_" menu, you will see that "_**Corner&nbsp;Point**_" is checked. Select "_**Tangent**_".
 This changes the square node to a triangle, but that is all it does until you do the next step:
 extending control points.
 
-To do so, choose Element &gt; *Get Info*, which opens the Point Info Window. From the Location tab
+To do so, choose "_**Element**&nbsp;⇨&nbsp;**Get&nbsp;Info**_", which opens the Point Info Window. From the Location tab
 in that window, go to the Next CP field set and set the Distance to a large number, such as 75.
 Click OK. You will see that the curve now smoothly enters the straight line.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_015.png" alt>
 
 ### Transformation
 
 Now select about a quarter of the shape &mdash; the star and part of the ellipse in the middle.
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_016.png" alt>
 
 Choose the 3D Rotate tool, move to the middle of the selected area, and slowly click and drag until
 you see something you like, then release. Here is an example of 3D Rotate used on the practice
 image:
 
-<img src="images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
+<img src="images/O_at_79_from_Untitled1_-_017.png" alt>
 
 ### Set stroke shape and width
 
@@ -369,14 +369,14 @@ Using the Corner tool, draw a polygon and click OK.
 Now, draw a line with the Freehand drawing tool. When you release the mouse button, the new path is
 automatically stroked with the shape you chose in the Freehand dialog, as shown here.
 
-<img src="images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
+<img src="images/Q_at_81_from_Untitled1_-_019.png" alt>
 
 ## Keep drawing!
 
 You should continue to experiment with the drawing tools until you feel comfortable that you can use
 them to draw and transform whatever shapes you need. At this point, you are equipped to start
 constructing the components of glyphs, but you should also take time to look at FontForge’s other
-set of tools.  
+set of tools.
 The next chapter, [“Drawing with Spiro”], describes the Spiro drawing mode. Spiro drawing is
 distinct enough from B&eacute;zier curve editing that it requires an explanation of its own.
 

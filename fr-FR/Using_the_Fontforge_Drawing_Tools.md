@@ -371,7 +371,7 @@ Jusqu'à présent, vous avez utilisé l'outil de dessin à main levée pour trac
 double-cliquez sur l'outil de dessin à main levée, vous obtenez la boîte de dialogue à main levée
 illustrée ici, qui contient une fenêtre de dessin. C'est là que vous sélectionnez la forme et la
 taille de la plume. Cette boîte de dialogue apparaît également lorsque vous choisissez l'option
-*Étendre ligne* dans le menu Élément.
+"_**Étendre&nbsp;ligne**_" dans le menu "_**Élément**_".
 
 <img src="../en-US/images/Freehand_018-fr-FR.png" alt>
 
@@ -389,17 +389,15 @@ Vous devriez continuer à expérimenter avec les outils de dessin jusqu'à ce qu
 l'aise pour dessiner et transformer toutes les formes dont vous avez besoin. À ce stade, vous êtes
 équipé pour commencer à construire les composants des glyphes, mais vous devriez également prendre le
 temps de regarder les autres ensembles d'outils de FontForge.
-Le chapitre suivant, ["Dessin avec Spiro"], décrit le mode de dessin Spiro. Le dessin Spiro est
+Le chapitre suivant, ["Dessin avec Spiro"](Drawing_With_Spiro), décrit le mode de dessin Spiro. Le dessin Spiro est
 assez différent de l'édition de courbes de  B&eacute;zier qu'il nécessite ses propres explications.
-
-["Dessin avec Spiro"]: Drawing_With_Spiro.html
 
 # Lectures complémentaires (en anglais)
 
-A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) incluant ces liens partagés par Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">sur twitter</a>:
+A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) incluant ces liens partagés par Nina Stössinger sur twitter:
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) par Fábio Duarte Martins
-* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)
+* [Bezier Curves and Type Design: A Tutorial](https://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) par Fábio Duarte Martins
+* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html)
 * [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) par Scott Biersack
 * [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) par Underware
 * [The Bézier Game](http://bezier.method.ac) par Marc MacKay

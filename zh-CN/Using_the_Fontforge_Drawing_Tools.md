@@ -123,7 +123,7 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 
 ### 自由绘制
 
-<img src="../en-US/images/freehand_tool.png" alt height="28" width="27">
+<img src="../en-US/images/freehand_tool.png" alt>
 
 自由绘制让你可以画出不规则的路径。
 
@@ -135,7 +135,7 @@ Bézier曲线的概念指的是一个特别的数学上的表示，用来数字�
 
 那么我们开始学习指针工具。
 
-<img src="../en-US/images/point_tools_labelled.png" alt width="291">
+<img src="../en-US/images/point_tools_labelled.png" alt>
 
 为了在路径上添加一个点，我们首先选择这些工具中的一个，然后在路径上点击并轻推一下。你就在线上添加了一个新的点。
 
@@ -146,25 +146,25 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 ### 钢笔工具
 
-<img src="../en-US/images/addpoint_tool.png" alt height="28" width="28">
+<img src="../en-US/images/addpoint_tool.png" alt>
 
 钢笔工具用来在曲线上添加点并拖出其控制点。
 
 ### Spiro
 
-<img src="../en-US/images/spiro.png" alt height="28" width="28">
+<img src="../en-US/images/spiro.png" alt>
 
 选择Spiro工具会进入Spiro绘制模式。Spiro绘制可以在你调整节点位置的时候重排你的曲线。有的人相对于标准方法（称为B&eacute;zier编辑），更偏好这个方法，但是如果你习惯了B&eacute;zier编辑，你可能发现这种方法会做没有料到的事情。
 
 ### 小刀
 
-<img src="../en-US/images/knife.png" alt height="27" width="28">
+<img src="../en-US/images/knife.png" alt>
 
 小刀工具让你可以将样条曲线且为两段。如果你希望绘制一个图形但是只需要一部分，那么这个工具是合用的。
 
 ### 尺子
 
-<img src="../en-US/images/ruler.png" alt height="28" width="27">
+<img src="../en-US/images/ruler.png" alt>
 
 尺子工具提供测量和坐标信息给你。当你使用时，在鼠标指针旁边显示一个浮动的提示框。如果你的鼠标指针悬停在一个点上，提示框提示框会展示更详细的测量和坐标信息。如果你在样条曲线上使用，它将告诉你曲率和半径。最有用的是，如果你点击拖动尺子工具，你将看到你拖动鼠标指针的距离，以及穿过图形的每个交点的信息。
 
@@ -172,7 +172,7 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 变形工具有6个：
 
-<img src="../en-US/images/transform_tools_labelled.png" alt width="400">
+<img src="../en-US/images/transform_tools_labelled.png" alt>
 
 **注意：**对于每个变形工具，如果你双击工具，可以输入数值。
 
@@ -196,7 +196,7 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 这些工具让你可以绘制简单的几何形状，这样比使用分开的线段构建形状更快。
 
-<img src="../en-US/images/rectangle_poly_labelled.png" alt width="500">
+<img src="../en-US/images/rectangle_poly_labelled.png" alt>
 
 点击工具区域可以切换到可选的另一个工具。如果你双击这个工具，会打开形状样式的选项。
 
@@ -210,7 +210,7 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 ### Mse1和Mse2
 
-<img src="../en-US/images/danger.png" alt height="53" width="57">
+<img src="../en-US/images/danger.png" alt>
 
 在工具栏中你可以看到当前的工具和鼠标按键可以使用的操作：
 
@@ -227,7 +227,7 @@ HVCurve点工具约束新点为水平或者竖直的控制点 &mdash; 这对设�
 
 FontForge的画布默认有3个图层：引导图层，背景图层和前景图层。引导图层用来插入引导（比如x高度或者大写高度引导）。前景图层和背景图层都是用来绘制的，但是只有最顶层的引导图层将会呈现在最终的字体上。
 
-<img src="../en-US/images/layers.png" alt height="96" width="108">
+<img src="../en-US/images/layers.png" alt>
 
 眼睛图标指示每个图标是否可见，并且你可以点击眼睛图标来使图层不可见。C（或者Q）你是否在使用三阶或二阶曲线。
 
@@ -241,14 +241,14 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 
 1. 首先在字形窗口的绘制区域用矩形工具绘制一个矩形。
 2. 接下来使用椭圆工具在你刚刚绘制的矩形内绘制一个椭圆。
-   <img src="../en-US/images/O_at_79_from_Untitled1_-_010.png" alt width="917">
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_010.png" alt>
 3. 在"_**Element**_"菜单选择"_**Correct&nbsp;Direction**_"。你将会看到两个图形合并了，在矩形的中央穿出一个洞来。
-   <img src="../en-US/images/O_at_79_from_Untitled1_-_011.png" alt width="917">
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_011.png" alt>
 
 ### 移除重叠区域
 
 1. 添加一个星形，与矩形的角重叠。
-   <img src="../en-US/images/O_at_79_from_Untitled1_-_012.png" alt height="744" width="917">
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_012.png" alt>
 2. 选中星形和之前的图形。你只需要选择每个重叠图形的一个点，但是选择额外的点也可以。
 3. 点击"_**Element**&nbsp;⇨&nbsp;**Overlap**&nbsp;⇨&nbsp;**Remove&nbsp;overlap**_"。你将会看到两个图形合成一个。
    <img src="../en-US/images/O_at_79_from_Untitled1_-_013.png" alt>
@@ -257,7 +257,7 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 
 使用钢笔工具，在一条线段的中间点击不放，并拖动鼠标改变图形。
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_014.png" alt width="917">
+<img src="../en-US/images/O_at_79_from_Untitled1_-_014.png" alt>
 
 ### 切点
 
@@ -275,22 +275,20 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 
 选择3D旋转工具，移动到选择区域的中央，慢慢地点击拖动知道看到你喜欢的形状，然后松开。这是在实际图像中应用3D旋转的例子：
 
-<img src="../en-US/images/O_at_79_from_Untitled1_-_017.png" alt height="739" width="914">
+<img src="../en-US/images/O_at_79_from_Untitled1_-_017.png" alt>
 
 ### 设置绘制形状和宽度
 
-现在为止你已经使用自由绘制工具来绘制一条线。如果你双击自由绘制工具，将会展示包含一个绘制窗口的自由绘制对话框。这里是你选择笔触形状和尺寸。当你选择*Expand Stroke*选项的时候这个对话框也出现在Element菜单中。
+现在为止你已经使用自由绘制工具来绘制一条线。如果你双击自由绘制工具，将会展示包含一个绘制窗口的自由绘制对话框。这里是你选择笔触形状和尺寸。当你选择"_**Expand&nbsp;Stroke**_"选项的时候这个对话框也出现在"_**Element**_"菜单中。
 
-<img src="../en-US/images/Freehand_018.png" alt height="676" width="420">
+<img src="../en-US/images/Freehand_018.png" alt>
 
 使用拐角工具，绘制多边形，点击OK。
 
 现在使用自由绘制工具绘制一条线。当你松开鼠标按钮的时候，像下面一样，新的路径自动使用你在自由绘制对话框里选择的宽度和形状和绘制。
 
-<img src="../en-US/images/Q_at_81_from_Untitled1_-_019.png" alt height="744" width="916">
+<img src="../en-US/images/Q_at_81_from_Untitled1_-_019.png" alt>
 
 ## 继续绘制！
 
-你应该继续试验绘制工具直到你觉得可以使用它们绘制和变形出你需要的任何形状。到这个时候，你准备好开始构造字形的组成部分，但是你也应该花些时间看看FontForge的其他工具集。下一章[“使用Spiro绘制”][“Drawing with Spiro”]描述了Spiro绘制模式。Spiro绘制与B&eacute;zier曲线编辑太不同了，以至于需要解释其本事。
-
-[“Drawing with Spiro”]: Drawing_With_Spiro.html
+你应该继续试验绘制工具直到你觉得可以使用它们绘制和变形出你需要的任何形状。到这个时候，你准备好开始构造字形的组成部分，但是你也应该花些时间看看FontForge的其他工具集。下一章[“使用Spiro绘制”](Drawing_With_Spiro)描述了Spiro绘制模式。Spiro绘制与B&eacute;zier曲线编辑太不同了，以至于需要解释其本事。

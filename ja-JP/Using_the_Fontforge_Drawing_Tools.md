@@ -357,17 +357,14 @@ FontForge の描画エリアには初期設定で三つのレイヤーがあり�
 
 「描画」ツールの取り扱いに習熟して、どのような形でも思い通りに描き、変形できるようになるまで、いろいろと試してみてください。この段階で、グリフの各要素を構築する準備はできていますが、その他の FontForge のツールの扱いにも時間を割いてください。
 
-次章 [「螺旋ツールで描画する」] では、**螺旋描画モード**について説明します。「螺旋描画」は、ベジェ曲線編集とは明確な違いがあるので、その機能について解説する必要があるためです。
-
-
-[「螺旋ツールで描画する」]: Drawing_With_Spiro.html
+次章 [「螺旋ツールで描画する」](Drawing_With_Spiro) では、**螺旋描画モード**について説明します。「螺旋描画」は、ベジェ曲線編集とは明確な違いがあるので、その機能について解説する必要があるためです。
 
 # 参考文献
 
-「[ベジェ曲線についての討論（TypeDrawers Forum ）](http://typedrawers.com/discussion/967)」には、Nina Stössinger 氏の <a href="https://twitter.com/ninastoessinger/status/593687255341998080">ツイッター</a> による以下の情報へのリンクが含まれています〔すべて英語版サイト〕:
+「[ベジェ曲線についての討論（TypeDrawers Forum ）](http://typedrawers.com/discussion/967)」には、Nina Stössinger 氏の ツイッター による以下の情報へのリンクが含まれています〔すべて英語版サイト〕:
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
-* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)　《※ 訳注：　記載リンクでは表示できず？　この [サイト](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html) と同一内容か…？》
+* [Bezier Curves and Type Design: A Tutorial](https://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html) と同一内容か…？》
 * [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) by Scott Biersack
 * [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) by Underware
 * [The Bézier Game](http://bezier.method.ac) by Marc MacKay

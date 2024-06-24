@@ -391,7 +391,7 @@ title: استفاده از ابزارهای رسم فونت‌فورج
 پیش‌تر از ابزار طراحی دست‌باز (Freehand) برای ترسیم یک خط استفاده کرده‌اید.
 اگر دو بار روی این ابزار کلیک کنید، پنجره تعاملی Freehand را که در اینجا نشان داده شده است باز می‌شود که شامل یک پنجره ترسیم است.
 در این جا می‌توانید شکل و اندازهٔ قلم را انتخاب کنید.
-این پنجره همچنین زمانی که گزینهٔ *گسترش خطوط یا Expand Stroke* را در منوی Element انتخاب کنید ظاهر می‌شود.
+این پنجره همچنین زمانی که گزینهٔ *گسترش خطوط یا "_**Expand&nbsp;Stroke**_" را در منوی "_**Element**_" انتخاب کنید ظاهر می‌شود.
 
 <img src="../en-US/images/Freehand_018.png" alt>
 
@@ -415,10 +415,10 @@ title: استفاده از ابزارهای رسم فونت‌فورج
 رسم حلزونی به قدر کافی با ویرایش منحنی بزیه (Bézier) تمایز دارد که نیازمند توضیحات مختص به خود باشد.
 
 # مطالعهٔ بیشتر
-A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) included these links shared by Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">on twitter</a>:
+A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) included these links shared by Nina Stössinger on twitter
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
-* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)
+* [Bezier Curves and Type Design: A Tutorial](https://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html)
 * [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) by Scott Biersack
 * [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) by Underware
 * [The Bézier Game](http://bezier.method.ac) by Marc MacKay

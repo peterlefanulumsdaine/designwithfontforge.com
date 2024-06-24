@@ -4,7 +4,7 @@
   <div class="inner">
     <h1><a href="/fr-FR/">{{ site.title_fr-FR }}</a></h1>
     <h2>{{ site.subtitle_fr-FR }}</h2>
-    <div class="lang">
+     <div class="lang">
       <a href="
         {% assign ENurl = page.name | replace: '.md', '.html' | prepend: '/en-US/' %}
         {% if urlList contains ENurl %}
@@ -45,9 +45,17 @@
         {% else %}
           ../ja-JP/index.html
         {% endif %}
-        " class="lang">[日本語版]</a>
+        " class="lang">[日本語版]</a>&nbsp;|
+      <a href="
+        {% assign BRurl = page.name | replace: '.md', '.html' | prepend: '/pt-BR/' %}
+        {% if urlList contains BRurl %}
+          {{ page.name | prepend: '../pt-BR/' | replace: '.md', '.html' }}
+        {% else %}
+          ../pt-BR/index.html
+        {% endif %}
+        " class="lang">[Português]</a>
     </div>
     <div class="ebook">Télécharger en format <a href="../ebook/design-with-fontforge_fr-FR.epub" class="ebook" rel="nofollow">[ePUB]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_fr-FR.mobi" class="ebook" rel="nofollow">[MOBI]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_fr-FR.pdf" class="ebook" rel="nofollow">[PDF]</a></div>
-    <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>Voir le projet sur </small>GitHub</a>
+    <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>Voir le projet sur</small>GitHub</a>
   </div>
 </header>

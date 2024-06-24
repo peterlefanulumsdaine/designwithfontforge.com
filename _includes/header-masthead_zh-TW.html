@@ -45,7 +45,15 @@
         {% else %}
           ../ja-JP/index.html
         {% endif %}
-        " class="lang">[日本語版]</a>
+        " class="lang">[日本語版]</a>&nbsp;|
+      <a href="
+        {% assign BRurl = page.name | replace: '.md', '.html' | prepend: '/pt-BR/' %}
+        {% if urlList contains BRurl %}
+          {{ page.name | prepend: '../pt-BR/' | replace: '.md', '.html' }}
+        {% else %}
+          ../pt-BR/index.html
+        {% endif %}
+        " class="lang">[Português]</a>
     </div>
     <div class="ebook">下載 <a href="../ebook/design-with-fontforge_zh-TW.epub" class="ebook" rel="nofollow"><b>[ePUB]</b></a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_zh-TW.mobi" class="ebook" rel="nofollow"><b>[MOBI]</b></a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_zh-TW.pdf" class="ebook" rel="nofollow"><b>[PDF]</b></a></div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>View project on</small>GitHub</a>

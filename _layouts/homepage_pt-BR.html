@@ -1,0 +1,27 @@
+{% include html-start.html %}
+
+    {% include header-masthead_pt-BR.html %}
+
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+
+          <p>{{ content }}</p>
+        </section>
+
+        <aside id="sidebar">
+<!--          <a href="" class="button">
+            <small>Download book as</small>
+            PDF
+          </a> -->
+          <p>Este livro de cultura livre é <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hospedado no GitHub</a>. Ajustes, sugestões e correções são bem-vindas.</p>
+          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">Edite esta página</a> (<a href="https://github.com/fontforge/designwithfontforge.com">saiba como</a>)</p></p>
+        </aside>
+
+      </div>
+    </div>
+
+{% include footer_pt-BR.html %}
+
+{% include html-end.html %}

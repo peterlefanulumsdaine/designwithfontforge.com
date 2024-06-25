@@ -1,7 +1,7 @@
 ---
 published: true
 layout: bookpage_fa-IR
-weight: 16
+weight: 17
 category: Getting To Know FontForge
 title: معرفی عمومی واسط کاربری
 ---

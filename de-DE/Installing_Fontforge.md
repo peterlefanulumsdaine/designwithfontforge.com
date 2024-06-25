@@ -6,10 +6,10 @@ category: Getting To Know FontForge
 title: Installation von FontForge
 ---
 
-Da es sich bei FontForge um freie Software handelt, können Sie Kopien ohne Nutzungseinschränkungen herunterladen, weitergeben und installieren - sowohl die kommerzielle als auch die persönliche Nutzung ist erwünscht.
+Da es sich bei FontForge um freie Software handelt, können Sie Kopien ohne Nutzungseinschränkungen herunterladen, weitergeben und installieren  &mdash; sowohl die kommerzielle als auch die persönliche Nutzung ist erwünscht.
 Es handelt sich um eine von der Gemeinschaft gepflegte Anwendung, und jeder kann zum Quellcode beitragen.
 
-FontForge ist in einfach zu installierenden Paketen für die Betriebssysteme Windows, Mac OS X und GNU+Linux erhältlich. 
+FontForge ist in einfach zu installierenden Paketen für die Betriebssysteme Windows, Mac OS X und GNU+Linux erhältlich.
 
 ### Installation von FontForge unter Windows
 
@@ -17,53 +17,20 @@ Für die offiziellen Windows-Builds ist eine [Installationsanleitung](http://fon
 
 ### Installation von FontForge unter Mac OS X
 
-Für die offiziellen Mac-Builds ist eine [Installationsanleitung](http://fontforge.github.io/en-US/downloads/mac/) verfügbar, die von Dr. Ben Martin erstellt wurde. 
+Für die offiziellen Mac-Builds ist eine [Installationsanleitung](http://fontforge.github.io/en-US/downloads/mac/) verfügbar, die von Dr. Ben Martin erstellt wurde.
 
 ### Installieren unter GNU/Linux
 
 Die einfachste Methode, FontForge auf Ihren Linux-Rechner zu bekommen, ist die Verwendung des Paketspeichers Ihrer Linux-Distribution.
 
-##### Debian oder Ubuntu
+An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
 
-Das FontForge-Paket, das standardmäßig in Ubuntu 14.04 enthalten ist, stammt aus dem Jahr 2012, so dass es vorzuziehen ist, das aktuellere Paket aus dem FontForge [Personal Package Archive (PPA)](https://launchpad.net/~fontforge/+archive/ubuntu/fontforge) zu installieren.
+### Installing older versions of FontForge
 
-Prüfen Sie, ob das Hilfsskript `add-apt-repository` installiert ist:
-    
-```sh
-sudo apt-get install software-properties-common;
-```
-
-Fügen Sie das FontForge-PPA hinzu (der auch den Authentifizierungsschlüssel hinzufügt):
-    
-```sh
-sudo add-apt-repository ppa:fontforge/fontforge;
-```
-
-Aktualisieren Sie die Software-Liste, um Pakete aus dem PPA aufzunehmen:
-    
-```sh
-sudo apt-get update;
-```
-
-FontForge installieren:
-    
-```sh
-sudo apt-get install fontforge;
-```
-
-##### Fedora
-
-Um FontForge auf Ihrem Fedora Linux-Desktop-Rechner zu installieren, führen Sie den folgenden yum-Befehl als Root-Benutzer aus. 
-Dies erfordert einen Download von etwa 10MiB.
-
-```
-yum install fontforge;
-```
-
-Wenn Sie keine Software auf Ihrem Fedora-Rechner kompiliert haben, erhalten Sie nach der Installation von gcc, automake, autoconf und anderen möglicherweise einen Fehler während der Ausführung von autogen.sh mit libtoolize. 
-Wenn das der Fall ist, müssen Sie möglicherweise das Paket libtool-ltdl-devel auf Fedora oder ein ähnliches Entwicklungspaket auf einer anderen GNU+Linux-Distribution installieren.
-
-Nach der Installation von yum sollten Sie in der Lage sein, FontForge über Ihr Menü oder direkt von der Konsole oder dem gnome-Terminal aus mit dem Befehl `fontforge` zu starten.
+Users who need an older version of Fontforge can look for stable releases
+[here](https://github.com/fontforge/fontforge/releases), and
+[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
+[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
 
 ## Kompilieren Sie Ihre eigene Version von GitHub
 

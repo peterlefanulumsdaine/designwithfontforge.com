@@ -1,4 +1,43 @@
 # This file will list anyone who wishes to be named as a contributor, but
-# who does not hold the copyright to their work
+# who does not hold the copyright to their work.
+# If you notice your name missing, please create a PR, and also point-out
+# where/when this contribution was added.
 
+Adrien Tétar
+chakler (grunt.js, compress images)
 Dave Crossland
+Fredrick Brennan
+Jean-Rene Bastien (ebooks, and more)
+Jeremy Tan
+Joe Da Silva
+John Wong/Xiaozhe Huang/贤哲
+Katherine Yang (Grammar, consistency, tags, typos)
+Krasnaya Ploshchad’
+Mostafa Ahangarha
+Pathum Egodawatta
+probonopd
+Zhidong Zhu
+
+Major/Notable contributions towards translation:
+简体中文版 (zh-CN):
+  John Wong/Xiaozhe Huang/贤哲
+  Krasnaya Ploshchad’
+  Kaijing Zheng
+  Cheng Luyu
+正體中文版 (zh-TW):
+  Cheng-Chia Tseng
+  John Wong/Xiaozhe Huang
+Deutsche (de-DE):
+  probonopd
+Français (fr-FR):
+  Jean-Rene Bastien
+Farsi (fa-IR):
+  Mostafa Ahangarha
+日本語版 (ja-JP):
+  Junichi TAKAI
+Português (pt-BR):
+  Aryel Mota Góis
+  Furnivaley
+  KnotBR
+  Marcelo Magalhães
+  vcnthnrq

@@ -1,4 +1,4 @@
-# This file lists authors for copyright purposes
+# This file lists (book contents) authors for copyright purposes
 
 Nathan Willis
 Vernon Adams
@@ -8,4 +8,3 @@ Ben Martin
 Matthew Skala
 Martin B Brilliant
 Google, Inc
-Mostafa Ahangarha

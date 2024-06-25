@@ -472,7 +472,7 @@ A slanted style of a font, generally used for emphasis.
 
 Oblique differs from Italic in that the transformation from the plain to the slanted form involves a mathematical or mechanical skewing the letterforms.
 
-### Overshoot    
+### Overshoot
 
 In order for the curved shape of the "O" to appear to be the same height as the flat top of the "I" it tends to "overshoot" the cap-height (or x-height), or undershoot the baseline by about 3% of the cap-height (or x-height). For a triangular shape (such as "A") the overshoot is even greater, perhaps 5%.
 
@@ -777,6 +777,10 @@ The white space of the type design includes the space between lines of text, the
 This is a slightly ambiguous term and is sometimes used to mean the advance width (the distance from the start of this glyph to the start of the next glyph), and sometimes used to mean the distance from the left side bearing to the right side bearing.
 
 ## X
+
+### X11
+
+Abbreviation for [X Window System](https://en.wikipedia.org/wiki/X_Window_System) version 11, a window system used to build graphical user interfaces (GUIs) for Unix-based operating systems (OS), etc.].
 
 ### X-height
 

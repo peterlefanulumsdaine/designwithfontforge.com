@@ -55,28 +55,28 @@ largura, peso, terminais &mdash; são partes do corpo.
 
 <img src="../en-US/images/AAA.png" alt>
 
-### Proporção entre Altura de X e Altura da Caixa Alta
+### Proporção entre Altura de X (X-height) e Altura da Caixa Alta (Cap-height)
 
 <img src="../en-US/images/Prop.png" alt>
 
-As letras posicionadas ao lado esquerdo fazem parte da fonte [Playfair Display], que tem uma altura de x grande em relação à
-altura da sua caixa alta. As letras à direita são da fonte [EB Garamond], que têm uma altura de x menor. No
+As letras posicionadas ao lado esquerdo fazem parte da fonte [Playfair Display], que tem uma altura de x (x-height) grande em relação à
+altura da sua caixa alta (cap-height). As letras à direita são da fonte [EB Garamond], que têm uma altura de x (x-height) menor. No
 exemplo acima, o tamanho do H foi ajustado para ficar na mesma altura.
 
-### Altura das Ascendentes
+### Altura das Ascendentes (Ascender Height)
 
-<img src="../en-US/images/Ascender%20height.png" alt>
+<img src="../en-US/images/Ascender_height.png" alt>
 
-No exemplo acima, as alturas de x foram ajustadas para ilustrar a diferença de relação
-entre as alturas das ascendentes.
+No exemplo acima, as alturas de x (x-height) foram ajustadas para ilustrar a diferença de relação
+entre as alturas das ascendentes (Ascender Height).
 
-Ascendentes geralmente ultrapassam pelo menos um pouco a altura da caixa alta, especialmente em fontes para texto. Em alguns
-casos, no entanto, elas podem ser iguais ou até mais baixas que a caixa alta. Ascendentes mais longas podem adicionar
-elegância para o visual de uma fonte. Elas costumam ter altura de x menor.
+Ascendentes geralmente ultrapassam pelo menos um pouco a altura da caixa alta (cap-height), especialmente em fontes para texto. Em alguns
+casos, no entanto, elas podem ser iguais ou até mais baixas que a caixa alta (cap-height). Ascendentes mais longas podem adicionar
+elegância para o visual de uma fonte. Elas costumam ter altura de x (x-height) menor.
 
 ### Descendentes
 
-<img src="../en-US/images/Descender%20depth.png" alt>
+<img src="../en-US/images/Descender_depth.png" alt>
 
 Assim como nas ascendentes, as descendentes longas aparentam elegância.
 
@@ -97,7 +97,7 @@ ser utilizadas para economizar espaço ou para encaixar mais texto em espaços m
 As letras na linha de cima deste exemplo apresentam uma maior variedade de largura que as letras na
 linha de baixo.
 
-<img src="../en-US/images/Width%20regularity.png" alt>
+<img src="../en-US/images/Width_regularity.png" alt>
 
 ### Peso
 
@@ -116,12 +116,12 @@ o da direita.
 
 <img src="../en-US/images/Contrast.png" alt>
 
-Tipos com peso consistente (largura do traço) em seus glifos ou sem contraste visível produzem uma
+Tipos com peso consistente (largura do traço)(stroke width) em seus glifos ou sem contraste visível produzem uma
 distinção clara dos tipos com contraste. Assim como a escolha entre tipos com ou sem serifa, contraste é
 uma escolha inicial no design de tipos. É interessante notar que o design de serifas ‘slab’ (quadradas) geralmente usa
 uma largura consistente do traço em suas letras, e que o design de serifas quadradas não se trata somente sobre
-serifas, por mais que falemos delas! Devemos lembrar de aplicar as regras de percepção (veja [“Confiando em
-seus olhos”][“Trusting Your Eyes”]) &mdash; contraste é mais sobre como o peso aparenta do que a sua medida exata.
+serifas, por mais que falemos delas! Devemos lembrar de aplicar as regras de percepção (veja [“Confiando em seus olhos”])
+&mdash; contraste é mais sobre como o peso aparenta do que a sua medida exata.
 
 ### Ângulo de contraste
 
@@ -129,11 +129,11 @@ Na imagem abaixo, vemos que as formas das partes finas das letras ‘o’ minús
 glifo da esquerda, as partes finas se encontram em um eixo vertical perfeito. No glifo da direita,
 o eixo é diagonal.
 
-<img src="../en-US/images/Angle%20of%20contrast.png" alt>
+<img src="../en-US/images/Angle_of_contrast.png" alt>
 
 ### Distribuição do peso
 
-Se sua fonte apresenta contraste mínimo ou inexistente, você não precisa pensar muito sobre isso.  
+Se sua fonte apresenta contraste mínimo ou inexistente, você não precisa pensar muito sobre isso.
 No entanto a maioria das fontes tem pelo menos algum grau de contraste. Nesses casos, você tem muitas
 opções para escolher quando chegar a hora de distribuir o peso em sua fonte.
 
@@ -146,7 +146,7 @@ exemplo.
 
 #### Horizontal
 
-<img src="../en-US/images/horizontal%20weight.png" alt>
+<img src="../en-US/images/horizontal_weight.png" alt>
 
 A distribuição de peso horizontal é bem menos comum, ainda assim é encontrada em muitas fontes.
 
@@ -156,11 +156,11 @@ A distribuição de peso horizontal é bem menos comum, ainda assim é encontrad
 
 #### Peso no topo
 
-<img src="../en-US/images/2topheavy%20metal.png" alt>
+<img src="../en-US/images/2topheavy_metal.png" alt>
 
 #### Peso Irregular
 
-<img src="../en-US/images/Irregular%20weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### Hastes
 
@@ -189,14 +189,14 @@ Terminais são as formas das extremidades dos traços. Não são o mesmo que ser
 perpendiculares ao ângulo do traço em seu final, ou cortados de maneira rente de forma horizontal ou vertical. Os terminais geralmente
 refletem o formato da pena ou de outra ferramenta que inspirou o desenho das letras.
 
-<img src="../en-US/images/terminals%20f.png" alt>
+<img src="../en-US/images/terminals_f.png" alt>
 
 ### Velocidade
 
 <img src="../en-US/images/6speed_1.png" alt>
 
 O ‘n’ da esquerda aparenta ser escrito de forma muito mais rápida do que o da direita. Velocidade é discutida em
-mais detalhe no capítulo dos [itálicos][on italics].
+mais detalhe no capítulo [dos itálicos].
 
 ### Regularidade
 
@@ -243,7 +243,7 @@ suaves ou grandes da [Times New Roman]) ou robustez (brackets ausentes na [Arvo]
 
 #### Slabs - Serifas quadradas
 
-Também conhecidas como tipografia mecana ou egípcia, slabs são serifas grossas como blocos. Elas não usam
+Também conhecidas como tipografia mecana ou Egípcia, slabs são serifas grossas como blocos. Elas não usam
 brackets. Genericamente falando, uma tipografia com essa serifa tem menos contraste em seus
 glifos &mdash; [Rockwell], [Courier] e [American typewriter] refletem isso.
 
@@ -258,18 +258,24 @@ angulares ([Rockwell]).
 
 ### Decoração
 
-<img src="../en-US/images/4decoration.png" alt>
+The letter forms themselves may be decorated inside, or they may be extended with superfluous decorative forms - or both!
+
+<img src="../en-US/images/decoration-1.jpg" alt="Close-up of internal decoration in a handwritten manuscript">
+
+<img src="../en-US/images/decoration-2.jpg" alt="An ornate cursive M">
+
+<img src="../en-US/images/decoration-3.jpg" alt="Woodblock typography, mirrored horizontally as it would appear when used on paper.">
 
 ### Dimensão
 
-<img src="../en-US/images/3dimention.png" alt>
+<img src="images/3dimention.png" alt="Side of a truck reading 'CASEY & HAYES, MOVERS BOSTON'">
 
-[Playfair Display]: http://www.forthehearts.net/typeface-design/playfair-display/
+[Playfair Display]: https://www.fontsquirrel.com/fonts/playfair-display
 [EB Garamond]: http://www.georgduffner.at/ebgaramond/
-[“Trusting your eyes”]: Trusting_Your_Eyes.html
-[on italics]: Italic.html
-[Times New Roman]: http://practicaltypography.com/times-new-roman.html
-[Arvo]: http://files.korkork.com/index.php?/fonts/arvo/
-[Rockwell]: http://www.myfonts.com/fonts/mti/rockwell/
-[Courier]: http://typedia.com/explore/typeface/courier/
-[American typewriter]: http://www.myfonts.com/fonts/linotype/itc-american-typewriter/
+[“Confiando em seus olhos”]: Trusting_Your_Eyes.html
+[dos itálicos]: Italic.html
+[Times New Roman]: https://practicaltypography.com/a-brief-history-of-times-new-roman.html
+[Arvo]: https://fonts.google.com/specimen/Arvo
+[Rockwell]: https://en.wikipedia.org/wiki/Rockwell_(typeface)
+[Courier]: https://en.wikipedia.org/wiki/Courier_(typeface)
+[American typewriter]: https://en.wikipedia.org/wiki/American_Typewriter

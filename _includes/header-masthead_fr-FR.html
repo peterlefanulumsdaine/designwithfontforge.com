@@ -53,7 +53,15 @@
         {% else %}
           ../pt-BR/index.html
         {% endif %}
-        " class="lang">[Português]</a>
+        " class="lang">[Português]</a>&nbsp;|
+      <a href="
+        {% assign DEurl = page.name | replace: '.md', '.html' | prepend: '/de-DE/' %}
+        {% if urlList contains DEurl %}
+          {{ page.name | prepend: '../de-DE/' | replace: '.md', '.html' }}
+        {% else %}
+          ../de-DE/index.html
+        {% endif %}
+        " class="lang">[Deutsche]</a>
     </div>
     <div class="ebook">Télécharger en format <a href="../ebook/design-with-fontforge_fr-FR.epub" class="ebook" rel="nofollow">[ePUB]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_fr-FR.mobi" class="ebook" rel="nofollow">[MOBI]</a>&nbsp;|&nbsp;<a href="../ebook/design-with-fontforge_fr-FR.pdf" class="ebook" rel="nofollow">[PDF]</a></div>
     <a href="https://github.com/fontforge/designwithfontforge.com" class="button" target="_blank"><small>Voir le projet sur</small>GitHub</a>

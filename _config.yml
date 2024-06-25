@@ -11,6 +11,7 @@ exclude:
   - "ebook/gitbook-fa-IR"
   - "ebook/gitbook-ja-JP"
   - "ebook/gitbook-pt-BR"
+  - "ebook/gitbook-de-DE"
   - "ebook/cover_small_template.svg"
   - "ebook/cover_template.svg"
   - "ebook/create_books.sh"
@@ -19,6 +20,7 @@ exclude:
   - "ebook/honkit-ja-JP"
   - "ebook/honkit-zh-CN"
   - "ebook/honkit-pt-BR"
+  - "ebook/honkit-de-DE"
   - "ebook/package-lock.json"
   - "ebook/package.json"
   - "ebook/temp"
@@ -33,6 +35,7 @@ title_fr-FR: Design avec FontForge
 title_fa-IR: طراحی با فونت‌فورج
 title_ja-JP: Design With FontForge
 title_pt-BR: Design com FontForge
+title_de-DE: Design With FontForge
 subtitle: A book about how to create new typefaces using FontForge
 subtitle_zh-CN: 介绍如何使用 FontForge 创造新字体的书
 subtitle_zh-TW: 介紹以 FontForge 製作新字型的書
@@ -40,3 +43,4 @@ subtitle_fr-FR: Un livre sur la création de polices à l'aide de FontForge
 subtitle_fa-IR: کتابی درباره چگونگی ساخت یک تایپ‌فیس جدید با کمک فونت‌فورج
 subtitle_ja-JP: A book about how to create new typefaces using FontForge
 subtitle_pt-BR: Um livro sobre como criar novos tipos usando FontForge
+subtitle_de-DE: A book about how to create new typefaces using FontForge

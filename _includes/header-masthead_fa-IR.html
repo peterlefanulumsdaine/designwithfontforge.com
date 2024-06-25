@@ -45,7 +45,23 @@
         {% else %}
           ../ja-JP/index.html
         {% endif %}
-        " class="lang">[日本語版]</a>
+        " class="lang">[日本語版]</a>&nbsp;|
+      <a href="
+        {% assign BRurl = page.name | replace: '.md', '.html' | prepend: '/pt-BR/' %}
+        {% if urlList contains BRurl %}
+          {{ page.name | prepend: '../pt-BR/' | replace: '.md', '.html' }}
+        {% else %}
+          ../pt-BR/index.html
+        {% endif %}
+        " class="lang">[Português]</a>&nbsp;|
+      <a href="
+        {% assign DEurl = page.name | replace: '.md', '.html' | prepend: '/de-DE/' %}
+        {% if urlList contains DEurl %}
+          {{ page.name | prepend: '../de-DE/' | replace: '.md', '.html' }}
+        {% else %}
+          ../de-DE/index.html
+        {% endif %}
+        " class="lang">[Deutsche]</a>
     </div>
     <div class="ebook">
       دریافت در قالب

@@ -6,7 +6,7 @@ category: workflow
 title: The EM Square
 ---
 
-&mdash; Also called the ‘em size’ or ‘UPM’.
+&mdash; Also called the ‘em size’ or ‘UPM’ (**U**nits **P**er e**M**).
 In a font, each character is fitted into its own space container. In traditional metal type this
 container was the actual metal block of each character. The height of each character piece was
 uniform, allowing the characters to be set neatly into rows and blocks (see below).
@@ -35,7 +35,7 @@ So if your uppercase ‘H’ is 700 units high, it will be 7 pt high on a 10 pt 
 With the knowledge that your font is using a 1000, 1024, or 2048 UPM, you need to set up the drawing
 of your glyphs to ensure that all aspects of your typeface fit adequately into that UPM square.
 
-The size of the em square can be set from *Element > Font Info&hellip;* then click on the General
+The size of the em square can be set from "_**Elements**&nbsp;⇨&nbsp;**Font&nbsp;Info&hellip;**_" then click on the "_**General**_"
 tab and you will see the *EM* setting, which value shall be distributed between the *Ascender* and
 *Descender* heights, respectively heights above and underneath the baseline.
 
@@ -51,10 +51,10 @@ The x-height:
 
 <img src="../en-US/images/xheight.png" alt>
 
-Later when designing your type, you will have to set the Blue values which serve for PostScript
+Later when designing your type, you will have to set the *Blue&nbsp;Values* which serve for PostScript
 outlines and also for the FontForge autohinter &mdash; regardless of which outlines you are working
 on.
-You will find the setting in *Element > Font Info&hellip;*, on the *PS Private* tab. FontForge can
+You will find the setting in "_**Elements**&nbsp;⇨&nbsp;**Font&nbsp;Info&hellip;**_", on the "_**PS&nbsp;Private**_" tab. FontForge can
 initially guess the values based on your outlines, but you will have to edit them yourself for
 overshoots/undershoots &mdash; we are a few chapters ahead of this concept (see
 [“Creating ‘o’ and ‘n’”]); let’s first get a hold of FontForge and its drawing functionalities.

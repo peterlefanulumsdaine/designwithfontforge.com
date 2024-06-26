@@ -6,7 +6,7 @@ category: workflow
 title: A medida Eme
 ---
 
-&mdash; Também chamado de ‘tamanho do eme’, ‘UPM’ (Unidades Por Eme).  
+&mdash; Também chamado de ‘tamanho do eme’, ‘UPM’ (**U**nidades **P**or e**M**e).
 Em uma fonte, cada caractere é inserido em seu próprio contêiner espacial. Nos tradicionais tipos de metal, esse
 contêiner era o próprio bloco de metal de cada caractere (o clichê tipográfico). A altura de cada chichê era
 uniforme, permitindo que os caracteres fossem definidos de forma limpa em linhas e blocos (veja abaixo).
@@ -15,7 +15,7 @@ uniforme, permitindo que os caracteres fossem definidos de forma limpa em linhas
 
 A altura do clichê é conhecima como ‘eme’, e ela se origina a partir da largura do caractere
 ‘M’ em maiúsculo; isso foi feito para que as proporções desta letra fossem quadradas (daí a denominação ‘quadrado
-eme’).  
+eme’).
 É a partir do tamanho eme que é calculado o tamanho do ponto do tipo de metal. Assim, um tipo de 10 pontos tem 10
 pontos eme (veja abaixo).
 
@@ -35,26 +35,26 @@ Então, se o seu ‘H’ maiúsculo possuir 700 unidades de altura, ele terá 7 
 Considerando que sua fonte está usando um UPM de 1000, 1024, ou 2048, você precisa preparar o desenho
 de seus glifos para garantir que todos os aspectos da sua família se encaixem adequadamente nesse UPM.
 
-O tamanho do quadrado eme pode ser definido a partir de *Elemento > Informações da Fonte&hellip;* e então clique na aba
-General e você verá a configuração *EM Size*, cujo valor deve ser distribuído entre as alturas *Ascent* e
-*Descent*, respectivamente alturas acima e abaixo da linha de base.
+O tamanho do quadrado eme pode ser definido a partir de "_**Elemento**&nbsp;⇨&nbsp;**Informações&nbsp;da&nbsp;Fonte&hellip;**_" e então clique na aba
+"_**General**_" e você verá a configuração *EM&nbsp;Size*, cujo valor deve ser distribuído entre as alturas *Ascent* e
+*Descent*, respectivamente alturas acima e abaixo da linha de base (baseline).
 
-A Linha da Base:
+A Linha da Base (Baseline):
 
 <img src="../en-US/images/baseline.png" alt>
 
-A altura das maiúsculas:
+A altura das maiúsculas (Cap Height):
 
 <img src="../en-US/images/capheight.png" alt>
 
-A altura de x:
+A altura de x (x-height):
 
 <img src="../en-US/images/xheight.png" alt>
 
-Mais tarde, ao projetar o seu tipo, você terá que definir os valores azuis que servem para contornos
+Mais tarde, ao projetar o seu tipo, você terá que definir os *valores azuis* (*Blue&nbsp;values*) que servem para contornos
 do PostScript e também para o autohinter do FontForge &mdash; independente de em quais contornos você está
-trabalhando.  
-Você encontrará a configuração em *Elemento > Infomações da Fonte&hellip;*, na aba *PS PrivaDO*. O FontForge pode
+trabalhando.
+Você encontrará a configuração em "_**Elemento**&nbsp;⇨&nbsp;**Informações&nbsp;da&nbsp;Fonte&hellip;**_", na aba "_**PS&nbsp;PrivaDO**_". O FontForge pode
 inicialmente adivinhar os valores com base em seus contornos, mas você terá que editá-los para
 adicionar uma compensação ótica &mdash; estamos alguns capítulos à frente deste conceito (veja
 [“Criando ‘o’ e ‘n’”][“Creating ‘o’ and ‘n’”]); primeiro vamos dominar o FontForge e suas ferramentas de desenho.

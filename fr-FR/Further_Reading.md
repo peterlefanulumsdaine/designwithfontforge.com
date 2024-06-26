@@ -120,117 +120,107 @@ Exemples de projets de *I Love Typography*:
 
 ## Livres
 
-* [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
-* [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/)
-
-Titre: Detail in Typography (Paperback)
-
-Auteur: Jost Hochuli (Auteur)
-
-Titre: <tt>ISBN: 9780907259343</tt>
+* [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading) (※Summer reading list for the Master's Program in Type Design, University of Reading)
+* [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/) (※Amazon book list)
 
 <hr />
 
-Titre: Adrian Frutiger &mdash; Typefaces: The Complete Works
+Titre: **Detail in Typography** (Paperback)
 
-Auteurs: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
-
-Titre: <tt>ISBN: 9783764385811</tt>
-
-<hr />
-
-Titre: Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)
-
-Auteur: D. B Updike,  Daniel Berkeley (Auteurs)
+* Auteur: Jost Hochuli (Auteur)
+* ISBN: <tt>9780907259343</tt>
 
 <hr />
 
-Titre: Creative Characters Format: Flexibound
+Titre: **Adrian Frutiger &mdash; Typefaces: The Complete Works**
 
-Auteur: Jan Middendorp (Editor)
-
-Titre: <tt>ISBN: 9789063692247</tt>
-
-<hr />
-
-Titre: Now Read This: The Microsoft Cleartype collection
-
-Auteur: John D. Berry (Auteur)
+* Auteurs: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
+* ISBN: <tt>9783764385811</tt>
 
 <hr />
 
-Titre: The Stroke: Theory of Writing (Paperback)
+Titre: **Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)**
 
-Auteur: Gerrit Noordzij (Auteur)
-
-Titre: <tt>ISBN: 9780907259305</tt>
+* Auteur: D. B Updike,  Daniel Berkeley (Auteurs)
 
 <hr />
 
-Titre: Shaping Text: Type, Typography and the Reader
+Titre: **Creative Characters Format: Flexibound**
 
-Auteur: Jan Middendorp  (Auteur)
-
-Titre: <tt>ISBN: 9063692234</tt>
-
-<hr />
-
-Titre: Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students (Design Briefs)
-
-Auteur: Ellen Lupton (Auteur)
-
-Titre: <tt>ISBN: 9781568984483</tt>
+* Auteur: Jan Middendorp (Editor)
+* ISBN: <tt>9789063692247</tt>
 
 <hr />
 
-Titre: LETTERS OF CREDIT: A view of type design
+Titre: **Now Read This: The Microsoft Cleartype collection**
 
-Auteur: Tracy, Walter (Auteur)
-
-Titre: <tt>ISBN: 0879236361 / 0-87923-636-1</tt>
+* Auteur: John D. Berry (Auteur)
 
 <hr />
 
-Titre: The Elements Of Typographic Style: Version 3.1
+Titre: **The Stroke: Theory of Writing** (Paperback)
 
-Auteur: Bringhurst, Robert (Auteur)
-
-Titre: <tt>ISBN: 0881792063 / 0-88179-206-3</tt>
-
-<hr />
-
-Titre: Type: The Secret History of Letters
-
-Auteur: Simon Loxley (Auteur)
-
-Titre: <tt>ISBN: 1845110285</tt>
+* Auteur: Gerrit Noordzij (Auteur)
+* ISBN: <tt>9780907259305</tt>
 
 <hr />
 
-Titre: Type Designs
+Titre: **Shaping Text: Type, Typography and the Reader**
 
-Auteur: AF Johnson (Auteur)
-
-<hr />
-
-Titre: Typography: Macro &amp; Microaesthetics
-
-Auteur: Willy Kunz (Auteur)
-
-Titre: ISBN: <tt>3721203488</tt>
+* Auteur: Jan Middendorp  (Auteur)
+* ISBN: <tt>9063692234</tt>
 
 <hr />
 
-Titre: Fonts and encodings
+Titre: **Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students** (Design Briefs)
 
-Auteur: Yannis Haralambous (Auteur), P Scott Horne (Translator)
-
-Titre: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
+* Auteur: Ellen Lupton (Auteur)
+* ISBN: <tt>9781568984483</tt>
 
 <hr />
 
-Titre: [The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)
+Titre: **LETTERS OF CREDIT: A view of type design**
 
-Auteur: The Unicode Consortium (Auteur)
+* Auteur: Tracy, Walter (Auteur)
+* ISBN: <tt>0879236361 / 0-87923-636-1</tt>
 
-<tt>ISBN: 978-1-936213-09-2</tt>
+<hr />
+
+Titre: **The Elements Of Typographic Style: Version 3.1**
+
+* Auteur: Bringhurst, Robert (Auteur)
+* ISBN: <tt>0881792063 / 0-88179-206-3</tt>
+
+<hr />
+
+Titre: **Type: The Secret History of Letters**
+
+* Auteur: Simon Loxley (Auteur)
+* ISBN: <tt>1845110285</tt>
+
+<hr />
+
+Titre: **Type Designs**
+
+* Auteur: AF Johnson (Auteur)
+
+<hr />
+
+Titre: **Typography: Macro &amp; Microaesthetics**
+
+* Auteur: Willy Kunz (Auteur)
+* ISBN: <tt>3721203488</tt>
+
+<hr />
+
+Titre: **Fonts and encodings**
+
+* Auteur: Yannis Haralambous (Auteur), P Scott Horne (Translator)
+* ISBN-10: <tt>0596102429</tt> | ISBN-13: <tt>978-0596102425</tt>
+
+<hr />
+
+Titre: **[The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)**
+
+* Auteur: The Unicode Consortium (Auteur)
+* ISBN: <tt>978-1-936213-09-2</tt>

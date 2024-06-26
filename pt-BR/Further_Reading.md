@@ -10,13 +10,13 @@ title: Leitura adicional
 
 * [Optical Compensation](https://www.youtube.com/watch?v=LR-CG5eB3nQ) by Thomas Phinney and FontLab
 * [Type Review Videos](https://vimeo.com/typereview/videos)
-* [Lato: The Making Of](https://youtu.be/4-oo8o-tyqU)
 
 ## Websites
 
 ### Other Resource Lists
 
 * [Thomas Phinney's Type Design Resources](http://www.thomasphinney.com/type-design-resources/)
+* [Type Drawers thread on tips and tricks](https://typedrawers.com/discussion/3993/your-most-valuable-tips-tricks-in-type-design#latest)
 
 ### Curve Math
 
@@ -32,11 +32,30 @@ title: Leitura adicional
 
 * [Typekit: Practice](http://practice.typekit.com/)
 
+### High quality FontForge sfd source files - Foundries / Collections
+
+* [Omnibus](https://github.com/Omnibus-Type/)
+* [Ralph Levien](http://levien.com/type/myfonts/)
+* [VTF](https://velvetyne.fr/) (some of these)
+* [Jason Reed](http://jcreed.org/fonts/)
+
+### High quality FontForge sfd source files - Typefaces and Fonts
+
+* [Anka](https://code.google.com/archive/p/anka-coder-fonts/source/default/source)
+* [Tuffy](http://tulrich.com/fonts/)
+* [Whois Mono](https://github.com/raphaelbastide/Whois-mono/)
+* [Liberation](https://fedorahosted.org/liberation-fonts/)
+* [Fantasque Sans Mono](https://github.com/belluzj/fantasque-sans)
+* [DejaVu Fonts](https://dejavu-fonts.org/)
+* [Bluu](https://velvetyne.fr/#bluu)
+* [Wikipedia List](https://en.wikipedia.org/wiki/FontForge)
+
 ### Latin
 
 **The [MyFonts Foundry Guides](https://foundry.myfonts.com/guides/) are fantastic.**
 
-* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/) and [2](http://www.frerejones.com/blog/typeface-mechanics-002/)
+* [Frere Jones: Typeface Mechanics 1](http://www.frerejones.com/blog/typeface-mechanics-001/)
+* [Frere Jones: Typeface Mechanics 2](http://www.frerejones.com/blog/typeface-mechanics-002/)
 * [Letter-by-letter tutorials](http://letterpunch.blogspot.com/)
 * [Adobe: Designing Multiple Master Typefaces](https://www-cdf.fnal.gov/offline/PostScript/5091.Design_MM_Fonts.pdf)
 * [University of Reading Type Design Intensive Review](http://www.creativebloq.com/typography/design-your-own-typeface-8133919)
@@ -56,7 +75,8 @@ ILT Example Projects:
 * [Acorde](http://ilovetypography.com/2010/10/10/the-making-of-acorde-2/)
 * [Ode](http://ilovetypography.com/2010/09/01/ode-fresh-start-for-a-broken-script/)
 * [Biome](http://ilovetypography.com/2010/07/01/font-design-biome-the-making-of-a-typeface/)
-* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/) (also see [vesper-libre](https://github.com/motaitalic/vesper-libre))
+* [Vesper](http://ilovetypography.com/2009/12/15/font-design-vesper-typeface-devanagari/)
+* [vesper-libre](https://github.com/motaitalic/vesper-libre)
 
 ### Greek
 
@@ -71,13 +91,11 @@ ILT Example Projects:
 * [Paratype Language Help](http://www.paratype.com/help/language/) &mdash; Cyrillic encodings
 * [Cyrillic Typography on Facebook](https://www.facebook.com/groups/170175253103197/)
 * [Cyrillic type design](http://luc.devroye.org/cyrillic.html)
-* [ATypI Cyrillic SIG mailing list](http://www.atypi.org/members/special-interest-groups/cyrillic)
 
 ### Arabic
 
 * [Khaled Hosney's FontForge Guide](http://ojuba.org/docs/%D8%AA%D8%B7%D9%88%D9%8A%D8%B1_%D8%A7%D9%84%D8%AE%D8%B7%D9%88%D8%B7)
 * [Example Project: Arabic Zapfino](http://ilovetypography.com/2015/02/22/making-arabic-fonts-climbing-everest/)
-* [Parachut: Interview with Hasan Abu Afash](http://upscaletypography.com/?p=1646)
 * [Arabic Typefaces Worth Studying](http://tntypography.eu/resources-list/arabic-typefaces-worth-studying-2/)
 * [Arabic Type Anatomy](http://blog.29lt.com/2015/07/30/arabic-type-anatomy-typographic-terms/)
 
@@ -97,119 +115,113 @@ ILT Example Projects:
 * [Vaibhav Singh - Devanagari in multi-script typography](http://issuu.com/typefacedesign/docs/vaibhav_singh_dissertation)
 * Virtual Keyboards: [lexilogos](http://www.lexilogos.com/keyboard/devanagari.htm) and [branah](http://www.branah.com/devanagariinscript)
 
+### Persian
+
+* [Getting started with FontForge By Saber Rastikerdar](https://rastikerdar.github.io/getting-started-with-fontforge/)
+
 ## Books
 
-* [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)
-* <http://www.type-library.com> has an extensive list of books
-
-Title: Detail in Typography (Paperback)
-
-Author: Jost Hochuli (Author)
-
-Title: <tt>ISBN: 9780907259343</tt>
+* [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading) (※Summer reading list for the Master's Program in Type Design, University of Reading)
+* [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/) (※Amazon book list)
 
 <hr />
 
-Title: Adrian Frutiger &mdash; Typefaces: The Complete Works
+Title: **Detail in Typography** (Paperback)
 
-Authors: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
-
-Title: <tt>ISBN: 9783764385811</tt>
-
-<hr />
-
-Title: Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)
-
-Author: D. B Updike,  Daniel Berkeley (Authors)
+* Author: Jost Hochuli (Author)
+* ISBN: <tt>9780907259343</tt>
 
 <hr />
 
-Title: Creative Characters Format: Flexibound
+Title: **Adrian Frutiger &mdash; Typefaces: The Complete Works**
 
-Author: Jan Middendorp (Editor)
-
-Title: <tt>ISBN: 9789063692247</tt>
-
-<hr />
-
-Title: Now Read This: The Microsoft Cleartype collection
-
-Author: John D. Berry (Author)
+* Authors: Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
+* ISBN: <tt>9783764385811</tt>
 
 <hr />
 
-Title: The Stroke: Theory of Writing (Paperback)
+Title: **Printing Types: Their History, Forms, and Use: A Study in Survivals (with ILLUSTRATIONS)**
 
-Author: Gerrit Noordzij (Author)
-
-Title: <tt>ISBN: 9780907259305</tt>
+* Author: D. B Updike,  Daniel Berkeley (Authors)
 
 <hr />
 
-Title: Shaping Text: Type, Typography and the Reader
+Title: **Creative Characters Format: Flexibound**
 
-Author: Jan Middendorp  (Author)
-
-Title: <tt>ISBN: 9063692234</tt>
-
-<hr />
-
-Title: Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students (Design Briefs)
-
-Author: Ellen Lupton (Author)
-
-Title: <tt>ISBN: 9781568984483</tt>
+* Author: Jan Middendorp (Editor)
+* ISBN: <tt>9789063692247</tt>
 
 <hr />
 
-Title: LETTERS OF CREDIT: A view of type design
+Title: **Now Read This: The Microsoft Cleartype collection**
 
-Author: Tracy, Walter (Author)
-
-Title: <tt>ISBN: 0879236361 / 0-87923-636-1</tt>
+* Author: John D. Berry (Author)
 
 <hr />
 
-Title: The Elements Of Typographic Style: Version 3.1
+Title: **The Stroke: Theory of Writing** (Paperback)
 
-Author: Bringhurst, Robert (Author)
-
-Title: <tt>ISBN: 0881792063 / 0-88179-206-3</tt>
-
-<hr />
-
-Title: Type: The Secret History of Letters
-
-Author: Simon Loxley (Author)
-
-Title: <tt>ISBN: 1845110285</tt>
+* Author: Gerrit Noordzij (Author)
+* ISBN: <tt>9780907259305</tt>
 
 <hr />
 
-Title: Type Designs
+Title: **Shaping Text: Type, Typography and the Reader**
 
-Author: AF Johnson (Author)
-
-<hr />
-
-Title: Typography: Macro &amp; Microaesthetics
-
-Author: Willy Kunz (Author)
-
-Title: ISBN: <tt>3721203488</tt>
+* Author: Jan Middendorp  (Author)
+* ISBN: <tt>9063692234</tt>
 
 <hr />
 
-Title: Fonts and encodings
+Title: **Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students** (Design Briefs)
 
-Author: Yannis Haralambous (Author), P Scott Horne (Translator)
-
-Title: <tt>ISBN-10: 0596102429 | ISBN-13: 978-0596102425</tt>
+* Author: Ellen Lupton (Author)
+* ISBN: <tt>9781568984483</tt>
 
 <hr />
 
-Title: [The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)
+Title: **LETTERS OF CREDIT: A view of type design**
 
-Author: The Unicode Consortium (Author)
+* Author: Tracy, Walter (Author)
+* ISBN: <tt>0879236361 / 0-87923-636-1</tt>
 
-<tt>ISBN: 978-1-936213-09-2</tt>
+<hr />
+
+Title: **The Elements Of Typographic Style: Version 3.1**
+
+* Author: Bringhurst, Robert (Author)
+* ISBN: <tt>0881792063 / 0-88179-206-3</tt>
+
+<hr />
+
+Title: **Type: The Secret History of Letters**
+
+* Author: Simon Loxley (Author)
+* ISBN: <tt>1845110285</tt>
+
+<hr />
+
+Title: **Type Designs**
+
+* Author: AF Johnson (Author)
+
+<hr />
+
+Title: **Typography: Macro &amp; Microaesthetics**
+
+* Author: Willy Kunz (Author)
+* ISBN: <tt>3721203488</tt>
+
+<hr />
+
+Title: **Fonts and encodings**
+
+* Author: Yannis Haralambous (Author), P Scott Horne (Translator)
+* ISBN-10: <tt>0596102429</tt> | ISBN-13: <tt>978-0596102425</tt>
+
+<hr />
+
+Title: **[The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)**
+
+* Author: The Unicode Consortium (Author)
+* ISBN: <tt>978-1-936213-09-2</tt>

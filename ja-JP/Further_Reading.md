@@ -123,19 +123,19 @@ ILT フォント・プロジェクト事例：
 * [University of Reading MA Typeface Design Summer Reading List](http://blog.8faces.com/post/53602804428/summer-reading)　《※ レディング大学修士課程書体デザイン専攻の夏季読書リスト》
 * [davelab6 Amazon Book List](http://amazon.com/hz/wishlist/ls/2FX3U5FJZ3IK0/)　《※ Amazon のブックリスト》
 
-<br />
 <hr />
 
 書名：　**Detail in Typography** (Paperback)
 
 * 著者：　Jost Hochuli (Author)
-* <tt>ISBN：　9780907259343</tt>
+* ISBN：　<tt>9780907259343</tt>
 
 <hr />
 
 書名：　**Adrian Frutiger &mdash; Typefaces: The Complete Works**
+
 * 著者：　Heidrun Osterer, Philipp Stamm, Swiss Foundation Type and Typography
-* <tt>ISBN：　9783764385811</tt>
+* ISBN：　<tt>9783764385811</tt>
 
 <hr />
 
@@ -148,7 +148,7 @@ ILT フォント・プロジェクト事例：
 書名：　**Creative Characters Format: Flexibound**
 
 * 著者：　Jan Middendorp (Editor)
-* <tt>ISBN：　9789063692247</tt>
+* ISBN：　<tt>9789063692247</tt>
 
 <hr />
 
@@ -161,42 +161,42 @@ ILT フォント・プロジェクト事例：
 書名：　**The Stroke: Theory of Writing** (Paperback)
 
 * 著者：　Gerrit Noordzij (Author)
-* <tt>ISBN：　9780907259305</tt>
+* ISBN：　<tt>9780907259305</tt>
 
 <hr />
 
 書名：　**Shaping Text: Type, Typography and the Reader**
 
 * 著者：　Jan Middendorp  (Author)
-* <tt>ISBN：　9063692234</tt>
+* ISBN：　<tt>9063692234</tt>
 
 <hr />
 
 書名：　**Thinking with Type: A Critical Guide for Designers, Writers, Editors, &amp; Students** (Design Briefs)
 
 * 著者：　Ellen Lupton (Author)
-* <tt>ISBN：　9781568984483</tt>
+* ISBN：　<tt>9781568984483</tt>
 
 <hr />
 
 書名：　**LETTERS OF CREDIT: A view of type design**
 
 * 著者：　Tracy, Walter (Author)
-* <tt>ISBN：　0879236361 / 0-87923-636-1</tt>
+* ISBN：　<tt>0879236361 / 0-87923-636-1</tt>
 
 <hr />
 
 書名：　**The Elements Of Typographic Style: Version 3.1**
 
 * 著者：　Bringhurst, Robert (Author)
-* <tt>ISBN：　0881792063 / 0-88179-206-3</tt>
+* ISBN：　<tt>0881792063 / 0-88179-206-3</tt>
 
 <hr />
 
 書名：　**Type: The Secret History of Letters**
 
 * 著者：　Simon Loxley (Author)
-* <tt>ISBN：　1845110285</tt>
+* ISBN：　<tt>1845110285</tt>
 
 <hr />
 
@@ -216,11 +216,11 @@ ILT フォント・プロジェクト事例：
 書名：　**Fonts and encodings**
 
 * 著者：　Yannis Haralambous (Author), P Scott Horne (Translator)
-* <tt>ISBN-10：　0596102429 | ISBN-13：　978-0596102425</tt>
+* ISBN-10：　<tt>0596102429</tt> | ISBN-13：　<tt>978-0596102425</tt>
 
 <hr />
 
 書名：　**[The Unicode Standard, Version 7.0.0](http://www.unicode.org/versions/Unicode7.0.0/)**
 
 * 著者：　The Unicode Consortium (Author)
-* <tt>ISBN：　978-1-936213-09-2</tt>
+* ISBN：　<tt>978-1-936213-09-2</tt>

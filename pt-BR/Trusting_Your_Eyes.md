@@ -36,11 +36,11 @@ e outros a percepção visual das formas.
 ### Peso Horizontal vs. peso Vertical
 
 O exemplo à esquerda mostra um ‘H’ cujas barras são precisamente iguais em espessura. Isto parece errado.
-Consegue sentir?  
+Consegue sentir?
 Já o da direita possui uma barra horizontal que foi afinada para parecer igual em
 espessura.
 
-<img src="../en-US/images/H%20compensation2.png" alt>
+<img src="../en-US/images/H_compensation2.png" alt>
 
 Glifos que requerem ajustes ópticos são numerosos e incluem A, E, F, L, H, f, t,
 e z.
@@ -52,7 +52,7 @@ parecerá um pouco mais pesada que a barra vertical e um pouco menos espessa que
 deseja que ela pareça correta, você terá que ajustá-la para ser mais leve, como no exemplo da horizontal, mas só um
 pouquinho.
 
-<img src="../en-US/images/Diag%20illusion.png" alt>
+<img src="../en-US/images/Diag_illusion.png" alt>
 
 Glifos em que esta percepção humana possa ser relevante são bem numerosos, mas incluem k, K, N, Q, R,
 v, V, w, W, x, X, y, Y, 7, 2, &amp;, ł, Ł, &oslash;, &Oslash;, &radic;, ∕, &lsaquo;, &rsaquo;,
@@ -73,7 +73,7 @@ Na próxima figura, a inclinação da linha mais longa foi ajustada:
 
 Agora, vamos dar uma olhada em um itálico, aplicando essas correções nos glifos:
 
-<img src="../en-US/images/longer%20less%20slant.png" alt>
+<img src="../en-US/images/longer_less_slant.png" alt>
 
 ### Diagonais Cruzantes
 

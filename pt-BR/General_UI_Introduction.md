@@ -26,7 +26,7 @@ Aqui é onde você pode desenhar e editar glifos, um de cada vez com uma interfa
 
 #### 3. A Janela de Vista de Métricas
 
-Vá no menu Janela, Nova Janela Metrics, ou Métricas, Nova Janela Metrics.
+Vá no menu "_**Janela**&nbsp;⇨&nbsp;**Nova&nbsp;Janela&nbsp;Metrics**_", ou "_**Métricas**&nbsp;⇨&nbsp;**Nova&nbsp;Janela&nbsp;Metrics**_".
 Ou selecione alguns glifos na Vista de Fonte e pressione <kbd>Ctrl</kbd> + <kbd>K</kbd>.
 Você também pode arrastar e soltar glifos da Vista de Fonte para a Vista de Métricas.
 
@@ -35,7 +35,7 @@ Você também pode seguir um arquivo de texto com uma lista de palavras aqui.
 
 #### 4. A Janela de Informações da Fonte
 
-Vá no menu Elemento, Informações da Fonte.
+Vá no menu "_**Elemento**&nbsp;⇨&nbsp;**Informações&nbsp;da&nbsp;Fonte**_".
 Aqui encontrará todos os _metadados_ sobre a fonte.
 
 ## O Ambiente de Composição, para Testar

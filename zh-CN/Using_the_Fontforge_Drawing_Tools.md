@@ -292,3 +292,13 @@ FontForge的画布默认有3个图层：引导图层，背景图层和前景图�
 ## 继续绘制！
 
 你应该继续试验绘制工具直到你觉得可以使用它们绘制和变形出你需要的任何形状。到这个时候，你准备好开始构造字形的组成部分，但是你也应该花些时间看看FontForge的其他工具集。下一章[“使用Spiro绘制”](Drawing_With_Spiro)描述了Spiro绘制模式。Spiro绘制与B&eacute;zier曲线编辑太不同了，以至于需要解释其本事。
+
+# Further Reading
+
+A [TypeDrawers Forum Discussion on Beziers](http://typedrawers.com/discussion/967) included these links shared by Nina Stössinger on twitter:
+
+* [Bezier Curves and Type Design: A Tutorial](https://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) by Fábio Duarte Martins
+* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html)
+* [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) by Scott Biersack
+* [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) by Underware
+* [The Bézier Game](http://bezier.method.ac) by Marc MacKay

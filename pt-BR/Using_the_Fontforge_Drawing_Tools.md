@@ -8,7 +8,7 @@ title: Usando as Ferramentas de Desenho do FontForge
 
 Projetar uma fonte no FontForge envolverá o uso de inúmeras ferramentas e utilidades, a começar com um
 conjunto de ferramentas de desenho que podem parecer familiar para usuários com experiência em gráficos vetoriais &mdash;
-existem diferenças notáveis, no entanto.  
+existem diferenças notáveis, no entanto.
 Primeiro iremos buscar um entendimento de como curvas B&eacute;zier funcionam, antes de olhar as
 ferramentas de desenho do FontForge em si.
 
@@ -47,7 +47,7 @@ eixo horizontal ou vertical &mdash; uma ferramenta essencial para tornar formas 
 #### Pontos de canto (exibidos como pontos quadrados)
 
 *Cantos* podem ter 0, 1 ou 2 alças B&eacute;zier. A posição de cada alça é independente das
-outras, tornando-as apropriadas para discontinuidades no contorno.  
+outras, tornando-as apropriadas para discontinuidades no contorno.
 Sem as alças, cantos irão produzir linhas retas.
 
 <img src="../en-US/images/tools-square-point.png" alt>
@@ -59,7 +59,7 @@ Sem as alças, cantos irão produzir linhas retas.
 #### Pontos de tangente (exibidos como pontos triangulares, ou ‘setas’)
 
 Se você quer começar com uma linha reta que encurva suavemente, você vai querer usar
-*pontos de tangente*.  
+*pontos de tangente*.
 Uma *tangente* deixa uma linha reta em um lado, enquanto a alça B&eacute;zier do outro lado é
 a sua direção &mdash; isso garante uma transição contínua entre a linha e a curva.
 
@@ -76,7 +76,7 @@ vertical**.
 
 <div class="note">
 <p><b>Nota:</b> Se seus pontos de controle não estão nos extremos, FontForge irá indicar
-o veradeiro extremo com um ícone de alvo:</p>
+o veradeiro extremo com um ícone de alvo (`⊕`):</p>
 
 <img src="../en-US/images/bezier_sample_3.png" alt>
 
@@ -92,10 +92,10 @@ Para constar, existem dois caso em que você terá que desistir dos caminhos B&e
 horizontais/verticais:
 
 - Se você quiser mudar a inclinação geral de sua curva, como na parte superior esquerda do ‘a’
-  abaixo que está mantido quase plano:  
+  abaixo que está mantido quase plano:
   <img src="../en-US/images/bezier_sample_2.png" alt>
 - Se você quiser colocar quebras nas suas letras, como na parte inferior esquerda do ‘g’ abaixo
-  &mdash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):  
+  &mdash; esse é um logar típico onde você quer usar um *Canto* (além de ser para desenhar linhas):
   <img src="../en-US/images/bezier_sample_4.png" alt>
 
 <p class="note"><b>Nota:</b> Como você pode ver, quando definindo quebras com um <i>Canto</i>, a
@@ -148,8 +148,8 @@ Agora que você se localizou na tela de desenho, está na hora de conhecer as fe
 
 <img src="../en-US/images/point_zoom.png" alt>
 
-Ponteiro e Zoom comportam-se semelhante às ferramentas equivalentes em outros aplicativos.  
-O ponteiro é uma ferramenta de  seleção, usada para selecionar pontos, caminhos, e outros objetos na tela de desenho.  
+Ponteiro e Zoom comportam-se semelhante às ferramentas equivalentes em outros aplicativos.
+O ponteiro é uma ferramenta de  seleção, usada para selecionar pontos, caminhos, e outros objetos na tela de desenho.
 A ferramenta de Zoom permite ampliar (Z) facilmente; para reduzir: vá para o menu Visualizar e selecione
 *Reduzir* (X) or *Ajuste*.
 
@@ -178,10 +178,10 @@ Ok, avora vamos ver sobre as ferramentas de pontos.
 Para adicionar um ponto ao caminho, primeiro selecione qualquer uma dessas ferramentas, clique no caminho e dê um
 pequeno empurrão. Você terá um novo ponto na linha.
 
-A ferramenta de ponto na Curva é usada para adicionar um ponto em um segmento curvo.  
+A ferramenta de ponto na Curva é usada para adicionar um ponto em um segmento curvo.
 A ferramenta de Curva na horizontal ou na vertical obriga os novos pontos a terem os controladores apenas na
-horizontal ou vertical &mdash; isso é importante para definir pontos extremos.  
-A ferramenta de ponto no Canto permite fazer uma dobra afiada no caminho.  
+horizontal ou vertical &mdash; isso é importante para definir pontos extremos.
+A ferramenta de ponto no Canto permite fazer uma dobra afiada no caminho.
 A ferramenta de ponto Tangente permite a transição de um segmento reto para um segmento curvado ao longo
 do caminho.
 
@@ -239,7 +239,7 @@ plano x-y.
 A ferramenta de Inversão permite espelhar a seleção horizontalmente ou verticalmente. O ponto no qual
 você clica com o mouse é o ponto de origem da transformação.
 
-**Nota:** Após inverter um ponto, você provavelvemte vai querer aplicar a função Elemento &gt; *Sentido Correto*.
+**Nota:** Após inverter um ponto, você provavelvemte vai querer aplicar a função "_**Elemento**&nbsp;⇨&nbsp;**Sentido&nbsp;Correto**_".
 
 A ferramenta de Inclinação permite inclinar horizontalmente a seleção tanto no sentido horário como anti-horário.
 <!-- (withershins is how the dialog refers to counterclockwise). -->
@@ -308,60 +308,60 @@ A seguir veremos alguns processos de desenho básicos, os quais você frequentem
 
 1. Começe utilizando a ferramenta de Retângulo para desenhar um retângulo dentro da área de desenho da Vista de
    Caractere.
-2. A seguir, use a ferramenta Elipse para desenhar uma elipse dentro do retângulo que você desenhou a pouco.  
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_010.png" alt>
-3. Vá no menu Elemento e selecione *Sentido correto*. Você verá que as duas formas se mesclaram,
+2. A seguir, use a ferramenta Elipse para desenhar uma elipse dentro do retângulo que você desenhou a pouco.
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_010.png" alt>
+3. Vá no menu "_**Elemento**_" e selecione "_**Sentido&nbsp;correto**_". Você verá que as duas formas se mesclaram,
    e que você essencialmente criou um buraco no centro do retângulo.
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_011.png" alt>
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_011.png" alt>
 
 ### Remover sobreposições
 
-1. Adicione uma estrela que sobrepõe o canto do retângulo.  
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_012.png" alt>
+1. Adicione uma estrela que sobrepõe o canto do retângulo.
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_012.png" alt>
 2. Selecione a estrela e a forma anterior. Você só precisa selecionar um ponto de cada forma
    que sobrepõe, mas está tudo bem em selecionar mais pontos.
-3. Vá em Elemento &gt; Sobreposição &gt; *Remover a sobreposição*. Você verá que as duas formas tornaram-se
-   uma.  
-   <img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_013.png" alt>
+3. Vá em "_**Elemento**&nbsp;⇨&nbsp;**Sobreposição**&nbsp;⇨&nbsp;**Remover&nbsp;a&nbsp;sobreposição**_". Você verá que as duas formas tornaram-se
+   uma.
+   <img src="../en-US/images/O_at_79_from_Untitled1_-_013.png" alt>
 
 ### Adicionar um Ponto
 
 Usando a ferramenta de Caneta, clique e segure no meio de um segmento de linha, então arraste o mouse para mudar
 a forma.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_014.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_014.png" alt>
 
 ### Pontos Tangente
 
 Selecione o ponto do canto inferior esquerdo da sua nova forma (a interseção entre a curva e a
-linha reta). No menu Ponto, verá que *Canto* está marcado. Selecione *Tangente*.
+linha reta). No menu "_**Ponto**_", verá que "_**Canto**_" está marcado. Selecione "_**Tangente**_".
 Isso troca o nó quadrado para um triângulo, mas só isso é feito até que você faça o próximo passo:
 extender pontos de controle.
 
-Para isso, escolha Elemento &gt; *Obter informação*, que abre a janela de Informações do Ponto. Na aba de Localização
+Para isso, escolha "_**Elemento**&nbsp;⇨&nbsp;**Obter&nbsp;informação**_", que abre a janela de Informações do Ponto. Na aba de Localização
 dessa janela, vá para a área com o campo Next CP e defina a Distância (Dist) para um número grande, como 75.
 Clique OK. Agora a curva suavemente entra na linha reta.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_015.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_015.png" alt>
 
 ### Transformação
 
 Agora selecione um quarto da forma &mdash; a estrela e parte da elipse no meio.
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_016.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_016.png" alt>
 
 Selecione a ferramenta de Rotação 3D, mova para o meio da área selecionada, e lentamente clique e arraste até que
 você veja algo que goste, então solte. Aqui está um exemplo da rotação 3D usada na imagem de
 prática:
 
-<img src="../en-US/images/O%20at%2079%20from%20Untitled1%20-_017.png" alt>
+<img src="../en-US/images/O_at_79_from_Untitled1_-_017.png" alt>
 
 ### Definir forma do traço e largura
 
 Até agora você usou a ferramenta de Mão livre para desenhar uma linha. Se você der dois cliques na ferramenta
 de Mão livre, você terá o diálogo de Mão livre mostrado aqui, que contém uma área de desenho. É aqui onde você
-seleciona a forma da pena e seu tamanho. Esse diálogo também aparece quando você escolhe a opção *Expanda o curso* no
-menu Elemento.
+seleciona a forma da pena e seu tamanho. Esse diálogo também aparece quando você escolhe a opção "_**Expanda&nbsp;o&nbsp;curso**_" no
+menu "_**Elemento**_".
 
 <img src="../en-US/images/Freehand_018.png" alt>
 
@@ -370,14 +370,14 @@ Usando a ferramenta de Canto, desenhe um polígono e clique OK.
 Agora, desenhe uma linha com a ferramenta de Mão livre. Quando você liberar o botão do mouse, o novo caminho é
 automaticamente traçado com a forma que você escolheu no diálogo de Mão livre, como mostrado aqui.
 
-<img src="../en-US/images/Q%20at%2081%20from%20Untitled1%20-_019.png" alt>
+<img src="../en-US/images/Q_at_81_from_Untitled1_-_019.png" alt>
 
 ## Continue desenhando!
 
 Você deve continuar a experimentar as ferramentas de desenho até sentir-se confortável de poder usá-las
 para desenhar e transformar qualquer forma que você precisar. Neste ponto, você está equipado para começar
 a construir os componentes de glifos, mas você também deve ter um tempo para ver outros conjuntos de ferramentas
-do FontForge.  
+do FontForge.
 O próximo capítulo, [“Desenhando com Spiro”], descreve o modo de desenho Spiro. Desenhar com Spiro é
 suficientemente distinto da edição de curva B&eacute;zier que requer uma explicação só para si.
 
@@ -387,8 +387,8 @@ suficientemente distinto da edição de curva B&eacute;zier que requer uma expli
 
 Um [Fórum de Discussão do TypeDrawers sobre Beziers](http://typedrawers.com/discussion/967) incluiu esses links compartilhados por Nina Stössinger <a href="https://twitter.com/ninastoessinger/status/593687255341998080">no twitter</a>:
 
-* [Bezier Curves and Type Design: A Tutorial](http://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) por Fábio Duarte Martins
-* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](http://theagsc.com/community/tutorials/so-whats-the-big-deal-with-horizontal-vertical-bezier-handles-anyway/)
+* [Bezier Curves and Type Design: A Tutorial](https://learn.scannerlicker.net/2014/04/16/bezier-curves-and-type-design-a-tutorial/) por Fábio Duarte Martins
+* [So What’s the Big Deal with Horizontal &amp; Vertical Bezier Handles Anyway?](https://www.photoshopfaceoff.com/design-tutorials/so-what-s-the-big-deal-with-horizontal-vertical-bezier-handles-anyway.html)
 * [Hand Lettering: How to Vector Your Letterforms](http://design.tutsplus.com/tutorials/hand-lettering-how-to-vector-your-letterforms--cms-23248) por Scott Biersack
 * [Type Basics](http://typeworkshop.com/index.php?id1=type-basics&amp;id2=&amp;id3=&amp;id4=&amp;id5=&amp;idpic=15#pictloader) por Underware
 * [The Bézier Game](http://bezier.method.ac) por Marc MacKay

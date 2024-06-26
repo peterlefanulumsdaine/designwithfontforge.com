@@ -74,53 +74,65 @@ de uma só vez.
 Dependendo da abrangência e variação da família que está sendo planejada, você pode economizar
 tempo fazendo uma interpolação de caracteres, não apenas entre estilos
 intermediários, mas para designar preceitos para o desenho das variáveis tipográficas que permeiam os
-membros da família.  
-Para mais informações sobre variáveis tipográficas, veja o capítulo [“O que é uma
-fonte?”](What_Is_a_Font.html).
+membros da família.
+
+Para mais informações sobre variáveis tipográficas, veja o capítulo
+[“O que é uma fonte?”](What_Is_a_Font.html).
 
 ## Técnico: Gerenciamento de Versões
 
 Aprenda sobre Git e Github para administrar seus arquivos, e use o formato "SFDir" em seus projetos.
 
+* [Discussion about using Git to manage SFDir files](https://groups.google.com/forum/#!topic/googlefonts-discuss/CQ-S8Y3ROqc)
 * <https://help.github.com/articles/what-are-other-good-resources-for-learning-git-and-github>
-* <http://justinhileman.info/article/git-pretty/>
 
 ## Etapas do Processo
 
-<iframe src="https://docs.google.com/file/d/0BxPD9osVW0s6SGNQRUs3ZmZrUzA/preview" width="640" height="480"></iframe>
+Back in 2010, Dave Crossland, Eben Sorkin, Claus Eggers Sørensen, Pablo Impallari, Alexei Vanyashin, Dan Rhatigan and other Anonymous contributors developed a total process diagram for Latin fonts:
+
+<img src="images/planning-process.png" width="584" height="1006">
+
+This was made with Google Drawings and like this site is licensed under the Creative Commons Attribution-ShareAlike licence.
+The source is [here](https://commons.wikimedia.org/wiki/File:Latin_Typeface_Design_Process_Overview.pdf).
+
+A version for Non-Latin (Devanagari) projects is also available at [here](https://commons.wikimedia.org/wiki/File:Devanagari_Typeface_Design_Process_Overview.pdf).
+
+<!-- Editable versions of the above, with unknown stability, may be found in GitHub PR №225. -->
 
 ## Ambientes de Teste
 
-When planning your project, you must consider the medium of typography you are intending the typeface for primarily and secondarily:
-Mobile and web, or digital projectors, or cheap office bubblejet and laser printers, or high end print bureau laser printers, or magazine offset lithographic printing, or high-speed high-volume newspaper printing... and so on.
-You should then try to acquire or arrange access to those typesetting technologies, so you can see the real results of your work.
+When planning your project, you must consider the intended mediums for your typeface.
+Examples of mediums are web and mobile platforms, digital projectors,
+cheap office bubble-jet and laser printers, high-end print bureau laser printers,
+magazine offset lithographic printing, and high-speed high-volume newspaper printing.
 
-Throughout the type design process, you will find it very helpful to preview text set with your (prototype) typeface at a higher resolution than your laptop or workstation screen.
-This typically means a laser printer with "true" 1200 DPI and Adobe PostScript 3.
-For individuals it is possible purchase something like this for around $500, and some 2013 recommendations were:
+You should then try to acquire or arrange access to those typesetting technologies, so you can see
+the real results of your work.
+
+Throughout the type design process, you will find it very helpful to preview text set with your
+(prototype) typeface at a resolution higher than your laptop or workstation screen. This typically
+means a laser printer with "true" 1200 DPI and Adobe PostScript 3. For individuals it is possible
+to purchase something like this for around $500, and some 2013 recommendations were:
 
 * HP P2055d
 * Xerox Phaser 4510
 * Xerox Phaser 5550
 * Nashua/Ricoh P7026N
 
-In May 2013, the [Production Type](http://productiontype.com) studio has a Xerox 7525 with "fiery" controller, which costs around €12,000 to purchase but is €300 per month to lease with toner, parts and maintenance.
+In May 2013, the [Production Type](http://productiontype.com) studio had a Xerox 7525 with a "fiery" controller, which cost around €12,000 to purchase. This could be leased for €300 per month with toner, parts and maintenance.
 In late 2015, Octavio Pardo leased a [Xerox Phaser 7100](
-http://www.xerox.es/oficina/impresoras/impresoras-en-color/phaser-7100/eses.html) in a similar way for €30 per month.
+https://www.xerox.com/en-us/office/printers/phaser-7100) in a similar way for €30 per month.
 
 ## OpenType Features
 
-You can plan the OpenType features of your project before you begin drawing.
-Common features include
-
-* `liga` Ligatures
-* `onum`, `lnum` Numerals
+You can plan the OpenType features of your project before you begin drawing. Common features include:
+* `liga` ligatures
+* `onum`, `lnum` numerals
 
 For some languages `locl` works but for others it doesn't, so it is best to expose language specific forms via both `locl` and `ssNN` or `cvNN`.
 
-The OpenType specification allows for some kinds of features which are not recommend:
-
-* `hist` feature. Read more in this [discussion on TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
+The OpenType specification allows for some kinds of features which are not recommended:
+* `hist`. Read more in this [discussion on TypeDrawers](http://typedrawers.com/discussion/1358/what-are-the-best-practices-for-the-hist-feature-long-s).
 
 ## Further Reading
 

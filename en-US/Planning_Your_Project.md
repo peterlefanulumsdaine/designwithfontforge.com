@@ -11,6 +11,7 @@ will have only one font, or if it will be a collection of several inter-related 
 three or four-styles type family, or perhaps something even larger.
 
 Common styles of type families include:
+
 * A Regular and a Bold weight
 * Regular, Bold, Italic &mdash; eventually with a Bold Italic
 * Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black
@@ -74,8 +75,8 @@ time to make instances of glyphs that can be interpolated. Not only does this al
 intermediate styles, but it also aids in making design choices about typographic variables that
 shift across members of a family.
 
-For an overview of the typographic variables you should consider, see the chapter [“What is a
-font?”](What_Is_a_Font.html).
+For an overview of the typographic variables you should consider, see the chapter
+[“What is a font?”](What_Is_a_Font.html).
 
 ## Technical: Version Management
 

@@ -11,6 +11,7 @@ will have only one font, or if it will be a collection of several inter-related 
 three or four-styles type family, or perhaps something even larger.
 
 Common styles of type families include:
+
 * A Regular and a Bold weight
 * Regular, Bold, Italic &mdash; eventually with a Bold Italic
 * Thin, Light, Book, Regular, Semi-Bold, Bold, Extra-Bold, Heavy and Black

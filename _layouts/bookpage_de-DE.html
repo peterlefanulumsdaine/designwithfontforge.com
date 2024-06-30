@@ -1,6 +1,6 @@
 {% include html-start.html %}
 
-  {% include header-masthead_zh-TW.html %}
+  {% include header-masthead_de-DE.html %}
 
     {% assign pageList = site.pages | sort: 'weight' %}
 
@@ -12,12 +12,12 @@
           <nav id="post-nav" class="clearfix">
             {% for p in pageList reversed %}
 
-              {% if p.path contains 'zh-TW' %}
+              {% if p.path contains 'de-DE' %}
 
-                {% if currentPost and p.title != 'FontForge 字體設計' %}
+                {% if currentPost and p.title != 'Entwerfen Sie mit FontForge' %}
                   <a class="prev" href="{{p.url}}">
-                    <span class="chapter">上一章</span>
-                    <span>{{p.title}}</span>
+                    <span>Vorherige Seite</span>
+                    <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}
@@ -37,12 +37,12 @@
 
             {% for p in pageList %}
 
-              {% if p.path contains 'zh-TW' %}
+              {% if p.path contains 'de-DE' %}
 
-                {% if currentPost and p.title != 'FontForge 字體設計' %}
+                {% if currentPost and p.title != 'Entwerfen Sie mit FontForge' %}
                   <a class="next" href="{{p.url}}">
-                    <span class="chapter">下一章</span>
-                    <span>{{p.title}}</span>
+                    <span>Nächste Seite</span>
+                    <span><h3>{{p.title}}</h3></span>
                   </a>
                   {% assign currentPost = false %}
                   {% break %}
@@ -66,8 +66,8 @@
             PDF
           </a>-->
           <ol class="rectangle-list">
-          {% for p in pageList %}
-              {% if p.path contains 'zh-TW' and p.title != 'FontForge 字體設計' %}
+            {% for p in pageList %}
+              {% if p.path contains 'de-DE' and p.title != 'Entwerfen Sie mit FontForge' %}
                 <li>
                   <a {% if p.url == page.url %}class="active"{% endif %} href="{{ p.url }}">
                     {{ p.title }}
@@ -76,13 +76,13 @@
               {% endif %}
             {% endfor %}
           </ol>
-          <p>本書即是自由文化，<a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">採 GitHub 代管</a>。歡迎提供補丁、建議、校正。</p>
-          <p><a class"" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">檢閱最近的更改</a></p>
-          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">編修此頁</a> (<a href="https://github.com/fontforge/designwithfontforge.com">瞭解作法</a>)</p></p>
+          <p>This book is free culture, <a href="//github.com/fontforge/designwithfontforge.com/" target="_blank">hosted on GitHub</a>. Patches, suggestions, and corrections are welcome.</p>
+          <p><a class"" href="https://github.com/fontforge/designwithfontforge.com/commits/gh-pages">Review recent changes</a>。</p>
+          <p><a class="editthispage" href="https://github.com/fontforge/designwithfontforge.com/blob/gh-pages{{ page.url | replace: '.html', '.md' }}" target="_blank">Edit this page</a> (<a href="https://github.com/fontforge/designwithfontforge.com">learn how</a>)</p></p>
         </aside>
       </div>
     </div>
 
-    {% include footer_zh-TW.html %}
+    {% include footer_de-DE.html %}
 
 {% include html-end.html %}

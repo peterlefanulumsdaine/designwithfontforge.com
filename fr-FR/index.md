@@ -7,7 +7,7 @@ title: Design avec FontForge
 
 <!--
 <div style="background: white; width: 100%; text-align:center; padding:1em">
-<img src="images/2013-02-18_love.png" width="400px" alt="Praise on Twitter">
+<img src="../en-US/images/2013-02-18_love.png" width="400px" alt="Praise on Twitter">
 </div>
 -->
 

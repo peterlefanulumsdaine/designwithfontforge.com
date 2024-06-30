@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 18
 category: Getting To Know FontForge
 title: Using the FontForge Drawing Tools

@@ -217,7 +217,8 @@ ILT Example Projects:
 标题: **Fonts and encodings**
 
 * 作者: Yannis Haralambous (Author), P Scott Horne (Translator)</tt>
-* ISBN-10: <tt>0596102429</tt> | ISBN-13: <tt>978-0596102425</tt>
+* ISBN-10: <tt>0596102429</tt>
+* ISBN-13: <tt>978-0596102425</tt>
 
 <hr />
 

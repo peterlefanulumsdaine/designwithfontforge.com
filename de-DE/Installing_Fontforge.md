@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 15
 category: Getting To Know FontForge
 title: Installation von FontForge

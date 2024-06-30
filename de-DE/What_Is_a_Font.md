@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 3
 category: Before You Begin
 title: Was ist eine Schriftart?
@@ -155,7 +155,7 @@ Horizontal weight distribution is much less common, but is nonetheless seen in m
 
 #### Irregular
 
-<img src="images/Irregular_weight.png" alt>
+<img src="../en-US/images/Irregular_weight.png" alt>
 
 ### Stems
 

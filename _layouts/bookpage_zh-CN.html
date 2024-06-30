@@ -1,6 +1,6 @@
 {% include html-start.html %}
 
-	{% include header-masthead_zh-CN.html %}
+  {% include header-masthead_zh-CN.html %}
 
     {% assign pageList = site.pages | sort: 'weight' %}
 
@@ -15,7 +15,7 @@
               {% if p.path contains 'zh-CN' %}
 
                 {% if currentPost and p.title != '使用FontForge进行设计' %}
-                  <a class="prev" href="{{p.url}}"> 
+                  <a class="prev" href="{{p.url}}">
                     <span class="chapter">上一章</span>
                     <span>{{p.title}}</span>
                   </a>
@@ -40,7 +40,7 @@
               {% if p.path contains 'zh-CN' %}
 
                 {% if currentPost and p.title != '使用FontForge进行设计' %}
-                  <a class="next" href="{{p.url}}"> 
+                  <a class="next" href="{{p.url}}">
                     <span class="chapter">下一章</span>
                     <span>{{p.title}}</span>
                   </a>
@@ -83,6 +83,6 @@
       </div>
     </div>
 
-{% include footer_zh-CN.html %}
+    {% include footer_zh-CN.html %}
 
 {% include html-end.html %}

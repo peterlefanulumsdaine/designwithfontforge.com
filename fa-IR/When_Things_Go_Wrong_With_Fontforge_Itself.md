@@ -10,15 +10,30 @@ title: مواجهه با مشکلات در فونت‌فورج
 تیم فونت‌فورج از بخش Issues برای گفتگو بر سر مشکلات، خطاها، و ایده‌های بهبود نرم‌افزار استفاده کرده
 و سپس شخصی راه‌حلی را آماده و به صورت یک *Pull Request* درخواست ادغامش را با دیگران هم‌رسانی می‌کند.
 
+NOTE: Users looking for general advice on how to use FontForge and other tools, or how to make fonts, should use the [FontForge mailing list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/)
+
 برای آن که بیشتر دربارهٔ گیت‌هاب فرابگیرید، صفحهٔ
 [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/)
 را ببینید.
 
 ## پرداخت برای پشتیبانی
 
-شاید باعث تعجب باشد اما پرداخت هزینه برای دریافت پشتیبانی در زمانی که مشکلی پیش آمده باشد، نه تنها ممکن بلکه پیشنهاد می‌شود.
+This might be a surprise, but it is both possible and encouraged to pay for FontForge [support](https://www.reddit.com/r/opensource/comments/g5ip5f/is_it_ethical_to_pay_someone_to_develop_a_feature/) when things go wrong.
 
 زمانی که سایر ویرایش‌گرهای فونت با امکانات تقریبا مشابه، صدها دلار امریکا هزینه در بر دارند، اگر هر کدام از کاربران مبلغ مشابهی را در ازای رفع برخی مشکلات آزاردهنده، به توسعه‌دهندگان فونت‌فورج پرداخت کنند، فونت‌فورج بهتر و بهتر خواهد شد.
+
+There are a number of websites that provide resources for users and supporters who
+are willing and interested in providing [bounties](https://en.wikipedia.org/wiki/Bug_bounty_program), [rewards](https://www.google.com/search?q=bug+bounty+reward), and work [for hire](https://www.google.com/search?q=open+source+feature+for+hire).
+
+So, how would you go about doing this?
+
+Find a reputable website as per the suggested lists above which is able to provide the sort of service you are looking for. Then, follow steps similar to this (now defunct website - FreedomSponsors = circa~2012?):
+
+1. Create a FontForge issue describing what you want to be changed (see below). Copy the URL of the issue to the clipboard.
+2. Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
+3. Revisit the issue and add a comment with the link to the FreedomSponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed.
+
+NOTE: Rather than delete and replace the Freedomsponsor website listed above, it made more sense to leave it listed above as an acknowledgement to you/us/everyone, that some websites will appear and eventually fadeout with time, so it's worth your time to choose a reputable site that is expected to stay-around a while.
 
 ## گزارش یک مشکل
 
@@ -47,6 +62,8 @@ title: مواجهه با مشکلات در فونت‌فورج
 بارگزاری کنید و به صورت یک Pull Request برای توسعه‌دهندگان بفرستید.
 در نهایت، اگر تمایل ندارید که پرونده‌تان به صورت عمومی در دسترس باشد، می‌توانید رایانامه‌ای را در اختیار توسعه‌دهندگان فونت‌فورج قرار دهید تا بتوانند برای دریافت خصوصی پرونده با شما ارتباط بگیرند.
 
+Please don't close other people's issues &mdash; ask them to close the issue if it is closed to their satisfaction.
+
 ## شیوهٔ گزارش یک فروپاشی (Crash)
 
 فرایند گزارش یک فروپاشی یا انواع دیگر مشکلات (bugs) همانند گزارش ویژگی‌های جدید یا طرح سوال است.
@@ -69,7 +86,7 @@ title: مواجهه با مشکلات در فونت‌فورج
 * وجود ساخت‌های روزانه را بررسی کنید ( معمولا ساخت‌های روزانه برای
 [مکینتاش](http://fontforge.github.io/en-US/downloads/mac/)
 وجود دارد)
-* تا انتشار بعدی منتظر بمانید (که ممکن است چند هفته طول بکشد)
+* wait until the next [release](https://github.com/fontforge/fontforge/releases) (average of yearly).
 
 ### بهترین گزارش‌های فروپاشی
 
@@ -102,7 +119,7 @@ nm: /usr/bin/fontforge: no symbols
 debuginfo-install fontforge;
 ```
 
-<!--TODO: Explain how to include debug information from compiled sources-->
+## Using the GNU Debugger to Report Crashes
 
 گزارش backtrace توسط اشکال‌یاب پروژه گنو (GNU Project Debugger) و با فرمان `gdb` قابل تولید است.
 شما هم می‌توانید gdb را به نمونهٔ در حال اجرای فونت‌فورج متصل کرده و هم می‌توانید فونت‌فورج را داخل یک نشست gdb اجرا کنید.
@@ -126,7 +143,7 @@ Reading symbols from /usr/local/bin/fontforge...done.
 
 ```
 (gdb) run
-Starting program: /usr/local/bin/fontforge 
+Starting program: /usr/local/bin/fontforge
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/lib64/libthread_db.so.1".
 Copyright (c) 2000-2012 by George Williams.
@@ -148,7 +165,7 @@ Copyright (c) 2000-2012 by George Williams.
 این، مثال از گزارش backtrace است:
 
 ```
-Program received signal SIGSEGV, Segmentation fault. 
+Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff74a7c01 in ?? () from /lib/x86_64-linux-gnu/libc.so.
 
 (gdb) bt
@@ -199,4 +216,6 @@ Quit anyway? (y or n) y
 تابع `‬copy` توسط تابع دیگری به نام `KCD_AutoKernAClass` فراخوانی شده است.
 گزارش backtrace به یک توسعه‌دهندهٔ نرم‌افزار، خطوط دقیقی که در آن‌ها این فراخوانی‌ها صورت پذیرفته و همچنین راهنمایی در خصوص نامعتبر بودن پارامترهایی که به تابع `copy` داده شده بودند را می‌گوید.
 این اطلاعات کمک بزرگی برای اصلاح برنامه می‌کنند.
+
+Use gdb's quit command in gdb to exit gdb and close the crashed FontForge.
 

@@ -6,36 +6,43 @@ category: Appendices
 title: When Things Go Wrong With FontForge Itself
 ---
 
-FontForge is developed on GitHub. 
+FontForge is developed on GitHub.
 The FontForge team uses GitHub Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
+
+NOTE: Users looking for general advice on how to use FontForge and other tools, or how to make fonts, should use the [FontForge mailing list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/)
 
 To learn more about GitHub, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/).
 
 ## Paying for Support
 
-This might be a surprise, but it is both possible and encouraged to pay for FontForge support when things go wrong. 
+This might be a surprise, but it is both possible and encouraged to pay for FontForge [support](https://www.reddit.com/r/opensource/comments/g5ip5f/is_it_ethical_to_pay_someone_to_develop_a_feature/) when things go wrong.
 
-When other font editors with similar comprehensive features cost hundreds of US dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better. 
+When other font editors with similar comprehensive features cost hundreds of US dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better.
 
-[FreedomSponsors](https://freedomsponsors.org/project/220/) offers a transparent system for paying FontForge developers to fix issues you care about in a timely fashion. 
+There are a number of websites that provide resources for users and supporters who
+are willing and interested in providing [bounties](https://en.wikipedia.org/wiki/Bug_bounty_program), [rewards](https://www.google.com/search?q=bug+bounty+reward), and work [for hire](https://www.google.com/search?q=open+source+feature+for+hire).
+
+So, how would you go about doing this?
+
+Find a reputable website as per the suggested lists above which is able to provide the sort of service you are looking for. Then, follow steps similar to this (now defunct website - FreedomSponsors = circa~2012?):
 
 1. Create a FontForge issue describing what you want to be changed (see below). Copy the URL of the issue to the clipboard.
 2. Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
 3. Revisit the issue and add a comment with the link to the FreedomSponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed.
 
+NOTE: Rather than delete and replace the Freedomsponsor website listed above, it made more sense to leave it listed above as an acknowledgement to you/us/everyone, that some websites will appear and eventually fadeout with time, so it's worth your time to choose a reputable site that is expected to stay-around a while.
+
 ## Report a Bug
 
 1. Visit the [FontForge GitHub Issue Tracker](https://github.com/fontforge/fontforge/issues) and sign in to GitHub (after creating an account, if you don't have one yet).
-2. In the Issues search box, try searching for similar issues, to see if the problem you are facing was reported already. 
-If it was, and your issue is related but not quite the same, please comment on that issue with your own take on the issue.
-3. If it was not already reported, open up a new issue. 
-Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement.
+2. In the Issues search box, try searching for similar issues, to see if the problem you are facing was reported already. If it was, and your issue is related but not quite the same, please comment on that issue with your own take on the issue.
+3. If it was not already reported, open up a new issue. Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement.
 
 Include relevant details, such as:
 
-* your Operating System and version, 
-* your FontForge version and where you got it from, 
-* **what happens, step by step, to produce the issue** 
+* your Operating System and version,
+* your FontForge version and where you got it from,
+* **what happens, step by step, to produce the issue**
 * **what error messages you see,** and
 * **what you expect to happen**.
 
@@ -43,9 +50,9 @@ You can drag and drop screenshots or other images directly into the issue page t
 
 An easy way to report issues is to record a screencast video in which you explain in a narrated voiceover the things you are interested in as they happen, and then upload it to YouTube and include a link to your video.
 
-To reproduce the issue, it can helpful to share with the developer community the files you are working with. 
-If you can make a file that is small and only contains what is needed to reproduce the issue, please fork the fontforge repo and add these files to [/tests/fonts](https://github.com/fontforge/fontforge/tree/master/tests/fonts) and submit a pull request. 
-You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.) 
+To reproduce the issue, it can be helpful to share with the developer community the files you are working with.
+If you can make a file that is small and only contains what is needed to reproduce the issue, please fork the fontforge repo and add these files to [/tests/fonts](https://github.com/fontforge/fontforge/tree/master/tests/fonts) and submit a pull request.
+You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.).
 Finally, if you do not wish to make your files publicly available, you can provide an email address for a FontForge developer to contact you at to get a private copy of the file.
 
 Please don't close other people's issues &mdash; ask them to close the issue if it is closed to their satisfaction.
@@ -53,30 +60,30 @@ Please don't close other people's issues &mdash; ask them to close the issue if 
 ## How To Report A Crash
 
 The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
-Sending a good crash report to the FontForge developers really does help them a lot to improve the stability of the program for everybody! 
+Sending a good crash report to the FontForge developers really does help them a lot to improve the stability of the program for everybody!
 Don’t feel shy about reporting such issues, because a crash that isn’t reported is a crash that is far less likely to be fixed.
 
 If you find FontForge crashing whilst in use, create an issue as above.
 If you have a particular font file (SFD, UFO, OTF, TTF, etc) that triggers the crash, you can either upload it to a new GitHub repository yourself (or Dropbox or another platform) and include a link, or post your email and ask a developer to email you to get a copy privately.
 
-With your description the FontForge software developers will try to reproduce the crash. 
-If they can do this, then they will be able to work out where the code is going wrong, and create a fix. 
+With your description the FontForge software developers will try to reproduce the crash.
+If they can do this, then they will be able to work out where the code is going wrong, and create a fix.
 
-After the Pull Request that addresses the issue is merged, you'll need to get a version after that. 
+After the Pull Request that addresses the issue is merged, you'll need to get a version after that.
 You can do one of the following:
 
-* recompile from the latest GitHub source code (see [Installing Fontforge](Installing_Fontforge.html)), 
-* check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or 
-* wait until the next release (often within a few weeks).
+* recompile from the latest GitHub source code (see [Installing Fontforge](Installing_Fontforge.html)),
+* check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or
+* wait until the next [release](https://github.com/fontforge/fontforge/releases) (average of yearly).
 
 ### The Best Crash Reports
 
 To help developers find out what is going wrong and __really__ understand how to fix it, you can do a bit more work to make a _backtrace_.
-A backtrace includes a list of which program functions have called which other ones to get to where the program has stopped working. 
-A backtrace is most useful if it also contains the line numbers of the functions. 
+A backtrace includes a list of which program functions have called which other ones to get to where the program has stopped working.
+A backtrace is most useful if it also contains the line numbers of the functions.
 
 To make a backtrace, you may need to install from source with _debugging information_ included.
-Use the `type` and `nm` commands to find the path and status of your fontforge binary. 
+Use the `type` and `nm` commands to find the path and status of your fontforge binary.
 Example:
 
 ```sh
@@ -90,18 +97,18 @@ In this example we see `no symbols`, so we must update our installation to inclu
 
 #### Install Debugging Information on Fedora
 
-Fedora offers in the standard repository a command to easily install debugging information for FontForge. 
-(Note that this might require hundreds of megabytes of download if you do not already have many of the dependent debuginfo packages installed.)
+Fedora (and other distros) offer in the standard repository a command to easily install debugging information for FontForge.
+Note that this might require hundreds of megabytes of download if you do not already have many of the dependent debuginfo packages installed.
 To install it, run:
 
 ```sh
 debuginfo-install fontforge;
 ```
 
-<!--TODO: Explain how to include debug information from compiled sources-->
+## Using the GNU Debugger to Report Crashes
 
-A backtrace is generated using the GNU Project Debugger, `gdb`. 
-You can either attach gdb to an already running FontForge, or start FontForge inside the gdb session itself. 
+A backtrace is generated using the GNU Project Debugger, `gdb`.
+You can either attach gdb to an already running FontForge, or start FontForge inside the gdb session itself.
 Here's an example of the latter:
 
 ```
@@ -122,7 +129,7 @@ Then once you issue the debugger using the run command, FontForge will open on t
 
 ```
 (gdb) run
-Starting program: /usr/local/bin/fontforge 
+Starting program: /usr/local/bin/fontforge
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/lib64/libthread_db.so.1".
 Copyright (c) 2000-2012 by George Williams.
@@ -135,14 +142,14 @@ From here you can use FontForge in the usual way, but with the advantage of bein
 One major difference that running FontForge inside gdb makes is how a crash is made apparent.
 Without gdb, when FontForge crashes, it will disappear from your screen. When you are running FontForge inside gdb, however, a crashed FontForge will remain open along with its windows and user interface.
 
-If you find that your interface is unresponsive, switch back to the terminal where you ran gdb and you might see something like `SIGSEGV` in the text followed by the `(gdb)` prompt. 
-If you see the `(gdb)` prompt then FontForge is no longer executing. 
+If you find that your interface is unresponsive, switch back to the terminal where you ran gdb and you might see something like `SIGSEGV` in the text followed by the `(gdb)` prompt.
+If you see the `(gdb)` prompt then FontForge is no longer executing.
 
-You can now (finally!) use the `bt` command to get a backtrace, and then use the gdb `quit` command to exit from gdb and to close the crashed FontForge. 
+You can now (finally!) use the `bt` command to get a backtrace, and then use the gdb `quit` command to exit from gdb and to close the crashed FontForge.
 Here is an example:
 
 ```
-Program received signal SIGSEGV, Segmentation fault. 
+Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff74a7c01 in ?? () from /lib/x86_64-linux-gnu/libc.so.
 
 (gdb) bt
@@ -189,6 +196,8 @@ A debugging session is active.
 Quit anyway? (y or n) y
 ```
 
-A developer can see in this example backtrace that FontForge has crashed inside the `copy()` function. 
-The `copy()` function was itself called from the `KCD_AutoKernAClass` function. 
+A developer can see in this example backtrace that FontForge has crashed inside the `copy()` function.
+The `copy()` function was itself called from the `KCD_AutoKernAClass` function.
 The backtrace will tell a software developer the exact lines these calls were made, and also use the tip that the parameter passed to `copy()` was invalid (out of bounds) to work out what the code is doing wrong.
+
+Use gdb's quit command in gdb to exit gdb and close the crashed FontForge.

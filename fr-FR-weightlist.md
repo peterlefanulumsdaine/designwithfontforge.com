@@ -4,7 +4,7 @@ published: false
 
 | Weight | Page                                       |
 |--------|--------------------------------------------|
-| 0      | Index                                      |
+| 0      | Design avec FontForge                      |
 | 1      | Introduction                               |
 | 3      | Qu'est-ce qu'une police de caractères      |
 | 6      | Faîtes confiance à vos yeux                |

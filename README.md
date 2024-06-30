@@ -15,7 +15,7 @@ If you wish to contribute to this website, you are very welcome to! Here are a f
 
 2. Contribute a change directly, by forking it on GitHub and editing the plain text files, then send a pull request. (If that sounds unfamiliar, [learn how with GitHub’s excellent interactive introduction](https://help.github.com)).
 
-3. Discuss general topics on the [fontforge-devel email discussion list](http://fontforge.10959.n7.nabble.com/Developer-f3.html) 
+3. Discuss general topics on the [fontforge-devel email discussion list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/) 
 
 ## License
 
@@ -31,9 +31,9 @@ If you’re not familiar with GitHub, they have [excellent help pages](https://h
 
 - `_layouts/*.html`: HTML template files
 - `_includes/*.html`: snippets of HTML that are included in pages and templates
-- `assets/`: CSS, JS and image files
+- `assets/`: CSS, JS and (some) image files
 - `_config.yml`: Configuration for Jekyll (ignore this file)
-- `en-US/`: the site’s contents, in US English
+- `en-US/`: the site’s contents, in US English (default)
 - `en-US/images/precompressed/`: Directory of the original, pre-compressed content images
 
 #### File Formats
@@ -79,19 +79,19 @@ Example:
 
 #### How to build the site
 
-For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 14.04:
+For Linux, ensure that ruby-dev is installed on your system: e.g. for Ubuntu 24.04:
 
 ```bash
 sudo apt-get install ruby-dev
 ```    
 
-First install Jekyll, with `gem`:
+Next, install Jekyll:
 
 ```bash
-sudo gem install jekyll
+sudo install jekyll
 ```
 
-To see the site as it will appear after processing by Jekyll and review your edits live in a browser layout, run:
+To see the site as it will appear after processing by Jekyll and review your edits live in a browser layout, first enter into designforfontforge.com root directory where _config.yml is located, and then run:
 
 ```bash
 jekyll serve --watch

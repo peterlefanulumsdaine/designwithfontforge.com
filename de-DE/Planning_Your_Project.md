@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 9
 category: Before You Begin
 title: Planning Your Project

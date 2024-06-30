@@ -4,7 +4,7 @@ published: false
 
 | Weight | Page                                       |
 |--------|--------------------------------------------|
-| 0      | Index                                      |
+| 0      | Entwerfen Sie mit FontForge                |
 | 1      | Einführung                                 |
 | 3      | Was ist eine Schriftart                    |
 | 6      | Trusting Your Eyes                         |
@@ -14,4 +14,7 @@ published: false
 | 16     | Configuring Fontforge                      |
 | 17     | General UI introduction                    |
 | 18     | Using the Fontforge Drawing Tools          |
+| 57     | Italic                                     |
+| 69     | When Things Go Wrong With Fontforge Itself |
+| 81     | Further Reading                            |
 | 84     | Glossary                                   |

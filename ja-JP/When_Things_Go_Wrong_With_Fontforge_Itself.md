@@ -8,20 +8,28 @@ title: FontForge に問題が発生したら
 
 FontForge は GitHub で開発されています。問題点やエラー、改善のためのアイデアを協議するために、FontForge のチームは GitHub の「Issues」タブを使用しています。提示された問題に対して誰かが解決策を開発し、それを「**プル・リクエスト**」の形で提案するのです。
 
+NOTE: Users looking for general advice on how to use FontForge and other tools, or how to make fonts, should use the [FontForge mailing list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/)
+
 GitHub の詳細については、「[Git と GitHub の学習リソース](https://help.github.com/articles/good-resources-for-learning-git-and-github/)」を参照してください。
 
 ## サポート料金を支払う
 
-驚くかもしれませんが、問題が発生した場合には FontForge のサポートに料金を支払うことは可能であり、推奨されます。
+驚くかもしれませんが、問題が発生した場合には [FontForge のサ](https://www.reddit.com/r/opensource/comments/g5ip5f/is_it_ethical_to_pay_someone_to_develop_a_feature/)ポートに料金を支払うことは可能であり、推奨されます。
 
 FontForge と同じような総合的な機能を持つ他のフォント編集ソフトウェアが数百米ドルもするのであれば、私達のそれぞれが最も厄介なバグを修正してもらうために FontForge 開発者に同程度の金額を支払えば、FontForge はますます優れたものになるでしょう。
 
-[FreedomSponsors](https://freedomsponsors.org/project/220/) は、気に掛かる問題をタイムリーに解決する FontForge 開発者に料金を支払うための透明性の高いシステムを提供します<sup>※</sup>。
->> 《※ 訳注： このサイトが 2024 現在稼働中かどうか不明》
+There are a number of websites that provide resources for users and supporters who
+are willing and interested in providing [bounties](https://en.wikipedia.org/wiki/Bug_bounty_program), [rewards](https://www.google.com/search?q=bug+bounty+reward), and work [for hire](https://www.google.com/search?q=open+source+feature+for+hire).
+
+So, how would you go about doing this?
+
+Find a reputable website as per the suggested lists above which is able to provide the sort of service you are looking for. Then, follow steps similar to this (now defunct website - FreedomSponsors = circa~2012?):
 
 1. 変更したい内容を記述した「FontForge Issue」を作成します (以下を参照)。 この「issue」ページの URL をクリップボードにコピーします。
 2. FreedomSponsors にアクセスし、先程コピーした URL を使用して、この問題のスポンサー（資金援助者）になります。
 3. 再び「issue」ページに戻り、FreedomSponsors の問題ページへのリンクを付けてコメント（この問題の解決に向けて報奨金を提供する旨の個人的なメモ）を追記します。
+
+NOTE: Rather than delete and replace the Freedomsponsor website listed above, it made more sense to leave it listed above as an acknowledgement to you/us/everyone, that some websites will appear and eventually fadeout with time, so it's worth your time to choose a reputable site that is expected to stay-around a while.
 
 ## バグを報告する
 
@@ -31,9 +39,9 @@ FontForge と同じような総合的な機能を持つ他のフォント編集�
 
 以下のような、詳細な関連情報も含めてください。
 
-* 使用しているオペレーティング・システムとそのバージョン 
-* 使用している FontForge のバージョンとその入手先 
-* **問題を引き起こすまでに、何が起こるか、を段階ごとに** 
+* 使用しているオペレーティング・システムとそのバージョン
+* 使用している FontForge のバージョンとその入手先
+* **問題を引き起こすまでに、何が起こるか、を段階ごとに**
 * **どのようなエラー・メッセージが表示されたか** および
 * **あなたが期待する動作**
 
@@ -51,13 +59,13 @@ FontForge と同じような総合的な機能を持つ他のフォント編集�
 
 もし FontForge が使用中にクラッシュするのであれば、上記のように「問題報告 Issue」を作成してください。クラッシュを引き起こしている特定のフォント・ファイル（SFD、UFO、OTF、TTF など）があれば、 それを自分で新しい GitHub のリポジトリーに (あるいは Dropbox や別のプラットフォームに) アップロードしてそのリンクを記載するか、開発者に電子メールであなたへの連絡を依頼し、個別に非公開でそのファイル・コピーを手渡すこともできます。
 
-あなたの説明内容に基づいて、FontForge ソフトウェアの開発者はそのクラッシュ事象の再現を試みます。上手く再現できれば、プログラムのどこで問題が発生したのかを突き止め、問題の修正が行なえます。 
+あなたの説明内容に基づいて、FontForge ソフトウェアの開発者はそのクラッシュ事象の再現を試みます。上手く再現できれば、プログラムのどこで問題が発生したのかを突き止め、問題の修正が行なえます。
 
 「問題報告 Issue」に対応した「プル・リクエスト」がマージされる（修正内容がプログラムに反映される）と、それ以降の新バージョンを入手する必要があります。それには次のいずれかを行ないます。
 
-* 最新版の GitHub ソース・コードから再コンパイルする（詳しくは「[FontForge をインストールする](../ja-JP/Installing_Fontforge.md)」を参照してください。） 
-* 「デイリービルド（毎日更新版）」があるかを確認する（しばしば、[Mac OS X](http://fontforge.github.io/en-US/downloads/mac/) では公開されています）、または 
-* 次期公式版の公開まで待つ（しばしば、数週間以内）
+* 最新版の GitHub ソース・コードから再コンパイルする（詳しくは「[FontForge をインストールする](../ja-JP/Installing_Fontforge.md)」を参照してください。）
+* 「デイリービルド（毎日更新版）」があるかを確認する（しばしば、[Mac OS X](http://fontforge.github.io/en-US/downloads/mac/) では公開されています）、または
+* wait until the next [release](https://github.com/fontforge/fontforge/releases) (average of yearly).
 
 ### クラッシュ・レポート（問題報告）のお手本
 
@@ -83,7 +91,7 @@ Linux Fedora 版では、FontForge の「デバッグ情報」を簡単にイン
 debuginfo-install fontforge;
 ```
 
-<!--TODO: Explain how to include debug information from compiled sources-->
+## Using the GNU Debugger to Report Crashes
 
 バックトレースは、〔UNIX/Linux 系の標準デバッガである〕「GNU プロジェクト・デバッガ」（`gdb`）を使用して生成されます。すでに実行中の FontForge に「gdb」をアタッチすることも、「gdb」セッション自体の中で FontForge を起動することもできます。後者の例を次に示します。
 
@@ -105,7 +113,7 @@ Reading symbols from /usr/local/bin/fontforge...done.
 
 ```
 (gdb) run
-Starting program: /usr/local/bin/fontforge 
+Starting program: /usr/local/bin/fontforge
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/lib64/libthread_db.so.1".
 Copyright (c) 2000-2012 by George Williams.
@@ -121,7 +129,7 @@ Copyright (c) 2000-2012 by George Williams.
 ここで（ようやく！）「`bt`」コマンドを実行して「バックトレース」情報を取得し、次に「gdb」の「`quit`」コマンドで「gdb」から抜け出してクラッシュした FontForge を閉じます。以下に例を示します。
 
 ```
-Program received signal SIGSEGV, Segmentation fault. 
+Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff74a7c01 in ?? () from /lib/x86_64-linux-gnu/libc.so.
 
 (gdb) bt
@@ -169,3 +177,5 @@ Quit anyway? (y or n) y
 ```
 
 開発者は、このバックトレース例では、FontForge が「`copy()`」関数内でクラッシュしたことを確認できます。「`copy()`」関数は、それ自身が「`KCD_AutoKernAClass`」関数から呼び出されていました。バックトレースは、これらの呼び出しが行なわれた正確な行をソフトウェア開発者に伝え、また、「`copy()`」関数に渡されたパラメーターが無効 (範囲外) であったというヒントを利用して、コードの何が間違っていたのかを解明します。
+
+Use gdb's quit command in gdb to exit gdb and close the crashed FontForge.

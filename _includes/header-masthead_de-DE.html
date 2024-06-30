@@ -2,8 +2,8 @@
 
 <header>
   <div class="inner">
-    <h1><a href="/pt-BR">{{ site.title_pt-BR }}</a></h1>
-    <h2>{{ site.subtitle_pt-BR }}</h2>
+    <h1><a href="/de-DE/">{{ site.title_de-DE }}</a></h1>
+    <h2>{{ site.subtitle_de-DE }}</h2>
     <div class="lang">
       <a href="
         {% assign ENurl = page.name | replace: '.md', '.html' | prepend: '/en-US/' %}
@@ -13,7 +13,14 @@
           ../en-US/index.html
         {% endif %}
         " class="lang">[English]</a>&nbsp;|
-      <a href="#" class="lang">[Français]</a>&nbsp;|
+      <a href="
+        {% assign FRurl = page.name | replace: '.md', '.html' | prepend: '/fr-FR/' %}
+        {% if urlList contains FRurl %}
+          {{ page.name | prepend: '../fr-FR/' | replace: '.md', '.html' }}
+        {% else %}
+          ../fr-FR/index.html
+        {% endif %}
+        "class="lang">[Français]</a>&nbsp;|
       <a href="
         {% assign CNurl = page.name | replace: '.md', '.html' | prepend: '/zh-CN/' %}
         {% if urlList contains CNurl %}

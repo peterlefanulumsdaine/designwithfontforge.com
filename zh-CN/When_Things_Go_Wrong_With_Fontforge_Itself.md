@@ -6,10 +6,102 @@ category: Appendices
 title: 当FontForge自己出错时
 ---
 
-当你使用FontForge的时候发现它崩溃了，那么你可能想要发送信息到[FontForge
-developer mailing list](https://lists.sourceforge.net/lists/listinfo/fontforge-devel)。使用这种方式，一个软件开发者可能能够找到代码哪里出错并修复。然后你可以给你本地的FontForge打补丁或者只是像安装一章描述的那样从Github获取源来的到一个不包含你报告的缺陷的升级后的FontForge。
+FontForge is developed on GitHub.
+The FontForge team uses GitHub Issues to discuss problems, errors and ideas for improvements, and then someone develops a solution and proposes it as a _Pull Request_.
+
+NOTE: Users looking for general advice on how to use FontForge and other tools, or how to make fonts, should use the [FontForge mailing list](https://sourceforge.net/p/fontforge/mailman/fontforge-users/)
+
+To learn more about GitHub, check out [Good Resources for Learning Git and GitHub](https://help.github.com/articles/good-resources-for-learning-git-and-github/).
+
+## Paying for Support
+
+This might be a surprise, but it is both possible and encouraged to pay for FontForge [support](https://www.reddit.com/r/opensource/comments/g5ip5f/is_it_ethical_to_pay_someone_to_develop_a_feature/) when things go wrong.
+
+When other font editors with similar comprehensive features cost hundreds of US dollars, if we each pay a similar amount to FontForge developers to get our most annoying bugs fixed, FontForge will become better and better.
+
+There are a number of websites that provide resources for users and supporters who
+are willing and interested in providing [bounties](https://en.wikipedia.org/wiki/Bug_bounty_program), [rewards](https://www.google.com/search?q=bug+bounty+reward), and work [for hire](https://www.google.com/search?q=open+source+feature+for+hire).
+
+So, how would you go about doing this?
+
+Find a reputable website as per the suggested lists above which is able to provide the sort of service you are looking for. Then, follow steps similar to this (now defunct website - FreedomSponsors = circa~2012?):
+
+1. Create a FontForge issue describing what you want to be changed (see below). Copy the URL of the issue to the clipboard.
+2. Visit FreedomSponsors and sponsor a new issue, using the URL you copied earlier.
+3. Revisit the issue and add a comment with the link to the FreedomSponsors issue page, with a personal note that you're offering a paid bounty for this issue to be closed.
+
+NOTE: Rather than delete and replace the Freedomsponsor website listed above, it made more sense to leave it listed above as an acknowledgement to you/us/everyone, that some websites will appear and eventually fadeout with time, so it's worth your time to choose a reputable site that is expected to stay-around a while.
+
+## Report a Bug
+
+1. Visit the [FontForge GitHub Issue Tracker](https://github.com/fontforge/fontforge/issues) and sign in to GitHub (after creating an account, if you don't have one yet).
+2. In the Issues search box, try searching for similar issues, to see if the problem you are facing was reported already. If it was, and your issue is related but not quite the same, please comment on that issue with your own take on the issue.
+3. If it was not already reported, open up a new issue. Click the green "New Issue" button, and then describe your question, what you did to trigger a crash, or your idea for an improvement.
+
+Include relevant details, such as:
+
+* your Operating System and version,
+* your FontForge version and where you got it from,
+* **what happens, step by step, to produce the issue**
+* **what error messages you see,** and
+* **what you expect to happen**.
+
+You can drag and drop screenshots or other images directly into the issue page to include them.
+
+An easy way to report issues is to record a screencast video in which you explain in a narrated voiceover the things you are interested in as they happen, and then upload it to YouTube and include a link to your video.
+
+To reproduce the issue, it can be helpful to share with the developer community the files you are working with.
+If you can make a file that is small and only contains what is needed to reproduce the issue, please fork the fontforge repo and add these files to [/tests/fonts](https://github.com/fontforge/fontforge/tree/master/tests/fonts) and submit a pull request.
+You can also place files on your own website or a file sharing service temporarily (such as MegaUpload, DropBox, Google Drive, etc.).
+Finally, if you do not wish to make your files publicly available, you can provide an email address for a FontForge developer to contact you at to get a private copy of the file.
+
+Please don't close other people's issues &mdash; ask them to close the issue if it is closed to their satisfaction.
+
+## How To Report A Crash
+
+The process is just the same for reporting a crash or other kinds of bugs as it is for new features or questions.
+Sending a good crash report to the FontForge developers really does help them a lot to improve the stability of the program for everybody!
+Don’t feel shy about reporting such issues, because a crash that isn’t reported is a crash that is far less likely to be fixed.
+
+If you find FontForge crashing whilst in use, create an issue as above.
+If you have a particular font file (SFD, UFO, OTF, TTF, etc) that triggers the crash, you can either upload it to a new GitHub repository yourself (or Dropbox or another platform) and include a link, or post your email and ask a developer to email you to get a copy privately.
+
+With your description the FontForge software developers will try to reproduce the crash.
+If they can do this, then they will be able to work out where the code is going wrong, and create a fix.
+
+After the Pull Request that addresses the issue is merged, you'll need to get a version after that.
+You can do one of the following:
+
+* recompile from the latest GitHub source code (see [Installing Fontforge](Installing_Fontforge.html)),
+* check if a daily build is available (often possible for [Mac OS X](http://fontforge.github.io/en-US/downloads/mac/)), or
+* wait until the next [release](https://github.com/fontforge/fontforge/releases) (average of yearly).
+
+### The Best Crash Reports
 
 为了帮助开发者找到什么出错了，他们可能想要你的会话的回溯。回溯包括一个程序函数调用其他函数到达程序停止工作位置的函数调用的列表。如果回溯包含了函数的行号，那么它将是最有用的。因为回溯将会制作到源文件和行号的引用，因此不要忘记也告诉开发者你在使用的FontForge版本。可选择地，你可能也希望提到你在做什么的时候导致了崩溃。
+
+To make a backtrace, you may need to install from source with _debugging information_ included.
+Use the `type` and `nm` commands to find the path and status of your fontforge binary.
+Example:
+
+```sh
+$ type -all fontforge;
+fontforge is /usr/bin/fontforge
+$ nm /usr/bin/fontforge;
+nm: /usr/bin/fontforge: no symbols
+```
+
+In this example we see `no symbols`, so we must update our installation to include debug information.
+
+#### Install Debugging Information on Fedora
+
+Fedora (and other distros) offer in the standard repository a command to easily install debugging information for FontForge.
+Note that this might require hundreds of megabytes of download if you do not already have many of the dependent debuginfo packages installed.
+To install it, run:
+
+```sh
+debuginfo-install fontforge;
+```
 
 ## 使用GNU Debugger来报告崩溃
 
@@ -33,7 +125,7 @@ Reading symbols from /usr/local/bin/fontforge...done.
 
 ```
 (gdb) run
-Starting program: /usr/local/bin/fontforge 
+Starting program: /usr/local/bin/fontforge
 [Thread debugging using libthread_db enabled]
 Using host libthread_db library "/lib64/libthread_db.so.1".
 Copyright (c) 2000-2012 by George Williams.
@@ -47,10 +139,8 @@ Copyright (c) 2000-2012 by George Williams.
 
 如果你发现你的界面不响应，切换回你启动gdb的终端，你可能在（gdb）提示后面的文本中看到一些东西比如“SIGSEGV”。如果你看到（gdb）提示那么FontForge不再运行。在此时使用“bt”命令来的到回溯，如下面的例子所示。
 
-如你在示例回溯中看到的，FontForge在`copy()`函数内崩溃。`copy()`函数被`KCD_AutoKernAClass`函数调用。回溯将会告诉一个软件开发者这些调用的确切行，同时也提示传给`copy()`的参数无效（超出边界），从而去解决程序出错的地方。
-
 ```
-Program received signal SIGSEGV, Segmentation fault. 
+Program received signal SIGSEGV, Segmentation fault.
 0x00007ffff74a7c01 in ?? () from /lib/x86_64-linux-gnu/libc.so.
 
  (gdb) bt
@@ -96,4 +186,7 @@ A debugging session is active.
 
 Quit anyway? (y or n) y
 ```
+
+如你在示例回溯中看到的，FontForge在`copy()`函数内崩溃。`copy()`函数被`KCD_AutoKernAClass`函数调用。回溯将会告诉一个软件开发者这些调用的确切行，同时也提示传给`copy()`的参数无效（超出边界），从而去解决程序出错的地方。
+
 在gdb中使用gdb的quit命令来退出gdb并关闭崩溃的FontForge。如果你可以发送好的回溯给FontForge开发者，那么你可以为每个人提升程序的稳定性！不要对报告这些问题感到害羞，崩溃如果没有报告，那它被修复的可能性也很小。

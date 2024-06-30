@@ -1,9 +1,9 @@
 ---
 published: true
-layout: bookpage_pt-BR
+layout: bookpage_de-DE
 weight: 69
 category: Appendices
-title: Quando as coisas dão errado com o FontForge
+title: When Things Go Wrong With FontForge Itself
 ---
 
 FontForge is developed on GitHub.

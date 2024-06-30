@@ -4,7 +4,7 @@ published: false
 
 | Weight | Page                                       |
 |--------|--------------------------------------------|
-| 0      | Índice                                     |
+| 0      | Design com FontForge                       |
 | 1      | Introdução                                 |
 | 3      | O que é uma Fonte?                         |
 | 6      | Confiando em seus olhos                    |

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 81
 category: Appendices
 title: Further Reading
@@ -217,7 +217,8 @@ Title: **Typography: Macro &amp; Microaesthetics**
 Title: **Fonts and encodings**
 
 * Author: Yannis Haralambous (Author), P Scott Horne (Translator)
-* ISBN-10: <tt>0596102429</tt> | ISBN-13: <tt>978-0596102425</tt>
+* ISBN-10: <tt>0596102429</tt>
+* ISBN-13: <tt>978-0596102425</tt>
 
 <hr />
 

@@ -1,6 +1,6 @@
 ---
 published: true
-layout: bookpage
+layout: bookpage_de-DE
 weight: 17
 category: Getting To Know FontForge
 title: General UI Introduction

@@ -22,14 +22,11 @@ Dr Ben Martin 氏が作成した公式 Mac 版の[インストール・ガイド
 
 Linux マシンに FontForge をインストールする最も簡単な方法は、使用している Linux ディストリビューションのパッケージ・リポジトリを使用することです。
 
-An [installation guide](http://fontforge.github.io/en-US/downloads/gnulinux/) is available for the official GNU/Linux builds.
+公式 GNU/Linux 版の「 [インストール・ガイド](http://fontforge.github.io/en-US/downloads/gnulinux/)」（英語版）が利用可能です。
 
-### Installing older versions of FontForge
+### 「FontForge」の古いバージョンをインストールする
 
-Users who need an older version of Fontforge can look for stable releases
-[here](https://github.com/fontforge/fontforge/releases), and
-[here](https://sourceforge.net/projects/fontforgebuilds/), and older releases prior to 2012
-[here](http://sourceforge.net/projects/fontforge/files/fontforge-executables/).
+FontForge の古いバージョンが必要なユーザーの方には、安定版が「[こちら](https://github.com/fontforge/fontforge/releases)」か「[こちら](https://sourceforge.net/projects/fontforgebuilds/)」で、2012 より前のリリース版は「[こちら](http://sourceforge.net/projects/fontforge/files/fontforge-executables/)」で見つけられるはずです。
 
 ## GitHub から自分自身のバージョンをコンパイルする
 

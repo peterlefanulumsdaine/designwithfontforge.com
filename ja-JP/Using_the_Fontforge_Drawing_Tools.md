@@ -6,15 +6,15 @@ category: Getting To Know FontForge
 title: FontForge の描画ツールを使用する
 ---
 
->>> 《訳注》FontForge 20230101 版では、メニュー項目やポップアップ項目に**日本語化されていない**部分があります。
+> 《訳注》FontForge 20230101 版では、メニュー項目やポップアップ項目に**日本語化されていない**部分があります。
 
->>> 《訳注》ベジェ曲線関係の用語の訳語は以下のとおりです。
->>> + 変化点 breaks
->>> + 曲線点 Curve points / Anchor points
->>> + H/V 曲線点 horizontal/vertical curve points
->>> + 角の点 Corner points / Coins
->>> + 方向点 Handle points
->>> + 接点 Tangent points
+> 《訳注》ベジェ曲線関係の用語の訳語は以下のとおりです。
+> + 変化点 breaks
+> + 曲線点 Curve points / Anchor points
+> + H/V 曲線点 horizontal/vertical curve points
+> + 角の点 Corner points / Coins
+> + 方向点 Handle points
+> + 接点 Tangent points
 
 <p> </br></p>
 

@@ -84,4 +84,4 @@ title: 小文字を完成させる
 <figcaption>画像の著作権: Matteo P. Ferla (User:Squidonius), <a href="https://commons.wikimedia.org/wiki/File:Evolution_of_minuscule.svg">Wikimedia Commons</a></figcaption>
 </figure>
 
->> 《※ 訳注》　仏語版・中国語版では「大文字との関係」の項が割愛されているようです。
+<div class="note"><p> 《※ 訳注》　仏語版・中国語版では「大文字との関係」の項が割愛されているようです。</p></div>

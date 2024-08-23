@@ -24,7 +24,7 @@ title: 数字
 
 <img src="../ja-JP/images/OpenSans_vs_Vollkorn.png" alt="">
 
->>《Open Sans（上）と Vollkorn（下）との比較 》
+<div class="note"><p>《Open Sans（上）と Vollkorn（下）との比較 》</p></div>
 
 数字にはまた、分数、上付き文字、下付き文字を含めると、最大 11 もの見分けられるスタイルがあります。 次に、最も一般的な 5 つのスタイルを見ていきましょう。
 
